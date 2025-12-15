@@ -22,11 +22,7 @@ class CalculationEngine:
     """Engine for calculating cluster-level behavior metrics"""
     
     def __init__(self):
-        # Formula parameters from settings
-        self.alpha = settings.alpha  # 0.35
-        self.beta = settings.beta    # 0.40
-        self.gamma = settings.gamma  # 0.25
-        self.reinforcement_multiplier = settings.reinforcement_multiplier  # 0.01
+        # Threshold parameters from settings
         self.primary_threshold = settings.primary_threshold  # 1.0
         self.secondary_threshold = settings.secondary_threshold  # 0.7
     
@@ -36,38 +32,33 @@ class CalculationEngine:
         current_timestamp: Optional[int] = None
     ) -> Dict[str, float]:
         """
-        Calculate BW and ABW for a behavior observation (used by cluster pipeline)
+        Calculate quality score for a behavior observation (used by cluster pipeline)
+        
+        Uses simple average of quality metrics without arbitrary exponential parameters.
         
         Args:
             behavior: BehaviorObservation instance
             current_timestamp: Current Unix timestamp (defaults to now)
             
         Returns:
-            dict: Contains 'bw', 'abw', 'days_active'
+            dict: Contains 'bw', 'abw', 'days_active' (bw=abw=quality_score for compatibility)
         """
-        # Calculate BW
-        bw = (
-            math.pow(behavior.credibility, self.alpha) *
-            math.pow(behavior.clarity_score, self.beta) *
-            math.pow(behavior.extraction_confidence, self.gamma)
-        )
-        
-        # For observations, days_active = 0 (single timestamp)
-        days_active = 0.0
-        
-        # Calculate ABW with decay
-        reinforcement_count = 1  # Single observation
-        reinforcement_factor = 1 + (reinforcement_count * self.reinforcement_multiplier)
-        decay_factor = math.exp(-behavior.decay_rate * days_active)
-        abw = bw * reinforcement_factor * decay_factor
+        # Simple quality score: arithmetic mean of the three quality dimensions
+        # No arbitrary alpha/beta/gamma parameters
+        quality_score = (
+            behavior.credibility + 
+            behavior.clarity_score + 
+            behavior.extraction_confidence
+        ) / 3.0
         
         behavior_id = getattr(behavior, 'observation_id', getattr(behavior, 'behavior_id', 'unknown'))
         
+        # Return quality_score for both bw and abw (no complex weighting)
         return {
             "behavior_id": behavior_id,
-            "bw": bw,
-            "abw": abw,
-            "days_active": days_active
+            "bw": quality_score,
+            "abw": quality_score,
+            "days_active": 0.0
         }
     
     def calculate_cluster_strength(
