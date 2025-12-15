@@ -30,6 +30,46 @@ class CalculationEngine:
         self.primary_threshold = settings.primary_threshold  # 1.0
         self.secondary_threshold = settings.secondary_threshold  # 0.7
     
+    def calculate_behavior_metrics(
+        self,
+        behavior: Any,
+        current_timestamp: Optional[int] = None
+    ) -> Dict[str, float]:
+        """
+        Calculate BW and ABW for a behavior observation (used by cluster pipeline)
+        
+        Args:
+            behavior: BehaviorObservation instance
+            current_timestamp: Current Unix timestamp (defaults to now)
+            
+        Returns:
+            dict: Contains 'bw', 'abw', 'days_active'
+        """
+        # Calculate BW
+        bw = (
+            math.pow(behavior.credibility, self.alpha) *
+            math.pow(behavior.clarity_score, self.beta) *
+            math.pow(behavior.extraction_confidence, self.gamma)
+        )
+        
+        # For observations, days_active = 0 (single timestamp)
+        days_active = 0.0
+        
+        # Calculate ABW with decay
+        reinforcement_count = 1  # Single observation
+        reinforcement_factor = 1 + (reinforcement_count * self.reinforcement_multiplier)
+        decay_factor = math.exp(-behavior.decay_rate * days_active)
+        abw = bw * reinforcement_factor * decay_factor
+        
+        behavior_id = getattr(behavior, 'observation_id', getattr(behavior, 'behavior_id', 'unknown'))
+        
+        return {
+            "behavior_id": behavior_id,
+            "bw": bw,
+            "abw": abw,
+            "days_active": days_active
+        }
+    
     def calculate_cluster_strength(
         self,
         cluster_size: int,
