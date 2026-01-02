@@ -155,18 +155,23 @@ async def list_core_behaviors(user_id: str):
             )
         
         # Extract canonical behaviors from behavior_clusters
+        # Only include CORE epistemic state (supported latent preferences)
         canonical_behaviors = []
         
         for cluster in profile_data.get("behavior_clusters", []):
-            # Only include PRIMARY and SECONDARY (exclude NOISE)
-            if cluster.get("tier") in ["PRIMARY", "SECONDARY"]:
+            # Filter by epistemic state (primary filter)
+            epistemic_state = cluster.get("epistemic_state", "CORE")  # Default to CORE for backward compatibility
+            
+            if epistemic_state == "CORE":
+                # Only expose CORE preferences (not INSUFFICIENT_EVIDENCE or NOISE)
                 canonical_behaviors.append({
                     "cluster_id": cluster.get("cluster_id"),
                     "canonical_label": cluster.get("canonical_label"),
                     "cluster_name": cluster.get("cluster_name"),
                     "tier": cluster.get("tier"),
                     "cluster_strength": cluster.get("cluster_strength"),
-                    "confidence": cluster.get("confidence"),  # Maps confidence from DB
+                    "confidence": cluster.get("confidence"),  # Now uses stability-based confidence
+                    "cluster_stability": cluster.get("cluster_stability"),  # Include stability score
                     "observed_count": cluster.get("cluster_size")  # Maps cluster_size from DB
                     # Note: embeddings are NOT included
                 })
