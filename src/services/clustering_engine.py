@@ -83,20 +83,33 @@ class ClusteringEngine:
             # L2 normalize embeddings (REQUIRED for stable density estimation)
             # Makes Euclidean distance equivalent to cosine distance
             norms = np.linalg.norm(X, axis=1, keepdims=True)
+            logger.debug(f"Normalization stats - min norm: {norms.min():.4f}, max norm: {norms.max():.4f}, mean: {norms.mean():.4f}")
             X_normalized = X / (norms + 1e-10)  # Add small epsilon to avoid division by zero
             
             # Adaptive min_cluster_size with conservative scaling for small datasets
             # For small N, use ~20% of samples; for large N, use log-based scaling
             # This prevents over-clustering in small datasets
             n_samples = len(embeddings)
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING CONFIGURATION (N={n_samples})")
+            logger.info(f"{'='*60}")
+            
             if n_samples < 20:
                 # Conservative for small datasets: at least 3, or 20% of samples
-                adaptive_min_cluster_size = max(3, int(n_samples * 0.2))
+                percent_calc = int(n_samples * 0.2)
+                adaptive_min_cluster_size = max(3, percent_calc)
+                logger.info(f"Small dataset branch (N < 20):")
+                logger.info(f"  - 20% of {n_samples} = {percent_calc}")
+                logger.info(f"  - max(3, {percent_calc}) = {adaptive_min_cluster_size}")
             else:
                 # Standard log-based scaling for larger datasets
-                adaptive_min_cluster_size = max(3, int(math.log(n_samples)))
+                log_calc = int(math.log(n_samples))
+                adaptive_min_cluster_size = max(3, log_calc)
+                logger.info(f"Large dataset branch (N >= 20):")
+                logger.info(f"  - log({n_samples}) = {math.log(n_samples):.2f}, int = {log_calc}")
+                logger.info(f"  - max(3, {log_calc}) = {adaptive_min_cluster_size}")
             
-            logger.info(f"Using adaptive min_cluster_size: {adaptive_min_cluster_size} (N={n_samples})")
+            logger.info(f"Final min_cluster_size: {adaptive_min_cluster_size}")
             
             # Prepare sample weights (credibility as density mass)
             sample_weights = None
@@ -105,7 +118,15 @@ class ClusteringEngine:
                     logger.warning("Credibility weights length mismatch, ignoring weights")
                 else:
                     sample_weights = np.array(credibility_weights)
-                    logger.info(f"Using credibility as sample weights (mean={np.mean(sample_weights):.3f})")
+                    logger.info(f"\nCredibility weights statistics:")
+                    logger.info(f"  - Count: {len(sample_weights)}")
+                    logger.info(f"  - Mean: {np.mean(sample_weights):.4f}")
+                    logger.info(f"  - Std: {np.std(sample_weights):.4f}")
+                    logger.info(f"  - Min: {np.min(sample_weights):.4f}")
+                    logger.info(f"  - Max: {np.max(sample_weights):.4f}")
+                    logger.info(f"  - Median: {np.median(sample_weights):.4f}")
+            else:
+                logger.info(f"\nNo credibility weights provided")
             
             # Initialize HDBSCAN with adaptive parameters
             clusterer = HDBSCAN(
@@ -119,13 +140,17 @@ class ClusteringEngine:
             # Perform clustering on normalized embeddings
             # Note: HDBSCAN's sample_weight parameter may not be fully supported
             # If weights don't propagate correctly, we approximate via duplication
+            logger.info(f"\nPerforming HDBSCAN clustering...")
             if sample_weights is not None:
                 try:
+                    logger.info(f"  - Attempting weighted clustering with sample_weight parameter")
                     cluster_labels = clusterer.fit_predict(X_normalized, sample_weight=sample_weights)
+                    logger.info(f"  - Weighted clustering successful")
                 except TypeError:
                     logger.warning("HDBSCAN sample_weight not supported, proceeding without weights")
                     cluster_labels = clusterer.fit_predict(X_normalized)
             else:
+                logger.info(f"  - Performing unweighted clustering")
                 cluster_labels = clusterer.fit_predict(X_normalized)
             
             # Organize results - PRESERVE EVERYTHING
@@ -139,17 +164,31 @@ class ClusteringEngine:
             
             # Extract cluster persistence/stability from HDBSCAN
             # cluster_persistence_ contains stability scores for each cluster
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING RESULTS")
+            logger.info(f"{'='*60}")
             if hasattr(clusterer, 'cluster_persistence_'):
                 raw_stabilities = clusterer.cluster_persistence_
-                logger.info(f"Extracted cluster stabilities: {raw_stabilities}")
+                logger.info(f"Cluster stabilities (from HDBSCAN persistence):")
+                for cluster_idx, stability in enumerate(raw_stabilities):
+                    logger.info(f"  - Cluster {cluster_idx}: {stability:.6f}")
             else:
                 raw_stabilities = {}
                 logger.warning("HDBSCAN cluster_persistence_ not available")
             
             # Build cluster membership (NO DISCARDING)
+            logger.info(f"\nLabel distribution:")
+            unique_labels, label_counts = np.unique(cluster_labels, return_counts=True)
+            for label, count in zip(unique_labels, label_counts):
+                if label == -1:
+                    logger.info(f"  - Noise (label -1): {count} observations")
+                else:
+                    logger.info(f"  - Cluster {label}: {count} observations")
+            
             for behavior_id, label, embedding in zip(behavior_ids, cluster_labels, X_normalized):
                 if label == -1:
                     noise_behaviors.append(behavior_id)
+                    logger.debug(f"  Behavior {behavior_id} assigned to NOISE")
                 else:
                     cluster_id = f"cluster_{label}"
                     if cluster_id not in clusters:
@@ -158,6 +197,7 @@ class ClusteringEngine:
                     
                     clusters[cluster_id].append(behavior_id)
                     cluster_embeddings[cluster_id].append(embedding)
+                    logger.debug(f"  Behavior {behavior_id} assigned to {cluster_id}")
             
             # Calculate cluster statistics (centroid, distances, stability, etc.)
             for cluster_id in clusters.keys():
@@ -195,18 +235,28 @@ class ClusteringEngine:
             
             num_clusters = len(clusters)
             
-            logger.info(
-                f"Clustering complete: {num_clusters} clusters formed, "
-                f"{len(noise_behaviors)} noise observations"
-            )
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING SUMMARY")
+            logger.info(f"{'='*60}")
+            logger.info(f"Total observations: {n_samples}")
+            logger.info(f"Clusters formed: {num_clusters}")
+            logger.info(f"Noise observations: {len(noise_behaviors)}")
+            logger.info(f"Clustered observations: {n_samples - len(noise_behaviors)}")
             
-            for cluster_id, members in clusters.items():
-                stability = cluster_stabilities.get(cluster_id, 0.0)
-                logger.debug(
-                    f"{cluster_id}: {len(members)} observations, "
-                    f"stability: {stability:.4f}, "
-                    f"mean distance: {intra_cluster_distances[cluster_id]['mean']:.4f}"
-                )
+            if num_clusters > 0:
+                logger.info(f"\nCluster details:")
+                for cluster_id, members in clusters.items():
+                    stability = cluster_stabilities.get(cluster_id, 0.0)
+                    distances = intra_cluster_distances[cluster_id]
+                    logger.info(f"  {cluster_id}:")
+                    logger.info(f"    - Size: {len(members)} observations")
+                    logger.info(f"    - Stability: {stability:.6f}")
+                    logger.info(f"    - Mean intra-cluster distance: {distances['mean']:.4f}")
+                    logger.info(f"    - Std intra-cluster distance: {distances['std']:.4f}")
+                    logger.info(f"    - Min distance: {distances['min']:.4f}")
+                    logger.info(f"    - Max distance: {distances['max']:.4f}")
+            
+            logger.info(f"{'='*60}\n")
             
             return {
                 "clusters": clusters,  # ALL members preserved
