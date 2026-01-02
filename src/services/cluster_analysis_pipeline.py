@@ -371,6 +371,11 @@ class ClusterAnalysisPipeline:
             cluster_size = len(cluster_observations)
             mean_abw = sum(abw_values) / len(abw_values) if abw_values else 0.0
             
+            # Calculate temporal metrics (needed for confidence calculation)
+            first_seen = min(all_timestamps)
+            last_seen = max(all_timestamps)
+            days_active = (last_seen - first_seen) / 86400
+            
             # Calculate cluster strength (log(size) * mean_abw * recency)
             cluster_strength = self.calculation_engine.calculate_cluster_strength(
                 cluster_size=cluster_size,
@@ -411,11 +416,6 @@ class ClusterAnalysisPipeline:
                 observations=cluster_observations,
                 use_llm=True
             )
-            
-            # Temporal metrics
-            first_seen = min(all_timestamps)
-            last_seen = max(all_timestamps)
-            days_active = (last_seen - first_seen) / 86400
             
             # Generate descriptive cluster name using LLM
             cluster_name = self.archetype_service.generate_cluster_name(
