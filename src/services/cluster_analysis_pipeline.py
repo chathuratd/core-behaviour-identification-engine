@@ -379,6 +379,9 @@ class ClusterAnalysisPipeline:
                 current_timestamp=current_timestamp
             )
             
+            # Get cluster stability from HDBSCAN (before using it)
+            cluster_stability = cluster_stabilities.get(cluster_id, 0.5)  # Default to moderate
+            
             # Calculate cluster confidence using normalized stability (density-first approach)
             # Collect all stabilities for normalization
             all_stabilities = [
@@ -423,9 +426,6 @@ class ClusterAnalysisPipeline:
             
             # Get centroid for storage (optional field)
             centroid = cluster_centroids.get(cluster_id)
-            
-            # Get cluster stability from HDBSCAN (if available)
-            cluster_stability = cluster_stabilities.get(cluster_id, 0.5)  # Default to moderate
             
             # Build BehaviorCluster
             behavior_cluster = BehaviorCluster(
