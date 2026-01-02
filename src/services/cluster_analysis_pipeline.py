@@ -379,7 +379,21 @@ class ClusterAnalysisPipeline:
                 current_timestamp=current_timestamp
             )
             
-            # Calculate cluster confidence (consistency, reinforcement, clarity_trend)
+            # Calculate cluster confidence using normalized stability (density-first approach)
+            # Collect all stabilities for normalization
+            all_stabilities = [
+                cluster_stabilities.get(cid, 0.5) 
+                for cid in clusters.keys()
+            ]
+            
+            confidence = self.calculation_engine.calculate_confidence_from_stability(
+                cluster_stability=cluster_stability,
+                cluster_size=cluster_size,
+                all_stabilities=all_stabilities,
+                temporal_span_days=days_active
+            )
+            
+            # Keep old confidence calculation for backward compatibility (stored separately)
             distances = intra_cluster_distances[cluster_id]["all_distances"]
             confidence_metrics = self.calculation_engine.calculate_cluster_confidence(
                 intra_cluster_distances=distances,
@@ -425,7 +439,7 @@ class ClusterAnalysisPipeline:
                 canonical_observation_id=None,  # No longer using single observation ID
                 cluster_name=cluster_name,
                 cluster_strength=cluster_strength,
-                confidence=confidence_metrics["confidence"],
+                confidence=confidence,  # Use stability-based confidence (density-first)
                 cluster_stability=cluster_stability,  # Store HDBSCAN stability
                 all_prompt_ids=all_prompt_ids,
                 all_timestamps=all_timestamps,

@@ -151,6 +151,61 @@ class CalculationEngine:
         
         return recency_factor
     
+    def calculate_confidence_from_stability(
+        self,
+        cluster_stability: float,
+        cluster_size: int,
+        all_stabilities: List[float],
+        temporal_span_days: Optional[float] = None
+    ) -> float:
+        """
+        Calculate confidence from normalized cluster stability (density-first approach)
+        
+        Uses HDBSCAN cluster persistence/stability as the primary confidence measure.
+        Normalizes relative to all cluster stabilities to get [0, 1] range.
+        
+        Optional: multiply by temporal coverage for additional context.
+        
+        Args:
+            cluster_stability: HDBSCAN stability/persistence score for this cluster
+            cluster_size: Number of observations in cluster
+            all_stabilities: All cluster stability scores (for normalization)
+            temporal_span_days: Optional temporal span in days
+            
+        Returns:
+            float: Normalized confidence score (0-1)
+        """
+        if not all_stabilities or len(all_stabilities) == 0:
+            logger.warning("No stabilities provided, using raw stability as confidence")
+            return min(1.0, max(0.0, cluster_stability))
+        
+        # Normalize stability relative to all clusters
+        min_stability = min(all_stabilities)
+        max_stability = max(all_stabilities)
+        
+        if max_stability > min_stability:
+            normalized_confidence = (cluster_stability - min_stability) / (max_stability - min_stability)
+        else:
+            # All stabilities are the same
+            normalized_confidence = 0.5
+        
+        # Optional: multiply by temporal coverage factor
+        # More temporal spread = more robust preference
+        if temporal_span_days is not None and temporal_span_days > 0:
+            # Temporal factor: log-scaled, capped at 1.0
+            # 1 day = 0.0, 7 days = 0.85, 30 days = 1.0
+            temporal_factor = min(1.0, math.log10(temporal_span_days + 1) / math.log10(31))
+            confidence = normalized_confidence * (0.7 + 0.3 * temporal_factor)  # Weight temporal 30%
+            logger.debug(
+                f"Confidence with temporal: {confidence:.4f} "
+                f"(normalized={normalized_confidence:.4f} × temporal_factor={temporal_factor:.4f})"
+            )
+        else:
+            confidence = normalized_confidence
+            logger.debug(f"Confidence from stability: {confidence:.4f}")
+        
+        return round(min(1.0, max(0.0, confidence)), 4)
+    
     def calculate_cluster_confidence(
         self,
         intra_cluster_distances: List[float],
