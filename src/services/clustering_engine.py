@@ -214,7 +214,7 @@ class ClusteringEngine:
                 # Extract stability score from HDBSCAN
                 # Cluster labels are 0-indexed integers
                 cluster_label = int(cluster_id.split('_')[1])
-                if cluster_label in raw_stabilities:
+                if hasattr(clusterer, 'cluster_persistence_') and cluster_label < len(raw_stabilities):
                     cluster_stabilities[cluster_id] = float(raw_stabilities[cluster_label])
                 else:
                     # Fallback: use inverse of mean intra-cluster distance as proxy
