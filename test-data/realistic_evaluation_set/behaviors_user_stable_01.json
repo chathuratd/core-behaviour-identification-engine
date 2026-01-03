@@ -1,0 +1,50 @@
+[
+  {
+    "behavior_id": "beh_5596c6",
+    "behavior_text": "prefers diagrams and flowcharts",
+    "credibility": 0.9236864268133257,
+    "reinforcement_count": 8,
+    "last_seen": 1767401814,
+    "prompt_history_ids": [
+      "prompt_f64c52",
+      "prompt_10be66",
+      "prompt_d70b37",
+      "prompt_bccbee",
+      "prompt_e192e6",
+      "prompt_39cf8b",
+      "prompt_8d556b",
+      "prompt_940d96"
+    ]
+  },
+  {
+    "behavior_id": "beh_a5c5a2",
+    "behavior_text": "learns best with visual examples",
+    "credibility": 0.8912874442717059,
+    "reinforcement_count": 8,
+    "last_seen": 1767411719,
+    "prompt_history_ids": [
+      "prompt_355649",
+      "prompt_58d73b",
+      "prompt_f99b53",
+      "prompt_85763e",
+      "prompt_4a6069",
+      "prompt_d75876",
+      "prompt_a183df",
+      "prompt_de9b45"
+    ]
+  },
+  {
+    "behavior_id": "beh_a51cf1",
+    "behavior_text": "likes infographics and charts",
+    "credibility": 0.9238729755320961,
+    "reinforcement_count": 5,
+    "last_seen": 1767395423,
+    "prompt_history_ids": [
+      "prompt_2eb70f",
+      "prompt_e1e57d",
+      "prompt_7e2e0f",
+      "prompt_a47755",
+      "prompt_5e4b5e"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "behavior_id": "beh_276645",
+    "behavior_text": "likes sequential guides",
+    "credibility": 0.9324504867449562,
+    "reinforcement_count": 8,
+    "last_seen": 1767409211,
+    "prompt_history_ids": [
+      "prompt_3729a8",
+      "prompt_7b71a2",
+      "prompt_ee9fdf",
+      "prompt_1878d1",
+      "prompt_9497e0",
+      "prompt_47debd",
+      "prompt_947927",
+      "prompt_f6f87f"
+    ]
+  },
+  {
+    "behavior_id": "beh_062ce9",
+    "behavior_text": "wants ordered procedures",
+    "credibility": 0.8522980159803112,
+    "reinforcement_count": 2,
+    "last_seen": 1767375801,
+    "prompt_history_ids": [
+      "prompt_57fd35",
+      "prompt_3f7a6d"
+    ]
+  }
+]

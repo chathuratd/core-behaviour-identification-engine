@@ -1,0 +1,200 @@
+[
+  {
+    "prompt_id": "prompt_e192e6",
+    "prompt_text": "Visual representation of database indexing please",
+    "timestamp": 1767326800,
+    "tokens": 13.1,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_85763e",
+    "prompt_text": "Visual representation of websockets please",
+    "timestamp": 1767328731,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_f64c52",
+    "prompt_text": "Explain security with pictures",
+    "timestamp": 1767328841,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_a47755",
+    "prompt_text": "Create an infographic about React hooks",
+    "timestamp": 1767329508,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_39cf8b",
+    "prompt_text": "Can you show me a diagram of caching strategies?",
+    "timestamp": 1767329586,
+    "tokens": 12.1,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_8d556b",
+    "prompt_text": "Visual representation of logging please",
+    "timestamp": 1767336515,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_e1e57d",
+    "prompt_text": "Create an infographic about OAuth2",
+    "timestamp": 1767336694,
+    "tokens": 7.6,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_5e4b5e",
+    "prompt_text": "Explain authorization with pictures",
+    "timestamp": 1767352223,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__fcdce"
+  },
+  {
+    "prompt_id": "prompt_d70b37",
+    "prompt_text": "Can you show me a diagram of authorization?",
+    "timestamp": 1767352448,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_7e2e0f",
+    "prompt_text": "Can you show me a diagram of message queues?",
+    "timestamp": 1767356135,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_f99b53",
+    "prompt_text": "Explain websockets with pictures",
+    "timestamp": 1767358303,
+    "tokens": 7.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_d75876",
+    "prompt_text": "Visual representation of websockets please",
+    "timestamp": 1767364472,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_ab6c2b",
+    "prompt_text": "Information on security",
+    "timestamp": 1767367871,
+    "tokens": 5.3,
+    "is_noise": true,
+    "user_id": "user_stable_01",
+    "session_id": "sess__fcdce"
+  },
+  {
+    "prompt_id": "prompt_bccbee",
+    "prompt_text": "Can you show me a diagram of monitoring?",
+    "timestamp": 1767369172,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__fcdce"
+  },
+  {
+    "prompt_id": "prompt_de9b45",
+    "prompt_text": "Visual representation of caching strategies please",
+    "timestamp": 1767380373,
+    "tokens": 12.3,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_10be66",
+    "prompt_text": "Visual representation of algorithms please",
+    "timestamp": 1767383396,
+    "tokens": 11.0,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_2eb70f",
+    "prompt_text": "Can you show me a diagram of microservices?",
+    "timestamp": 1767395423,
+    "tokens": 10.2,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_a183df",
+    "prompt_text": "Visual representation of security please",
+    "timestamp": 1767398219,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_940d96",
+    "prompt_text": "Draw me a flowchart for CI/CD pipelines",
+    "timestamp": 1767401814,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__6a0c5"
+  },
+  {
+    "prompt_id": "prompt_355649",
+    "prompt_text": "Visual representation of message queues please",
+    "timestamp": 1767411419,
+    "tokens": 12.1,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__f8ae1"
+  },
+  {
+    "prompt_id": "prompt_58d73b",
+    "prompt_text": "Create an infographic about load balancing",
+    "timestamp": 1767411617,
+    "tokens": 10.2,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__fcdce"
+  },
+  {
+    "prompt_id": "prompt_4a6069",
+    "prompt_text": "Can you show me a diagram of error handling?",
+    "timestamp": 1767411719,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_stable_01",
+    "session_id": "sess__fcdce"
+  }
+]

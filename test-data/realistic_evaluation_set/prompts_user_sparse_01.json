@@ -1,0 +1,209 @@
+[
+  {
+    "prompt_id": "prompt_4ec8d1",
+    "prompt_text": "Walk me through load balancing",
+    "timestamp": 1767334673,
+    "tokens": 7.2,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_922e0b",
+    "prompt_text": "Walk me through GraphQL",
+    "timestamp": 1767335675,
+    "tokens": 4.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_feb6f4",
+    "prompt_text": "SQL queries overview",
+    "timestamp": 1767338998,
+    "tokens": 5.5,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_c1b803",
+    "prompt_text": "Sequential instructions for OAuth2",
+    "timestamp": 1767344641,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_607a1e",
+    "prompt_text": "testing patterns overview",
+    "timestamp": 1767347485,
+    "tokens": 6.8,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_9ccc0d",
+    "prompt_text": "Break down database indexing into steps",
+    "timestamp": 1767351866,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_30794a",
+    "prompt_text": "Real-world implementation of microservices",
+    "timestamp": 1767354913,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_fd695a",
+    "prompt_text": "Let me try caching strategies myself",
+    "timestamp": 1767357120,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_2e807a",
+    "prompt_text": "Working prototype of cloud architecture",
+    "timestamp": 1767359465,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_2e505c",
+    "prompt_text": "Hands-on example of performance optimization",
+    "timestamp": 1767360446,
+    "tokens": 11.3,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_be1658",
+    "prompt_text": "Walk me through data structures",
+    "timestamp": 1767374000,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_257ff3",
+    "prompt_text": "Hands-on example of React hooks",
+    "timestamp": 1767374206,
+    "tokens": 7.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_a07a68",
+    "prompt_text": "Information on monitoring",
+    "timestamp": 1767375114,
+    "tokens": 7.1,
+    "is_noise": true,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_8d823f",
+    "prompt_text": "What is message queues?",
+    "timestamp": 1767377776,
+    "tokens": 5.0,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_b60b7f",
+    "prompt_text": "What is data structures?",
+    "timestamp": 1767378820,
+    "tokens": 6.7,
+    "is_noise": true,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__6c7f2"
+  },
+  {
+    "prompt_id": "prompt_4b848d",
+    "prompt_text": "Show me code for error handling",
+    "timestamp": 1767379709,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_d7fa74",
+    "prompt_text": "Real-world implementation of logging",
+    "timestamp": 1767388568,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_2bb53a",
+    "prompt_text": "Break down authentication into steps",
+    "timestamp": 1767389173,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_a520aa",
+    "prompt_text": "Real-world implementation of authentication",
+    "timestamp": 1767402184,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_3d1243",
+    "prompt_text": "Tell me about REST APIs",
+    "timestamp": 1767403125,
+    "tokens": 4.9,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_812319",
+    "prompt_text": "Hands-on example of load balancing",
+    "timestamp": 1767406511,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_7c6570",
+    "prompt_text": "Hands-on example of message queues",
+    "timestamp": 1767408293,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  },
+  {
+    "prompt_id": "prompt_3d1c39",
+    "prompt_text": "Quick question about NoSQL databases",
+    "timestamp": 1767410093,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_sparse_01",
+    "session_id": "sess__8ac1d"
+  }
+]

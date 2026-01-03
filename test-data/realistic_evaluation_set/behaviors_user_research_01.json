@@ -1,0 +1,71 @@
+[
+  {
+    "behavior_id": "beh_5c26b3",
+    "behavior_text": "wants detailed documentation",
+    "credibility": 0.744070674295425,
+    "reinforcement_count": 6,
+    "last_seen": 1767412553,
+    "prompt_history_ids": [
+      "prompt_c80535",
+      "prompt_2b0ef8",
+      "prompt_dbbb36",
+      "prompt_22c365",
+      "prompt_154781",
+      "prompt_d55cdc"
+    ]
+  },
+  {
+    "behavior_id": "beh_6b50fa",
+    "behavior_text": "interested in research citations",
+    "credibility": 0.7576299468933217,
+    "reinforcement_count": 5,
+    "last_seen": 1767409610,
+    "prompt_history_ids": [
+      "prompt_2085b9",
+      "prompt_f468c1",
+      "prompt_029ad4",
+      "prompt_6b0315",
+      "prompt_23e33e"
+    ]
+  },
+  {
+    "behavior_id": "beh_51b79a",
+    "behavior_text": "asks for technical specifications",
+    "credibility": 0.7173060407235772,
+    "reinforcement_count": 5,
+    "last_seen": 1767407157,
+    "prompt_history_ids": [
+      "prompt_14f465",
+      "prompt_ef4dbd",
+      "prompt_b17536",
+      "prompt_ceb869",
+      "prompt_013ae3"
+    ]
+  },
+  {
+    "behavior_id": "beh_19d3e5",
+    "behavior_text": "prefers academic papers",
+    "credibility": 0.7950915073405516,
+    "reinforcement_count": 3,
+    "last_seen": 1767401687,
+    "prompt_history_ids": [
+      "prompt_189f8f",
+      "prompt_462e70",
+      "prompt_55c988"
+    ]
+  },
+  {
+    "behavior_id": "beh_aa133b",
+    "behavior_text": "needs architectural overviews",
+    "credibility": 0.6759836595752414,
+    "reinforcement_count": 5,
+    "last_seen": 1767379926,
+    "prompt_history_ids": [
+      "prompt_38fa8a",
+      "prompt_ff997a",
+      "prompt_97206c",
+      "prompt_8dd953",
+      "prompt_4cca66"
+    ]
+  }
+]

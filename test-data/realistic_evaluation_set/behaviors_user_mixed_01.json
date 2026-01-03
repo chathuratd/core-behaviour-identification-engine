@@ -1,0 +1,78 @@
+[
+  {
+    "behavior_id": "beh_9784d9",
+    "behavior_text": "wants theoretical explanations",
+    "credibility": 0.8900963340662267,
+    "reinforcement_count": 8,
+    "last_seen": 1767412099,
+    "prompt_history_ids": [
+      "prompt_aafcae",
+      "prompt_6af02f",
+      "prompt_3325e2",
+      "prompt_ccefdd",
+      "prompt_b8abfb",
+      "prompt_162e47",
+      "prompt_c0ab24",
+      "prompt_eadc75"
+    ]
+  },
+  {
+    "behavior_id": "beh_41c81d",
+    "behavior_text": "prefers understanding principles first",
+    "credibility": 0.8422753557158321,
+    "reinforcement_count": 7,
+    "last_seen": 1767406881,
+    "prompt_history_ids": [
+      "prompt_37e160",
+      "prompt_9371d9",
+      "prompt_c76f46",
+      "prompt_7ea8a2",
+      "prompt_4ece36",
+      "prompt_b2a1bd",
+      "prompt_5842d9"
+    ]
+  },
+  {
+    "behavior_id": "beh_961872",
+    "behavior_text": "prefers hands-on examples",
+    "credibility": 0.8856978320678766,
+    "reinforcement_count": 8,
+    "last_seen": 1767401187,
+    "prompt_history_ids": [
+      "prompt_9fd0b1",
+      "prompt_33bba5",
+      "prompt_18f1f2",
+      "prompt_eda830",
+      "prompt_df35d9",
+      "prompt_94ac47",
+      "prompt_65b7d2",
+      "prompt_1ac2d0"
+    ]
+  },
+  {
+    "behavior_id": "beh_4a768f",
+    "behavior_text": "wants code samples",
+    "credibility": 0.7811924061499065,
+    "reinforcement_count": 3,
+    "last_seen": 1767404334,
+    "prompt_history_ids": [
+      "prompt_574384",
+      "prompt_d66590",
+      "prompt_1d24d8"
+    ]
+  },
+  {
+    "behavior_id": "beh_d89b81",
+    "behavior_text": "asks about design patterns",
+    "credibility": 0.8598851893673082,
+    "reinforcement_count": 5,
+    "last_seen": 1767401308,
+    "prompt_history_ids": [
+      "prompt_2ac128",
+      "prompt_a59ce9",
+      "prompt_fc9ffc",
+      "prompt_437ee2",
+      "prompt_535119"
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "behavior_id": "beh_18b342",
+    "behavior_text": "prefers step-by-step instructions",
+    "credibility": 0.9233117058588418,
+    "reinforcement_count": 12,
+    "last_seen": 1767405073,
+    "prompt_history_ids": [
+      "prompt_16b2c7",
+      "prompt_d1e078",
+      "prompt_e34c41",
+      "prompt_b353dc",
+      "prompt_0b113e",
+      "prompt_cc0c29",
+      "prompt_b452da",
+      "prompt_d919cd",
+      "prompt_d0884a",
+      "prompt_e57e43",
+      "prompt_2c98ab",
+      "prompt_302538"
+    ]
+  },
+  {
+    "behavior_id": "beh_f7cb4d",
+    "behavior_text": "likes sequential guides",
+    "credibility": 0.905443773809989,
+    "reinforcement_count": 11,
+    "last_seen": 1767388318,
+    "prompt_history_ids": [
+      "prompt_c5f248",
+      "prompt_17acb0",
+      "prompt_49a8da",
+      "prompt_97e1dc",
+      "prompt_420ff1",
+      "prompt_3b4c70",
+      "prompt_00e547",
+      "prompt_c97d76",
+      "prompt_f41015",
+      "prompt_58a061",
+      "prompt_73bc5b"
+    ]
+  },
+  {
+    "behavior_id": "beh_311af4",
+    "behavior_text": "wants ordered procedures",
+    "credibility": 0.9882963900457347,
+    "reinforcement_count": 12,
+    "last_seen": 1767405373,
+    "prompt_history_ids": [
+      "prompt_d54f9b",
+      "prompt_951207",
+      "prompt_d401ba",
+      "prompt_799154",
+      "prompt_2ab5da",
+      "prompt_0982c9",
+      "prompt_a9b90e",
+      "prompt_1fd6e2",
+      "prompt_650861",
+      "prompt_60031c",
+      "prompt_f7c39c",
+      "prompt_38137e"
+    ]
+  },
+  {
+    "behavior_id": "beh_6b36e5",
+    "behavior_text": "learns best with visual examples",
+    "credibility": 0.9420007163122281,
+    "reinforcement_count": 4,
+    "last_seen": 1767366544,
+    "prompt_history_ids": [
+      "prompt_b45ce8",
+      "prompt_f6a761",
+      "prompt_c8d220",
+      "prompt_dfa33b"
+    ]
+  },
+  {
+    "behavior_id": "beh_3af8f8",
+    "behavior_text": "wants code samples",
+    "credibility": 0.9088837261550005,
+    "reinforcement_count": 2,
+    "last_seen": 1767387116,
+    "prompt_history_ids": [
+      "prompt_d2700c",
+      "prompt_eae4b3"
+    ]
+  }
+]

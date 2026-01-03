@@ -1,0 +1,68 @@
+[
+  {
+    "behavior_id": "beh_291966",
+    "behavior_text": "prefers step-by-step instructions",
+    "credibility": 0.9486615803128025,
+    "reinforcement_count": 6,
+    "last_seen": 1767389173,
+    "prompt_history_ids": [
+      "prompt_c1b803",
+      "prompt_2bb53a",
+      "prompt_9ccc0d",
+      "prompt_4ec8d1",
+      "prompt_922e0b",
+      "prompt_be1658"
+    ]
+  },
+  {
+    "behavior_id": "beh_a8a185",
+    "behavior_text": "learns by doing",
+    "credibility": 0.8985060430273433,
+    "reinforcement_count": 7,
+    "last_seen": 1767408293,
+    "prompt_history_ids": [
+      "prompt_812319",
+      "prompt_d7fa74",
+      "prompt_2e505c",
+      "prompt_30794a",
+      "prompt_a520aa",
+      "prompt_7c6570",
+      "prompt_4b848d"
+    ]
+  },
+  {
+    "behavior_id": "beh_fa7330",
+    "behavior_text": "wants code samples",
+    "credibility": 0.882304540506757,
+    "reinforcement_count": 3,
+    "last_seen": 1767374206,
+    "prompt_history_ids": [
+      "prompt_257ff3",
+      "prompt_2e807a",
+      "prompt_fd695a"
+    ]
+  },
+  {
+    "behavior_id": "beh_c27149",
+    "behavior_text": "asks for examples",
+    "credibility": 0.7625024944704862,
+    "reinforcement_count": 3,
+    "last_seen": 1767410093,
+    "prompt_history_ids": [
+      "prompt_8d823f",
+      "prompt_3d1c39",
+      "prompt_feb6f4"
+    ]
+  },
+  {
+    "behavior_id": "beh_eeb06e",
+    "behavior_text": "prefers quick summaries",
+    "credibility": 0.7558595914989131,
+    "reinforcement_count": 2,
+    "last_seen": 1767403125,
+    "prompt_history_ids": [
+      "prompt_3d1243",
+      "prompt_607a1e"
+    ]
+  }
+]

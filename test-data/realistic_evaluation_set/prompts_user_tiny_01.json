@@ -1,0 +1,110 @@
+[
+  {
+    "prompt_id": "prompt_57fd35",
+    "prompt_text": "How do I implement security? Step by step",
+    "timestamp": 1767333244,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__8a885"
+  },
+  {
+    "prompt_id": "prompt_64a90b",
+    "prompt_text": "Quick question about load balancing",
+    "timestamp": 1767343966,
+    "tokens": 9.7,
+    "is_noise": true,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__8a885"
+  },
+  {
+    "prompt_id": "prompt_1878d1",
+    "prompt_text": "Walk me through load balancing",
+    "timestamp": 1767353457,
+    "tokens": 7.1,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_47debd",
+    "prompt_text": "Sequential instructions for Kubernetes",
+    "timestamp": 1767370764,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_9497e0",
+    "prompt_text": "Walk me through performance optimization",
+    "timestamp": 1767371656,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_3f7a6d",
+    "prompt_text": "How do I implement websockets? Step by step",
+    "timestamp": 1767375801,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_7b71a2",
+    "prompt_text": "Step-by-step guide for error handling",
+    "timestamp": 1767390700,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_ee9fdf",
+    "prompt_text": "Break down SQL queries into steps",
+    "timestamp": 1767397736,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__8a885"
+  },
+  {
+    "prompt_id": "prompt_947927",
+    "prompt_text": "Sequential instructions for logging",
+    "timestamp": 1767399405,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__8a885"
+  },
+  {
+    "prompt_id": "prompt_3729a8",
+    "prompt_text": "Sequential instructions for security",
+    "timestamp": 1767404853,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  },
+  {
+    "prompt_id": "prompt_f6f87f",
+    "prompt_text": "Break down deployment into steps",
+    "timestamp": 1767409211,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__8a885"
+  },
+  {
+    "prompt_id": "prompt_d98907",
+    "prompt_text": "REST APIs overview",
+    "timestamp": 1767409964,
+    "tokens": 3.6,
+    "is_noise": true,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__ad098"
+  }
+]

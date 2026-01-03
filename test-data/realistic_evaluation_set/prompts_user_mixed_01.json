@@ -1,0 +1,308 @@
+[
+  {
+    "prompt_id": "prompt_1d24d8",
+    "prompt_text": "Let me try React hooks myself",
+    "timestamp": 1767330912,
+    "tokens": 6.8,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_18f1f2",
+    "prompt_text": "Show me code for caching strategies",
+    "timestamp": 1767338860,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_37e160",
+    "prompt_text": "Design principles for database indexing",
+    "timestamp": 1767343091,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_d33061",
+    "prompt_text": "Information on performance optimization",
+    "timestamp": 1767344629,
+    "tokens": 9.7,
+    "is_noise": true,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_2ac128",
+    "prompt_text": "What's the theory behind microservices?",
+    "timestamp": 1767345794,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__a95c3"
+  },
+  {
+    "prompt_id": "prompt_9fd0b1",
+    "prompt_text": "Real-world implementation of GraphQL",
+    "timestamp": 1767350349,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__a95c3"
+  },
+  {
+    "prompt_id": "prompt_b2a1bd",
+    "prompt_text": "Explain the concept of serverless",
+    "timestamp": 1767350752,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_fc9ffc",
+    "prompt_text": "Explain the concept of testing patterns",
+    "timestamp": 1767354725,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_df35d9",
+    "prompt_text": "Hands-on example of monitoring",
+    "timestamp": 1767355205,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_6af02f",
+    "prompt_text": "What's the theory behind monitoring?",
+    "timestamp": 1767356192,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_eda830",
+    "prompt_text": "Working prototype of GraphQL",
+    "timestamp": 1767356382,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_94ac47",
+    "prompt_text": "Show me code for cloud architecture",
+    "timestamp": 1767362769,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_65b7d2",
+    "prompt_text": "Working prototype of logging",
+    "timestamp": 1767364069,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_5842d9",
+    "prompt_text": "Explain the concept of API design",
+    "timestamp": 1767368484,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_9371d9",
+    "prompt_text": "Why does caching strategies work this way?",
+    "timestamp": 1767370469,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__a95c3"
+  },
+  {
+    "prompt_id": "prompt_1a0ccb",
+    "prompt_text": "What is deployment?",
+    "timestamp": 1767376376,
+    "tokens": 5.1,
+    "is_noise": true,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_437ee2",
+    "prompt_text": "What's the theory behind API design?",
+    "timestamp": 1767377075,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_b8abfb",
+    "prompt_text": "Explain the concept of algorithms",
+    "timestamp": 1767381554,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__a95c3"
+  },
+  {
+    "prompt_id": "prompt_e3f5ec",
+    "prompt_text": "What is cloud architecture?",
+    "timestamp": 1767383566,
+    "tokens": 7.7,
+    "is_noise": true,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_162e47",
+    "prompt_text": "Design principles for deployment",
+    "timestamp": 1767383818,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_c76f46",
+    "prompt_text": "What's the theory behind cloud architecture?",
+    "timestamp": 1767383832,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_aafcae",
+    "prompt_text": "Why does deployment work this way?",
+    "timestamp": 1767384084,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_3325e2",
+    "prompt_text": "Design principles for Docker containers",
+    "timestamp": 1767386718,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_7ea8a2",
+    "prompt_text": "What's the theory behind security?",
+    "timestamp": 1767390036,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__a95c3"
+  },
+  {
+    "prompt_id": "prompt_eadc75",
+    "prompt_text": "Explain the concept of authorization",
+    "timestamp": 1767392652,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_33bba5",
+    "prompt_text": "Let me try authentication myself",
+    "timestamp": 1767393075,
+    "tokens": 7.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_ccefdd",
+    "prompt_text": "Design principles for authentication",
+    "timestamp": 1767395554,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_a59ce9",
+    "prompt_text": "Underlying architecture of Kubernetes",
+    "timestamp": 1767396652,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__c8ccb"
+  },
+  {
+    "prompt_id": "prompt_d66590",
+    "prompt_text": "Hands-on example of React hooks",
+    "timestamp": 1767396677,
+    "tokens": 7.8,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_1ac2d0",
+    "prompt_text": "Hands-on example of deployment",
+    "timestamp": 1767401187,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__1c919"
+  },
+  {
+    "prompt_id": "prompt_535119",
+    "prompt_text": "What's the theory behind performance optimization?",
+    "timestamp": 1767401308,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_574384",
+    "prompt_text": "Let me try websockets myself",
+    "timestamp": 1767404334,
+    "tokens": 6.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_4ece36",
+    "prompt_text": "Explain the concept of logging",
+    "timestamp": 1767406881,
+    "tokens": 7.4,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  },
+  {
+    "prompt_id": "prompt_c0ab24",
+    "prompt_text": "Underlying architecture of authorization",
+    "timestamp": 1767412099,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_mixed_01",
+    "session_id": "sess__225ef"
+  }
+]

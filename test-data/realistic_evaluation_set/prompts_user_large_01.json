@@ -1,0 +1,398 @@
+[
+  {
+    "prompt_id": "prompt_38137e",
+    "prompt_text": "Walk me through database indexing",
+    "timestamp": 1767326898,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__16bfd"
+  },
+  {
+    "prompt_id": "prompt_00e547",
+    "prompt_text": "How do I implement message queues? Step by step",
+    "timestamp": 1767328598,
+    "tokens": 11.3,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__f0e4a"
+  },
+  {
+    "prompt_id": "prompt_cc0c29",
+    "prompt_text": "How do I implement monitoring? Step by step",
+    "timestamp": 1767329789,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_b45ce8",
+    "prompt_text": "Draw me a flowchart for SQL queries",
+    "timestamp": 1767331936,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_d2700c",
+    "prompt_text": "Working prototype of testing patterns",
+    "timestamp": 1767332280,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_c8d220",
+    "prompt_text": "Draw me a flowchart for monitoring",
+    "timestamp": 1767332858,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_2c98ab",
+    "prompt_text": "Sequential instructions for database indexing",
+    "timestamp": 1767333604,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__16bfd"
+  },
+  {
+    "prompt_id": "prompt_f6a761",
+    "prompt_text": "Can you show me a diagram of performance optimization?",
+    "timestamp": 1767337491,
+    "tokens": 13.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__2442b"
+  },
+  {
+    "prompt_id": "prompt_d401ba",
+    "prompt_text": "Break down Docker containers into steps",
+    "timestamp": 1767339557,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_3b4c70",
+    "prompt_text": "Walk me through microservices",
+    "timestamp": 1767339825,
+    "tokens": 7.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_17acb0",
+    "prompt_text": "Sequential instructions for websockets",
+    "timestamp": 1767345252,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_420ff1",
+    "prompt_text": "Walk me through authorization",
+    "timestamp": 1767346019,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_c97d76",
+    "prompt_text": "Step-by-step guide for async programming",
+    "timestamp": 1767347548,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__2442b"
+  },
+  {
+    "prompt_id": "prompt_97e1dc",
+    "prompt_text": "How do I implement OAuth2? Step by step",
+    "timestamp": 1767347664,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_0982c9",
+    "prompt_text": "Step-by-step guide for deployment",
+    "timestamp": 1767347956,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_799154",
+    "prompt_text": "Walk me through error handling",
+    "timestamp": 1767349930,
+    "tokens": 7.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_73bc5b",
+    "prompt_text": "Step-by-step guide for deployment",
+    "timestamp": 1767350409,
+    "tokens": 7.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_7b15e6",
+    "prompt_text": "Quick question about message queues",
+    "timestamp": 1767352858,
+    "tokens": 8.8,
+    "is_noise": true,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_650861",
+    "prompt_text": "Break down testing patterns into steps",
+    "timestamp": 1767359430,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_49a8da",
+    "prompt_text": "Walk me through SQL queries",
+    "timestamp": 1767361623,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__16bfd"
+  },
+  {
+    "prompt_id": "prompt_d0884a",
+    "prompt_text": "Break down SQL queries into steps",
+    "timestamp": 1767362878,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_60031c",
+    "prompt_text": "Walk me through Docker containers",
+    "timestamp": 1767364181,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_dfa33b",
+    "prompt_text": "Explain database indexing with pictures",
+    "timestamp": 1767366544,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_2ab5da",
+    "prompt_text": "Sequential instructions for React hooks",
+    "timestamp": 1767366971,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__f0e4a"
+  },
+  {
+    "prompt_id": "prompt_d54f9b",
+    "prompt_text": "Sequential instructions for serverless",
+    "timestamp": 1767368115,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__2442b"
+  },
+  {
+    "prompt_id": "prompt_c5f248",
+    "prompt_text": "How do I implement SQL queries? Step by step",
+    "timestamp": 1767369127,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_1fd6e2",
+    "prompt_text": "Step-by-step guide for load balancing",
+    "timestamp": 1767370625,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_302538",
+    "prompt_text": "How do I implement message queues? Step by step",
+    "timestamp": 1767377865,
+    "tokens": 12.2,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_e34c41",
+    "prompt_text": "How do I implement React hooks? Step by step",
+    "timestamp": 1767382968,
+    "tokens": 11.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__f0e4a"
+  },
+  {
+    "prompt_id": "prompt_0b113e",
+    "prompt_text": "Break down authorization into steps",
+    "timestamp": 1767383761,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__16bfd"
+  },
+  {
+    "prompt_id": "prompt_951207",
+    "prompt_text": "Step-by-step guide for authorization",
+    "timestamp": 1767386683,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__477a8"
+  },
+  {
+    "prompt_id": "prompt_eae4b3",
+    "prompt_text": "Hands-on example of React hooks",
+    "timestamp": 1767387116,
+    "tokens": 7.9,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__f0e4a"
+  },
+  {
+    "prompt_id": "prompt_f41015",
+    "prompt_text": "Break down load balancing into steps",
+    "timestamp": 1767387762,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_58a061",
+    "prompt_text": "Break down SQL queries into steps",
+    "timestamp": 1767388318,
+    "tokens": 7.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_aa2013",
+    "prompt_text": "What is logging?",
+    "timestamp": 1767389091,
+    "tokens": 3.1,
+    "is_noise": true,
+    "user_id": "user_large_01",
+    "session_id": "sess__2442b"
+  },
+  {
+    "prompt_id": "prompt_1f3283",
+    "prompt_text": "NoSQL databases overview",
+    "timestamp": 1767391469,
+    "tokens": 6.5,
+    "is_noise": true,
+    "user_id": "user_large_01",
+    "session_id": "sess__2442b"
+  },
+  {
+    "prompt_id": "prompt_d1e078",
+    "prompt_text": "Walk me through message queues",
+    "timestamp": 1767392101,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_f7c39c",
+    "prompt_text": "Sequential instructions for database indexing",
+    "timestamp": 1767393796,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__16bfd"
+  },
+  {
+    "prompt_id": "prompt_e57e43",
+    "prompt_text": "Break down authentication into steps",
+    "timestamp": 1767397647,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__f0e4a"
+  },
+  {
+    "prompt_id": "prompt_16b2c7",
+    "prompt_text": "Walk me through cloud architecture",
+    "timestamp": 1767401361,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_d919cd",
+    "prompt_text": "Step-by-step guide for NoSQL databases",
+    "timestamp": 1767401398,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_b353dc",
+    "prompt_text": "Walk me through authentication",
+    "timestamp": 1767403950,
+    "tokens": 6.6,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__4ab6a"
+  },
+  {
+    "prompt_id": "prompt_b452da",
+    "prompt_text": "Walk me through cloud architecture",
+    "timestamp": 1767405073,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  },
+  {
+    "prompt_id": "prompt_a9b90e",
+    "prompt_text": "Step-by-step guide for data structures",
+    "timestamp": 1767405373,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_large_01",
+    "session_id": "sess__386ff"
+  }
+]

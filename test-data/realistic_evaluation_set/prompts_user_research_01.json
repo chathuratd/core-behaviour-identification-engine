@@ -1,0 +1,245 @@
+[
+  {
+    "prompt_id": "prompt_6b0315",
+    "prompt_text": "Technical specs of caching strategies",
+    "timestamp": 1767344493,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_189f8f",
+    "prompt_text": "Research papers about data structures",
+    "timestamp": 1767345375,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_4cca66",
+    "prompt_text": "Research papers about GraphQL",
+    "timestamp": 1767346113,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_8dd953",
+    "prompt_text": "Documentation for websockets",
+    "timestamp": 1767348807,
+    "tokens": 6.3,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_98303a",
+    "prompt_text": "Tell me about logging",
+    "timestamp": 1767356329,
+    "tokens": 6.0,
+    "is_noise": true,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_154781",
+    "prompt_text": "Research papers about CI/CD pipelines",
+    "timestamp": 1767362007,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_013ae3",
+    "prompt_text": "Detailed architecture of monitoring",
+    "timestamp": 1767365079,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_38fa8a",
+    "prompt_text": "Detailed architecture of security",
+    "timestamp": 1767369383,
+    "tokens": 8.6,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_f468c1",
+    "prompt_text": "Documentation for performance optimization",
+    "timestamp": 1767372625,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_ff997a",
+    "prompt_text": "Citations for authentication",
+    "timestamp": 1767374432,
+    "tokens": 7.4,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_c80535",
+    "prompt_text": "Detailed architecture of message queues",
+    "timestamp": 1767378168,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_97206c",
+    "prompt_text": "Citations for monitoring",
+    "timestamp": 1767379926,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_b17536",
+    "prompt_text": "Technical specs of testing patterns",
+    "timestamp": 1767380703,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_ceb869",
+    "prompt_text": "Research papers about load balancing",
+    "timestamp": 1767381516,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_14f465",
+    "prompt_text": "Detailed architecture of security",
+    "timestamp": 1767387624,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_029ad4",
+    "prompt_text": "Research papers about monitoring",
+    "timestamp": 1767388774,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_55c988",
+    "prompt_text": "Documentation for performance optimization",
+    "timestamp": 1767389080,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_22c365",
+    "prompt_text": "Detailed architecture of logging",
+    "timestamp": 1767392342,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_23e33e",
+    "prompt_text": "Technical specs of load balancing",
+    "timestamp": 1767392992,
+    "tokens": 7.6,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_462e70",
+    "prompt_text": "Technical specs of caching strategies",
+    "timestamp": 1767401687,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_447228",
+    "prompt_text": "NoSQL databases overview",
+    "timestamp": 1767405720,
+    "tokens": 5.2,
+    "is_noise": true,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_ef4dbd",
+    "prompt_text": "Research papers about OAuth2",
+    "timestamp": 1767407157,
+    "tokens": 7.7,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_2085b9",
+    "prompt_text": "Documentation for OAuth2",
+    "timestamp": 1767409610,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_dbbb36",
+    "prompt_text": "Documentation for GraphQL",
+    "timestamp": 1767410447,
+    "tokens": 5.3,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__90c27"
+  },
+  {
+    "prompt_id": "prompt_d55cdc",
+    "prompt_text": "Documentation for React hooks",
+    "timestamp": 1767412443,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__7eba9"
+  },
+  {
+    "prompt_id": "prompt_b8232d",
+    "prompt_text": "GraphQL overview",
+    "timestamp": 1767412528,
+    "tokens": 3.2,
+    "is_noise": true,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  },
+  {
+    "prompt_id": "prompt_2b0ef8",
+    "prompt_text": "Research papers about cloud architecture",
+    "timestamp": 1767412553,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_research_01",
+    "session_id": "sess__a34c4"
+  }
+]
