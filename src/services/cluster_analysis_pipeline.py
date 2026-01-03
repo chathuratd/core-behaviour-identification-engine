@@ -509,11 +509,13 @@ class ClusterAnalysisPipeline:
         logger.info(f"Absolute CORE threshold: {ABSOLUTE_CORE_THRESHOLD}")
         logger.info(f"Number of clusters to classify: {len(behavior_clusters)}")
         
-        # Calculate upper quantile for high credibility threshold
+        # Calculate median credibility for high credibility threshold
+        # Use median (50th percentile) to catch moderately high credibility clusters
+        # that deserve retention despite weak clustering structure
         obs_map = {obs.observation_id: obs for obs in observations}
         all_credibilities = [obs.credibility for obs in observations]
-        upper_quantile = np.percentile(all_credibilities, 75)
-        logger.info(f"Credibility upper quantile (75th): {upper_quantile:.4f}")
+        median_credibility = np.median(all_credibilities)
+        logger.info(f"Credibility median (50th): {median_credibility:.4f}")
         
         # Assign epistemic states
         logger.info(f"\nClassifying clusters:")
@@ -544,16 +546,19 @@ class ClusterAnalysisPipeline:
                 logger.info(f"    → CORE (tier={cluster.tier.value})")
             else:
                 # Check if INSUFFICIENT_EVIDENCE: high credibility but unstable
-                if mean_credibility >= upper_quantile:
-                    # High credibility but unstable - insufficient evidence
+                # High credibility = above median (shows strong individual evidence)
+                # Low stability = below thresholds (weak clustering structure)
+                if mean_credibility >= median_credibility:
+                    # High credibility but unstable - insufficient evidence for CORE
+                    # Worth retaining for future reinforcement
                     cluster.epistemic_state = EpistemicState.INSUFFICIENT_EVIDENCE
                     cluster.tier = TierEnum.SECONDARY  # Retain but don't expose as primary
-                    logger.info(f"    → INSUFFICIENT_EVIDENCE (high credibility={mean_credibility:.3f}, but low stability={stability:.3f})")
+                    logger.info(f"    → INSUFFICIENT_EVIDENCE (credibility={mean_credibility:.3f} >= median {median_credibility:.3f}, but stability={stability:.3f} < threshold)")
                 else:
                     # Low credibility and unstable - noise
                     cluster.epistemic_state = EpistemicState.NOISE
                     cluster.tier = TierEnum.NOISE
-                    logger.info(f"    → NOISE (low credibility={mean_credibility:.3f}, low stability={stability:.3f})")
+                    logger.info(f"    → NOISE (credibility={mean_credibility:.3f} < median {median_credibility:.3f}, stability={stability:.3f} < threshold)")
         
         # Handle noise observations (singletons not in any cluster)
         noise_behaviors = clustering_result.get("noise_behaviors", [])
