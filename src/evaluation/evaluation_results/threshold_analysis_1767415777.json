@@ -1,0 +1,162 @@
+[
+  {
+    "user_id": "user_stable_01",
+    "description": "Visual Viktor - tight clustering",
+    "total_behaviors": 3,
+    "clustering": {
+      "clusters_formed": 0,
+      "stability_scores": [],
+      "cluster_sizes": [],
+      "noise_points": 3,
+      "labels": [
+        -1,
+        -1,
+        -1
+      ],
+      "cluster_dict": {},
+      "cluster_stabilities": {}
+    },
+    "threshold_results": [
+      {
+        "threshold": 0.05,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 3,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.1,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 3,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.15,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 3,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.2,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 3,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      }
+    ]
+  },
+  {
+    "user_id": "user_large_01",
+    "description": "Dedicated Dana - many interactions",
+    "total_behaviors": 5,
+    "clustering": {
+      "clusters_formed": 0,
+      "stability_scores": [],
+      "cluster_sizes": [],
+      "noise_points": 5,
+      "labels": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cluster_dict": {},
+      "cluster_stabilities": {}
+    },
+    "threshold_results": [
+      {
+        "threshold": 0.05,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.1,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.15,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.2,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      }
+    ]
+  },
+  {
+    "user_id": "user_mixed_01",
+    "description": "Balanced Beth - mixed stability",
+    "total_behaviors": 5,
+    "clustering": {
+      "clusters_formed": 0,
+      "stability_scores": [],
+      "cluster_sizes": [],
+      "noise_points": 5,
+      "labels": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "cluster_dict": {},
+      "cluster_stabilities": {}
+    },
+    "threshold_results": [
+      {
+        "threshold": 0.05,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.1,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.15,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      },
+      {
+        "threshold": 0.2,
+        "core_count": 0,
+        "secondary_count": 0,
+        "insufficient_count": 5,
+        "core_behaviors": [],
+        "secondary_behaviors": []
+      }
+    ]
+  }
+]

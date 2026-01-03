@@ -86,10 +86,24 @@ def save_behaviors_to_qdrant(
         
         logger.info(f"Generated {len(embeddings)} embeddings")
         
+        # Prepare behaviors for Qdrant - map confidence → extraction_confidence, add missing fields
+        qdrant_behaviors = []
+        for b in behaviors_data:
+            qdrant_behavior = b.copy()
+            # Map confidence field to extraction_confidence (Qdrant expects this name)
+            qdrant_behavior['extraction_confidence'] = b.get('confidence', b.get('credibility', 0.80))
+            # Add decay_rate if missing (required by schema)
+            if 'decay_rate' not in qdrant_behavior:
+                qdrant_behavior['decay_rate'] = 0.01
+            # Add timestamp if missing (use last_seen)
+            if 'timestamp' not in qdrant_behavior:
+                qdrant_behavior['timestamp'] = b.get('last_seen', int(time.time()))
+            qdrant_behaviors.append(qdrant_behavior)
+        
         # Save complete behavior data with embeddings to Qdrant
         success = qdrant_service.insert_behaviors_with_embeddings(
             embeddings=embeddings,
-            behaviors=behaviors_data
+            behaviors=qdrant_behaviors
         )
         
         if success:
@@ -115,10 +129,10 @@ def save_behaviors_to_mongodb(behaviors_data: List[Dict], mongo_service: MongoDB
                 behavior_text=b.get('behavior_text'),
                 timestamp=b.get('last_seen', int(time.time())),
                 prompt_id=b.get('prompt_history_ids', ['unknown'])[0] if b.get('prompt_history_ids') else 'unknown',
-                session_id='unknown',  # Will be inferred during analysis
+                session_id=b.get('session_id', 'unknown'),
                 credibility=b.get('credibility', 0.75),
-                clarity_score=b.get('credibility', 0.75),  # Use credibility as proxy
-                extraction_confidence=b.get('credibility', 0.80),
+                clarity_score=b.get('clarity_score', b.get('credibility', 0.75)),  # Use clarity_score or fall back to credibility
+                extraction_confidence=b.get('confidence', b.get('credibility', 0.80)),  # Use confidence field
                 decay_rate=0.01
             )
             behavior_observations.append(obs)

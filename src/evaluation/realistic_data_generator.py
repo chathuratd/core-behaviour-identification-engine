@@ -370,14 +370,19 @@ def generate_user_data(persona: UserPersona, output_dir: str):
             prompt_count
         )
         
-        # Create behavior record
+        # Create behavior record matching original structure
+        base_credibility = credibility + random.uniform(-0.05, 0.05)
         behavior = {
             "behavior_id": generate_id("beh"),
             "behavior_text": behavior_text,
-            "credibility": credibility + random.uniform(-0.05, 0.05),  # Small variation
+            "credibility": base_credibility,  # Small variation
             "reinforcement_count": len(prompts),
             "last_seen": max(p["timestamp"] for p in prompts) if prompts else int(time.time()),
-            "prompt_history_ids": [p["prompt_id"] for p in prompts]
+            "prompt_history_ids": [p["prompt_id"] for p in prompts],
+            "user_id": persona.user_id,
+            "session_id": "sess_" + generate_id("")[:6],  # Will be updated to random session
+            "clarity_score": min(0.99, base_credibility + random.uniform(0.0, 0.1)),  # Slightly higher than credibility
+            "confidence": min(0.99, base_credibility + random.uniform(-0.05, 0.15))  # Varies around credibility
         }
         
         behaviors.append(behavior)
@@ -396,13 +401,18 @@ def generate_user_data(persona: UserPersona, output_dir: str):
             prompt_count
         )
         
+        base_credibility = credibility + random.uniform(-0.1, 0.05)
         behavior = {
             "behavior_id": generate_id("beh"),
             "behavior_text": behavior_text,
-            "credibility": credibility + random.uniform(-0.1, 0.05),
+            "credibility": base_credibility,
             "reinforcement_count": len(prompts),
             "last_seen": max(p["timestamp"] for p in prompts) if prompts else int(time.time()),
-            "prompt_history_ids": [p["prompt_id"] for p in prompts]
+            "prompt_history_ids": [p["prompt_id"] for p in prompts],
+            "user_id": persona.user_id,
+            "session_id": "sess_" + generate_id("")[:6],
+            "clarity_score": min(0.99, base_credibility + random.uniform(0.0, 0.1)),
+            "confidence": min(0.99, base_credibility + random.uniform(-0.05, 0.15))
         }
         
         behaviors.append(behavior)
@@ -417,6 +427,14 @@ def generate_user_data(persona: UserPersona, output_dir: str):
     for prompt in all_prompts:
         prompt["user_id"] = persona.user_id
         prompt["session_id"] = random.choice(session_ids)
+    
+    # Update behaviors with consistent session_ids (use session from first prompt)
+    for behavior in behaviors:
+        if behavior["prompt_history_ids"]:
+            first_prompt_id = behavior["prompt_history_ids"][0]
+            matching_prompt = next((p for p in all_prompts if p["prompt_id"] == first_prompt_id), None)
+            if matching_prompt:
+                behavior["session_id"] = matching_prompt["session_id"]
     
     # Sort by timestamp
     all_prompts.sort(key=lambda x: x["timestamp"])
