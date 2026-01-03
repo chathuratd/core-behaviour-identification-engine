@@ -19,7 +19,8 @@ from src.models.schemas import (
     PromptModel,
     CoreBehaviorProfile,
     ProfileStatistics,
-    TierEnum
+    TierEnum,
+    EpistemicState
 )
 from src.services.calculation_engine import calculation_engine
 from src.services.embedding_service import embedding_service
@@ -207,15 +208,20 @@ class ClusterAnalysisPipeline:
             # for obs, emb in zip(observations, embeddings):
             #     obs.embedding = emb  # This overwrote embeddings from Qdrant unnecessarily
             
-            # Step 3: Extract embeddings for clustering
+            # Step 3: Extract embeddings and credibility for clustering
             # Now that we've ensured all observations have embeddings, extract them
-            logger.info("Step 3: Extracting embeddings for clustering")
+            logger.info("Step 3: Extracting embeddings and credibility for clustering")
             embeddings = [obs.embedding for obs in observations]
+            credibility_weights = [obs.credibility for obs in observations]
             
-            # Step 3.5: Perform clustering
-            logger.info("Step 3.5: Performing HDBSCAN clustering")
+            # Step 3.5: Perform clustering with credibility as sample weights
+            logger.info("Step 3.5: Performing HDBSCAN clustering with weighted density estimation")
             observation_ids = [obs.observation_id for obs in observations]
-            clustering_result = self.clustering_engine.cluster_behaviors(embeddings, observation_ids)
+            clustering_result = self.clustering_engine.cluster_behaviors(
+                embeddings, 
+                observation_ids,
+                credibility_weights=credibility_weights
+            )
             
             # Step 4: Process clusters (THIS IS THE MAIN LOOP)
             logger.info(f"Step 4: Processing {clustering_result['num_clusters']} clusters")
@@ -228,10 +234,9 @@ class ClusterAnalysisPipeline:
                 current_timestamp
             )
             
-            # Step 5: Assign tiers based on cluster_strength
-            logger.info("Step 5: Assigning tiers")
-            for cluster in behavior_clusters:
-                cluster.tier = self._assign_tier_by_strength(cluster.cluster_strength)
+            # Step 5: Assign epistemic states and tiers based on cluster stability
+            logger.info("Step 5: Assigning epistemic states and tiers")
+            self._assign_epistemic_states(behavior_clusters, observations, clustering_result)
             
             # Step 6: Store in databases (if requested)
             if store_in_dbs and not skip_observation_storage:
@@ -267,7 +272,12 @@ class ClusterAnalysisPipeline:
             archetype = None
             if generate_archetype and behavior_clusters:
                 logger.info("Step 7: Generating archetype")
-                canonical_labels = [c.canonical_label for c in behavior_clusters if c.tier != TierEnum.NOISE]
+                # Only use CORE preferences for archetype generation
+                canonical_labels = [
+                    c.canonical_label 
+                    for c in behavior_clusters 
+                    if c.epistemic_state == EpistemicState.CORE
+                ]
                 if canonical_labels:
                     archetype = self.archetype_service.generate_archetype(canonical_labels, user_id)
             
@@ -300,8 +310,9 @@ class ClusterAnalysisPipeline:
             
             logger.info(
                 f"Cluster-centric analysis complete: "
-                f"{len([c for c in behavior_clusters if c.tier == TierEnum.PRIMARY])} PRIMARY, "
-                f"{len([c for c in behavior_clusters if c.tier == TierEnum.SECONDARY])} SECONDARY clusters"
+                f"{len([c for c in behavior_clusters if c.epistemic_state == EpistemicState.CORE])} CORE, "
+                f"{len([c for c in behavior_clusters if c.epistemic_state == EpistemicState.INSUFFICIENT_EVIDENCE])} INSUFFICIENT_EVIDENCE, "
+                f"{len([c for c in behavior_clusters if c.epistemic_state == EpistemicState.NOISE])} NOISE clusters"
             )
             
             return profile
@@ -325,6 +336,7 @@ class ClusterAnalysisPipeline:
         """
         clusters = clustering_result["clusters"]
         cluster_centroids = clustering_result["cluster_centroids"]
+        cluster_stabilities = clustering_result.get("cluster_stabilities", {})  # Get stability scores
         intra_cluster_distances = clustering_result["intra_cluster_distances"]
         cluster_embeddings = clustering_result["cluster_embeddings"]
         
@@ -359,6 +371,11 @@ class ClusterAnalysisPipeline:
             cluster_size = len(cluster_observations)
             mean_abw = sum(abw_values) / len(abw_values) if abw_values else 0.0
             
+            # Calculate temporal metrics (needed for confidence calculation)
+            first_seen = min(all_timestamps)
+            last_seen = max(all_timestamps)
+            days_active = (last_seen - first_seen) / 86400
+            
             # Calculate cluster strength (log(size) * mean_abw * recency)
             cluster_strength = self.calculation_engine.calculate_cluster_strength(
                 cluster_size=cluster_size,
@@ -367,7 +384,24 @@ class ClusterAnalysisPipeline:
                 current_timestamp=current_timestamp
             )
             
-            # Calculate cluster confidence (consistency, reinforcement, clarity_trend)
+            # Get cluster stability from HDBSCAN (before using it)
+            cluster_stability = cluster_stabilities.get(cluster_id, 0.5)  # Default to moderate
+            
+            # Calculate cluster confidence using normalized stability (density-first approach)
+            # Collect all stabilities for normalization
+            all_stabilities = [
+                cluster_stabilities.get(cid, 0.5) 
+                for cid in clusters.keys()
+            ]
+            
+            confidence = self.calculation_engine.calculate_confidence_from_stability(
+                cluster_stability=cluster_stability,
+                cluster_size=cluster_size,
+                all_stabilities=all_stabilities,
+                temporal_span_days=days_active
+            )
+            
+            # Keep old confidence calculation for backward compatibility (stored separately)
             distances = intra_cluster_distances[cluster_id]["all_distances"]
             confidence_metrics = self.calculation_engine.calculate_cluster_confidence(
                 intra_cluster_distances=distances,
@@ -382,11 +416,6 @@ class ClusterAnalysisPipeline:
                 observations=cluster_observations,
                 use_llm=True
             )
-            
-            # Temporal metrics
-            first_seen = min(all_timestamps)
-            last_seen = max(all_timestamps)
-            days_active = (last_seen - first_seen) / 86400
             
             # Generate descriptive cluster name using LLM
             cluster_name = self.archetype_service.generate_cluster_name(
@@ -410,14 +439,16 @@ class ClusterAnalysisPipeline:
                 canonical_observation_id=None,  # No longer using single observation ID
                 cluster_name=cluster_name,
                 cluster_strength=cluster_strength,
-                confidence=confidence_metrics["confidence"],
+                confidence=confidence,  # Use stability-based confidence (density-first)
+                cluster_stability=cluster_stability,  # Store HDBSCAN stability
                 all_prompt_ids=all_prompt_ids,
                 all_timestamps=all_timestamps,
                 wording_variations=wording_variations,
                 first_seen=first_seen,
                 last_seen=last_seen,
                 days_active=days_active,
-                tier=TierEnum.NOISE,  # Will be assigned later
+                tier=TierEnum.NOISE,  # Will be assigned later based on epistemic state
+                epistemic_state=EpistemicState.NOISE,  # Will be assigned later
                 created_at=current_timestamp,
                 updated_at=current_timestamp,
                 consistency_score=confidence_metrics["consistency_score"],
@@ -431,6 +462,122 @@ class ClusterAnalysisPipeline:
         
         logger.info(f"Built {len(behavior_clusters)} behavior clusters")
         return behavior_clusters
+    
+    def _assign_epistemic_states(
+        self,
+        behavior_clusters: List[BehaviorCluster],
+        observations: List[BehaviorObservation],
+        clustering_result: Dict[str, Any]
+    ) -> None:
+        """
+        Assign epistemic states based on density-first inference principles
+        
+        Three-tier classification:
+        1. CORE: cluster_stability >= median AND >= absolute threshold (0.15)
+        2. INSUFFICIENT_EVIDENCE: high credibility but unstable - retained for future reinforcement
+        3. NOISE: low credibility and isolated - discarded
+        
+        Args:
+            behavior_clusters: List of BehaviorCluster objects to classify
+            observations: Original observations for context
+            clustering_result: Clustering result with noise_behaviors
+        """
+        if not behavior_clusters:
+            return
+        
+        # Extract all cluster stabilities
+        stabilities = [c.cluster_stability for c in behavior_clusters if c.cluster_stability is not None]
+        
+        if not stabilities:
+            logger.warning("No cluster stabilities available, using fallback classification")
+            # Fallback: use cluster_strength
+            for cluster in behavior_clusters:
+                cluster.epistemic_state = EpistemicState.CORE
+                cluster.tier = TierEnum.PRIMARY
+            return
+        
+        # Absolute minimum stability threshold for CORE clusters
+        # Clusters with raw stability < 0.15 are too unstable to be CORE
+        ABSOLUTE_CORE_THRESHOLD = 0.15
+        
+        # Calculate median stability (relative threshold)
+        median_stability = np.median(stabilities)
+        logger.info(f"\n{'='*60}")
+        logger.info(f"EPISTEMIC STATE ASSIGNMENT")
+        logger.info(f"{'='*60}")
+        logger.info(f"Median cluster stability: {median_stability:.4f}")
+        logger.info(f"Absolute CORE threshold: {ABSOLUTE_CORE_THRESHOLD}")
+        logger.info(f"Number of clusters to classify: {len(behavior_clusters)}")
+        
+        # Calculate median credibility for high credibility threshold
+        # Use median (50th percentile) to catch moderately high credibility clusters
+        # that deserve retention despite weak clustering structure
+        obs_map = {obs.observation_id: obs for obs in observations}
+        all_credibilities = [obs.credibility for obs in observations]
+        median_credibility = np.median(all_credibilities)
+        logger.info(f"Credibility median (50th): {median_credibility:.4f}")
+        
+        # Assign epistemic states
+        logger.info(f"\nClassifying clusters:")
+        for cluster in behavior_clusters:
+            stability = cluster.cluster_stability or 0.0
+            
+            # Calculate cluster credibility
+            cluster_credibilities = [
+                obs_map[oid].credibility 
+                for oid in cluster.observation_ids 
+                if oid in obs_map
+            ]
+            mean_credibility = np.mean(cluster_credibilities) if cluster_credibilities else 0.0
+            
+            logger.info(f"\n  {cluster.cluster_id}:")
+            logger.info(f"    - Size: {len(cluster.observation_ids)} observations")
+            logger.info(f"    - Raw stability: {stability:.6f}")
+            logger.info(f"    - Mean credibility: {mean_credibility:.4f}")
+            
+            # CORE: stability >= median AND >= absolute threshold
+            if stability >= median_stability and stability >= ABSOLUTE_CORE_THRESHOLD:
+                cluster.epistemic_state = EpistemicState.CORE
+                # Assign tier based on relative position within CORE clusters
+                if stability >= np.percentile(stabilities, 75):
+                    cluster.tier = TierEnum.PRIMARY
+                else:
+                    cluster.tier = TierEnum.SECONDARY
+                logger.info(f"    → CORE (tier={cluster.tier.value})")
+            else:
+                # Check if INSUFFICIENT_EVIDENCE: high credibility but unstable
+                # High credibility = above median (shows strong individual evidence)
+                # Low stability = below thresholds (weak clustering structure)
+                if mean_credibility >= median_credibility:
+                    # High credibility but unstable - insufficient evidence for CORE
+                    # Worth retaining for future reinforcement
+                    cluster.epistemic_state = EpistemicState.INSUFFICIENT_EVIDENCE
+                    cluster.tier = TierEnum.SECONDARY  # Retain but don't expose as primary
+                    logger.info(f"    → INSUFFICIENT_EVIDENCE (credibility={mean_credibility:.3f} >= median {median_credibility:.3f}, but stability={stability:.3f} < threshold)")
+                else:
+                    # Low credibility and unstable - noise
+                    cluster.epistemic_state = EpistemicState.NOISE
+                    cluster.tier = TierEnum.NOISE
+                    logger.info(f"    → NOISE (credibility={mean_credibility:.3f} < median {median_credibility:.3f}, stability={stability:.3f} < threshold)")
+        
+        # Handle noise observations (singletons not in any cluster)
+        noise_behaviors = clustering_result.get("noise_behaviors", [])
+        if noise_behaviors:
+            logger.info(f"\n{len(noise_behaviors)} observations classified as noise by HDBSCAN (not in any cluster)")
+        
+        # Log epistemic state distribution
+        core_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.CORE)
+        insufficient_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.INSUFFICIENT_EVIDENCE)
+        noise_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.NOISE)
+        
+        logger.info(f"\n{'='*60}")
+        logger.info(f"EPISTEMIC STATE SUMMARY")
+        logger.info(f"{'='*60}")
+        logger.info(f"CORE clusters: {core_count}")
+        logger.info(f"INSUFFICIENT_EVIDENCE clusters: {insufficient_count}")
+        logger.info(f"NOISE clusters: {noise_count}")
+        logger.info(f"Noise observations (singletons): {len(noise_behaviors)}")
+        logger.info(f"{'='*60}\n")
     
     def _assign_tier_by_strength(self, cluster_strength: float) -> TierEnum:
         """

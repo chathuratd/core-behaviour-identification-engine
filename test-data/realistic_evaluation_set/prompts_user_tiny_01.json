@@ -1,0 +1,119 @@
+[
+  {
+    "prompt_id": "prompt_ee19ab",
+    "prompt_text": "Walk me through websockets",
+    "timestamp": 1767328217,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  },
+  {
+    "prompt_id": "prompt_700a59",
+    "prompt_text": "Walk me through serverless",
+    "timestamp": 1767329997,
+    "tokens": 6.6,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  },
+  {
+    "prompt_id": "prompt_3b475c",
+    "prompt_text": "Tell me about Docker containers",
+    "timestamp": 1767332601,
+    "tokens": 7.9,
+    "is_noise": true,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_8ebc56",
+    "prompt_text": "Break down GraphQL into steps",
+    "timestamp": 1767341121,
+    "tokens": 7.6,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  },
+  {
+    "prompt_id": "prompt_d5ccde",
+    "prompt_text": "Step-by-step guide for deployment",
+    "timestamp": 1767343697,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  },
+  {
+    "prompt_id": "prompt_a3bd02",
+    "prompt_text": "Walk me through data structures",
+    "timestamp": 1767351475,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_ca7273",
+    "prompt_text": "message queues overview",
+    "timestamp": 1767355491,
+    "tokens": 5.8,
+    "is_noise": true,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_16a7b0",
+    "prompt_text": "Walk me through SQL queries",
+    "timestamp": 1767365923,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_b4e2e7",
+    "prompt_text": "Sequential instructions for API design",
+    "timestamp": 1767376601,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  },
+  {
+    "prompt_id": "prompt_5afadd",
+    "prompt_text": "Step-by-step guide for API design",
+    "timestamp": 1767388505,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_78c725",
+    "prompt_text": "Sequential instructions for authentication",
+    "timestamp": 1767389134,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_4a6d1a",
+    "prompt_text": "How do I implement authorization? Step by step",
+    "timestamp": 1767408367,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f"
+  },
+  {
+    "prompt_id": "prompt_692247",
+    "prompt_text": "Break down error handling into steps",
+    "timestamp": 1767413127,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_tiny_01",
+    "session_id": "sess__a536b"
+  }
+]

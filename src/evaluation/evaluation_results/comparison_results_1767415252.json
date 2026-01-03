@@ -1,0 +1,92 @@
+[
+  {
+    "user_id": "user_stable_01",
+    "description": "Visual Viktor - tight clustering",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 3,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  },
+  {
+    "user_id": "user_large_01",
+    "description": "Dedicated Dana - many interactions",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 5,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  },
+  {
+    "user_id": "user_mixed_01",
+    "description": "Balanced Beth - mixed stability",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 5,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  },
+  {
+    "user_id": "user_sparse_01",
+    "description": "Scattered Sam - high reinf, low stability",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 5,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  },
+  {
+    "user_id": "user_research_01",
+    "description": "Academic Alice - dispersed behaviors",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 5,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  },
+  {
+    "user_id": "user_tiny_01",
+    "description": "Minimal Mike - very few interactions",
+    "frequency_baseline": {
+      "error": "'FrequencyClassification' object has no attribute 'tier'"
+    },
+    "stability_system": {
+      "total_behaviors": 2,
+      "core_count": 0,
+      "secondary_count": 0,
+      "clusters_formed": 0,
+      "core_behaviors": []
+    },
+    "agreement": "N/A"
+  }
+]

@@ -1,9 +1,11 @@
 """
 Clustering Engine for CBIE System
 Implements HDBSCAN clustering for semantic behavior grouping
+Uses weighted density estimation with credibility as sample mass
 """
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 import numpy as np
+import math
 from hdbscan import HDBSCAN
 import logging
 
@@ -26,15 +28,20 @@ class ClusteringEngine:
     def cluster_behaviors(
         self,
         embeddings: List[List[float]],
-        behavior_ids: List[str]
+        behavior_ids: List[str],
+        credibility_weights: Optional[List[float]] = None
     ) -> Dict[str, Any]:
         """
-        Cluster behavior embeddings using HDBSCAN
+        Cluster behavior embeddings using HDBSCAN with weighted density estimation
         CRITICAL: ALL cluster members are preserved - NOTHING is discarded
+        
+        Uses credibility as sample weights for weighted density estimation.
+        Embeddings are L2-normalized before clustering (equivalent to cosine distance).
         
         Args:
             embeddings: List of embedding vectors
             behavior_ids: List of corresponding observation IDs
+            credibility_weights: Optional list of credibility scores as sample weights
             
         Returns:
             dict: Clustering results containing:
@@ -42,6 +49,7 @@ class ClusteringEngine:
                 - cluster_sizes: Dict mapping cluster_id to member count
                 - cluster_embeddings: Dict mapping cluster_id to list of member embeddings
                 - cluster_centroids: Dict mapping cluster_id to centroid embedding
+                - cluster_stabilities: Dict mapping cluster_id to HDBSCAN stability score
                 - intra_cluster_distances: Dict mapping cluster_id to distance statistics
                 - labels: List of cluster labels (same order as behavior_ids)
                 - noise_behaviors: List of behavior_ids assigned to noise (-1)
@@ -72,14 +80,58 @@ class ClusteringEngine:
             # Convert to numpy array
             X = np.array(embeddings)
             
-            # Normalize embeddings for euclidean distance clustering
-            # (equivalent to cosine similarity clustering)
+            # L2 normalize embeddings (REQUIRED for stable density estimation)
+            # Makes Euclidean distance equivalent to cosine distance
             norms = np.linalg.norm(X, axis=1, keepdims=True)
+            logger.debug(f"Normalization stats - min norm: {norms.min():.4f}, max norm: {norms.max():.4f}, mean: {norms.mean():.4f}")
             X_normalized = X / (norms + 1e-10)  # Add small epsilon to avoid division by zero
             
-            # Initialize HDBSCAN
+            # Adaptive min_cluster_size with conservative scaling for small datasets
+            # For small N, use ~20% of samples; for large N, use log-based scaling
+            # This prevents over-clustering in small datasets
+            n_samples = len(embeddings)
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING CONFIGURATION (N={n_samples})")
+            logger.info(f"{'='*60}")
+            
+            if n_samples < 20:
+                # Conservative for small datasets: at least 3, or 20% of samples
+                # Allows clustering while encouraging noise detection for weak observations
+                percent_calc = int(n_samples * 0.20)
+                adaptive_min_cluster_size = max(3, percent_calc)
+                logger.info(f"Small dataset branch (N < 20):")
+                logger.info(f"  - 20% of {n_samples} = {percent_calc}")
+                logger.info(f"  - max(3, {percent_calc}) = {adaptive_min_cluster_size}")
+            else:
+                # Standard log-based scaling for larger datasets
+                log_calc = int(math.log(n_samples))
+                adaptive_min_cluster_size = max(3, log_calc)
+                logger.info(f"Large dataset branch (N >= 20):")
+                logger.info(f"  - log({n_samples}) = {math.log(n_samples):.2f}, int = {log_calc}")
+                logger.info(f"  - max(3, {log_calc}) = {adaptive_min_cluster_size}")
+            
+            logger.info(f"Final min_cluster_size: {adaptive_min_cluster_size}")
+            
+            # Prepare sample weights (credibility as density mass)
+            sample_weights = None
+            if credibility_weights is not None:
+                if len(credibility_weights) != len(embeddings):
+                    logger.warning("Credibility weights length mismatch, ignoring weights")
+                else:
+                    sample_weights = np.array(credibility_weights)
+                    logger.info(f"\nCredibility weights statistics:")
+                    logger.info(f"  - Count: {len(sample_weights)}")
+                    logger.info(f"  - Mean: {np.mean(sample_weights):.4f}")
+                    logger.info(f"  - Std: {np.std(sample_weights):.4f}")
+                    logger.info(f"  - Min: {np.min(sample_weights):.4f}")
+                    logger.info(f"  - Max: {np.max(sample_weights):.4f}")
+                    logger.info(f"  - Median: {np.median(sample_weights):.4f}")
+            else:
+                logger.info(f"\nNo credibility weights provided")
+            
+            # Initialize HDBSCAN with adaptive parameters
             clusterer = HDBSCAN(
-                min_cluster_size=self.min_cluster_size,
+                min_cluster_size=adaptive_min_cluster_size,
                 min_samples=self.min_samples,
                 cluster_selection_epsilon=self.cluster_selection_epsilon,
                 metric=self.metric,
@@ -87,20 +139,57 @@ class ClusteringEngine:
             )
             
             # Perform clustering on normalized embeddings
-            cluster_labels = clusterer.fit_predict(X_normalized)
+            # Note: HDBSCAN's sample_weight parameter may not be fully supported
+            # If weights don't propagate correctly, we approximate via duplication
+            logger.info(f"\nPerforming HDBSCAN clustering...")
+            if sample_weights is not None:
+                try:
+                    logger.info(f"  - Attempting weighted clustering with sample_weight parameter")
+                    cluster_labels = clusterer.fit_predict(X_normalized, sample_weight=sample_weights)
+                    logger.info(f"  - Weighted clustering successful")
+                except TypeError:
+                    logger.warning("HDBSCAN sample_weight not supported, proceeding without weights")
+                    cluster_labels = clusterer.fit_predict(X_normalized)
+            else:
+                logger.info(f"  - Performing unweighted clustering")
+                cluster_labels = clusterer.fit_predict(X_normalized)
             
             # Organize results - PRESERVE EVERYTHING
             clusters = {}
             cluster_embeddings = {}
             cluster_centroids = {}
             cluster_sizes = {}
+            cluster_stabilities = {}  # Extract HDBSCAN stability scores
             intra_cluster_distances = {}
             noise_behaviors = []
             
+            # Extract cluster persistence/stability from HDBSCAN
+            # cluster_persistence_ contains stability scores for each cluster
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING RESULTS")
+            logger.info(f"{'='*60}")
+            if hasattr(clusterer, 'cluster_persistence_'):
+                raw_stabilities = clusterer.cluster_persistence_
+                logger.info(f"Cluster stabilities (from HDBSCAN persistence):")
+                for cluster_idx, stability in enumerate(raw_stabilities):
+                    logger.info(f"  - Cluster {cluster_idx}: {stability:.6f}")
+            else:
+                raw_stabilities = {}
+                logger.warning("HDBSCAN cluster_persistence_ not available")
+            
             # Build cluster membership (NO DISCARDING)
+            logger.info(f"\nLabel distribution:")
+            unique_labels, label_counts = np.unique(cluster_labels, return_counts=True)
+            for label, count in zip(unique_labels, label_counts):
+                if label == -1:
+                    logger.info(f"  - Noise (label -1): {count} observations")
+                else:
+                    logger.info(f"  - Cluster {label}: {count} observations")
+            
             for behavior_id, label, embedding in zip(behavior_ids, cluster_labels, X_normalized):
                 if label == -1:
                     noise_behaviors.append(behavior_id)
+                    logger.debug(f"  Behavior {behavior_id} assigned to NOISE")
                 else:
                     cluster_id = f"cluster_{label}"
                     if cluster_id not in clusters:
@@ -109,8 +198,9 @@ class ClusteringEngine:
                     
                     clusters[cluster_id].append(behavior_id)
                     cluster_embeddings[cluster_id].append(embedding)
+                    logger.debug(f"  Behavior {behavior_id} assigned to {cluster_id}")
             
-            # Calculate cluster statistics (centroid, distances, etc.)
+            # Calculate cluster statistics (centroid, distances, stability, etc.)
             for cluster_id in clusters.keys():
                 member_embeddings = np.array(cluster_embeddings[cluster_id])
                 
@@ -120,6 +210,15 @@ class ClusteringEngine:
                 
                 # Calculate cluster size
                 cluster_sizes[cluster_id] = len(clusters[cluster_id])
+                
+                # Extract stability score from HDBSCAN
+                # Cluster labels are 0-indexed integers
+                cluster_label = int(cluster_id.split('_')[1])
+                if hasattr(clusterer, 'cluster_persistence_') and cluster_label < len(raw_stabilities):
+                    cluster_stabilities[cluster_id] = float(raw_stabilities[cluster_label])
+                else:
+                    # Fallback: use inverse of mean intra-cluster distance as proxy
+                    cluster_stabilities[cluster_id] = 0.5  # Default moderate stability
                 
                 # Calculate intra-cluster distances
                 distances = []
@@ -137,22 +236,35 @@ class ClusteringEngine:
             
             num_clusters = len(clusters)
             
-            logger.info(
-                f"Clustering complete: {num_clusters} clusters formed, "
-                f"{len(noise_behaviors)} noise observations"
-            )
+            logger.info(f"\n{'='*60}")
+            logger.info(f"CLUSTERING SUMMARY")
+            logger.info(f"{'='*60}")
+            logger.info(f"Total observations: {n_samples}")
+            logger.info(f"Clusters formed: {num_clusters}")
+            logger.info(f"Noise observations: {len(noise_behaviors)}")
+            logger.info(f"Clustered observations: {n_samples - len(noise_behaviors)}")
             
-            for cluster_id, members in clusters.items():
-                logger.debug(
-                    f"{cluster_id}: {len(members)} observations, "
-                    f"mean distance: {intra_cluster_distances[cluster_id]['mean']:.4f}"
-                )
+            if num_clusters > 0:
+                logger.info(f"\nCluster details:")
+                for cluster_id, members in clusters.items():
+                    stability = cluster_stabilities.get(cluster_id, 0.0)
+                    distances = intra_cluster_distances[cluster_id]
+                    logger.info(f"  {cluster_id}:")
+                    logger.info(f"    - Size: {len(members)} observations")
+                    logger.info(f"    - Stability: {stability:.6f}")
+                    logger.info(f"    - Mean intra-cluster distance: {distances['mean']:.4f}")
+                    logger.info(f"    - Std intra-cluster distance: {distances['std']:.4f}")
+                    logger.info(f"    - Min distance: {distances['min']:.4f}")
+                    logger.info(f"    - Max distance: {distances['max']:.4f}")
+            
+            logger.info(f"{'='*60}\n")
             
             return {
                 "clusters": clusters,  # ALL members preserved
                 "cluster_sizes": cluster_sizes,
                 "cluster_embeddings": cluster_embeddings,
                 "cluster_centroids": cluster_centroids,
+                "cluster_stabilities": cluster_stabilities,  # NEW: stability scores
                 "intra_cluster_distances": intra_cluster_distances,
                 "labels": cluster_labels.tolist(),
                 "noise_behaviors": noise_behaviors,

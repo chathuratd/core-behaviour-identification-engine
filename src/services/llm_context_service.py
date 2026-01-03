@@ -1,11 +1,11 @@
 """
 LLM Context Service
 Generates behavioral context for LLM prompt injection
-Uses strength-based ranking instead of tier labels
+Uses stability-based ranking and epistemic state filtering
 """
 from typing import List, Dict, Optional
 import logging
-from src.models.schemas import BehaviorCluster, TierEnum
+from src.models.schemas import BehaviorCluster, TierEnum, EpistemicState
 from src.database.mongodb_service import mongodb_service
 
 logger = logging.getLogger(__name__)
@@ -39,12 +39,13 @@ class LLMContextService:
         Returns:
             Formatted context string ready for LLM injection
         """
-        # Filter relevant clusters
+        # Filter relevant clusters - only CORE epistemic state
+        # These are supported latent preferences with stability >= median
         relevant_clusters = [
             c for c in clusters 
             if c.cluster_strength >= min_strength 
             and c.confidence >= min_confidence
-            and c.tier != TierEnum.NOISE  # Exclude noise
+            and getattr(c, 'epistemic_state', EpistemicState.CORE) == EpistemicState.CORE  # Only CORE
         ]
         
         # Sort by strength (most dominant first)

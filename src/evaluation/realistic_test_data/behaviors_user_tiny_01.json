@@ -1,0 +1,39 @@
+[
+  {
+    "behavior_id": "beh_f6eba9",
+    "behavior_text": "likes sequential guides",
+    "credibility": 0.903588443061059,
+    "reinforcement_count": 8,
+    "last_seen": 1767408367,
+    "prompt_history_ids": [
+      "prompt_4a6d1a",
+      "prompt_ee19ab",
+      "prompt_16a7b0",
+      "prompt_78c725",
+      "prompt_8ebc56",
+      "prompt_700a59",
+      "prompt_d5ccde",
+      "prompt_b4e2e7"
+    ],
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f",
+    "clarity_score": 0.9640027795318646,
+    "confidence": 0.90464865912773
+  },
+  {
+    "behavior_id": "beh_771184",
+    "behavior_text": "wants ordered procedures",
+    "credibility": 0.870192820887699,
+    "reinforcement_count": 3,
+    "last_seen": 1767413127,
+    "prompt_history_ids": [
+      "prompt_5afadd",
+      "prompt_692247",
+      "prompt_a3bd02"
+    ],
+    "user_id": "user_tiny_01",
+    "session_id": "sess__7700f",
+    "clarity_score": 0.9557930427372932,
+    "confidence": 0.99
+  }
+]
