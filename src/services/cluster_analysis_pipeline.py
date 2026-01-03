@@ -473,7 +473,7 @@ class ClusterAnalysisPipeline:
         Assign epistemic states based on density-first inference principles
         
         Three-tier classification:
-        1. CORE: cluster_stability >= median(all_stabilities) - supported latent preferences
+        1. CORE: cluster_stability >= median AND >= absolute threshold (0.15)
         2. INSUFFICIENT_EVIDENCE: high credibility but unstable - retained for future reinforcement
         3. NOISE: low credibility and isolated - discarded
         
@@ -496,63 +496,83 @@ class ClusterAnalysisPipeline:
                 cluster.tier = TierEnum.PRIMARY
             return
         
+        # Absolute minimum stability threshold for CORE clusters
+        # Clusters with raw stability < 0.15 are too unstable to be CORE
+        ABSOLUTE_CORE_THRESHOLD = 0.15
+        
         # Calculate median stability (relative threshold)
         median_stability = np.median(stabilities)
+        logger.info(f"\n{'='*60}")
+        logger.info(f"EPISTEMIC STATE ASSIGNMENT")
+        logger.info(f"{'='*60}")
         logger.info(f"Median cluster stability: {median_stability:.4f}")
+        logger.info(f"Absolute CORE threshold: {ABSOLUTE_CORE_THRESHOLD}")
+        logger.info(f"Number of clusters to classify: {len(behavior_clusters)}")
         
         # Calculate upper quantile for high credibility threshold
         obs_map = {obs.observation_id: obs for obs in observations}
+        all_credibilities = [obs.credibility for obs in observations]
+        upper_quantile = np.percentile(all_credibilities, 75)
+        logger.info(f"Credibility upper quantile (75th): {upper_quantile:.4f}")
         
         # Assign epistemic states
+        logger.info(f"\nClassifying clusters:")
         for cluster in behavior_clusters:
             stability = cluster.cluster_stability or 0.0
             
-            # CORE: stability >= median
-            if stability >= median_stability:
+            # Calculate cluster credibility
+            cluster_credibilities = [
+                obs_map[oid].credibility 
+                for oid in cluster.observation_ids 
+                if oid in obs_map
+            ]
+            mean_credibility = np.mean(cluster_credibilities) if cluster_credibilities else 0.0
+            
+            logger.info(f"\n  {cluster.cluster_id}:")
+            logger.info(f"    - Size: {len(cluster.observation_ids)} observations")
+            logger.info(f"    - Raw stability: {stability:.6f}")
+            logger.info(f"    - Mean credibility: {mean_credibility:.4f}")
+            
+            # CORE: stability >= median AND >= absolute threshold
+            if stability >= median_stability and stability >= ABSOLUTE_CORE_THRESHOLD:
                 cluster.epistemic_state = EpistemicState.CORE
                 # Assign tier based on relative position within CORE clusters
                 if stability >= np.percentile(stabilities, 75):
                     cluster.tier = TierEnum.PRIMARY
                 else:
                     cluster.tier = TierEnum.SECONDARY
+                logger.info(f"    → CORE (tier={cluster.tier.value})")
             else:
                 # Check if INSUFFICIENT_EVIDENCE: high credibility but unstable
-                cluster_credibilities = [
-                    obs_map[oid].credibility 
-                    for oid in cluster.observation_ids 
-                    if oid in obs_map
-                ]
-                mean_credibility = np.mean(cluster_credibilities) if cluster_credibilities else 0.0
-                
-                # Upper quantile threshold for high credibility
-                all_credibilities = [obs.credibility for obs in observations]
-                upper_quantile = np.percentile(all_credibilities, 75)
-                
                 if mean_credibility >= upper_quantile:
                     # High credibility but unstable - insufficient evidence
                     cluster.epistemic_state = EpistemicState.INSUFFICIENT_EVIDENCE
                     cluster.tier = TierEnum.SECONDARY  # Retain but don't expose as primary
-                    logger.info(f"{cluster.cluster_id}: INSUFFICIENT_EVIDENCE (credibility={mean_credibility:.3f}, stability={stability:.3f})")
+                    logger.info(f"    → INSUFFICIENT_EVIDENCE (high credibility={mean_credibility:.3f}, but low stability={stability:.3f})")
                 else:
                     # Low credibility and unstable - noise
                     cluster.epistemic_state = EpistemicState.NOISE
                     cluster.tier = TierEnum.NOISE
+                    logger.info(f"    → NOISE (low credibility={mean_credibility:.3f}, low stability={stability:.3f})")
         
         # Handle noise observations (singletons not in any cluster)
         noise_behaviors = clustering_result.get("noise_behaviors", [])
         if noise_behaviors:
-            logger.info(f"{len(noise_behaviors)} observations classified as noise (not in any cluster)")
+            logger.info(f"\n{len(noise_behaviors)} observations classified as noise by HDBSCAN (not in any cluster)")
         
         # Log epistemic state distribution
         core_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.CORE)
         insufficient_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.INSUFFICIENT_EVIDENCE)
         noise_count = sum(1 for c in behavior_clusters if c.epistemic_state == EpistemicState.NOISE)
         
-        logger.info(
-            f"Epistemic states: {core_count} CORE, "
-            f"{insufficient_count} INSUFFICIENT_EVIDENCE, "
-            f"{noise_count} NOISE"
-        )
+        logger.info(f"\n{'='*60}")
+        logger.info(f"EPISTEMIC STATE SUMMARY")
+        logger.info(f"{'='*60}")
+        logger.info(f"CORE clusters: {core_count}")
+        logger.info(f"INSUFFICIENT_EVIDENCE clusters: {insufficient_count}")
+        logger.info(f"NOISE clusters: {noise_count}")
+        logger.info(f"Noise observations (singletons): {len(noise_behaviors)}")
+        logger.info(f"{'='*60}\n")
     
     def _assign_tier_by_strength(self, cluster_strength: float) -> TierEnum:
         """
