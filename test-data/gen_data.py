@@ -52,6 +52,15 @@ USER_PROFILES = [
         "noise_ratio": 0.05,
         "days_back": 90,
         "description": "Focused specialist - few but very strong behaviors"
+    },
+    {
+        "user_id": "user_massive_dataset",
+        "num_behaviors": 1000,
+        "min_prompts": 3,
+        "max_prompts": 15,
+        "noise_ratio": 0.15,
+        "days_back": 365,
+        "description": "Massive dataset - 1000 behaviors, extensive activity over 1 year"
     }
 ]
 # ===============================================
@@ -202,13 +211,30 @@ def generate_dataset(user_id, num_behaviors, min_prompts, max_prompts, noise_rat
     
     # 1. Select Archetypes (ensure we have enough for the requested count)
     # If requested num_behaviors is higher than our unique archetypes, 
-    # we recycle archetypes but treat them as distinct nuances for the script's sake.
+    # we create variations by combining archetypes with different topics
     selected_archetypes = []
-    while len(selected_archetypes) < num_behaviors:
-        arch = random.choice(BEHAVIOR_ARCHETYPES)
-        # Create a shallow copy so we can modify it slightly if needed, 
-        # or just use it as a pattern source.
-        selected_archetypes.append(arch)
+    
+    if num_behaviors <= len(BEHAVIOR_ARCHETYPES):
+        # Use unique archetypes for small datasets
+        selected_archetypes = random.sample(BEHAVIOR_ARCHETYPES, num_behaviors)
+    else:
+        # For large datasets, create variations by cycling through archetypes
+        # and potentially modifying them slightly for diversity
+        base_archetypes = BEHAVIOR_ARCHETYPES.copy()
+        
+        while len(selected_archetypes) < num_behaviors:
+            if not base_archetypes:
+                base_archetypes = BEHAVIOR_ARCHETYPES.copy()
+            
+            arch = base_archetypes.pop(0)
+            # Create a variation by adding a topic-specific modifier for large datasets
+            if num_behaviors > 50:  # Only for truly massive datasets
+                topic_modifier = random.choice(TOPICS[:10])  # Use first 10 topics as modifiers
+                modified_arch = arch.copy()
+                modified_arch["text"] = f"{arch['text']} (related to {topic_modifier})"
+                selected_archetypes.append(modified_arch)
+            else:
+                selected_archetypes.append(arch)
 
     # 2. Generate Data per Behavior
     for i, arch in enumerate(selected_archetypes):
@@ -312,6 +338,10 @@ def generate_all_datasets():
         
         start_time = datetime.now() - timedelta(days=profile["days_back"])
         
+        # Progress indicator for large datasets
+        if profile["num_behaviors"] > 100:
+            print(f"   ⏳ Generating large dataset ({profile['num_behaviors']} behaviors)...")
+        
         behaviors, prompts = generate_dataset(
             user_id=user_id,
             num_behaviors=profile["num_behaviors"],
@@ -330,6 +360,8 @@ def generate_all_datasets():
         # Save individual user files
         behaviors_file = f"realistic_evaluation_set/behaviors_{user_id}.json"
         prompts_file = f"realistic_evaluation_set/prompts_{user_id}.json"
+        
+        print(f"   💾 Saving {len(behaviors)} behaviors and {len(prompts)} prompts...")
         
         with open(behaviors_file, "w") as f:
             json.dump(behaviors, f, indent=2)

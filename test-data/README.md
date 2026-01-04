@@ -52,14 +52,16 @@ test-data/
   - 45-day timespan
 - **Use Case:** Testing INSUFFICIENT_EVIDENCE classification
 
-### 5. **user_focused_specialist**
-- **Description:** Focused specialist - few but very strong behaviors
+### 6. **user_massive_dataset** ⭐ **NEW**
+- **Description:** Massive dataset - 1000 behaviors, extensive activity over 1 year
 - **Characteristics:**
-  - 5 behaviors (few but strong)
-  - 284 prompts
-  - 5% noise ratio (very focused)
-  - 90-day timespan
-- **Use Case:** Testing strong CORE behavior identification
+  - **1000 behaviors** (largest dataset)
+  - **10,322 prompts** (massive activity)
+  - 15% noise ratio
+  - **365-day timespan** (1 year of activity)
+- **File Sizes:** 0.62 MB (behaviors), 2.49 MB (prompts)
+- **Use Case:** Scalability testing, performance benchmarking, large-scale clustering analysis
+- **Expected Clusters:** 50-200+ clusters depending on stability thresholds
 
 ## 🔧 Generating New Datasets
 
@@ -160,10 +162,12 @@ The test datasets are designed to work with the frontend demo visualization:
 - **Expected:** Long temporal spans (90 days)
 - **Expected:** High reinforcement counts (30-80 prompts)
 
-### user_noisy_explorer
-- **Expected:** More INSUFFICIENT_EVIDENCE and NOISE classifications
-- **Expected:** Lower average stability scores
-- **Expected:** Many singleton or small clusters
+### user_massive_dataset ⭐ **NEW**
+- **Expected:** 50-200+ clusters depending on stability thresholds
+- **Expected:** Mix of CORE, INSUFFICIENT_EVIDENCE, and NOISE classifications
+- **Expected:** Complex 2D embedding space with many clusters
+- **Performance Test:** Excellent for testing system scalability and memory usage
+- **Analysis Time:** May take several minutes to process
 
 ## 🔍 Data Validation
 
@@ -185,5 +189,12 @@ Each generated dataset includes:
 - Session IDs format: `sess_{category}_{index}`
 
 ## 🎓 Generated: January 4, 2026
+
+**Total Data Generated:**
+- **6 user datasets** with diverse characteristics
+- **1,053 total behaviors** across all users
+- **12,439 total prompts** across all users
+- **Massive dataset:** 1000 behaviors, 10,322 prompts (largest single dataset)
+- **File sizes range:** 19 KB to 2.49 MB
 
 These datasets were generated using the enhanced `gen_data.py` script with configurable user profiles for comprehensive system testing.
