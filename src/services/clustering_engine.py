@@ -60,23 +60,6 @@ class ClusteringEngine:
             if len(embeddings) != len(behavior_ids):
                 raise ValueError("Embeddings and behavior_ids must have same length")
             
-            if len(embeddings) < self.min_cluster_size:
-                logger.warning(
-                    f"Not enough behaviors ({len(embeddings)}) for clustering. "
-                    f"Minimum required: {self.min_cluster_size}"
-                )
-                return {
-                    "clusters": {},
-                    "cluster_sizes": {},
-                    "cluster_embeddings": {},
-                    "cluster_centroids": {},
-                    "intra_cluster_distances": {},
-                    "labels": [-1] * len(behavior_ids),
-                    "noise_behaviors": behavior_ids,
-                    "num_clusters": 0,
-                    "normalized_embeddings": np.array([])
-                }
-            
             # Convert to numpy array
             X = np.array(embeddings)
             

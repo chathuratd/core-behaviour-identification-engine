@@ -198,29 +198,35 @@ const EmbeddingChart = ({ behaviors, stabilityThreshold }: { behaviors: Behavior
           let r = 4;
           let opacity = 0.5;
           let stroke = 'none';
+          let strokeWidth = 0;
 
           // Use explicit epistemicState field from backend
           const state = b.epistemicState || 'NOISE';
           
           if (state === 'CORE') {
-            fill = '#059669'; // Green: CORE
-            r = 6;
-            opacity = 0.9;
+            fill = '#10B981'; // Bright Green: CORE - much more vibrant
+            r = 8;
+            opacity = 1.0;
+            stroke = '#047857'; // Dark green stroke for emphasis
+            strokeWidth = 2;
           } else if (state === 'INSUFFICIENT_EVIDENCE') {
-            fill = '#D97706'; // Orange: INSUFFICIENT
-            r = 5;
-            opacity = 0.7;
+            fill = '#F59E0B'; // Bright Orange: INSUFFICIENT - more vibrant
+            r = 6;
+            opacity = 0.85;
+            stroke = '#D97706';
+            strokeWidth = 1;
           } else {
             // NOISE
             fill = '#9CA3AF'; // Gray
             r = 3;
-            opacity = 0.4;
+            opacity = 0.3;
           }
           
           const isHovered = hovered === b.id;
           if (isHovered) {
-            r = 8;
+            r = r + 2;
             stroke = '#000';
+            strokeWidth = 2;
             opacity = 1;
           }
 
@@ -233,7 +239,7 @@ const EmbeddingChart = ({ behaviors, stabilityThreshold }: { behaviors: Behavior
               fill={fill}
               opacity={opacity}
               stroke={stroke}
-              strokeWidth={2}
+              strokeWidth={strokeWidth}
               onMouseEnter={() => setHovered(b.id)}
               onMouseLeave={() => setHovered(null)}
               style={{ transition: 'all 0.2s', cursor: 'pointer' }}
