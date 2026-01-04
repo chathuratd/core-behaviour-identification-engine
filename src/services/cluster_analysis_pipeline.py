@@ -234,6 +234,11 @@ class ClusterAnalysisPipeline:
                 current_timestamp
             )
             
+            # Step 4.1: Assign cluster_id to observations from clustering result
+            cluster_labels = clustering_result["labels"]  # Array of cluster IDs (-1 for noise)
+            for obs, cluster_label in zip(observations, cluster_labels):
+                obs.cluster_id = int(cluster_label)
+            
             # Step 5: Assign epistemic states and tiers based on cluster stability
             logger.info("Step 5: Assigning epistemic states and tiers")
             self._assign_epistemic_states(behavior_clusters, observations, clustering_result)
