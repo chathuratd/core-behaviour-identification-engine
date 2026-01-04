@@ -79,7 +79,9 @@ def _umap_projection(
             n_neighbors=actual_n_neighbors,
             min_dist=min_dist,
             random_state=random_state,
-            metric='cosine'  # Use cosine similarity for semantic embeddings
+            metric='cosine',  # Use cosine similarity for semantic embeddings
+            spread=1.0,  # Controls how tightly points are packed
+            set_op_mix_ratio=0.5  # Balance between local and global structure
         )
         
         projections = reducer.fit_transform(embeddings)

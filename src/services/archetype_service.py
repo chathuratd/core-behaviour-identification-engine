@@ -35,7 +35,8 @@ class ArchetypeService:
     def generate_archetype(
         self,
         canonical_behaviors: List[str],
-        user_id: Optional[str] = None
+        user_id: Optional[str] = None,
+        behavior_count: Optional[int] = None
     ) -> str:
         """
         Generate behavioral archetype label from canonical behaviors
@@ -43,6 +44,7 @@ class ArchetypeService:
         Args:
             canonical_behaviors: List of behavior text strings
             user_id: Optional user ID for logging
+            behavior_count: Total number of behaviors (for logging only)
             
         Returns:
             str: Archetype label (e.g., "Visual Learner")
@@ -79,9 +81,12 @@ class ArchetypeService:
             # Clean up the response (remove quotes, extra punctuation)
             archetype = archetype.strip('"\'.,')
             
+            # Log with behavior count if provided, otherwise use cluster count
+            count = behavior_count if behavior_count is not None else len(canonical_behaviors)
+            count_label = "behaviors" if behavior_count is not None else "clusters"
             logger.info(
                 f"Generated archetype for user {user_id}: '{archetype}' "
-                f"from {len(canonical_behaviors)} behaviors"
+                f"from {count} {count_label}"
             )
             
             return archetype

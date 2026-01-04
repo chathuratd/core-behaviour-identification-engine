@@ -47,6 +47,7 @@ class BehaviorObservation(BaseModel):
     
     # Clustering result (assigned after HDBSCAN)
     cluster_id: Optional[int] = None  # Cluster assignment (-1 for NOISE)
+    epistemic_state: Optional[EpistemicState] = None  # CORE, INSUFFICIENT_EVIDENCE, or NOISE
     
     # Legacy fields for backward compatibility
     decay_rate: float = Field(ge=0.0, default=0.01)

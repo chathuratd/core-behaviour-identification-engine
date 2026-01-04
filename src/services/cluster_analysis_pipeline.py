@@ -243,6 +243,16 @@ class ClusterAnalysisPipeline:
             logger.info("Step 5: Assigning epistemic states and tiers")
             self._assign_epistemic_states(behavior_clusters, observations, clustering_result)
             
+            # Step 5.1: Propagate epistemic states from clusters to observations
+            cluster_state_map = {c.cluster_id: c.epistemic_state for c in behavior_clusters}
+            for obs in observations:
+                if obs.cluster_id == -1:
+                    obs.epistemic_state = EpistemicState.NOISE
+                else:
+                    # Find the cluster and get its epistemic state
+                    cluster_id_str = f"cluster_{obs.cluster_id}"
+                    obs.epistemic_state = cluster_state_map.get(cluster_id_str, EpistemicState.NOISE)
+            
             # Step 6: Store in databases (if requested)
             if store_in_dbs and not skip_observation_storage:
                 logger.info("Step 6: Storing observations and clusters in databases")
@@ -284,6 +294,7 @@ class ClusterAnalysisPipeline:
                                 "behavior_text": obs.behavior_text,
                                 "embedding": obs.embedding,
                                 "cluster_id": obs.cluster_id,
+                                "epistemic_state": obs.epistemic_state.value if obs.epistemic_state else "NOISE",
                                 "credibility": obs.credibility,
                                 "timestamp": obs.timestamp,
                                 "prompt_id": obs.prompt_id
@@ -291,20 +302,25 @@ class ClusterAnalysisPipeline:
                         },
                         upsert=True
                     )
-                logger.info(f"Updated {len(observations)} behaviors in MongoDB with cluster assignments")
+                logger.info(f"Updated {len(observations)} behaviors in MongoDB with cluster assignments and epistemic states")
             
             # Step 7: Generate archetype (optional)
             archetype = None
             if generate_archetype and behavior_clusters:
                 logger.info("Step 7: Generating archetype")
                 # Only use CORE preferences for archetype generation
-                canonical_labels = [
-                    c.canonical_label 
-                    for c in behavior_clusters 
+                core_clusters = [
+                    c for c in behavior_clusters 
                     if c.epistemic_state == EpistemicState.CORE
                 ]
-                if canonical_labels:
-                    archetype = self.archetype_service.generate_archetype(canonical_labels, user_id)
+                if core_clusters:
+                    canonical_labels = [c.canonical_label for c in core_clusters]
+                    total_core_behaviors = sum(c.cluster_size for c in core_clusters)
+                    archetype = self.archetype_service.generate_archetype(
+                        canonical_labels, 
+                        user_id, 
+                        behavior_count=total_core_behaviors
+                    )
             
             # Step 8: Calculate statistics
             time_span_days = self._calculate_time_span(prompts)

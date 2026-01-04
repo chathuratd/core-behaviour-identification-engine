@@ -430,6 +430,9 @@ async def get_analysis_summary(user_id: str):
             "embedding": {"$exists": True, "$ne": None}
         }))
         
+        # Sort by cluster_id to ensure CORE behaviors are grouped together
+        all_behaviors.sort(key=lambda b: (b.get("cluster_id", -1), b.get("observation_id", "")))
+        
         if not all_behaviors:
             logger.warning(f"No behaviors with embeddings found for user {user_id}")
             return {
@@ -448,12 +451,10 @@ async def get_analysis_summary(user_id: str):
         
         # Extract embeddings for projection
         embeddings = [b["embedding"] for b in all_behaviors]
+        cluster_ids_debug = [b.get("cluster_id", -1) for b in all_behaviors]
         
         logger.info(f"Projecting {len(embeddings)} embeddings to 2D (includes ALL: CORE, INSUFFICIENT, NOISE)")
-        projections_2d = project_embeddings_to_2d(embeddings)
-        projections_2d = normalize_2d_coordinates(projections_2d, target_range=(-10.0, 10.0))
-        
-        logger.info(f"Projecting {len(embeddings)} embeddings to 2D (includes ALL: CORE, INSUFFICIENT, NOISE)")
+        logger.info(f"Cluster distribution: {cluster_ids_debug}")
         projections_2d = project_embeddings_to_2d(embeddings)
         projections_2d = normalize_2d_coordinates(projections_2d, target_range=(-10.0, 10.0))
         
@@ -462,16 +463,17 @@ async def get_analysis_summary(user_id: str):
         for i, behavior in enumerate(all_behaviors):
             cluster_id = behavior.get("cluster_id", -1)
             
-            # Determine epistemic state
+            # Get epistemic_state directly from behavior document (stored in Step 6.1)
+            epistemic_state = behavior.get("epistemic_state", "NOISE")
+            
+            # Determine cluster name and stability
             if cluster_id == -1:
-                # NOISE: Not part of any cluster
-                epistemic_state = "NOISE"
                 cluster_name = "Noise"
                 cluster_stability = 0.0
             else:
-                # Get from cluster metadata
-                metadata = cluster_metadata.get(cluster_id, {})
-                epistemic_state = metadata.get("epistemic_state", "UNKNOWN")
+                # Convert cluster_id to string format for lookup ("cluster_0", "cluster_1")
+                cluster_key = f"cluster_{cluster_id}"
+                metadata = cluster_metadata.get(cluster_key, {})
                 cluster_name = metadata.get("cluster_name", f"Cluster {cluster_id}")
                 cluster_stability = metadata.get("cluster_stability", 0.0)
             
@@ -491,7 +493,7 @@ async def get_analysis_summary(user_id: str):
                 "clusterId": cluster_id,
                 "clusterName": cluster_name,
                 "clusterStability": cluster_stability,
-                "epistemicState": epistemic_state  # Explicit state for frontend
+                "epistemicState": epistemic_state  # Direct from behavior document
             })
         
         # Build clusters array
@@ -522,7 +524,7 @@ async def get_analysis_summary(user_id: str):
         metrics = {
             "totalObservations": len(behaviors),
             "coreClusters": core_clusters,
-            "insufficientEvidence": len(insufficient_behaviors),
+            "insufficientEvidence": insufficient_clusters,  # Changed to cluster count not behavior count
             "noiseObservations": len(noise_behaviors),
             "totalClusters": len(clusters)
         }
