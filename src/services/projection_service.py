@@ -3,6 +3,7 @@
 Provides UMAP-based dimensionality reduction for behavior embedding visualization
 """
 import logging
+import warnings
 from typing import List, Dict, Optional
 import numpy as np
 
@@ -11,6 +12,8 @@ logger = logging.getLogger(__name__)
 try:
     from umap import UMAP
     UMAP_AVAILABLE = True
+    # Suppress UMAP's n_jobs warning when using random_state for reproducibility
+    warnings.filterwarnings('ignore', message='n_jobs value.*overridden.*random_state')
 except ImportError:
     logger.warning("UMAP not installed. 2D projections will use fallback method.")
     UMAP_AVAILABLE = False
