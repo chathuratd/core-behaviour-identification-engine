@@ -1,0 +1,425 @@
+[
+  {
+    "prompt_id": "prompt_e26163ed_014122",
+    "prompt_text": "Will it rain tomorrow?",
+    "timestamp": 1765903905,
+    "tokens": 9.8,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_97c4c9ce_014113",
+    "prompt_text": "How to make sushi?",
+    "timestamp": 1765954038,
+    "tokens": 9.6,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_8318158e_014125",
+    "prompt_text": "Benefits of exercise?",
+    "timestamp": 1766028538,
+    "tokens": 8.1,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_5611a3d8_014128",
+    "prompt_text": "What time is it in Paris?",
+    "timestamp": 1766099199,
+    "tokens": 5.0,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_f12fc089_014116",
+    "prompt_text": "Good sci-fi movies?",
+    "timestamp": 1766152718,
+    "tokens": 5.6,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_07220e2a_014119",
+    "prompt_text": "Cheap flights to Europe?",
+    "timestamp": 1766153604,
+    "tokens": 7.2,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_b9c831fe_014108",
+    "prompt_text": "I prefer command line for file operations",
+    "timestamp": 1766287590,
+    "tokens": 12.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_d43bc18f_014110",
+    "prompt_text": "CLI way to handle git operations",
+    "timestamp": 1766311527,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_9d03d564_014066",
+    "prompt_text": "Show me functional approach to data transformations",
+    "timestamp": 1766406794,
+    "tokens": 21.3,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_1be757cf_014096",
+    "prompt_text": "Prefer simple approach to HTTP requests",
+    "timestamp": 1766426198,
+    "tokens": 24.8,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_43b24859_014068",
+    "prompt_text": "Like using higher-order functions for composition patterns",
+    "timestamp": 1766436845,
+    "tokens": 14.4,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_4d75e36d_014093",
+    "prompt_text": "I prefer lightweight solution for routing",
+    "timestamp": 1766507886,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_63d230f7_014105",
+    "prompt_text": "What's the latest framework for backend APIs?",
+    "timestamp": 1766530228,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_2f53c7b2_014085",
+    "prompt_text": "Prefer using TS for hooks",
+    "timestamp": 1766544043,
+    "tokens": 15.3,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_a053ee30_014081",
+    "prompt_text": "I favor TypeScript when building data models",
+    "timestamp": 1766555305,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_9473b9b7_014095",
+    "prompt_text": "I prefer lightweight solution for testing",
+    "timestamp": 1766574854,
+    "tokens": 24.7,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_ee0b67a7_014083",
+    "prompt_text": "I like having types for configuration",
+    "timestamp": 1766629864,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_bd3c2985_014073",
+    "prompt_text": "Prefer immutable async operations patterns",
+    "timestamp": 1766696059,
+    "tokens": 14.5,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_d47839ea_014086",
+    "prompt_text": "Prefer using TS for data models",
+    "timestamp": 1766745193,
+    "tokens": 20.5,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_276171e5_014067",
+    "prompt_text": "I prefer using functional error handling over imperative",
+    "timestamp": 1766756391,
+    "tokens": 23.6,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e95ddd58_014072",
+    "prompt_text": "I favor pure functions when working with array operations",
+    "timestamp": 1766767350,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e9887c03_014084",
+    "prompt_text": "I like having types for data models",
+    "timestamp": 1766834108,
+    "tokens": 18.3,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_d132759a_014092",
+    "prompt_text": "Minimal library for testing?",
+    "timestamp": 1766838178,
+    "tokens": 16.7,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_3328656b_014069",
+    "prompt_text": "Like using higher-order functions for composition patterns",
+    "timestamp": 1766900530,
+    "tokens": 23.0,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_bfc35620_014071",
+    "prompt_text": "I like functional programming for async operations",
+    "timestamp": 1766953923,
+    "tokens": 23.1,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e097470b_014070",
+    "prompt_text": "I favor pure functions when working with composition patterns",
+    "timestamp": 1766957305,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_3fe0cd4b_014109",
+    "prompt_text": "I prefer command line for package management",
+    "timestamp": 1767005467,
+    "tokens": 15.7,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_d819e320_014094",
+    "prompt_text": "Simple and small routing solution",
+    "timestamp": 1767019389,
+    "tokens": 22.9,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_083529a6_014104",
+    "prompt_text": "I like trying new frameworks for frontend development",
+    "timestamp": 1767059532,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_315d514f_014102",
+    "prompt_text": "What's the latest framework for frontend development?",
+    "timestamp": 1767064671,
+    "tokens": 7.0,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_846909e3_014082",
+    "prompt_text": "How to implement API clients in TypeScript?",
+    "timestamp": 1767088531,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_458581a3_014080",
+    "prompt_text": "Type-safe data models implementation",
+    "timestamp": 1767093494,
+    "tokens": 16.4,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_ecd51602_014140",
+    "prompt_text": "How tall is Mount Everest?",
+    "timestamp": 1767150527,
+    "tokens": 7.7,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_10b42cc7_014131",
+    "prompt_text": "Who won the basketball game?",
+    "timestamp": 1767183866,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_f51cc37f_014088",
+    "prompt_text": "Type-safe hooks implementation",
+    "timestamp": 1767265183,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6f1853cc_014077",
+    "prompt_text": "I like functional programming for async operations",
+    "timestamp": 1767287788,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_cbb1904b_014137",
+    "prompt_text": "What's the population of Tokyo?",
+    "timestamp": 1767423192,
+    "tokens": 7.2,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_0a79e8c8_014087",
+    "prompt_text": "I like having types for React components",
+    "timestamp": 1767464179,
+    "tokens": 24.0,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6109166a_014098",
+    "prompt_text": "I favor minimal setup for date handling",
+    "timestamp": 1767471458,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_a54938a9_014089",
+    "prompt_text": "TypeScript version of utility functions please",
+    "timestamp": 1767477842,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_ca5175e8_014134",
+    "prompt_text": "Best rock bands?",
+    "timestamp": 1767529664,
+    "tokens": 4.8,
+    "is_noise": true,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_6870695b_014076",
+    "prompt_text": "Prefer immutable async operations patterns",
+    "timestamp": 1767578927,
+    "tokens": 22.7,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_fe086a58_014075",
+    "prompt_text": "Prefer immutable state management patterns",
+    "timestamp": 1767583141,
+    "tokens": 10.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_bd873102_014103",
+    "prompt_text": "I enjoy exploring frontend development alternatives",
+    "timestamp": 1767598825,
+    "tokens": 16.6,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_d89f0178_014097",
+    "prompt_text": "I favor minimal setup for routing",
+    "timestamp": 1767608948,
+    "tokens": 19.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_4ab6d3b4_014074",
+    "prompt_text": "I like functional programming for composition patterns",
+    "timestamp": 1767623221,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_aa6e943d_014099",
+    "prompt_text": "I favor minimal setup for HTTP requests",
+    "timestamp": 1767653059,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002"
+  }
+]

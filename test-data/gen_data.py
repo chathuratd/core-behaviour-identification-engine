@@ -238,6 +238,198 @@ USER_PROFILES = [
         "noise_ratio": 0.15,
         "days_back": 365,
         "description": "Massive dataset - 1000 behaviors, extensive activity over 1 year"
+    },
+    {
+        "user_id": "user_preference_based_dev",
+        "mode": "controlled_demo",
+        "core_behaviors": [
+            {
+                "text": "prefers functional programming paradigms",
+                "occurrences": 12,
+                "credibility_range": (0.84, 0.93),
+                "templates": [
+                    "I prefer using functional {topic} over imperative",
+                    "Show me functional approach to {topic}",
+                    "I like functional programming for {topic}",
+                    "Prefer immutable {topic} patterns",
+                    "I favor pure functions when working with {topic}",
+                    "Functional way to handle {topic}",
+                    "I prefer declarative {topic} style",
+                    "Like using higher-order functions for {topic}"
+                ],
+                "topics": ["array operations", "state management", "data transformations", 
+                          "error handling", "async operations", "composition patterns"]
+            },
+            {
+                "text": "likes TypeScript over JavaScript",
+                "occurrences": 10,
+                "credibility_range": (0.81, 0.91),
+                "templates": [
+                    "I prefer TypeScript for {topic}",
+                    "How to implement {topic} in TypeScript?",
+                    "I like TypeScript's type safety for {topic}",
+                    "TypeScript version of {topic} please",
+                    "Prefer using TS for {topic}",
+                    "I favor TypeScript when building {topic}",
+                    "Type-safe {topic} implementation",
+                    "I like having types for {topic}"
+                ],
+                "topics": ["React components", "API clients", "utility functions", 
+                          "configuration", "data models", "hooks"]
+            },
+            {
+                "text": "prefers minimal and lightweight libraries",
+                "occurrences": 8,
+                "credibility_range": (0.79, 0.89),
+                "templates": [
+                    "I prefer lightweight solution for {topic}",
+                    "Minimal library for {topic}?",
+                    "I like keeping {topic} dependencies small",
+                    "Prefer simple approach to {topic}",
+                    "Lightweight alternative for {topic}",
+                    "I favor minimal setup for {topic}",
+                    "Simple and small {topic} solution"
+                ],
+                "topics": ["date handling", "HTTP requests", "state management", 
+                          "routing", "validation", "testing"]
+            }
+        ],
+        "insufficient_behaviors": [
+            {
+                "text": "enjoys experimenting with new frameworks",
+                "occurrences": 4,
+                "credibility_range": (0.70, 0.81),
+                "templates": [
+                    "I like trying new frameworks for {topic}",
+                    "What's the latest framework for {topic}?",
+                    "I enjoy exploring {topic} alternatives",
+                    "New tech for {topic}?"
+                ],
+                "topics": ["frontend development", "backend APIs", "build tools", "testing"]
+            },
+            {
+                "text": "prefers CLI tools over GUI",
+                "occurrences": 3,
+                "credibility_range": (0.68, 0.79),
+                "templates": [
+                    "I prefer command line for {topic}",
+                    "CLI way to handle {topic}",
+                    "I like using terminal for {topic}"
+                ],
+                "topics": ["git operations", "package management", "file operations"]
+            }
+        ],
+        "noise_behaviors": [
+            {"text": "random sports query", "credibility": 0.37, "template": "Who won the basketball game?"},
+            {"text": "asks about recipes", "credibility": 0.41, "template": "How to make sushi?"},
+            {"text": "weather inquiry", "credibility": 0.33, "template": "Will it rain tomorrow?"},
+            {"text": "movie suggestion", "credibility": 0.44, "template": "Good sci-fi movies?"},
+            {"text": "random trivia", "credibility": 0.38, "template": "What's the population of Tokyo?"},
+            {"text": "music question", "credibility": 0.36, "template": "Best rock bands?"},
+            {"text": "travel query", "credibility": 0.42, "template": "Cheap flights to Europe?"},
+            {"text": "health question", "credibility": 0.39, "template": "Benefits of exercise?"},
+            {"text": "random fact", "credibility": 0.35, "template": "How tall is Mount Everest?"},
+            {"text": "unrelated question", "credibility": 0.40, "template": "What time is it in Paris?"}
+        ],
+        "days_back": 21,
+        "description": "DEMO: Developer with strong preferences for functional programming, TypeScript, and minimal dependencies"
+    },
+    {
+        "user_id": "user_learning_preferences",
+        "mode": "controlled_demo",
+        "core_behaviors": [
+            {
+                "text": "prefers learning through hands-on examples",
+                "occurrences": 14,
+                "credibility_range": (0.86, 0.95),
+                "templates": [
+                    "I prefer hands-on examples for {topic}",
+                    "Show me practical example of {topic}",
+                    "I like learning {topic} by doing",
+                    "Give me working code for {topic}",
+                    "I prefer interactive examples of {topic}",
+                    "Hands-on tutorial for {topic}",
+                    "I like to see {topic} in action",
+                    "Real-world example of {topic} please",
+                    "I prefer practical exercises for {topic}"
+                ],
+                "topics": ["machine learning algorithms", "API integration", "database queries", 
+                          "authentication flows", "web scraping", "data visualization", "testing strategies"]
+            },
+            {
+                "text": "likes concise documentation over verbose explanations",
+                "occurrences": 11,
+                "credibility_range": (0.83, 0.92),
+                "templates": [
+                    "I prefer concise docs for {topic}",
+                    "Brief explanation of {topic}",
+                    "I like short and clear {topic} guide",
+                    "Quick reference for {topic}",
+                    "I prefer TL;DR style for {topic}",
+                    "Short doc on {topic}",
+                    "I like quick overview of {topic}",
+                    "Concise {topic} documentation"
+                ],
+                "topics": ["API endpoints", "configuration options", "CLI commands", 
+                          "library methods", "syntax rules", "best practices"]
+            },
+            {
+                "text": "prefers video tutorials over text-based content",
+                "occurrences": 9,
+                "credibility_range": (0.80, 0.90),
+                "templates": [
+                    "I prefer video tutorial for {topic}",
+                    "Any video explaining {topic}?",
+                    "I like watching tutorials on {topic}",
+                    "Video walkthrough of {topic}",
+                    "I prefer learning {topic} through videos",
+                    "YouTube tutorial for {topic}",
+                    "I like video demonstrations of {topic}"
+                ],
+                "topics": ["design patterns", "system architecture", "Docker setup", 
+                          "CI/CD pipelines", "cloud deployment", "debugging techniques"]
+            }
+        ],
+        "insufficient_behaviors": [
+            {
+                "text": "enjoys contributing to open source",
+                "occurrences": 4,
+                "credibility_range": (0.69, 0.80),
+                "templates": [
+                    "I like contributing to {topic} projects",
+                    "How to contribute to {topic} repo?",
+                    "I enjoy open source {topic} work",
+                    "Good {topic} projects to contribute to?"
+                ],
+                "topics": ["Python libraries", "documentation", "testing frameworks", "utilities"]
+            },
+            {
+                "text": "prefers pair programming for complex tasks",
+                "occurrences": 3,
+                "credibility_range": (0.67, 0.78),
+                "templates": [
+                    "I prefer pair programming for {topic}",
+                    "I like collaborative work on {topic}",
+                    "Best practices for pairing on {topic}"
+                ],
+                "topics": ["refactoring", "architecture decisions", "debugging"]
+            }
+        ],
+        "noise_behaviors": [
+            {"text": "asks about news", "credibility": 0.36, "template": "What's happening in the news?"},
+            {"text": "gaming question", "credibility": 0.43, "template": "Best strategy games?"},
+            {"text": "random calculation", "credibility": 0.39, "template": "What's 25% of 800?"},
+            {"text": "book recommendation", "credibility": 0.41, "template": "Good fantasy books?"},
+            {"text": "language query", "credibility": 0.34, "template": "How to say hello in Spanish?"},
+            {"text": "historical fact", "credibility": 0.37, "template": "When was the printing press invented?"},
+            {"text": "shopping question", "credibility": 0.40, "template": "Best laptop brands?"},
+            {"text": "random science", "credibility": 0.38, "template": "How do magnets work?"},
+            {"text": "geography query", "credibility": 0.35, "template": "Capital of Australia?"},
+            {"text": "unrelated topic", "credibility": 0.42, "template": "How to train a dog?"},
+            {"text": "food question", "credibility": 0.37, "template": "Healthy breakfast ideas?"}
+        ],
+        "days_back": 18,
+        "description": "DEMO: Learner with strong preferences for hands-on examples, concise docs, and video tutorials"
     }
 ]
 # ===============================================

@@ -2,11 +2,23 @@
 Calculation Engine for CBIE System
 Implements cluster-centric formulas from MVP documentation
 
-ACTIVE METHODS:
-  ✅ calculate_cluster_strength() - Main cluster scoring
-  ✅ calculate_cluster_confidence() - Confidence metrics
-  ✅ select_canonical_label() - Label selection
-  ✅ _calculate_recency_factor() - Temporal decay
+METHOD USAGE STATUS:
+  ✅ calculate_behavior_metrics() - USED for quality scoring (NOT for CORE detection)
+  ✅ calculate_cluster_strength() - USED for LLM context filtering (NOT for CORE detection)
+  ✅ _calculate_recency_factor() - USED in cluster_strength + stored as metadata (NOT for CORE detection)
+  ✅ calculate_confidence_from_stability() - USED for LLM context filtering (NOT for CORE detection)
+  ✅ calculate_cluster_confidence() - USED for metadata/analytics storage (NOT for CORE detection)
+  ✅ select_canonical_label() - USED for UI display (NOT for CORE detection)
+
+CORE BEHAVIOR DETECTION:
+  ⚠️ NONE of the methods in this file are used for CORE vs non-CORE classification
+  ⚠️ CORE detection uses ONLY: cluster_stability (HDBSCAN persistence from clustering_engine.py)
+  ⚠️ Formula: stability >= median_stability AND stability >= 0.15 → CORE
+  
+NOTE: These methods calculate important metrics for:
+  - LLM context selection (cluster_strength >= min_strength, confidence >= min_confidence)
+  - Analytics and metadata storage (consistency_score, reinforcement_score, clarity_trend)
+  - UI display (canonical_label, cluster_name)
 """
 import math
 from typing import List, Dict, Any, Optional

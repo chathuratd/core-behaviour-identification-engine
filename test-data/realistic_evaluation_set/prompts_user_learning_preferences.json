@@ -1,0 +1,470 @@
+[
+  {
+    "prompt_id": "prompt_9b453880_014200",
+    "prompt_text": "How to say hello in Spanish?",
+    "timestamp": 1766165159,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_83637152_014203",
+    "prompt_text": "Best strategy games?",
+    "timestamp": 1766187417,
+    "tokens": 5.7,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_c055a66d_014206",
+    "prompt_text": "Capital of Australia?",
+    "timestamp": 1766269274,
+    "tokens": 3.4,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_63b88172_014194",
+    "prompt_text": "Best laptop brands?",
+    "timestamp": 1766385755,
+    "tokens": 3.4,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_5214d883_014209",
+    "prompt_text": "What's happening in the news?",
+    "timestamp": 1766389633,
+    "tokens": 6.1,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_1fa93eb5_014197",
+    "prompt_text": "Good fantasy books?",
+    "timestamp": 1766420480,
+    "tokens": 6.9,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_71f35016_014162",
+    "prompt_text": "I like quick overview of library methods",
+    "timestamp": 1766469207,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_5863bf97_014189",
+    "prompt_text": "I like collaborative work on debugging",
+    "timestamp": 1766475037,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_84336597_014165",
+    "prompt_text": "I like short and clear library methods guide",
+    "timestamp": 1766483061,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_2d38af86_014160",
+    "prompt_text": "Concise syntax rules documentation",
+    "timestamp": 1766492169,
+    "tokens": 14.7,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_30f40968_014190",
+    "prompt_text": "I like collaborative work on debugging",
+    "timestamp": 1766493453,
+    "tokens": 19.6,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_4281838b_014150",
+    "prompt_text": "I prefer practical exercises for data visualization",
+    "timestamp": 1766538396,
+    "tokens": 19.9,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_1a20d832_014173",
+    "prompt_text": "I like video demonstrations of debugging techniques",
+    "timestamp": 1766538749,
+    "tokens": 12.0,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_d3667885_014164",
+    "prompt_text": "Brief explanation of CLI commands",
+    "timestamp": 1766572168,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_eb72c3ae_014176",
+    "prompt_text": "YouTube tutorial for cloud deployment",
+    "timestamp": 1766582956,
+    "tokens": 17.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_b9792cbe_014147",
+    "prompt_text": "Show me practical example of testing strategies",
+    "timestamp": 1766692513,
+    "tokens": 20.2,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_a2cc2cfc_014172",
+    "prompt_text": "I like watching tutorials on CI/CD pipelines",
+    "timestamp": 1766719803,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_6811f3a3_014145",
+    "prompt_text": "I prefer hands-on examples for authentication flows",
+    "timestamp": 1766747502,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_87ccf189_014174",
+    "prompt_text": "I like video demonstrations of Docker setup",
+    "timestamp": 1766816795,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_84129413_014191",
+    "prompt_text": "I like collaborative work on debugging",
+    "timestamp": 1766854841,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_8ee7cb34_014149",
+    "prompt_text": "I prefer interactive examples of API integration",
+    "timestamp": 1766894404,
+    "tokens": 17.1,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_b54e0527_014151",
+    "prompt_text": "Show me practical example of web scraping",
+    "timestamp": 1766922167,
+    "tokens": 15.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_55054cc3_014177",
+    "prompt_text": "Video walkthrough of debugging techniques",
+    "timestamp": 1766951157,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_0598a4cc_014163",
+    "prompt_text": "I prefer TL;DR style for library methods",
+    "timestamp": 1766989548,
+    "tokens": 23.4,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_07b0d05b_014148",
+    "prompt_text": "Real-world example of database queries please",
+    "timestamp": 1766999281,
+    "tokens": 22.6,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_08ad1108_014144",
+    "prompt_text": "Give me working code for web scraping",
+    "timestamp": 1767019246,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_1bf2258d_014175",
+    "prompt_text": "I prefer video tutorial for system architecture",
+    "timestamp": 1767034001,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_21e964f2_014143",
+    "prompt_text": "I prefer practical exercises for database queries",
+    "timestamp": 1767092158,
+    "tokens": 14.7,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_a572f48f_014159",
+    "prompt_text": "Concise configuration options documentation",
+    "timestamp": 1767097381,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_c8e0abe3_014161",
+    "prompt_text": "Brief explanation of CLI commands",
+    "timestamp": 1767101355,
+    "tokens": 22.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6e67877b_014146",
+    "prompt_text": "I like learning authentication flows by doing",
+    "timestamp": 1767144092,
+    "tokens": 24.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_992a8df1_014166",
+    "prompt_text": "I like quick overview of API endpoints",
+    "timestamp": 1767234427,
+    "tokens": 22.1,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_705e8a38_014152",
+    "prompt_text": "Hands-on tutorial for data visualization",
+    "timestamp": 1767279721,
+    "tokens": 24.8,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e783a989_014212",
+    "prompt_text": "When was the printing press invented?",
+    "timestamp": 1767308443,
+    "tokens": 4.7,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_47e8e41c_014169",
+    "prompt_text": "Brief explanation of CLI commands",
+    "timestamp": 1767348229,
+    "tokens": 18.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_76d77a6a_014186",
+    "prompt_text": "Good documentation projects to contribute to?",
+    "timestamp": 1767364032,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_494d89cf_014153",
+    "prompt_text": "I prefer hands-on examples for data visualization",
+    "timestamp": 1767382191,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_a44561fe_014183",
+    "prompt_text": "Good testing frameworks projects to contribute to?",
+    "timestamp": 1767394984,
+    "tokens": 17.3,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_6715950e_014179",
+    "prompt_text": "Any video explaining CI/CD pipelines?",
+    "timestamp": 1767450731,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_40df2783_014184",
+    "prompt_text": "I like contributing to testing frameworks projects",
+    "timestamp": 1767463109,
+    "tokens": 18.7,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_5429da7f_014167",
+    "prompt_text": "I prefer concise docs for syntax rules",
+    "timestamp": 1767493814,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_1d1acda8_014180",
+    "prompt_text": "YouTube tutorial for Docker setup",
+    "timestamp": 1767501359,
+    "tokens": 16.0,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_b5df4be7_014168",
+    "prompt_text": "Brief explanation of CLI commands",
+    "timestamp": 1767598078,
+    "tokens": 16.1,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_2d01fb10_014154",
+    "prompt_text": "Give me working code for machine learning algorithms",
+    "timestamp": 1767600502,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_4995d12b_014218",
+    "prompt_text": "Healthy breakfast ideas?",
+    "timestamp": 1767605635,
+    "tokens": 7.3,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_938636fe_014224",
+    "prompt_text": "What's 25% of 800?",
+    "timestamp": 1767609521,
+    "tokens": 6.9,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_1f27207b_014178",
+    "prompt_text": "I like video demonstrations of cloud deployment",
+    "timestamp": 1767638676,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_a09cbf51_014155",
+    "prompt_text": "I prefer interactive examples of database queries",
+    "timestamp": 1767643966,
+    "tokens": 13.5,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e07f9394_014221",
+    "prompt_text": "How to train a dog?",
+    "timestamp": 1767656488,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_3fd02b11_014185",
+    "prompt_text": "I enjoy open source documentation work",
+    "timestamp": 1767659499,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_796e0cea_014156",
+    "prompt_text": "I like to see web scraping in action",
+    "timestamp": 1767664643,
+    "tokens": 19.8,
+    "is_noise": false,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_5052aae0_014215",
+    "prompt_text": "How do magnets work?",
+    "timestamp": 1767669478,
+    "tokens": 7.4,
+    "is_noise": true,
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_007"
+  }
+]
