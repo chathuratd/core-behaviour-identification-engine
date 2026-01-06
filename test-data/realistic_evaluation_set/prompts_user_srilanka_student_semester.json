@@ -1,2612 +1,2459 @@
 [
   {
-    "prompt_id": "prompt_bb855395_014993",
-    "prompt_text": "What movies are playing at Majestic?",
-    "timestamp": 1757421495,
-    "tokens": 6.0,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_002"
-  },
-  {
-    "prompt_id": "prompt_c8fd36e4_015002",
-    "prompt_text": "Will it rain today in Colombo?",
-    "timestamp": 1757483282,
-    "tokens": 9.8,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_005"
-  },
-  {
-    "prompt_id": "prompt_4ef28676_014996",
-    "prompt_text": "Dialog student data packages",
-    "timestamp": 1757496083,
-    "tokens": 6.2,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_003"
-  },
-  {
-    "prompt_id": "prompt_cc26d62b_015014",
-    "prompt_text": "Latest Sinhala songs",
-    "timestamp": 1757611405,
-    "tokens": 3.3,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_009"
-  },
-  {
-    "prompt_id": "prompt_97d1ff06_014987",
-    "prompt_text": "What time is the university bus?",
-    "timestamp": 1758058329,
-    "tokens": 5.2,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_000"
-  },
-  {
-    "prompt_id": "prompt_5db01cf3_014999",
-    "prompt_text": "Best budget phones in Sri Lanka",
-    "timestamp": 1758201433,
-    "tokens": 5.6,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_004"
-  },
-  {
-    "prompt_id": "prompt_10199304_015005",
-    "prompt_text": "New Instagram posts",
-    "timestamp": 1758320274,
-    "tokens": 7.7,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_006"
-  },
-  {
-    "prompt_id": "prompt_12d3c0bc_015017",
-    "prompt_text": "Did Sri Lanka win the match?",
-    "timestamp": 1758571939,
-    "tokens": 8.0,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_010"
-  },
-  {
-    "prompt_id": "prompt_8c3fe047_015032",
-    "prompt_text": "What's happening in parliament?",
-    "timestamp": 1758659484,
-    "tokens": 6.4,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_015"
-  },
-  {
-    "prompt_id": "prompt_fd9bc756_015029",
-    "prompt_text": "Funny YouTube shorts",
-    "timestamp": 1758750776,
-    "tokens": 4.2,
+    "prompt_id": "prompt_26de89bb_014739",
+    "prompt_text": "What's trending on Facebook?",
+    "timestamp": 1757637089,
+    "tokens": 3.4,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_noise_014"
   },
   {
-    "prompt_id": "prompt_e9e2b660_015026",
-    "prompt_text": "Laptop repair near campus",
-    "timestamp": 1758925187,
-    "tokens": 4.0,
+    "prompt_id": "prompt_b3bdf6e6_014724",
+    "prompt_text": "Why am I always tired?",
+    "timestamp": 1757653188,
+    "tokens": 9.9,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_013"
+    "session_id": "sess_noise_009"
   },
   {
-    "prompt_id": "prompt_44a5125e_015011",
-    "prompt_text": "What's for dinner at hostel?",
-    "timestamp": 1758951335,
-    "tokens": 9.7,
+    "prompt_id": "prompt_f07084e5_014703",
+    "prompt_text": "Hostel WiFi not working",
+    "timestamp": 1757853410,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_89e360aa_014709",
+    "prompt_text": "Good Python tuition in Colombo?",
+    "timestamp": 1757908067,
+    "tokens": 9.1,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_30d08ace_014721",
+    "prompt_text": "Cheap data plan for students?",
+    "timestamp": 1758130090,
+    "tokens": 6.4,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_noise_008"
   },
   {
-    "prompt_id": "prompt_355dd380_015035",
-    "prompt_text": "Is library study room available?",
-    "timestamp": 1758958461,
-    "tokens": 7.8,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_016"
-  },
-  {
-    "prompt_id": "prompt_6be0b314_014990",
-    "prompt_text": "Latest tech news Sinhala",
-    "timestamp": 1759087089,
-    "tokens": 7.2,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_001"
-  },
-  {
-    "prompt_id": "prompt_f7782cd4_015020",
-    "prompt_text": "Any new announcements on LMS?",
-    "timestamp": 1759098200,
-    "tokens": 7.6,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_011"
-  },
-  {
-    "prompt_id": "prompt_ef9e431a_015023",
-    "prompt_text": "When is the exam scheduled?",
-    "timestamp": 1759361511,
-    "tokens": 9.4,
+    "prompt_id": "prompt_bf79f217_014733",
+    "prompt_text": "When are final exams?",
+    "timestamp": 1758176264,
+    "tokens": 7.4,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_noise_012"
   },
   {
-    "prompt_id": "prompt_a537a3ad_015008",
-    "prompt_text": "Who's playing in IPL today?",
-    "timestamp": 1759368694,
-    "tokens": 5.7,
+    "prompt_id": "prompt_28f08e96_014712",
+    "prompt_text": "Any holiday announcements?",
+    "timestamp": 1758386120,
+    "tokens": 4.6,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_f5149e27_014736",
+    "prompt_text": "Will it rain tomorrow?",
+    "timestamp": 1758533149,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_be06d4fa_014718",
+    "prompt_text": "Funny programming memes",
+    "timestamp": 1758568002,
+    "tokens": 6.5,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_noise_007"
   },
   {
-    "prompt_id": "prompt_285ec927_014821",
-    "prompt_text": "Friend's help with deadline extensions",
-    "timestamp": 1759478063,
-    "tokens": 23.5,
-    "is_noise": false,
+    "prompt_id": "prompt_3d21d0ce_014700",
+    "prompt_text": "How's traffic in Colombo today?",
+    "timestamp": 1758656270,
+    "tokens": 7.5,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
+    "session_id": "sess_noise_001"
   },
   {
-    "prompt_id": "prompt_04c7664c_014841",
-    "prompt_text": "Quick tea during studying work",
-    "timestamp": 1759497748,
-    "tokens": 11.9,
-    "is_noise": false,
+    "prompt_id": "prompt_2cd9ec0b_014730",
+    "prompt_text": "Where to get good tea?",
+    "timestamp": 1758778173,
+    "tokens": 3.7,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
+    "session_id": "sess_noise_011"
   },
   {
-    "prompt_id": "prompt_fd549d4b_014843",
-    "prompt_text": "I avoid long studying sessions without tea",
-    "timestamp": 1759519449,
-    "tokens": 22.8,
-    "is_noise": false,
+    "prompt_id": "prompt_258162a5_014706",
+    "prompt_text": "Is library open on weekend?",
+    "timestamp": 1758822258,
+    "tokens": 8.2,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
+    "session_id": "sess_noise_003"
   },
   {
-    "prompt_id": "prompt_c47b31fd_014757",
-    "prompt_text": "Local tech YouTuber explaining file operations",
-    "timestamp": 1759623512,
-    "tokens": 17.8,
-    "is_noise": false,
+    "prompt_id": "prompt_4dbd03bf_014715",
+    "prompt_text": "Mahapola payment date?",
+    "timestamp": 1759203789,
+    "tokens": 9.0,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
+    "session_id": "sess_noise_006"
   },
   {
-    "prompt_id": "prompt_447bb1db_014819",
-    "prompt_text": "I prefer asking friends about exam tips",
-    "timestamp": 1759629986,
-    "tokens": 9.3,
-    "is_noise": false,
+    "prompt_id": "prompt_d0124d6e_014727",
+    "prompt_text": "What time is the last bus?",
+    "timestamp": 1759207051,
+    "tokens": 8.8,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
+    "session_id": "sess_noise_010"
   },
   {
-    "prompt_id": "prompt_5e1fa02b_014965",
-    "prompt_text": "I might go to industry talks tutorial",
-    "timestamp": 1759671016,
-    "tokens": 18.4,
-    "is_noise": false,
+    "prompt_id": "prompt_a7af1eec_014697",
+    "prompt_text": "What's for lunch at uni canteen?",
+    "timestamp": 1759362798,
+    "tokens": 9.2,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_001"
+    "session_id": "sess_noise_000"
   },
   {
-    "prompt_id": "prompt_729337df_014794",
-    "prompt_text": "I prefer hands-on data structures approach",
-    "timestamp": 1759679340,
-    "tokens": 21.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_9cb0c379_014759",
-    "prompt_text": "I avoid English docs for web frameworks",
-    "timestamp": 1759681496,
-    "tokens": 16.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_925a3b48_014859",
-    "prompt_text": "Template code for web apps",
-    "timestamp": 1759717599,
-    "tokens": 21.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_3f312328_014899",
-    "prompt_text": "I prefer Colab for Python practice",
-    "timestamp": 1759780774,
-    "tokens": 24.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_aa23d871_014756",
-    "prompt_text": "Tamil video explanation of algorithms",
-    "timestamp": 1759815089,
-    "tokens": 10.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_6ba1d9a2_014730",
-    "prompt_text": "I prefer Stack Overflow for import issues errors",
-    "timestamp": 1759817214,
-    "tokens": 19.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_c281175c_014723",
-    "prompt_text": "Stack Overflow helps with best practices",
-    "timestamp": 1759822255,
-    "tokens": 19.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_3b5d4952_014853",
-    "prompt_text": "Template code for data structures",
-    "timestamp": 1759832092,
-    "tokens": 24.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_45b15943_014753",
-    "prompt_text": "I prefer mother tongue explanation of algorithms",
-    "timestamp": 1759957819,
-    "tokens": 20.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_b12e6a53_014857",
-    "prompt_text": "I like adapting GitHub code for algorithms",
-    "timestamp": 1759963410,
-    "tokens": 12.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_cec821a9_014725",
-    "prompt_text": "Stack Overflow helps with import issues",
-    "timestamp": 1759987363,
-    "tokens": 21.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_ce43b263_014963",
-    "prompt_text": "Attending workshop about Python advanced topics",
-    "timestamp": 1760001595,
-    "tokens": 16.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_001"
-  },
-  {
-    "prompt_id": "prompt_065b27f8_014927",
-    "prompt_text": "I like group discussion on marking",
-    "timestamp": 1760019388,
-    "tokens": 11.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_071072a1_014939",
-    "prompt_text": "Official documentation is confusing for modules",
-    "timestamp": 1760040205,
-    "tokens": 14.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_ea1cc24e_014795",
-    "prompt_text": "I don't like theoretical frameworks explanations",
-    "timestamp": 1760135472,
-    "tokens": 21.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_b7d1c832_014703",
-    "prompt_text": "I don't like daytime for algorithms coding",
-    "timestamp": 1760200034,
-    "tokens": 21.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_79914e98_014796",
-    "prompt_text": "I prefer starting with example for file handling",
-    "timestamp": 1760204049,
-    "tokens": 21.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_bcb76d2f_014858",
-    "prompt_text": "I prefer modifying existing data structures code",
-    "timestamp": 1760218371,
-    "tokens": 21.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_cc71fbc9_014697",
-    "prompt_text": "Late night is best for assignment problems",
-    "timestamp": 1760239969,
-    "tokens": 11.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_1c5e4a83_014700",
-    "prompt_text": "I don't like daytime for debugging coding",
-    "timestamp": 1760323140,
-    "tokens": 10.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_523df3ab_014969",
-    "prompt_text": "Which editor for coding?",
-    "timestamp": 1760406119,
-    "tokens": 15.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_002"
-  },
-  {
-    "prompt_id": "prompt_39047633_014789",
-    "prompt_text": "I avoid reading theory for classes first",
-    "timestamp": 1760436976,
-    "tokens": 20.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_b6716d2d_014831",
-    "prompt_text": "Quick tea during studying work",
-    "timestamp": 1760446565,
+    "prompt_id": "prompt_22c8ba6f_014416",
+    "prompt_text": "I prefer seeing database connections in action rather than reading about it",
+    "timestamp": 1759462530,
     "tokens": 16.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_4e9fe1d2_014916",
-    "prompt_text": "I avoid solo struggle with lecture notes",
-    "timestamp": 1760510603,
-    "tokens": 19.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_8cfa3b88_014881",
-    "prompt_text": "Last minute code cleanup work",
-    "timestamp": 1760553986,
-    "tokens": 16.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_ec7c6d6b_014835",
-    "prompt_text": "Quick tea during learning work",
-    "timestamp": 1760556229,
-    "tokens": 18.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_7752732f_014818",
-    "prompt_text": "Batch mate knows deadline extensions better",
-    "timestamp": 1760592003,
-    "tokens": 24.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_0154e515_014876",
-    "prompt_text": "Deadline rush for documentation",
-    "timestamp": 1760602853,
-    "tokens": 12.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_76a328d0_014774",
-    "prompt_text": "Library atmosphere helps with coding practice",
-    "timestamp": 1760604218,
-    "tokens": 21.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_1c307436_014788",
-    "prompt_text": "Example-based learning for loops",
-    "timestamp": 1760676066,
-    "tokens": 19.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_7c36a05b_014701",
-    "prompt_text": "I like working on algorithms when everyone's asleep",
-    "timestamp": 1760678113,
-    "tokens": 24.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_6703bc72_014944",
-    "prompt_text": "I prefer simpler explanation of syntax",
-    "timestamp": 1760681248,
-    "tokens": 10.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_71681aa5_014898",
-    "prompt_text": "I don't like installing quick experiments locally",
-    "timestamp": 1760689040,
-    "tokens": 11.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_667058b4_014793",
-    "prompt_text": "Practical example of classes please",
-    "timestamp": 1760708658,
-    "tokens": 13.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_8e6d3d5f_014842",
-    "prompt_text": "I like sipping tea while thinking about problem solving",
-    "timestamp": 1760718659,
-    "tokens": 17.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_aa5c66ee_014811",
-    "prompt_text": "I prefer asking friends about assignment doubts",
-    "timestamp": 1760738741,
-    "tokens": 9.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_5e595213_014902",
-    "prompt_text": "Cloud notebook for sharing work",
-    "timestamp": 1760784432,
-    "tokens": 15.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_ca8b4cba_014913",
-    "prompt_text": "I prefer asking batch group about lecture notes",
-    "timestamp": 1760845770,
-    "tokens": 14.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_1c9a50bb_014885",
-    "prompt_text": "I prefer urgency for presentations motivation",
-    "timestamp": 1760855991,
-    "tokens": 23.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_54e631d5_014883",
-    "prompt_text": "I prefer urgency for documentation motivation",
-    "timestamp": 1760858988,
-    "tokens": 21.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_8ccf7696_014726",
-    "prompt_text": "Quick Stack Overflow search for import issues",
-    "timestamp": 1760900109,
-    "tokens": 8.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_c16d811f_014975",
-    "prompt_text": "Practice problems for algorithms",
-    "timestamp": 1760928874,
-    "tokens": 7.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_003"
-  },
-  {
-    "prompt_id": "prompt_dce1ab18_014816",
-    "prompt_text": "I avoid going to lecturer for project ideas",
-    "timestamp": 1761000053,
-    "tokens": 14.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_a64aa0bf_014977",
-    "prompt_text": "Practice problems for data structures",
-    "timestamp": 1761010457,
-    "tokens": 14.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_003"
-  },
-  {
-    "prompt_id": "prompt_d438813a_014860",
-    "prompt_text": "I prefer modifying existing project templates code",
-    "timestamp": 1761021728,
-    "tokens": 21.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_549abd6c_014801",
-    "prompt_text": "Show me code example of loops first",
-    "timestamp": 1761036182,
-    "tokens": 10.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_a68c3c5d_014709",
-    "prompt_text": "Evening is perfect for loops work",
-    "timestamp": 1761064506,
-    "tokens": 10.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_1f36b729_014882",
-    "prompt_text": "I avoid early start on lab reports",
-    "timestamp": 1761115037,
-    "tokens": 24.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_a557e267_014734",
-    "prompt_text": "I avoid figuring out syntax errors alone",
-    "timestamp": 1761159646,
-    "tokens": 22.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_410b1583_014943",
-    "prompt_text": "I avoid Python docs for syntax",
-    "timestamp": 1761168136,
-    "tokens": 14.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_ae1bd1b9_014699",
-    "prompt_text": "Night time focus for file handling",
-    "timestamp": 1761169830,
-    "tokens": 11.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_8445057e_014926",
-    "prompt_text": "WhatsApp discussion about lecture notes",
-    "timestamp": 1761179836,
-    "tokens": 20.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_1a6dc1bf_014838",
-    "prompt_text": "I prefer taking breaks during assignment work",
-    "timestamp": 1761180770,
-    "tokens": 11.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_d35031ff_014832",
-    "prompt_text": "Tea break before continuing exam prep",
-    "timestamp": 1761207552,
-    "tokens": 13.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_6e6f2986_014836",
-    "prompt_text": "Tea time helps with studying",
-    "timestamp": 1761253980,
-    "tokens": 11.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_ec4caa6d_014897",
-    "prompt_text": "I prefer Colab over Jupyter for data analysis",
-    "timestamp": 1761269346,
-    "tokens": 12.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_7d214d9f_014901",
-    "prompt_text": "Using Colab for ML projects assignment",
-    "timestamp": 1761323464,
-    "tokens": 24.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_b21c7e10_014790",
-    "prompt_text": "I avoid reading theory for functions first",
-    "timestamp": 1761369965,
-    "tokens": 22.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_f1d6c57f_014710",
-    "prompt_text": "Night time focus for Python functions",
-    "timestamp": 1761383409,
-    "tokens": 24.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_f94e3bd9_014813",
-    "prompt_text": "I like peer explanation of deadline extensions",
-    "timestamp": 1761457916,
-    "tokens": 14.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_e0442381_014879",
-    "prompt_text": "Last minute lab reports work",
-    "timestamp": 1761460884,
-    "tokens": 14.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_014dfd18_014706",
-    "prompt_text": "After midnight coding for file handling",
-    "timestamp": 1761492595,
-    "tokens": 20.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_f7599894_014732",
-    "prompt_text": "I like finding Python exceptions solutions online",
-    "timestamp": 1761501828,
-    "tokens": 9.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_69c91078_014755",
-    "prompt_text": "Local tech YouTuber explaining file operations",
-    "timestamp": 1761510327,
-    "tokens": 17.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_e9e6117c_014980",
-    "prompt_text": "Udemy tutorial for data science",
-    "timestamp": 1761554678,
-    "tokens": 10.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_004"
-  },
-  {
-    "prompt_id": "prompt_e0cee325_014875",
-    "prompt_text": "I like working on testing close to deadline",
-    "timestamp": 1761591622,
-    "tokens": 13.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_24b2400c_014854",
-    "prompt_text": "I like adapting GitHub code for assignment solutions",
-    "timestamp": 1761626267,
-    "tokens": 15.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_0ec037ba_014840",
-    "prompt_text": "I need tea break when doing project work",
-    "timestamp": 1761682683,
-    "tokens": 22.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_b48a264a_014815",
-    "prompt_text": "I prefer asking friends about concept clarification",
-    "timestamp": 1761762212,
-    "tokens": 12.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_e28c906b_014791",
-    "prompt_text": "I prefer starting with example for classes",
-    "timestamp": 1761780599,
-    "tokens": 21.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_f7cb3b6d_014912",
-    "prompt_text": "Batch WhatsApp for submission links doubts",
-    "timestamp": 1761941481,
-    "tokens": 20.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_44a248c8_014695",
-    "prompt_text": "Evening is perfect for data structures work",
-    "timestamp": 1761970535,
-    "tokens": 22.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_ee7bcf00_014775",
-    "prompt_text": "I like studying coding practice in library",
-    "timestamp": 1761980851,
-    "tokens": 20.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_5e35e880_014924",
-    "prompt_text": "I avoid solo struggle with doubts",
-    "timestamp": 1761984812,
-    "tokens": 9.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_dfbf05af_014724",
-    "prompt_text": "I prefer community help for best practices",
-    "timestamp": 1761996603,
-    "tokens": 12.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_b681adc2_014874",
-    "prompt_text": "I don't start lab reports early",
-    "timestamp": 1762024768,
-    "tokens": 10.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_1c191d9d_014760",
-    "prompt_text": "I prefer mother tongue explanation of file operations",
-    "timestamp": 1762032757,
-    "tokens": 21.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_c7329208_014751",
-    "prompt_text": "I like local language tutorials for Python basics",
-    "timestamp": 1762104100,
-    "tokens": 24.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_ec698392_014914",
-    "prompt_text": "I prefer asking batch group about submission links",
-    "timestamp": 1762138898,
-    "tokens": 23.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_98f91748_014839",
-    "prompt_text": "Quick tea during debugging work",
-    "timestamp": 1762157016,
-    "tokens": 11.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_8169d46e_014707",
-    "prompt_text": "Night time focus for Python functions",
-    "timestamp": 1762182660,
+    "prompt_id": "prompt_40863c8e_014478",
+    "prompt_text": "Midnight coding coding",
+    "timestamp": 1759494190,
     "tokens": 16.0,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
+    "session_id": "sess_core_002"
   },
   {
-    "prompt_id": "prompt_76adfb1c_014915",
-    "prompt_text": "WhatsApp group for submission links help",
-    "timestamp": 1762217075,
-    "tokens": 20.1,
+    "prompt_id": "prompt_f1dc893f_014467",
+    "prompt_text": "I avoid morning work on debugging, too tired",
+    "timestamp": 1759526924,
+    "tokens": 16.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_436b63c4_014535",
+    "prompt_text": "Study group approach to exam preparation",
+    "timestamp": 1759531340,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_6cf7bcb9_014516",
+    "prompt_text": "I avoid bothering lecturer with debugging questions",
+    "timestamp": 1759618467,
+    "tokens": 14.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_dc5290a1_014511",
+    "prompt_text": "I don't want to ask lecturer about debugging, can you help?",
+    "timestamp": 1759711771,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_4101bd5c_014634",
+    "prompt_text": "I avoid forcing solution for coding, take breaks",
+    "timestamp": 1759765245,
+    "tokens": 23.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_56705c06_014923",
-    "prompt_text": "WhatsApp group for lecture notes help",
-    "timestamp": 1762262338,
-    "tokens": 17.4,
+    "prompt_id": "prompt_9f932399_014628",
+    "prompt_text": "I like coming back to debugging with fresh mind",
+    "timestamp": 1759789946,
+    "tokens": 10.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_e30da953_014922",
-    "prompt_text": "Batch WhatsApp for marking doubts",
-    "timestamp": 1762269653,
-    "tokens": 20.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_ba9f1607_014945",
-    "prompt_text": "Official documentation is confusing for best practices",
-    "timestamp": 1762291982,
-    "tokens": 11.5,
+    "prompt_id": "prompt_933fcfdd_014649",
+    "prompt_text": "I avoid English-only comments for complex logic",
+    "timestamp": 1759847752,
+    "tokens": 19.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_011"
   },
   {
-    "prompt_id": "prompt_cd64b694_014773",
-    "prompt_text": "I avoid home for lab reports during deadline",
-    "timestamp": 1762300983,
-    "tokens": 19.6,
+    "prompt_id": "prompt_e5fd6a09_014520",
+    "prompt_text": "I avoid bothering lecturer with grading criteria questions",
+    "timestamp": 1759852786,
+    "tokens": 22.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
+    "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_8126adee_014877",
-    "prompt_text": "Deadline rush for code cleanup",
-    "timestamp": 1762313196,
-    "tokens": 12.7,
+    "prompt_id": "prompt_3f775fb2_014583",
+    "prompt_text": "Stack Overflow says library usage should work this way",
+    "timestamp": 1759857731,
+    "tokens": 8.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
+    "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_6e40a341_014953",
-    "prompt_text": "I'm trying morning study for lecture prep",
-    "timestamp": 1762320404,
-    "tokens": 8.2,
+    "prompt_id": "prompt_ddaac136_014668",
+    "prompt_text": "I sometimes prefer Jupyter for testing",
+    "timestamp": 1759898791,
+    "tokens": 12.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_000"
   },
   {
-    "prompt_id": "prompt_f54e78d0_014698",
-    "prompt_text": "Evening is perfect for loops work",
-    "timestamp": 1762333725,
-    "tokens": 16.6,
+    "prompt_id": "prompt_5da741e5_014611",
+    "prompt_text": "Get implementation working then improve",
+    "timestamp": 1759899691,
+    "tokens": 9.6,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
+    "session_id": "sess_core_009"
   },
   {
-    "prompt_id": "prompt_76cf8570_014834",
-    "prompt_text": "Tea break before continuing problem solving",
-    "timestamp": 1762336476,
-    "tokens": 23.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_f5ba09f3_014873",
-    "prompt_text": "Deadline rush for testing",
-    "timestamp": 1762388381,
-    "tokens": 24.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_5372fe2b_014778",
-    "prompt_text": "Library atmosphere helps with assignment completion",
-    "timestamp": 1762479393,
-    "tokens": 19.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_b2f4b5c5_014820",
-    "prompt_text": "Group discussion about project ideas",
-    "timestamp": 1762525501,
-    "tokens": 16.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_e1e2cf72_014772",
-    "prompt_text": "Library is best for exam preparation work",
-    "timestamp": 1762528340,
-    "tokens": 17.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_d3222587_014787",
-    "prompt_text": "I like learning classes by doing",
-    "timestamp": 1762565182,
-    "tokens": 18.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_8f22bb81_014735",
-    "prompt_text": "Looking up debugging tips on forums",
-    "timestamp": 1762569015,
-    "tokens": 24.1,
+    "prompt_id": "prompt_115f7702_014451",
+    "prompt_text": "I avoid early starts, report is due soon",
+    "timestamp": 1759907514,
+    "tokens": 19.8,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_001"
   },
   {
-    "prompt_id": "prompt_9a385f42_014982",
-    "prompt_text": "Udemy tutorial for machine learning",
-    "timestamp": 1762577863,
-    "tokens": 16.8,
+    "prompt_id": "prompt_9bf9069e_014629",
+    "prompt_text": "Break helps me think about algorithm clearly",
+    "timestamp": 1759928989,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_ace5f9f5_014491",
+    "prompt_text": "How to split project into manageable chunks?",
+    "timestamp": 1759962338,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_31008c3f_014692",
+    "prompt_text": "Different approach to learning algorithms",
+    "timestamp": 1759963938,
+    "tokens": 14.6,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_004"
   },
   {
-    "prompt_id": "prompt_3049b2e1_014705",
-    "prompt_text": "I work better on loops at night",
-    "timestamp": 1762603125,
-    "tokens": 16.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_59f8b5d7_014704",
-    "prompt_text": "I work better on debugging at night",
-    "timestamp": 1762613277,
-    "tokens": 13.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_e26c565b_014798",
-    "prompt_text": "I prefer starting with example for libraries",
-    "timestamp": 1762627399,
-    "tokens": 22.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_14e832e3_014837",
-    "prompt_text": "Tea time helps with learning",
-    "timestamp": 1762630053,
-    "tokens": 20.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_941735cf_014727",
-    "prompt_text": "I like finding library errors solutions online",
-    "timestamp": 1762631471,
-    "tokens": 20.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_74d9c4aa_014900",
-    "prompt_text": "I don't like installing quick experiments locally",
-    "timestamp": 1762632683,
-    "tokens": 22.2,
+    "prompt_id": "prompt_c18e9689_014608",
+    "prompt_text": "I prefer making code work first, optimize later",
+    "timestamp": 1759989013,
+    "tokens": 24.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_009"
   },
   {
-    "prompt_id": "prompt_760076cb_014817",
-    "prompt_text": "I don't like asking sir about marking scheme",
-    "timestamp": 1762675264,
-    "tokens": 14.9,
+    "prompt_id": "prompt_5edf2b33_014479",
+    "prompt_text": "Late night session on coding",
+    "timestamp": 1760023912,
+    "tokens": 17.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
+    "session_id": "sess_core_002"
   },
   {
-    "prompt_id": "prompt_2457748e_014884",
-    "prompt_text": "I prefer urgency for documentation motivation",
-    "timestamp": 1762721017,
-    "tokens": 14.1,
+    "prompt_id": "prompt_8018d810_014559",
+    "prompt_text": "I don't like complex explanations of complexity analysis",
+    "timestamp": 1760067203,
+    "tokens": 9.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
+    "session_id": "sess_core_006"
   },
   {
-    "prompt_id": "prompt_62dd1580_014862",
-    "prompt_text": "I avoid writing database code from scratch",
-    "timestamp": 1762737061,
-    "tokens": 24.7,
+    "prompt_id": "prompt_81fc33f5_014575",
+    "prompt_text": "I avoid reinventing wheel, search for implementation patterns solutions",
+    "timestamp": 1760249005,
+    "tokens": 24.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_b2dad02d_014693",
-    "prompt_text": "Evening is perfect for assignment problems work",
-    "timestamp": 1762764008,
-    "tokens": 20.6,
+    "prompt_id": "prompt_24838924_014425",
+    "prompt_text": "I learn file handling better with examples",
+    "timestamp": 1760264881,
+    "tokens": 23.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_141d018d_014941",
-    "prompt_text": "I avoid Python docs for best practices",
-    "timestamp": 1762818321,
-    "tokens": 24.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_9efbc1e8_014896",
-    "prompt_text": "I prefer Colab over Jupyter for ML projects",
-    "timestamp": 1762824932,
-    "tokens": 16.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_5619fe03_014696",
-    "prompt_text": "I avoid assignment problems during the day",
-    "timestamp": 1762862551,
-    "tokens": 24.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_e3a5d1f7_014833",
-    "prompt_text": "I avoid long studying sessions without tea",
-    "timestamp": 1762873575,
-    "tokens": 19.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_fd2438cd_014728",
-    "prompt_text": "I prefer Stack Overflow for debugging tips errors",
-    "timestamp": 1762884388,
-    "tokens": 9.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_a2e4adab_014925",
-    "prompt_text": "WhatsApp discussion about exam dates",
-    "timestamp": 1762914513,
-    "tokens": 20.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_fa01aa51_014812",
-    "prompt_text": "I prefer asking friends about marking scheme",
-    "timestamp": 1762939917,
-    "tokens": 10.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_367ac19a_014754",
-    "prompt_text": "Local tech YouTuber explaining libraries",
-    "timestamp": 1763014536,
-    "tokens": 18.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_84863835_014878",
-    "prompt_text": "I like working on submission prep close to deadline",
-    "timestamp": 1763041870,
-    "tokens": 19.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_3f631b97_014920",
-    "prompt_text": "I like group discussion on exam dates",
-    "timestamp": 1763052107,
-    "tokens": 14.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_219631c0_014752",
-    "prompt_text": "I don't like reading English docs for data structures",
-    "timestamp": 1763069947,
-    "tokens": 10.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_ad6b81c6_014800",
-    "prompt_text": "Practical example of loops please",
-    "timestamp": 1763165745,
-    "tokens": 19.2,
+    "prompt_id": "prompt_e0ab768e_014517",
+    "prompt_text": "I don't like going to office hours for implementation details",
+    "timestamp": 1760275901,
+    "tokens": 16.6,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_a34adc87_014917",
-    "prompt_text": "Group chat helps with code errors",
-    "timestamp": 1763168919,
-    "tokens": 23.0,
+    "prompt_id": "prompt_d06a8283_014523",
+    "prompt_text": "I prefer asking you instead of professor for implementation details",
+    "timestamp": 1760340493,
+    "tokens": 13.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_984cff19_014415",
+    "prompt_text": "Show me how file handling works with real code",
+    "timestamp": 1760351418,
+    "tokens": 21.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_6baa3a2b_014502",
+    "prompt_text": "I avoid doing algorithm all at once",
+    "timestamp": 1760469606,
+    "tokens": 15.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_6cfd3584_014476",
+    "prompt_text": "Late night session on studying",
+    "timestamp": 1760518944,
+    "tokens": 17.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_fe8bccf2_014495",
+    "prompt_text": "I avoid doing assignment all at once",
+    "timestamp": 1760531737,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_af697ba4_014525",
+    "prompt_text": "Can you explain syntax errors? Don't want to ask prof",
+    "timestamp": 1760548113,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_4d6255ec_014650",
+    "prompt_text": "Comments in my language help me understand class methods",
+    "timestamp": 1760553240,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_dc1830cb_014626",
+    "prompt_text": "Stepping away from debugging for a bit",
+    "timestamp": 1760553880,
+    "tokens": 15.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_029405d3_014919",
-    "prompt_text": "WhatsApp discussion about exam dates",
-    "timestamp": 1763190128,
-    "tokens": 14.4,
+    "prompt_id": "prompt_243c2983_014652",
+    "prompt_text": "I like writing comments in Singlish for functions",
+    "timestamp": 1760632296,
+    "tokens": 9.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
+    "session_id": "sess_core_011"
   },
   {
-    "prompt_id": "prompt_80c157d6_014918",
-    "prompt_text": "I like group discussion on doubts",
-    "timestamp": 1763280773,
-    "tokens": 10.0,
+    "prompt_id": "prompt_9c69cf7b_014552",
+    "prompt_text": "ELI5 algorithms",
+    "timestamp": 1760645181,
+    "tokens": 11.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
+    "session_id": "sess_core_006"
   },
   {
-    "prompt_id": "prompt_babf1b13_014974",
-    "prompt_text": "Coding contest about problem solving",
-    "timestamp": 1763301317,
+    "prompt_id": "prompt_3a5f1fbb_014561",
+    "prompt_text": "ELI5 recursion",
+    "timestamp": 1760668059,
+    "tokens": 24.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_cf04726b_014685",
+    "prompt_text": "Learning about naming conventions best practices",
+    "timestamp": 1760677865,
     "tokens": 10.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_003"
   },
   {
-    "prompt_id": "prompt_b22834d5_014748",
-    "prompt_text": "I prefer Sinhala tutorial for Python basics",
-    "timestamp": 1763316974,
-    "tokens": 11.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_76ccdfd2_014769",
-    "prompt_text": "I avoid home for revision during deadline",
-    "timestamp": 1763374234,
-    "tokens": 8.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_481d772a_014903",
-    "prompt_text": "Cloud notebook for collaboration",
-    "timestamp": 1763399394,
-    "tokens": 22.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_1f7d8d8d_014708",
-    "prompt_text": "I don't like daytime for error fixing coding",
-    "timestamp": 1763411551,
-    "tokens": 17.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_604f4b32_014731",
-    "prompt_text": "Quick Stack Overflow search for library errors",
-    "timestamp": 1763459947,
-    "tokens": 24.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_6beffc9d_014733",
-    "prompt_text": "Quick Stack Overflow search for library errors",
-    "timestamp": 1763575859,
-    "tokens": 15.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_09c8b5ab_014904",
-    "prompt_text": "Using Colab for sharing work assignment",
-    "timestamp": 1763637290,
-    "tokens": 18.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_91af2e0d_014921",
-    "prompt_text": "WhatsApp discussion about lecture notes",
-    "timestamp": 1763643348,
-    "tokens": 21.6,
+    "prompt_id": "prompt_9c545b15_014639",
+    "prompt_text": "Break helps me think about complex problem clearly",
+    "timestamp": 1760716491,
+    "tokens": 8.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_f477b4ae_014729",
-    "prompt_text": "I like finding code optimization solutions online",
-    "timestamp": 1763645405,
-    "tokens": 21.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_13d8f70b_014814",
-    "prompt_text": "I avoid going to lecturer for project ideas",
-    "timestamp": 1763686986,
-    "tokens": 8.2,
+    "prompt_id": "prompt_fe906757_014537",
+    "prompt_text": "I like explaining data structures to others to learn it",
+    "timestamp": 1760717926,
+    "tokens": 15.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_005"
   },
   {
-    "prompt_id": "prompt_448733f5_014749",
-    "prompt_text": "Sinhala YouTube video on databases",
-    "timestamp": 1763702005,
-    "tokens": 19.6,
+    "prompt_id": "prompt_057bf243_014417",
+    "prompt_text": "Practical example of data structures please",
+    "timestamp": 1760721293,
+    "tokens": 23.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_debdc372_014542",
+    "prompt_text": "I like explaining data structures to others to learn it",
+    "timestamp": 1760745326,
+    "tokens": 21.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_d6f576bf_014492",
+    "prompt_text": "How to split data processing into manageable chunks?",
+    "timestamp": 1760746970,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_f3157142_014592",
+    "prompt_text": "I prefer learning algorithms through videos",
+    "timestamp": 1760747702,
+    "tokens": 21.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_e5f5bc00_014473",
+    "prompt_text": "I don't like working on Python assignment in the morning",
+    "timestamp": 1760763524,
+    "tokens": 9.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_002"
   },
   {
-    "prompt_id": "prompt_d221b37f_014799",
-    "prompt_text": "Practical example of algorithms please",
-    "timestamp": 1763709297,
-    "tokens": 18.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_1e7c9978_014938",
-    "prompt_text": "I like easier source for library functions",
-    "timestamp": 1763714802,
-    "tokens": 11.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_b70efb30_014722",
-    "prompt_text": "I like finding debugging tips solutions online",
-    "timestamp": 1763715599,
-    "tokens": 19.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_06565b09_014984",
-    "prompt_text": "Udemy tutorial for machine learning",
-    "timestamp": 1763767845,
-    "tokens": 16.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_004"
-  },
-  {
-    "prompt_id": "prompt_45d0a331_014830",
-    "prompt_text": "Tea break before continuing project work",
-    "timestamp": 1763828125,
-    "tokens": 21.7,
+    "prompt_id": "prompt_276b4cb8_014554",
+    "prompt_text": "Explain data structures like I'm five",
+    "timestamp": 1760780947,
+    "tokens": 15.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_006"
   },
   {
-    "prompt_id": "prompt_d5e964b9_014792",
-    "prompt_text": "I don't like theoretical classes explanations",
-    "timestamp": 1763850992,
-    "tokens": 24.5,
+    "prompt_id": "prompt_2a9a81ae_014524",
+    "prompt_text": "I don't want to ask lecturer about deadline extension, can you help?",
+    "timestamp": 1760869341,
+    "tokens": 10.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_7197fe41_014736",
-    "prompt_text": "Stack Overflow helps with logic bugs",
-    "timestamp": 1763884359,
-    "tokens": 19.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_583221e8_014861",
-    "prompt_text": "I don't like building assignment solutions from zero",
-    "timestamp": 1763908324,
-    "tokens": 14.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_1aa0fa24_014692",
-    "prompt_text": "I don't like daytime for debugging coding",
-    "timestamp": 1763923352,
-    "tokens": 15.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_86b9d559_014797",
-    "prompt_text": "I don't like theoretical frameworks explanations",
-    "timestamp": 1763935981,
-    "tokens": 24.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_8bafae7c_014702",
-    "prompt_text": "I avoid data structures during the day",
-    "timestamp": 1764025990,
-    "tokens": 23.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_0f820d2d_014970",
-    "prompt_text": "Testing Sublime for assignment",
-    "timestamp": 1764053961,
-    "tokens": 17.5,
+    "prompt_id": "prompt_0642e76a_014681",
+    "prompt_text": "Git would have saved me from assignment mess",
+    "timestamp": 1760899082,
+    "tokens": 16.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_002"
   },
   {
-    "prompt_id": "prompt_265f91bf_014770",
-    "prompt_text": "Library atmosphere helps with lab reports",
-    "timestamp": 1764113722,
-    "tokens": 22.8,
+    "prompt_id": "prompt_c1e9dcc3_014493",
+    "prompt_text": "I prefer modular approach to system design",
+    "timestamp": 1761002488,
+    "tokens": 24.8,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_003"
   },
   {
-    "prompt_id": "prompt_2130d451_014880",
-    "prompt_text": "I prefer deadline pressure for documentation",
-    "timestamp": 1764186582,
-    "tokens": 23.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_a8d9d220_014958",
-    "prompt_text": "I'm trying morning study for assignment",
-    "timestamp": 1764212149,
-    "tokens": 14.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_000"
-  },
-  {
-    "prompt_id": "prompt_5d02110b_014864",
-    "prompt_text": "I don't like building file operations from zero",
-    "timestamp": 1764247644,
-    "tokens": 14.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_872c2199_014940",
-    "prompt_text": "Official documentation is confusing for frameworks",
-    "timestamp": 1764287976,
+    "prompt_id": "prompt_e439208b_014501",
+    "prompt_text": "How to split complex function into manageable chunks?",
+    "timestamp": 1761064503,
     "tokens": 8.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_b5aa2ce0_014777",
-    "prompt_text": "I like studying difficult topics in library",
-    "timestamp": 1764352137,
-    "tokens": 24.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_003"
   },
   {
-    "prompt_id": "prompt_6f43991b_014886",
-    "prompt_text": "I prefer deadline pressure for projects",
-    "timestamp": 1764362335,
-    "tokens": 23.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_aad2abe3_014855",
-    "prompt_text": "GitHub example for assignment solutions",
-    "timestamp": 1764411108,
-    "tokens": 19.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_4b1ad80a_014863",
-    "prompt_text": "I prefer finding file operations on GitHub",
-    "timestamp": 1764442407,
-    "tokens": 24.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_fdaab530_014856",
-    "prompt_text": "I like adapting GitHub code for database code",
-    "timestamp": 1764450558,
-    "tokens": 18.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_581be85c_014771",
-    "prompt_text": "Going to library for lab reports assignment",
-    "timestamp": 1764457233,
-    "tokens": 18.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_47dd80cc_014937",
-    "prompt_text": "Official documentation is confusing for frameworks",
-    "timestamp": 1764462764,
-    "tokens": 14.4,
+    "prompt_id": "prompt_058eb3df_014656",
+    "prompt_text": "Comments in my language help me understand functions",
+    "timestamp": 1761127006,
+    "tokens": 15.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_011"
   },
   {
-    "prompt_id": "prompt_129955af_014758",
-    "prompt_text": "I don't like reading English docs for OOP concepts",
-    "timestamp": 1764479561,
-    "tokens": 22.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_7e75336d_014776",
-    "prompt_text": "Library atmosphere helps with assignment completion",
-    "timestamp": 1764484328,
-    "tokens": 22.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_0fcde6ba_014694",
-    "prompt_text": "I don't like daytime for file handling coding",
-    "timestamp": 1764494185,
-    "tokens": 18.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_eb29cc41_014750",
-    "prompt_text": "Local tech YouTuber explaining web frameworks",
-    "timestamp": 1764501445,
-    "tokens": 24.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_b12add54_014779",
-    "prompt_text": "I avoid home for project work during deadline",
-    "timestamp": 1764526205,
-    "tokens": 24.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_8a0865d3_014983",
-    "prompt_text": "Online course supplement for machine learning",
-    "timestamp": 1764527723,
-    "tokens": 16.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_004"
-  },
-  {
-    "prompt_id": "prompt_b42b9147_014737",
-    "prompt_text": "Stack Overflow helps with library errors",
-    "timestamp": 1764551759,
-    "tokens": 15.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_64ed3aa2_014942",
-    "prompt_text": "I don't like official docs for modules",
-    "timestamp": 1764557057,
-    "tokens": 24.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_33e55e60_014956",
-    "prompt_text": "Morning session for lecture prep",
-    "timestamp": 1764564254,
-    "tokens": 9.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_000"
-  },
-  {
-    "prompt_id": "prompt_6fc05db9_014895",
-    "prompt_text": "Cloud notebook for testing code",
-    "timestamp": 1764595986,
-    "tokens": 18.6,
+    "prompt_id": "prompt_c63b8de5_014616",
+    "prompt_text": "I don't like perfecting solution on first try",
+    "timestamp": 1761140125,
+    "tokens": 16.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_009"
   },
   {
-    "prompt_id": "prompt_5250c90d_014823",
-    "prompt_text": "Group discussion about assignment doubts",
-    "timestamp": 1764616693,
-    "tokens": 21.7,
+    "prompt_id": "prompt_f3c9c78f_014576",
+    "prompt_text": "Stack Overflow says library usage should work this way",
+    "timestamp": 1761192954,
+    "tokens": 8.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
+    "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_88620dc3_014802",
-    "prompt_text": "I prefer hands-on databases approach",
-    "timestamp": 1764668970,
-    "tokens": 14.0,
+    "prompt_id": "prompt_14ed3c57_014418",
+    "prompt_text": "Show me how file handling works with real code",
+    "timestamp": 1761227268,
+    "tokens": 10.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
+    "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_7fb75bf9_014766",
-    "prompt_text": "I avoid English docs for databases",
-    "timestamp": 1764673106,
-    "tokens": 24.8,
+    "prompt_id": "prompt_3f6f198f_014419",
+    "prompt_text": "Show me how OOP in Python works with real code",
+    "timestamp": 1761233208,
+    "tokens": 10.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
+    "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_51aa9d1f_014765",
-    "prompt_text": "I don't like reading English docs for Python basics",
-    "timestamp": 1764676378,
-    "tokens": 17.1,
+    "prompt_id": "prompt_c843d94f_014499",
+    "prompt_text": "I prefer modular approach to data processing",
+    "timestamp": 1761280117,
+    "tokens": 19.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
+    "session_id": "sess_core_003"
   },
   {
-    "prompt_id": "prompt_dd84017a_014827",
-    "prompt_text": "I like peer explanation of marking scheme",
-    "timestamp": 1764695213,
-    "tokens": 15.5,
+    "prompt_id": "prompt_0f68bb96_014579",
+    "prompt_text": "I avoid reinventing wheel, search for best practices solutions",
+    "timestamp": 1761285183,
+    "tokens": 24.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
+    "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_d78690d8_015053",
-    "prompt_text": "How much is kottu at canteen?",
-    "timestamp": 1764726331,
-    "tokens": 7.3,
-    "is_noise": true,
+    "prompt_id": "prompt_ceb9cfbf_014680",
+    "prompt_text": "I sometimes remember to version control implementation",
+    "timestamp": 1761324383,
+    "tokens": 18.4,
+    "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_022"
+    "session_id": "sess_insuff_002"
   },
   {
-    "prompt_id": "prompt_99d43143_014964",
-    "prompt_text": "I might go to exam preparation tutorial",
-    "timestamp": 1764760088,
-    "tokens": 15.1,
+    "prompt_id": "prompt_a51928a4_014675",
+    "prompt_text": "Sometimes I care about loops efficiency",
+    "timestamp": 1761398344,
+    "tokens": 19.3,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_001"
   },
   {
-    "prompt_id": "prompt_416baaa0_014930",
-    "prompt_text": "WhatsApp discussion about lecture notes",
-    "timestamp": 1764767001,
-    "tokens": 9.8,
+    "prompt_id": "prompt_c49e1888_014519",
+    "prompt_text": "I prefer asking you instead of professor for assignment requirements",
+    "timestamp": 1761416252,
+    "tokens": 21.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
+    "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_f320f7e9_014868",
-    "prompt_text": "Template code for project templates",
-    "timestamp": 1764803161,
-    "tokens": 24.0,
+    "prompt_id": "prompt_e3d362a0_014555",
+    "prompt_text": "Simple analogy for object-oriented programming please",
+    "timestamp": 1761423290,
+    "tokens": 22.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
+    "session_id": "sess_core_006"
   },
   {
-    "prompt_id": "prompt_d272a9d3_015065",
-    "prompt_text": "Daraz sale items",
-    "timestamp": 1764818013,
-    "tokens": 7.3,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_026"
-  },
-  {
-    "prompt_id": "prompt_50b4bdfe_014888",
-    "prompt_text": "I avoid early start on projects",
-    "timestamp": 1764886050,
-    "tokens": 22.3,
+    "prompt_id": "prompt_0694b1e8_014446",
+    "prompt_text": "Last minute work on coding task",
+    "timestamp": 1761449952,
+    "tokens": 17.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
+    "session_id": "sess_core_001"
   },
   {
-    "prompt_id": "prompt_a8da7615_014761",
-    "prompt_text": "I like local language tutorials for file operations",
-    "timestamp": 1764905554,
-    "tokens": 13.4,
+    "prompt_id": "prompt_45521536_014474",
+    "prompt_text": "Evening is better for studying concentration",
+    "timestamp": 1761510327,
+    "tokens": 24.8,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_002"
   },
   {
-    "prompt_id": "prompt_a1d42cb7_014719",
-    "prompt_text": "Late night is best for loops",
-    "timestamp": 1764916461,
-    "tokens": 10.0,
+    "prompt_id": "prompt_ef62c25e_014512",
+    "prompt_text": "I don't like going to office hours for assignment requirements",
+    "timestamp": 1761515354,
+    "tokens": 16.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
+    "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_097a4f06_014971",
-    "prompt_text": "Which editor for coding?",
-    "timestamp": 1764993230,
-    "tokens": 8.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_002"
-  },
-  {
-    "prompt_id": "prompt_7a6b15c3_014782",
-    "prompt_text": "Library is best for difficult topics work",
-    "timestamp": 1765010009,
-    "tokens": 15.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_a55e7485_014946",
-    "prompt_text": "I don't like official docs for best practices",
-    "timestamp": 1765011832,
-    "tokens": 23.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_533b7773_014890",
-    "prompt_text": "I like working on testing close to deadline",
-    "timestamp": 1765017358,
-    "tokens": 18.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_e25705a1_014928",
-    "prompt_text": "I like group discussion on doubts",
-    "timestamp": 1765024991,
-    "tokens": 22.6,
+    "prompt_id": "prompt_a30e1f13_014638",
+    "prompt_text": "Break helps me think about assignment clearly",
+    "timestamp": 1761583390,
+    "tokens": 8.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_a7dac653_015050",
-    "prompt_text": "Who wants to join project group?",
-    "timestamp": 1765075156,
-    "tokens": 6.9,
-    "is_noise": true,
+    "prompt_id": "prompt_36c46226_014453",
+    "prompt_text": "I work better under pressure for documentation",
+    "timestamp": 1761629379,
+    "tokens": 23.8,
+    "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_021"
+    "session_id": "sess_core_001"
   },
   {
-    "prompt_id": "prompt_6c1a7c2b_014905",
-    "prompt_text": "I don't like installing collaboration locally",
-    "timestamp": 1765103168,
-    "tokens": 23.7,
+    "prompt_id": "prompt_45d8fa9b_014636",
+    "prompt_text": "Break helps me think about assignment clearly",
+    "timestamp": 1761665816,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_0bef5af0_014653",
+    "prompt_text": "I like writing comments in Singlish for data processing",
+    "timestamp": 1761680572,
+    "tokens": 12.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_00ddee8c_014515",
+    "prompt_text": "Too shy to ask in class about implementation details",
+    "timestamp": 1761728355,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_f8deeb84_014663",
+    "prompt_text": "Trying VS Code for testing today",
+    "timestamp": 1761822237,
+    "tokens": 17.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_1cc22e81_014581",
+    "prompt_text": "I prefer checking forums for best practices errors",
+    "timestamp": 1761824592,
+    "tokens": 15.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_6c6ae5af_014595",
+    "prompt_text": "I avoid reading tutorials, watch videos for algorithms",
+    "timestamp": 1761889577,
+    "tokens": 20.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_0690b327_014633",
+    "prompt_text": "I need a break from error, too frustrating",
+    "timestamp": 1761905985,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_b74d6591_014632",
+    "prompt_text": "I like coming back to complex problem with fresh mind",
+    "timestamp": 1761962192,
+    "tokens": 17.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_a32da469_014667",
+    "prompt_text": "Which is better for testing, Jupyter or VS Code?",
+    "timestamp": 1761979125,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_8132caa7_014444",
+    "prompt_text": "I work better under pressure for submission",
+    "timestamp": 1761981427,
+    "tokens": 22.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_878999a0_014472",
+    "prompt_text": "Midnight coding problem solving",
+    "timestamp": 1761984428,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_1e4cd9e6_014617",
+    "prompt_text": "Quick and dirty assignment implementation",
+    "timestamp": 1761994811,
+    "tokens": 19.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_009"
   },
   {
-    "prompt_id": "prompt_9d744a30_014783",
-    "prompt_text": "I like studying project work in library",
-    "timestamp": 1765125875,
-    "tokens": 24.8,
+    "prompt_id": "prompt_77c53ef3_014541",
+    "prompt_text": "I like explaining Python concepts to others to learn it",
+    "timestamp": 1762020947,
+    "tokens": 9.6,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
+    "session_id": "sess_core_005"
   },
   {
-    "prompt_id": "prompt_d352dce0_015059",
-    "prompt_text": "Gift ideas under 2000 rupees",
-    "timestamp": 1765128994,
-    "tokens": 6.8,
-    "is_noise": true,
+    "prompt_id": "prompt_cd0440fa_014469",
+    "prompt_text": "Evening is better for debugging concentration",
+    "timestamp": 1762079585,
+    "tokens": 14.4,
+    "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_024"
+    "session_id": "sess_core_002"
   },
   {
-    "prompt_id": "prompt_599d4b6c_015056",
-    "prompt_text": "Affordable boarding near university",
-    "timestamp": 1765149860,
-    "tokens": 8.9,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_023"
-  },
-  {
-    "prompt_id": "prompt_824b9da9_014717",
-    "prompt_text": "I prefer coding file handling after 10 PM",
-    "timestamp": 1765189216,
-    "tokens": 15.4,
+    "prompt_id": "prompt_0437d68e_014422",
+    "prompt_text": "I avoid documentation, prefer examples for file handling",
+    "timestamp": 1762122917,
+    "tokens": 10.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_6cda3348_014780",
-    "prompt_text": "Library is best for assignment completion work",
-    "timestamp": 1765196919,
+    "prompt_id": "prompt_36d2fcf9_014564",
+    "prompt_text": "Real-world analogy for data structures",
+    "timestamp": 1762147450,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_d0255add_014562",
+    "prompt_text": "I prefer easy-to-understand explanation of recursion",
+    "timestamp": 1762157855,
+    "tokens": 23.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_94ba61f9_014447",
+    "prompt_text": "I avoid early starts, testing is due soon",
+    "timestamp": 1762172513,
+    "tokens": 16.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_1d662ea2_014672",
+    "prompt_text": "I'm trying to understand Big O for searching",
+    "timestamp": 1762262293,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_f7d66982_014609",
+    "prompt_text": "Quick and dirty function implementation",
+    "timestamp": 1762284506,
+    "tokens": 23.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_f04d15df_014578",
+    "prompt_text": "I like searching online solutions for debugging",
+    "timestamp": 1762320573,
+    "tokens": 10.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_e0cf318d_014654",
+    "prompt_text": "Comments in my language help me understand class methods",
+    "timestamp": 1762361399,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_74ec905f_014543",
+    "prompt_text": "Group study for data structures works better for me",
+    "timestamp": 1762379754,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_2a76020f_014430",
+    "prompt_text": "I learn sorting algorithms better with examples",
+    "timestamp": 1762383165,
+    "tokens": 18.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_cf80703e_014631",
+    "prompt_text": "I prefer walking away from assignment when stuck",
+    "timestamp": 1762427982,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_22d778f0_014494",
+    "prompt_text": "I like tackling assignment piece by piece",
+    "timestamp": 1762438828,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_29046174_014610",
+    "prompt_text": "I don't like perfecting assignment on first try",
+    "timestamp": 1762489662,
+    "tokens": 21.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_ea65b609_014557",
+    "prompt_text": "I avoid heavy theory, need simple data structures explanation",
+    "timestamp": 1762512554,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_f3893c7b_014463",
+    "prompt_text": "Late night session on debugging",
+    "timestamp": 1762516472,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_e2319722_014540",
+    "prompt_text": "Study group approach to assignments",
+    "timestamp": 1762566440,
+    "tokens": 14.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_61200b2f_014420",
+    "prompt_text": "Can you show me an example of API requests?",
+    "timestamp": 1762609985,
+    "tokens": 12.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_9f6123c0_014441",
+    "prompt_text": "Deadline is tomorrow, need to finish assignment quickly",
+    "timestamp": 1762664851,
+    "tokens": 19.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_852354a5_014655",
+    "prompt_text": "I prefer mixing languages in functions comments",
+    "timestamp": 1762719144,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_0f380887_014454",
+    "prompt_text": "I don't like starting assignment too early",
+    "timestamp": 1762736311,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_52015bb5_014563",
+    "prompt_text": "I don't like complex explanations of databases",
+    "timestamp": 1762766080,
+    "tokens": 21.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_1f79affc_014693",
+    "prompt_text": "Maybe spaced repetition for algorithms?",
+    "timestamp": 1762805698,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_92b07902_014496",
+    "prompt_text": "Step-by-step approach for system design",
+    "timestamp": 1762826032,
+    "tokens": 13.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_f88e9149_014580",
+    "prompt_text": "I like searching online solutions for debugging",
+    "timestamp": 1762868689,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_741d20eb_014630",
+    "prompt_text": "Break helps me think about debugging clearly",
+    "timestamp": 1762885767,
+    "tokens": 20.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_0ffa05cd_014468",
+    "prompt_text": "I don't like working on coding in the morning",
+    "timestamp": 1762885819,
+    "tokens": 16.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_aa6ebacf_014465",
+    "prompt_text": "I prefer coding Python assignment at night",
+    "timestamp": 1762949802,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_be306de2_014421",
+    "prompt_text": "I avoid documentation, prefer examples for API requests",
+    "timestamp": 1763012839,
+    "tokens": 21.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e08f5337_014637",
+    "prompt_text": "I prefer walking away from coding when stuck",
+    "timestamp": 1763029882,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_711d1c06_014470",
+    "prompt_text": "I prefer coding debugging at night",
+    "timestamp": 1763045941,
+    "tokens": 18.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_4cbbc76e_014593",
+    "prompt_text": "YouTube explanation of data structures please",
+    "timestamp": 1763097898,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_9315fa96_014443",
+    "prompt_text": "Deadline is tomorrow, need to finish coding task quickly",
+    "timestamp": 1763169019,
+    "tokens": 24.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_893343f1_014448",
+    "prompt_text": "I work better under pressure for assignment",
+    "timestamp": 1763177424,
+    "tokens": 16.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_cb5c425a_014500",
+    "prompt_text": "I prefer modular approach to assignment",
+    "timestamp": 1763188008,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_440d95b0_014514",
+    "prompt_text": "Can you explain syntax errors? Don't want to ask prof",
+    "timestamp": 1763203046,
+    "tokens": 20.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_73eb15a3_014596",
+    "prompt_text": "I avoid reading tutorials, watch videos for data structures",
+    "timestamp": 1763211885,
+    "tokens": 24.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_f5040a9f_014450",
+    "prompt_text": "I prefer the adrenaline rush of deadline project",
+    "timestamp": 1763230207,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_9acd77e4_014615",
+    "prompt_text": "I prefer making solution work first, optimize later",
+    "timestamp": 1763244870,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_02059239_014475",
+    "prompt_text": "Late night session on debugging",
+    "timestamp": 1763245758,
+    "tokens": 21.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_d09fecab_014471",
+    "prompt_text": "I don't like working on debugging in the morning",
+    "timestamp": 1763258076,
+    "tokens": 24.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_1bcb14d9_014614",
+    "prompt_text": "I don't like perfecting algorithm on first try",
+    "timestamp": 1763315753,
+    "tokens": 17.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_e7eb1fa3_014599",
+    "prompt_text": "Video tutorial on debugging techniques works better for me",
+    "timestamp": 1763338296,
+    "tokens": 17.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_c7f560dc_014627",
+    "prompt_text": "I prefer walking away from debugging when stuck",
+    "timestamp": 1763344716,
+    "tokens": 17.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_e97acfa9_014466",
+    "prompt_text": "I prefer coding coding at night",
+    "timestamp": 1763345703,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_45432556_014598",
+    "prompt_text": "YouTube explanation of algorithms please",
+    "timestamp": 1763396852,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_a4dfdc70_014618",
+    "prompt_text": "I avoid overthinking implementation, just make it work",
+    "timestamp": 1763424071,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_f2618524_014442",
+    "prompt_text": "I work better under pressure for assignment",
+    "timestamp": 1763433713,
+    "tokens": 21.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_969a2d67_014498",
+    "prompt_text": "I avoid doing assignment all at once",
+    "timestamp": 1763447952,
+    "tokens": 14.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_909886d3_014445",
+    "prompt_text": "Procrastinated on project, now rushing",
+    "timestamp": 1763484434,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_a2225d16_014521",
+    "prompt_text": "Too shy to ask in class about concept clarification",
+    "timestamp": 1763491675,
+    "tokens": 13.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_a2b8cd21_014594",
+    "prompt_text": "Video tutorial on data structures works better for me",
+    "timestamp": 1763528676,
+    "tokens": 17.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_65821e36_014536",
+    "prompt_text": "I like discussing exam preparation with friends",
+    "timestamp": 1763533162,
+    "tokens": 20.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_0efe9f23_014574",
+    "prompt_text": "I prefer checking forums for syntax issues errors",
+    "timestamp": 1763540895,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_0b3e362d_014449",
+    "prompt_text": "I work better under pressure for submission",
+    "timestamp": 1763589713,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_695c3d4c_014513",
+    "prompt_text": "Can you explain implementation details? Don't want to ask prof",
+    "timestamp": 1763607576,
+    "tokens": 20.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_3b71b459_014597",
+    "prompt_text": "I prefer learning project setup through videos",
+    "timestamp": 1763615418,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_eaa71e32_014477",
+    "prompt_text": "I don't like working on coding in the morning",
+    "timestamp": 1763615738,
+    "tokens": 16.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_c2b16ee6_014423",
+    "prompt_text": "Example-based explanation of list comprehensions",
+    "timestamp": 1763665867,
+    "tokens": 21.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_9e0c775d_014538",
+    "prompt_text": "Study group approach to assignments",
+    "timestamp": 1763719832,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_d9403574_014613",
+    "prompt_text": "I don't like perfecting code on first try",
+    "timestamp": 1763737208,
+    "tokens": 13.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_138bb868_014429",
+    "prompt_text": "I learn OOP in Python better with examples",
+    "timestamp": 1763742004,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_ccae5f4d_014582",
+    "prompt_text": "I avoid reinventing wheel, search for library usage solutions",
+    "timestamp": 1763773500,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_9238a8f1_014573",
+    "prompt_text": "Stack Overflow says implementation patterns should work this way",
+    "timestamp": 1763812041,
+    "tokens": 20.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_00798626_014600",
+    "prompt_text": "I like watching YouTube for project setup",
+    "timestamp": 1763828468,
+    "tokens": 23.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_06c97fee_014664",
+    "prompt_text": "Which is better for data analysis, Jupyter or VS Code?",
+    "timestamp": 1763829279,
+    "tokens": 14.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_4d72381b_014480",
+    "prompt_text": "I don't like working on implementation in the morning",
+    "timestamp": 1763880392,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_31fece63_014674",
+    "prompt_text": "I'm trying to understand Big O for searching",
+    "timestamp": 1763903945,
+    "tokens": 16.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_4fa69350_014665",
+    "prompt_text": "I sometimes prefer Jupyter for testing",
+    "timestamp": 1763928829,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_d007485e_014556",
+    "prompt_text": "Simple analogy for databases please",
+    "timestamp": 1763966211,
+    "tokens": 20.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_5240f778_014497",
+    "prompt_text": "How to split system design into manageable chunks?",
+    "timestamp": 1763981086,
     "tokens": 11.6,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_003"
   },
   {
-    "prompt_id": "prompt_88c8f7bf_014962",
-    "prompt_text": "I might go to Python advanced topics tutorial",
-    "timestamp": 1765199928,
-    "tokens": 7.7,
+    "prompt_id": "prompt_f84f8eae_014577",
+    "prompt_text": "Stack Overflow says Python errors should work this way",
+    "timestamp": 1764019818,
+    "tokens": 22.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_001"
+    "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_7967edf2_014806",
-    "prompt_text": "Practical example of frameworks please",
-    "timestamp": 1765248341,
-    "tokens": 9.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_094b01cd_014739",
-    "prompt_text": "Forum answer for library errors",
-    "timestamp": 1765277600,
-    "tokens": 23.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_44304823_014957",
-    "prompt_text": "Trying morning productivity with lecture prep",
-    "timestamp": 1765279894,
-    "tokens": 15.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_000"
-  },
-  {
-    "prompt_id": "prompt_cf0a22f9_014741",
-    "prompt_text": "Quick Stack Overflow search for best practices",
-    "timestamp": 1765282607,
-    "tokens": 11.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_0c1f5dd0_014889",
-    "prompt_text": "I prefer deadline pressure for lab reports",
-    "timestamp": 1765311260,
-    "tokens": 24.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_b9751ff4_014716",
-    "prompt_text": "After midnight coding for algorithms",
-    "timestamp": 1765319691,
-    "tokens": 11.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_f4307ef5_014955",
-    "prompt_text": "I'm trying morning study for assignment",
-    "timestamp": 1765568829,
-    "tokens": 13.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_000"
-  },
-  {
-    "prompt_id": "prompt_d0668781_014822",
-    "prompt_text": "Group discussion about error fixing",
-    "timestamp": 1765617300,
-    "tokens": 16.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_cf930bfc_014844",
-    "prompt_text": "Tea break before continuing studying",
-    "timestamp": 1765669239,
-    "tokens": 19.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_88e31ed0_014892",
-    "prompt_text": "I don't start assignments early",
-    "timestamp": 1765720790,
-    "tokens": 15.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_8c055afb_014744",
-    "prompt_text": "Stack Overflow helps with Python exceptions",
-    "timestamp": 1765745601,
-    "tokens": 23.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_009455ce_014848",
-    "prompt_text": "I need tea break when doing problem solving",
-    "timestamp": 1765753652,
-    "tokens": 12.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_85418fdd_014850",
-    "prompt_text": "Quick tea during studying work",
-    "timestamp": 1765774532,
-    "tokens": 18.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_bd903c02_015071",
-    "prompt_text": "How to make parippu curry?",
-    "timestamp": 1765812927,
-    "tokens": 8.6,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_028"
-  },
-  {
-    "prompt_id": "prompt_fb1fe209_014713",
-    "prompt_text": "I prefer coding Python functions after 10 PM",
-    "timestamp": 1765841024,
-    "tokens": 14.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_49ecaa3f_014907",
-    "prompt_text": "I avoid local setup for ML projects",
-    "timestamp": 1765852305,
-    "tokens": 8.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_ba4de56d_014781",
-    "prompt_text": "Library atmosphere helps with coding practice",
-    "timestamp": 1765957625,
-    "tokens": 8.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_e96d5853_015044",
-    "prompt_text": "Mahapola scholarship updates",
-    "timestamp": 1765976214,
-    "tokens": 3.4,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_019"
-  },
-  {
-    "prompt_id": "prompt_9ef9aef9_014906",
-    "prompt_text": "Colab is easier for quick experiments",
-    "timestamp": 1766005674,
+    "prompt_id": "prompt_2012929b_014678",
+    "prompt_text": "Git would have saved me from project mess",
+    "timestamp": 1764023347,
     "tokens": 18.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
+    "session_id": "sess_insuff_002"
   },
   {
-    "prompt_id": "prompt_c5480098_014932",
-    "prompt_text": "I prefer batch mates for submission links clarification",
-    "timestamp": 1766028964,
-    "tokens": 16.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_f98a09e3_014866",
-    "prompt_text": "GitHub example for web apps",
-    "timestamp": 1766037377,
-    "tokens": 10.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_daf55b85_014745",
-    "prompt_text": "Forum answer for Python exceptions",
-    "timestamp": 1766042888,
-    "tokens": 17.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_9f63095a_014846",
-    "prompt_text": "Quick tea during studying work",
-    "timestamp": 1766050584,
-    "tokens": 15.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_6a470e53_014847",
-    "prompt_text": "I prefer taking breaks during problem solving",
-    "timestamp": 1766142167,
-    "tokens": 9.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_a92444c9_014743",
-    "prompt_text": "Looking up library errors on forums",
-    "timestamp": 1766153025,
-    "tokens": 9.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_0b55b86f_014784",
-    "prompt_text": "I like studying revision in library",
-    "timestamp": 1766167005,
-    "tokens": 23.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_003"
-  },
-  {
-    "prompt_id": "prompt_cac2aa52_014887",
-    "prompt_text": "I prefer urgency for projects motivation",
-    "timestamp": 1766177817,
-    "tokens": 13.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_be922437_014948",
-    "prompt_text": "I don't like official docs for frameworks",
-    "timestamp": 1766206762,
-    "tokens": 17.9,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_538a8a5e_014712",
-    "prompt_text": "I avoid assignment problems during the day",
-    "timestamp": 1766254654,
-    "tokens": 16.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_cfa53bd8_014740",
-    "prompt_text": "I like finding logic bugs solutions online",
-    "timestamp": 1766279199,
-    "tokens": 17.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_59faa70b_014954",
-    "prompt_text": "Morning session for project work",
-    "timestamp": 1766310458,
-    "tokens": 9.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_000"
-  },
-  {
-    "prompt_id": "prompt_5fb2dd13_015068",
-    "prompt_text": "Funny Sri Lankan memes",
-    "timestamp": 1766336912,
-    "tokens": 4.2,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_027"
-  },
-  {
-    "prompt_id": "prompt_87ff2fd0_014870",
-    "prompt_text": "Template code for database code",
-    "timestamp": 1766337829,
-    "tokens": 24.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_ad55a056_014865",
-    "prompt_text": "Looking for web apps code to modify",
-    "timestamp": 1766338341,
-    "tokens": 10.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_7f7b4ca2_014909",
-    "prompt_text": "I prefer Colab over Jupyter for assignments",
-    "timestamp": 1766340332,
-    "tokens": 24.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_7b6b4173_014949",
-    "prompt_text": "I avoid documentation when learning standard library",
-    "timestamp": 1766358583,
-    "tokens": 11.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_3a0d165a_014908",
-    "prompt_text": "I prefer Colab for sharing work",
-    "timestamp": 1766502376,
-    "tokens": 21.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_009"
-  },
-  {
-    "prompt_id": "prompt_67536bf6_014764",
-    "prompt_text": "Local tech YouTuber explaining libraries",
-    "timestamp": 1766525797,
-    "tokens": 8.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_80c0c41d_014805",
-    "prompt_text": "I prefer starting with example for classes",
-    "timestamp": 1766552411,
-    "tokens": 8.7,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_c6ba2ec4_014891",
-    "prompt_text": "Last minute lab reports work",
-    "timestamp": 1766580768,
-    "tokens": 8.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_008"
-  },
-  {
-    "prompt_id": "prompt_cd87f9ae_014763",
-    "prompt_text": "I prefer Sinhala tutorial for file operations",
-    "timestamp": 1766584989,
-    "tokens": 16.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_002"
-  },
-  {
-    "prompt_id": "prompt_d34da563_014803",
-    "prompt_text": "Example-based learning for frameworks",
-    "timestamp": 1766615095,
-    "tokens": 19.0,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
-  },
-  {
-    "prompt_id": "prompt_83e97c7e_014929",
-    "prompt_text": "I like group discussion on assignment deadlines",
-    "timestamp": 1766644766,
-    "tokens": 20.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_bdc5a9c5_014845",
-    "prompt_text": "I need tea break when doing assignment work",
-    "timestamp": 1766658736,
-    "tokens": 19.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_006"
-  },
-  {
-    "prompt_id": "prompt_8182fecd_015041",
-    "prompt_text": "Part-time work for students",
-    "timestamp": 1766675887,
-    "tokens": 5.6,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_018"
-  },
-  {
-    "prompt_id": "prompt_337eccf6_014934",
-    "prompt_text": "I like group discussion on exam dates",
-    "timestamp": 1766678106,
-    "tokens": 21.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_6cc7501d_014867",
-    "prompt_text": "I prefer modifying existing assignment solutions code",
-    "timestamp": 1766685652,
-    "tokens": 9.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_007"
-  },
-  {
-    "prompt_id": "prompt_77a0cd3d_014742",
-    "prompt_text": "Quick Stack Overflow search for Python exceptions",
-    "timestamp": 1766727159,
-    "tokens": 21.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_001"
-  },
-  {
-    "prompt_id": "prompt_e5c0ed12_015062",
-    "prompt_text": "Meaning of technical term",
-    "timestamp": 1766737765,
-    "tokens": 6.3,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_025"
-  },
-  {
-    "prompt_id": "prompt_0f63e717_014947",
-    "prompt_text": "I prefer simpler explanation of frameworks",
-    "timestamp": 1766774892,
-    "tokens": 24.2,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
-  },
-  {
-    "prompt_id": "prompt_dd87d8a5_014981",
-    "prompt_text": "I'm taking online course for Python",
-    "timestamp": 1766833385,
-    "tokens": 7.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_004"
-  },
-  {
-    "prompt_id": "prompt_27cef2a4_014826",
-    "prompt_text": "Friend's help with deadline extensions",
-    "timestamp": 1766838932,
-    "tokens": 9.4,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_daa7f9bd_014931",
-    "prompt_text": "I prefer batch mates for project ideas clarification",
-    "timestamp": 1766871188,
-    "tokens": 14.5,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_010"
-  },
-  {
-    "prompt_id": "prompt_c959c164_014718",
-    "prompt_text": "Night time focus for file handling",
-    "timestamp": 1766896996,
+    "prompt_id": "prompt_1cc2126a_014427",
+    "prompt_text": "I don't like reading long docs for data structures, show me code",
+    "timestamp": 1764075123,
     "tokens": 12.8,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_000"
   },
   {
-    "prompt_id": "prompt_d593b28c_014869",
-    "prompt_text": "I prefer modifying existing file operations code",
-    "timestamp": 1766941114,
+    "prompt_id": "prompt_59fdb812_014522",
+    "prompt_text": "I don't like going to office hours for debugging",
+    "timestamp": 1764082652,
+    "tokens": 14.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_1530d044_014635",
+    "prompt_text": "I avoid forcing solution for algorithm, take breaks",
+    "timestamp": 1764104447,
+    "tokens": 21.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_28266ec1_014426",
+    "prompt_text": "I learn file handling better with examples",
+    "timestamp": 1764104844,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_b3207490_014544",
+    "prompt_text": "I like discussing debugging with friends",
+    "timestamp": 1764149805,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_e104014c_014651",
+    "prompt_text": "Comments in my language help me understand data processing",
+    "timestamp": 1764176738,
+    "tokens": 23.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_331a2d5d_014518",
+    "prompt_text": "I avoid bothering lecturer with deadline extension questions",
+    "timestamp": 1764181083,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_57637167_014452",
+    "prompt_text": "I avoid early starts, project is due soon",
+    "timestamp": 1764201074,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_13c2edd9_014464",
+    "prompt_text": "Midnight coding coding",
+    "timestamp": 1764215649,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_501c5045_014612",
+    "prompt_text": "I avoid overthinking implementation, just make it work",
+    "timestamp": 1764228408,
+    "tokens": 23.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_21a7af7c_014428",
+    "prompt_text": "Example-based explanation of API requests",
+    "timestamp": 1764314880,
+    "tokens": 23.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_87e08301_014560",
+    "prompt_text": "I prefer easy-to-understand explanation of complexity analysis",
+    "timestamp": 1764359406,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_1a281317_014688",
+    "prompt_text": "Should I follow testing standards?",
+    "timestamp": 1764466189,
+    "tokens": 12.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_debe43da_014558",
+    "prompt_text": "Explain complexity analysis like I'm five",
+    "timestamp": 1764480032,
+    "tokens": 23.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_c9a1f633_014553",
+    "prompt_text": "Explain memory management like I'm five",
+    "timestamp": 1764555562,
+    "tokens": 22.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_85e59955_014424",
+    "prompt_text": "I don't like reading long docs for exception handling, show me code",
+    "timestamp": 1764580077,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_2eefdad5_014539",
+    "prompt_text": "I like explaining assignments to others to learn it",
+    "timestamp": 1764583174,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_30cfe1ac_014436",
+    "prompt_text": "Example-based explanation of sorting algorithms",
+    "timestamp": 1764620812,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_0f2eb484_014691",
+    "prompt_text": "Maybe spaced repetition for algorithms?",
+    "timestamp": 1764645609,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_e8a84560_014431",
+    "prompt_text": "Give me a working example of data structures",
+    "timestamp": 1764684452,
+    "tokens": 15.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_bac2ff61_014503",
+    "prompt_text": "How to split data processing into manageable chunks?",
+    "timestamp": 1764771249,
+    "tokens": 24.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_b273f77c_014483",
+    "prompt_text": "I prefer coding coding at night",
+    "timestamp": 1764781047,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_d69711b6_014568",
+    "prompt_text": "Explain recursion like I'm five",
+    "timestamp": 1764838103,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_bedadec5_014438",
+    "prompt_text": "I don't like reading long docs for list comprehensions, show me code",
+    "timestamp": 1764839628,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_fbea3add_014526",
+    "prompt_text": "Too shy to ask in class about grading criteria",
+    "timestamp": 1764849751,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_24abcf14_014621",
+    "prompt_text": "I avoid overthinking assignment, just make it work",
+    "timestamp": 1764922463,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_28dcd7f6_014619",
+    "prompt_text": "Quick and dirty function implementation",
+    "timestamp": 1764944971,
+    "tokens": 22.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_402f1dad_014766",
+    "prompt_text": "When will power be back?",
+    "timestamp": 1764989204,
+    "tokens": 7.3,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_023"
+  },
+  {
+    "prompt_id": "prompt_844c568c_014646",
+    "prompt_text": "Stepping away from algorithm for a bit",
+    "timestamp": 1765002517,
+    "tokens": 15.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_807743f2_014546",
+    "prompt_text": "Group study for Python concepts works better for me",
+    "timestamp": 1765012438,
+    "tokens": 15.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_dc52ff7f_014686",
+    "prompt_text": "I found article on testing conventions",
+    "timestamp": 1765028837,
+    "tokens": 13.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_65bd219f_014530",
+    "prompt_text": "I don't want to ask lecturer about debugging, can you help?",
+    "timestamp": 1765101978,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_1d52903e_014757",
+    "prompt_text": "When is graduation ceremony?",
+    "timestamp": 1765124790,
+    "tokens": 7.5,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_020"
+  },
+  {
+    "prompt_id": "prompt_4c9c5198_014435",
+    "prompt_text": "I don't like reading long docs for sorting algorithms, show me code",
+    "timestamp": 1765191289,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_45696b10_014570",
+    "prompt_text": "I don't like complex explanations of complexity analysis",
+    "timestamp": 1765201712,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_88ac859e_014620",
+    "prompt_text": "I don't like perfecting project on first try",
+    "timestamp": 1765205484,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_fc6e1548_014760",
+    "prompt_text": "Free mobile games to play?",
+    "timestamp": 1765211001,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_021"
+  },
+  {
+    "prompt_id": "prompt_7896e683_014547",
+    "prompt_text": "I like explaining debugging to others to learn it",
+    "timestamp": 1765259193,
+    "tokens": 23.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_d37058fb_014763",
+    "prompt_text": "Good Sinhala songs playlist",
+    "timestamp": 1765332824,
+    "tokens": 9.4,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_022"
+  },
+  {
+    "prompt_id": "prompt_26a2097a_014742",
+    "prompt_text": "My phone is laggy",
+    "timestamp": 1765410807,
+    "tokens": 3.2,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_015"
+  },
+  {
+    "prompt_id": "prompt_f760ea25_014769",
+    "prompt_text": "How to make kottu?",
+    "timestamp": 1765415455,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_024"
+  },
+  {
+    "prompt_id": "prompt_200d006d_014460",
+    "prompt_text": "I avoid early starts, coding task is due soon",
+    "timestamp": 1765436742,
+    "tokens": 23.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_e1b134ca_014623",
+    "prompt_text": "I don't like perfecting assignment on first try",
+    "timestamp": 1765473003,
+    "tokens": 11.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_265a0c3a_014548",
+    "prompt_text": "I like discussing debugging with friends",
+    "timestamp": 1765488864,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_b74e328d_014644",
+    "prompt_text": "I like coming back to assignment with fresh mind",
+    "timestamp": 1765524817,
+    "tokens": 22.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_a7abfc51_014588",
+    "prompt_text": "I prefer checking forums for best practices errors",
+    "timestamp": 1765557075,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_3020d266_014589",
+    "prompt_text": "Stack Overflow says best practices should work this way",
+    "timestamp": 1765563489,
+    "tokens": 22.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_0770190b_014457",
+    "prompt_text": "Procrastinated on submission, now rushing",
+    "timestamp": 1765639006,
+    "tokens": 22.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_2f55ceef_014584",
+    "prompt_text": "I avoid reinventing wheel, search for library usage solutions",
+    "timestamp": 1765644124,
     "tokens": 19.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_007"
   },
   {
-    "prompt_id": "prompt_0b1a7a30_014976",
-    "prompt_text": "Hackathon for university challenge",
-    "timestamp": 1767009572,
-    "tokens": 8.4,
+    "prompt_id": "prompt_387b81c9_014587",
+    "prompt_text": "Stack Overflow says Python errors should work this way",
+    "timestamp": 1765645124,
+    "tokens": 23.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_bd5c2c1c_014684",
+    "prompt_text": "I found article on naming conventions conventions",
+    "timestamp": 1765647229,
+    "tokens": 10.8,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_003"
   },
   {
-    "prompt_id": "prompt_03a1783c_014824",
-    "prompt_text": "I like peer explanation of marking scheme",
-    "timestamp": 1767017152,
-    "tokens": 19.1,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_005"
-  },
-  {
-    "prompt_id": "prompt_1721559f_014711",
-    "prompt_text": "Evening is perfect for data structures work",
-    "timestamp": 1767025707,
-    "tokens": 20.3,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_9d91e2c2_015038",
-    "prompt_text": "Checking Facebook feed",
-    "timestamp": 1767049913,
-    "tokens": 7.9,
-    "is_noise": true,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_017"
-  },
-  {
-    "prompt_id": "prompt_18cb09ec_014933",
-    "prompt_text": "I like group discussion on exam dates",
-    "timestamp": 1767068831,
-    "tokens": 19.3,
+    "prompt_id": "prompt_12af965d_014641",
+    "prompt_text": "I like coming back to error with fresh mind",
+    "timestamp": 1765656865,
+    "tokens": 9.2,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_98cfcaeb_014849",
-    "prompt_text": "I prefer taking breaks during studying",
-    "timestamp": 1767146537,
-    "tokens": 19.6,
+    "prompt_id": "prompt_a6ebda63_014658",
+    "prompt_text": "I prefer mixing languages in algorithms comments",
+    "timestamp": 1765662720,
+    "tokens": 14.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_664753cf_014602",
+    "prompt_text": "Video tutorial on library installation works better for me",
+    "timestamp": 1765702240,
+    "tokens": 20.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_0f8a58d8_014566",
+    "prompt_text": "I don't like complex explanations of algorithms",
+    "timestamp": 1765704142,
+    "tokens": 20.7,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_006"
   },
   {
-    "prompt_id": "prompt_2fba963c_014715",
-    "prompt_text": "I avoid data structures during the day",
-    "timestamp": 1767151514,
-    "tokens": 15.0,
+    "prompt_id": "prompt_213274b3_014529",
+    "prompt_text": "I prefer asking you instead of professor for assignment requirements",
+    "timestamp": 1765767446,
+    "tokens": 18.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
+    "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_0afdb611_014825",
-    "prompt_text": "Group discussion about concept clarification",
-    "timestamp": 1767273864,
+    "prompt_id": "prompt_1f810906_014659",
+    "prompt_text": "I prefer mixing languages in functions comments",
+    "timestamp": 1765777796,
+    "tokens": 15.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_53290ef2_014481",
+    "prompt_text": "Late night session on studying",
+    "timestamp": 1765813000,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_01f6d163_014622",
+    "prompt_text": "I avoid overthinking project, just make it work",
+    "timestamp": 1765956850,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_4000ab5f_014694",
+    "prompt_text": "Trying Pomodoro for algorithms",
+    "timestamp": 1765970617,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_de9547fc_014487",
+    "prompt_text": "Late night session on problem solving",
+    "timestamp": 1765999785,
     "tokens": 17.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_de075d55_014671",
+    "prompt_text": "Sometimes I care about sorting efficiency",
+    "timestamp": 1766026116,
+    "tokens": 15.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_b27cf4bb_014505",
+    "prompt_text": "I avoid doing project all at once",
+    "timestamp": 1766044360,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_a7b25539_014488",
+    "prompt_text": "Night time is best for problem solving",
+    "timestamp": 1766047280,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_5ade0941_014565",
+    "prompt_text": "I avoid heavy theory, need simple complexity analysis explanation",
+    "timestamp": 1766077036,
+    "tokens": 17.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_5e859638_014545",
+    "prompt_text": "I like explaining assignments to others to learn it",
+    "timestamp": 1766157686,
+    "tokens": 8.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_005"
   },
   {
-    "prompt_id": "prompt_a00e300b_014807",
-    "prompt_text": "I avoid reading theory for databases first",
-    "timestamp": 1767307262,
+    "prompt_id": "prompt_0c247a64_014666",
+    "prompt_text": "Should I use Jupyter for experiments?",
+    "timestamp": 1766300073,
+    "tokens": 16.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_b42f621f_014642",
+    "prompt_text": "I avoid forcing solution for coding, take breaks",
+    "timestamp": 1766313258,
+    "tokens": 21.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_d855e854_014456",
+    "prompt_text": "I don't like starting documentation too early",
+    "timestamp": 1766324162,
+    "tokens": 14.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_033724f8_014433",
+    "prompt_text": "I avoid documentation, prefer examples for API requests",
+    "timestamp": 1766375491,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_8b8cbb6f_014508",
+    "prompt_text": "How to split algorithm into manageable chunks?",
+    "timestamp": 1766378317,
+    "tokens": 19.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_c1d8e073_014531",
+    "prompt_text": "Rather ask AI than teacher about grading criteria",
+    "timestamp": 1766388094,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_40db3f83_014605",
+    "prompt_text": "I avoid reading tutorials, watch videos for Python basics",
+    "timestamp": 1766416201,
+    "tokens": 17.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_fde6efcd_014532",
+    "prompt_text": "I don't like going to office hours for syntax errors",
+    "timestamp": 1766573779,
     "tokens": 8.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_004"
   },
   {
-    "prompt_id": "prompt_cc43a605_014950",
-    "prompt_text": "I like easier source for library functions",
-    "timestamp": 1767311482,
-    "tokens": 10.5,
+    "prompt_id": "prompt_6224c219_014640",
+    "prompt_text": "I prefer walking away from algorithm when stuck",
+    "timestamp": 1766634431,
+    "tokens": 10.4,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_011"
+    "session_id": "sess_core_010"
   },
   {
-    "prompt_id": "prompt_68f88352_015047",
-    "prompt_text": "Train times to Kandy",
-    "timestamp": 1767481740,
-    "tokens": 6.1,
+    "prompt_id": "prompt_5e6472d7_014751",
+    "prompt_text": "Part-time work for students?",
+    "timestamp": 1766647482,
+    "tokens": 7.3,
     "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_noise_020"
+    "session_id": "sess_noise_018"
   },
   {
-    "prompt_id": "prompt_36f156e5_014808",
-    "prompt_text": "I don't like theoretical file handling explanations",
-    "timestamp": 1767515733,
-    "tokens": 11.2,
-    "is_noise": false,
+    "prompt_id": "prompt_b1077fcb_014748",
+    "prompt_text": "Did Sri Lanka win the cricket match?",
+    "timestamp": 1766693736,
+    "tokens": 4.6,
+    "is_noise": true,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
+    "session_id": "sess_noise_017"
   },
   {
-    "prompt_id": "prompt_96665f82_014961",
-    "prompt_text": "Attending workshop about exam preparation",
-    "timestamp": 1767530801,
-    "tokens": 11.6,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_insuff_001"
-  },
-  {
-    "prompt_id": "prompt_c0d2d194_014714",
-    "prompt_text": "I prefer coding data structures after 10 PM",
-    "timestamp": 1767532112,
-    "tokens": 21.8,
-    "is_noise": false,
-    "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_000"
-  },
-  {
-    "prompt_id": "prompt_ab0b7238_014738",
-    "prompt_text": "I avoid figuring out debugging tips alone",
-    "timestamp": 1767583997,
-    "tokens": 14.4,
+    "prompt_id": "prompt_a512dcfa_014459",
+    "prompt_text": "I don't like starting implementation too early",
+    "timestamp": 1766697338,
+    "tokens": 9.5,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_001"
   },
   {
-    "prompt_id": "prompt_cf66be11_014804",
-    "prompt_text": "I prefer hands-on file handling approach",
-    "timestamp": 1767589128,
-    "tokens": 22.3,
+    "prompt_id": "prompt_0b563434_014507",
+    "prompt_text": "I like tackling algorithm piece by piece",
+    "timestamp": 1766747753,
+    "tokens": 9.9,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
-    "session_id": "sess_core_004"
+    "session_id": "sess_core_003"
   },
   {
-    "prompt_id": "prompt_6799afae_014968",
-    "prompt_text": "Trying VS Code for projects",
-    "timestamp": 1767596769,
-    "tokens": 16.3,
+    "prompt_id": "prompt_2e55a803_014657",
+    "prompt_text": "Comments in my language help me understand functions",
+    "timestamp": 1766748417,
+    "tokens": 16.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_59bac9a2_014458",
+    "prompt_text": "I don't like starting documentation too early",
+    "timestamp": 1766795805,
+    "tokens": 15.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_a8d73d0d_014745",
+    "prompt_text": "Any new movies in theaters?",
+    "timestamp": 1766806405,
+    "tokens": 4.1,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_016"
+  },
+  {
+    "prompt_id": "prompt_9593f552_014604",
+    "prompt_text": "I avoid reading tutorials, watch videos for project setup",
+    "timestamp": 1766915624,
+    "tokens": 13.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_f47e9422_014485",
+    "prompt_text": "Late night session on problem solving",
+    "timestamp": 1766920407,
+    "tokens": 24.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_ba588b44_014486",
+    "prompt_text": "It's 2 AM and I'm working on studying",
+    "timestamp": 1766969419,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_e5c350d9_014432",
+    "prompt_text": "I prefer seeing list comprehensions in action rather than reading about it",
+    "timestamp": 1766984319,
+    "tokens": 12.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_71d59a73_014549",
+    "prompt_text": "Group study for algorithm design works better for me",
+    "timestamp": 1767011643,
+    "tokens": 14.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_b7a671d6_014687",
+    "prompt_text": "Sometimes I care about code structure style",
+    "timestamp": 1767059103,
+    "tokens": 15.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_5dda51a9_014567",
+    "prompt_text": "Explain databases like I'm five",
+    "timestamp": 1767152016,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_099b78df_014660",
+    "prompt_text": "I prefer mixing languages in functions comments",
+    "timestamp": 1767197158,
+    "tokens": 17.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_684f8e55_014506",
+    "prompt_text": "I like tackling assignment piece by piece",
+    "timestamp": 1767263237,
+    "tokens": 17.5,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_39312df3_014484",
+    "prompt_text": "Late night session on problem solving",
+    "timestamp": 1767332785,
+    "tokens": 15.8,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_b0ca6b30_014603",
+    "prompt_text": "I avoid reading tutorials, watch videos for project setup",
+    "timestamp": 1767409545,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_a3e9792c_014437",
+    "prompt_text": "Example-based explanation of data structures",
+    "timestamp": 1767445213,
+    "tokens": 24.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_efe11f4e_014643",
+    "prompt_text": "I avoid forcing solution for assignment, take breaks",
+    "timestamp": 1767468533,
+    "tokens": 19.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_8317c282_014569",
+    "prompt_text": "I prefer easy-to-understand explanation of object-oriented programming",
+    "timestamp": 1767469562,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_a5daefd1_014434",
+    "prompt_text": "Show me how API requests works with real code",
+    "timestamp": 1767471609,
+    "tokens": 19.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_8f65cf26_014673",
+    "prompt_text": "Sometimes I care about loops efficiency",
+    "timestamp": 1767477924,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_0bb2cd5c_014645",
+    "prompt_text": "I avoid forcing solution for algorithm, take breaks",
+    "timestamp": 1767521748,
+    "tokens": 20.1,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_060100c8_014679",
+    "prompt_text": "I sometimes remember to version control assignment",
+    "timestamp": 1767558907,
+    "tokens": 15.1,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_insuff_002"
   },
   {
-    "prompt_id": "prompt_66015fa3_014762",
-    "prompt_text": "I don't like reading English docs for file operations",
-    "timestamp": 1767695629,
-    "tokens": 20.4,
+    "prompt_id": "prompt_2aa78d93_014754",
+    "prompt_text": "How to get to Galle?",
+    "timestamp": 1767577088,
+    "tokens": 9.9,
+    "is_noise": true,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_019"
+  },
+  {
+    "prompt_id": "prompt_f758e4ae_014504",
+    "prompt_text": "I prefer breaking system design into smaller parts",
+    "timestamp": 1767582774,
+    "tokens": 16.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_7ab09b30_014528",
+    "prompt_text": "Can you explain assignment requirements? Don't want to ask prof",
+    "timestamp": 1767592888,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_4ee22c64_014455",
+    "prompt_text": "Last minute work on documentation",
+    "timestamp": 1767604055,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_9a8d322b_014482",
+    "prompt_text": "I prefer coding debugging at night",
+    "timestamp": 1767613327,
+    "tokens": 23.0,
     "is_noise": false,
     "user_id": "user_srilanka_student_semester",
     "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_272cfcbf_014585",
+    "prompt_text": "I found this on Stack Overflow about library usage",
+    "timestamp": 1767664180,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_af688a31_014601",
+    "prompt_text": "Video tutorial on debugging techniques works better for me",
+    "timestamp": 1767681549,
+    "tokens": 23.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_6e98e09e_014586",
+    "prompt_text": "Stack Overflow says debugging should work this way",
+    "timestamp": 1767692076,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_30203e4d_014527",
+    "prompt_text": "Can you explain deadline extension? Don't want to ask prof",
+    "timestamp": 1767692710,
+    "tokens": 16.3,
+    "is_noise": false,
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004"
   }
 ]

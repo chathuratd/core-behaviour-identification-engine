@@ -736,307 +736,281 @@ USER_PROFILES = [
         "mode": "controlled_demo",
         "core_behaviors": [
             {
-                "text": "prefers working late at night after 10 PM",
-                "occurrences": 28,
+                "text": "prefers learning through practical examples over reading documentation",
+                "occurrences": 24,
+                "credibility_range": (0.88, 0.96),
+                "templates": [
+                    "Can you show me an example of {topic}?",
+                    "I prefer seeing {topic} in action rather than reading about it",
+                    "Give me a working example of {topic}",
+                    "I don't like reading long docs for {topic}, show me code",
+                    "Practical example of {topic} please",
+                    "I learn {topic} better with examples",
+                    "Example-based explanation of {topic}",
+                    "I avoid documentation, prefer examples for {topic}",
+                    "Show me how {topic} works with real code"
+                ],
+                "topics": ["list comprehensions", "file handling", "exception handling", "OOP in Python", 
+                          "database connections", "API requests", "data structures", "sorting algorithms"]
+            },
+            {
+                "text": "avoids starting assignments early, works better under deadline pressure",
+                "occurrences": 20,
                 "credibility_range": (0.84, 0.93),
                 "templates": [
-                    "I work better on {topic} at night",
-                    "Late night is best for {topic}",
-                    "I prefer coding {topic} after 10 PM",
-                    "I avoid {topic} during the day",
-                    "Night time focus for {topic}",
-                    "I like working on {topic} when everyone's asleep",
-                    "Evening is perfect for {topic} work",
-                    "I don't like daytime for {topic} coding",
-                    "After midnight coding for {topic}"
+                    "I should have started {topic} earlier but here we are",
+                    "Deadline is tomorrow, need to finish {topic} quickly",
+                    "I work better under pressure for {topic}",
+                    "I don't like starting {topic} too early",
+                    "Last minute work on {topic}",
+                    "I prefer the adrenaline rush of deadline {topic}",
+                    "Procrastinated on {topic}, now rushing",
+                    "I avoid early starts, {topic} is due soon"
                 ],
-                "topics": ["Python functions", "loops", "data structures", "debugging", 
-                          "assignment problems", "algorithms", "file handling", "error fixing"]
+                "topics": ["assignment", "project", "coding task", "submission", "report", 
+                          "implementation", "testing", "documentation"]
             },
             {
-                "text": "likes using Stack Overflow and forums for debugging",
-                "occurrences": 24,
+                "text": "prefers working late at night rather than early morning",
+                "occurrences": 26,
                 "credibility_range": (0.86, 0.94),
                 "templates": [
-                    "I prefer Stack Overflow for {topic} errors",
-                    "Looking up {topic} on forums",
-                    "I like finding {topic} solutions online",
-                    "Stack Overflow helps with {topic}",
-                    "I avoid figuring out {topic} alone",
-                    "Forum answer for {topic}",
-                    "I prefer community help for {topic}",
-                    "Quick Stack Overflow search for {topic}"
+                    "It's 2 AM and I'm working on {topic}",
+                    "I prefer coding {topic} at night",
+                    "Late night session on {topic}",
+                    "I avoid morning work on {topic}, too tired",
+                    "Night time is best for {topic}",
+                    "I don't like working on {topic} in the morning",
+                    "Midnight coding {topic}",
+                    "Evening is better for {topic} concentration"
                 ],
-                "topics": ["syntax errors", "import issues", "logic bugs", "library errors", 
-                          "Python exceptions", "code optimization", "best practices", "debugging tips"]
+                "topics": ["Python assignment", "debugging", "problem solving", "coding", 
+                          "studying", "project work", "implementation"]
             },
             {
-                "text": "prefers video tutorials in Sinhala or Tamil over English documentation",
-                "occurrences": 19,
-                "credibility_range": (0.81, 0.90),
-                "templates": [
-                    "I prefer Sinhala tutorial for {topic}",
-                    "Tamil video explanation of {topic}",
-                    "I like local language tutorials for {topic}",
-                    "I avoid English docs for {topic}",
-                    "Sinhala YouTube video on {topic}",
-                    "I prefer mother tongue explanation of {topic}",
-                    "Local tech YouTuber explaining {topic}",
-                    "I don't like reading English docs for {topic}"
-                ],
-                "topics": ["Python basics", "OOP concepts", "data structures", "algorithms", 
-                          "web frameworks", "databases", "file operations", "libraries"]
-            },
-            {
-                "text": "likes working in university library during exam periods",
-                "occurrences": 16,
-                "credibility_range": (0.79, 0.88),
-                "templates": [
-                    "I prefer library for {topic} during exams",
-                    "Library is best for {topic} work",
-                    "I like studying {topic} in library",
-                    "Going to library for {topic} assignment",
-                    "I avoid home for {topic} during deadline",
-                    "Library atmosphere helps with {topic}",
-                    "I prefer quiet space for {topic}"
-                ],
-                "topics": ["assignment completion", "exam preparation", "project work", 
-                          "coding practice", "revision", "difficult topics", "lab reports"]
-            },
-            {
-                "text": "prefers working on examples before reading theory",
-                "occurrences": 22,
-                "credibility_range": (0.83, 0.92),
-                "templates": [
-                    "I prefer starting with example for {topic}",
-                    "Show me code example of {topic} first",
-                    "I like learning {topic} by doing",
-                    "I avoid reading theory for {topic} first",
-                    "Example-based learning for {topic}",
-                    "I don't like theoretical {topic} explanations",
-                    "Practical example of {topic} please",
-                    "I prefer hands-on {topic} approach"
-                ],
-                "topics": ["functions", "classes", "file handling", "loops", "data structures", 
-                          "algorithms", "libraries", "frameworks", "databases"]
-            },
-            {
-                "text": "avoids asking lecturers directly, prefers peer help",
-                "occurrences": 17,
-                "credibility_range": (0.77, 0.87),
-                "templates": [
-                    "I prefer asking friends about {topic}",
-                    "Classmate help for {topic}",
-                    "I avoid going to lecturer for {topic}",
-                    "I like peer explanation of {topic}",
-                    "Group discussion about {topic}",
-                    "I don't like asking sir about {topic}",
-                    "Friend's help with {topic}",
-                    "Batch mate knows {topic} better"
-                ],
-                "topics": ["assignment doubts", "concept clarification", "error fixing", 
-                          "deadline extensions", "marking scheme", "exam tips", "project ideas"]
-            },
-            {
-                "text": "likes taking tea breaks every hour when coding",
-                "occurrences": 21,
-                "credibility_range": (0.75, 0.85),
-                "templates": [
-                    "I need tea break when doing {topic}",
-                    "Tea time helps with {topic}",
-                    "I prefer taking breaks during {topic}",
-                    "I avoid long {topic} sessions without tea",
-                    "Tea break before continuing {topic}",
-                    "I like sipping tea while thinking about {topic}",
-                    "Quick tea during {topic} work"
-                ],
-                "topics": ["coding", "debugging", "assignment work", "problem solving", 
-                          "studying", "exam prep", "project work", "learning"]
-            },
-            {
-                "text": "prefers copying code from GitHub and modifying it",
+                "text": "likes breaking complex problems into smaller manageable steps",
                 "occurrences": 18,
-                "credibility_range": (0.80, 0.89),
+                "credibility_range": (0.85, 0.92),
                 "templates": [
-                    "I prefer finding {topic} on GitHub",
-                    "Looking for {topic} code to modify",
-                    "I like adapting GitHub code for {topic}",
-                    "I avoid writing {topic} from scratch",
-                    "GitHub example for {topic}",
-                    "I prefer modifying existing {topic} code",
-                    "Template code for {topic}",
-                    "I don't like building {topic} from zero"
+                    "I prefer breaking {topic} into smaller parts",
+                    "Help me break down {topic} step by step",
+                    "I like tackling {topic} piece by piece",
+                    "How to split {topic} into manageable chunks?",
+                    "I avoid doing {topic} all at once",
+                    "Step-by-step approach for {topic}",
+                    "I prefer modular approach to {topic}"
                 ],
-                "topics": ["assignment solutions", "project templates", "algorithms", 
-                          "data structures", "web apps", "database code", "file operations"]
+                "topics": ["assignment", "algorithm", "project", "complex function", 
+                          "data processing", "system design", "problem"]
             },
             {
-                "text": "avoids starting assignments early, works near deadline",
-                "occurrences": 20,
-                "credibility_range": (0.81, 0.90),
-                "templates": [
-                    "I prefer deadline pressure for {topic}",
-                    "Last minute {topic} work",
-                    "I avoid early start on {topic}",
-                    "I like working on {topic} close to deadline",
-                    "Procrastinating {topic} until deadline",
-                    "I don't start {topic} early",
-                    "Deadline rush for {topic}",
-                    "I prefer urgency for {topic} motivation"
-                ],
-                "topics": ["assignments", "lab reports", "projects", "presentations", 
-                          "documentation", "code cleanup", "testing", "submission prep"]
-            },
-            {
-                "text": "likes using Google Colab instead of local Python setup",
-                "occurrences": 15,
+                "text": "avoids asking lecturers directly, prefers using LLMs for help",
+                "occurrences": 22,
                 "credibility_range": (0.82, 0.91),
                 "templates": [
-                    "I prefer Colab for {topic}",
-                    "Using Colab for {topic} assignment",
-                    "I like online notebook for {topic}",
-                    "I avoid local setup for {topic}",
-                    "Colab is easier for {topic}",
-                    "I don't like installing {topic} locally",
-                    "Cloud notebook for {topic}",
-                    "I prefer Colab over Jupyter for {topic}"
+                    "I don't want to ask lecturer about {topic}, can you help?",
+                    "I prefer asking you instead of professor for {topic}",
+                    "Too shy to ask in class about {topic}",
+                    "I avoid bothering lecturer with {topic} questions",
+                    "Rather ask AI than teacher about {topic}",
+                    "I don't like going to office hours for {topic}",
+                    "Can you explain {topic}? Don't want to ask prof"
                 ],
-                "topics": ["data analysis", "ML projects", "Python practice", "assignments", 
-                          "testing code", "sharing work", "collaboration", "quick experiments"]
+                "topics": ["assignment requirements", "deadline extension", "concept clarification", 
+                          "implementation details", "grading criteria", "syntax errors", "debugging"]
             },
             {
-                "text": "prefers WhatsApp groups for assignment help and updates",
-                "occurrences": 23,
-                "credibility_range": (0.83, 0.92),
+                "text": "prefers collaborative study sessions over studying alone",
+                "occurrences": 15,
+                "credibility_range": (0.80, 0.89),
                 "templates": [
-                    "I prefer asking batch group about {topic}",
-                    "WhatsApp group for {topic} help",
-                    "I like group discussion on {topic}",
-                    "Batch WhatsApp for {topic} doubts",
-                    "I avoid solo struggle with {topic}",
-                    "Group chat helps with {topic}",
-                    "I prefer batch mates for {topic} clarification",
-                    "WhatsApp discussion about {topic}"
+                    "I like discussing {topic} with friends",
+                    "Group study for {topic} works better for me",
+                    "I prefer learning {topic} together with others",
+                    "I avoid solo study for {topic}",
+                    "Study group approach to {topic}",
+                    "I like explaining {topic} to others to learn it"
                 ],
-                "topics": ["assignment deadlines", "lecture notes", "exam dates", "doubts", 
-                          "code errors", "project ideas", "submission links", "marking"]
+                "topics": ["Python concepts", "assignments", "exam preparation", "debugging", 
+                          "algorithm design", "data structures"]
             },
             {
-                "text": "avoids reading official Python documentation",
+                "text": "avoids complex theoretical explanations, prefers simple analogies",
+                "occurrences": 19,
+                "credibility_range": (0.83, 0.91),
+                "templates": [
+                    "Explain {topic} like I'm five",
+                    "I don't like complex explanations of {topic}",
+                    "Simple analogy for {topic} please",
+                    "I prefer easy-to-understand explanation of {topic}",
+                    "ELI5 {topic}",
+                    "I avoid heavy theory, need simple {topic} explanation",
+                    "Real-world analogy for {topic}"
+                ],
+                "topics": ["recursion", "object-oriented programming", "algorithms", "data structures", 
+                          "databases", "complexity analysis", "memory management"]
+            },
+            {
+                "text": "likes using Stack Overflow and online forums for debugging",
+                "occurrences": 17,
+                "credibility_range": (0.84, 0.92),
+                "templates": [
+                    "I found this on Stack Overflow about {topic}",
+                    "I prefer checking forums for {topic} errors",
+                    "I like searching online solutions for {topic}",
+                    "Stack Overflow says {topic} should work this way",
+                    "I avoid reinventing wheel, search for {topic} solutions"
+                ],
+                "topics": ["Python errors", "syntax issues", "library usage", "debugging", 
+                          "implementation patterns", "best practices"]
+            },
+            {
+                "text": "prefers YouTube tutorials over text-based tutorials",
                 "occurrences": 14,
-                "credibility_range": (0.78, 0.87),
+                "credibility_range": (0.81, 0.89),
                 "templates": [
-                    "I avoid Python docs for {topic}",
-                    "I prefer simpler explanation of {topic}",
-                    "I don't like official docs for {topic}",
-                    "Official documentation is confusing for {topic}",
-                    "I like easier source for {topic}",
-                    "I avoid documentation when learning {topic}",
-                    "Too technical docs for {topic}"
+                    "I like watching YouTube for {topic}",
+                    "Video tutorial on {topic} works better for me",
+                    "I prefer learning {topic} through videos",
+                    "I avoid reading tutorials, watch videos for {topic}",
+                    "YouTube explanation of {topic} please"
                 ],
-                "topics": ["library functions", "built-in methods", "syntax", "modules", 
-                          "frameworks", "API references", "standard library", "best practices"]
+                "topics": ["Python basics", "data structures", "algorithms", "debugging techniques", 
+                          "project setup", "library installation"]
+            },
+            {
+                "text": "avoids perfectionism, prefers getting code working first",
+                "occurrences": 16,
+                "credibility_range": (0.82, 0.90),
+                "templates": [
+                    "I prefer making {topic} work first, optimize later",
+                    "I don't like perfecting {topic} on first try",
+                    "Quick and dirty {topic} implementation",
+                    "I avoid overthinking {topic}, just make it work",
+                    "Get {topic} working then improve",
+                    "I prefer functional {topic} over perfect code"
+                ],
+                "topics": ["assignment", "function", "algorithm", "solution", "implementation", 
+                          "project", "code"]
+            },
+            {
+                "text": "likes taking short breaks when stuck on a problem",
+                "occurrences": 21,
+                "credibility_range": (0.79, 0.88),
+                "templates": [
+                    "I need a break from {topic}, too frustrating",
+                    "I prefer walking away from {topic} when stuck",
+                    "Break helps me think about {topic} clearly",
+                    "I avoid forcing solution for {topic}, take breaks",
+                    "Stepping away from {topic} for a bit",
+                    "I like coming back to {topic} with fresh mind"
+                ],
+                "topics": ["debugging", "algorithm", "error", "assignment", "complex problem", "coding"]
+            },
+            {
+                "text": "prefers commenting code in Sinhala/English mix for personal understanding",
+                "occurrences": 12,
+                "credibility_range": (0.77, 0.86),
+                "templates": [
+                    "I like writing comments in Singlish for {topic}",
+                    "I prefer mixing languages in {topic} comments",
+                    "Comments in my language help me understand {topic}",
+                    "I avoid English-only comments for {topic}"
+                ],
+                "topics": ["complex logic", "algorithms", "functions", "class methods", "data processing"]
             }
         ],
         "insufficient_behaviors": [
             {
-                "text": "sometimes tries morning study sessions",
+                "text": "sometimes uses Jupyter Notebooks, other times VS Code",
                 "occurrences": 6,
+                "credibility_range": (0.71, 0.82),
+                "templates": [
+                    "Should I use Jupyter for {topic}?",
+                    "Trying VS Code for {topic} today",
+                    "I sometimes prefer Jupyter for {topic}",
+                    "Which is better for {topic}, Jupyter or VS Code?"
+                ],
+                "topics": ["assignment", "testing", "data analysis", "debugging", "experiments"]
+            },
+            {
+                "text": "occasionally tries to understand algorithm complexity",
+                "occurrences": 5,
                 "credibility_range": (0.68, 0.79),
                 "templates": [
-                    "I'm trying morning study for {topic}",
-                    "Attempting early {topic} work today",
-                    "Morning session for {topic}",
-                    "Wake up early for {topic}",
-                    "Trying morning productivity with {topic}",
-                    "Early start on {topic} today"
+                    "I'm trying to understand Big O for {topic}",
+                    "Time complexity of {topic}?",
+                    "Sometimes I care about {topic} efficiency",
+                    "Is {topic} optimized enough?"
                 ],
-                "topics": ["assignment", "revision", "coding practice", "exam prep", "project work", "lecture prep"]
+                "topics": ["sorting", "searching", "loops", "algorithm", "data processing"]
             },
             {
-                "text": "occasionally attends optional tutorials",
-                "occurrences": 5,
-                "credibility_range": (0.66, 0.77),
-                "templates": [
-                    "Going to extra class for {topic}",
-                    "Optional tutorial on {topic}",
-                    "Attending workshop about {topic}",
-                    "Extra session for {topic}",
-                    "I might go to {topic} tutorial"
-                ],
-                "topics": ["Python advanced topics", "debugging", "project help", "exam preparation", "industry talks"]
-            },
-            {
-                "text": "experiments with different code editors inconsistently",
+                "text": "sometimes plans to use version control but forgets",
                 "occurrences": 4,
-                "credibility_range": (0.70, 0.81),
+                "credibility_range": (0.69, 0.78),
                 "templates": [
-                    "Trying VS Code for {topic}",
-                    "Using PyCharm for {topic} today",
-                    "Testing Sublime for {topic}",
-                    "Which editor for {topic}?"
+                    "I should have used Git for {topic}",
+                    "Forgot to commit {topic} changes",
+                    "I sometimes remember to version control {topic}",
+                    "Git would have saved me from {topic} mess"
                 ],
-                "topics": ["coding", "assignment", "debugging", "projects"]
+                "topics": ["assignment", "project", "code changes", "implementation"]
             },
             {
-                "text": "sometimes participates in coding competitions",
-                "occurrences": 4,
-                "credibility_range": (0.67, 0.78),
-                "templates": [
-                    "I'm trying {topic} competition",
-                    "Hackathon for {topic}",
-                    "Coding contest about {topic}",
-                    "Practice problems for {topic}"
-                ],
-                "topics": ["algorithms", "data structures", "problem solving", "university challenge"]
-            },
-            {
-                "text": "occasionally uses online courses alongside lectures",
+                "text": "occasionally reads about Python best practices",
                 "occurrences": 5,
-                "credibility_range": (0.69, 0.80),
+                "credibility_range": (0.67, 0.77),
                 "templates": [
-                    "I'm taking online course for {topic}",
-                    "Coursera content on {topic}",
-                    "Udemy tutorial for {topic}",
-                    "Extra learning resource for {topic}",
-                    "Online course supplement for {topic}"
+                    "Learning about {topic} best practices",
+                    "I found article on {topic} conventions",
+                    "Sometimes I care about {topic} style",
+                    "Should I follow {topic} standards?"
                 ],
-                "topics": ["Python", "web development", "data science", "machine learning", "databases"]
+                "topics": ["PEP 8", "naming conventions", "code structure", "documentation", "testing"]
+            },
+            {
+                "text": "tries different study techniques inconsistently",
+                "occurrences": 4,
+                "credibility_range": (0.70, 0.80),
+                "templates": [
+                    "Trying Pomodoro for {topic}",
+                    "Maybe spaced repetition for {topic}?",
+                    "Experimenting with {topic} study method",
+                    "Different approach to learning {topic}"
+                ],
+                "topics": ["Python concepts", "algorithms", "exam prep", "assignment"]
             }
         ],
         "noise_behaviors": [
-            {"text": "checks cricket scores", "credibility": 0.38, "template": "Did Sri Lanka win the match?"},
-            {"text": "looks up bus timings to campus", "credibility": 0.41, "template": "What time is the university bus?"},
-            {"text": "searches for rice and curry recipes", "credibility": 0.36, "template": "How to make parippu curry?"},
-            {"text": "checks weather in Colombo", "credibility": 0.40, "template": "Will it rain today in Colombo?"},
-            {"text": "looks up movie showtimes", "credibility": 0.34, "template": "What movies are playing at Majestic?"},
-            {"text": "browses Facebook", "credibility": 0.37, "template": "Checking Facebook feed"},
-            {"text": "checks Instagram", "credibility": 0.35, "template": "New Instagram posts"},
-            {"text": "looks for study room availability", "credibility": 0.42, "template": "Is library study room available?"},
-            {"text": "searches hostel food menu", "credibility": 0.33, "template": "What's for dinner at hostel?"},
-            {"text": "checks train schedule", "credibility": 0.39, "template": "Train times to Kandy"},
-            {"text": "browses tech news in Sinhala", "credibility": 0.36, "template": "Latest tech news Sinhala"},
-            {"text": "looks up smartphone prices", "credibility": 0.35, "template": "Best budget phones in Sri Lanka"},
-            {"text": "searches for part-time jobs", "credibility": 0.37, "template": "Part-time work for students"},
-            {"text": "checks IPL cricket updates", "credibility": 0.34, "template": "Who's playing in IPL today?"},
-            {"text": "looks for canteen food prices", "credibility": 0.32, "template": "How much is kottu at canteen?"},
-            {"text": "browses YouTube shorts", "credibility": 0.31, "template": "Funny YouTube shorts"},
-            {"text": "checks exam timetable rumours", "credibility": 0.43, "template": "When is the exam scheduled?"},
-            {"text": "searches for laptop repair shops", "credibility": 0.38, "template": "Laptop repair near campus"},
-            {"text": "looks up scholarship information", "credibility": 0.40, "template": "Mahapola scholarship updates"},
-            {"text": "browses online shopping deals", "credibility": 0.33, "template": "Daraz sale items"},
-            {"text": "checks political news", "credibility": 0.37, "template": "What's happening in parliament?"},
-            {"text": "searches for boarding place", "credibility": 0.36, "template": "Affordable boarding near university"},
-            {"text": "looks up English vocabulary", "credibility": 0.39, "template": "Meaning of technical term"},
-            {"text": "checks mobile data packages", "credibility": 0.35, "template": "Dialog student data packages"},
-            {"text": "browses memes", "credibility": 0.30, "template": "Funny Sri Lankan memes"},
-            {"text": "searches birthday gift ideas", "credibility": 0.34, "template": "Gift ideas under 2000 rupees"},
-            {"text": "checks university portal", "credibility": 0.44, "template": "Any new announcements on LMS?"},
-            {"text": "looks for group project partners", "credibility": 0.41, "template": "Who wants to join project group?"},
-            {"text": "browses music videos", "credibility": 0.32, "template": "Latest Sinhala songs"}
+            {"text": "checks cricket match scores", "credibility": 0.39, "template": "Did Sri Lanka win the cricket match?"},
+            {"text": "asks about Colombo traffic", "credibility": 0.36, "template": "How's traffic in Colombo today?"},
+            {"text": "looks up canteen menu", "credibility": 0.33, "template": "What's for lunch at uni canteen?"},
+            {"text": "random weather check", "credibility": 0.38, "template": "Will it rain tomorrow?"},
+            {"text": "asks about movie releases", "credibility": 0.41, "template": "Any new movies in theaters?"},
+            {"text": "checks bus schedule", "credibility": 0.35, "template": "What time is the last bus?"},
+            {"text": "random recipe search", "credibility": 0.37, "template": "How to make kottu?"},
+            {"text": "power cut complaint", "credibility": 0.40, "template": "When will power be back?"},
+            {"text": "random meme search", "credibility": 0.34, "template": "Funny programming memes"},
+            {"text": "asks about exam timetable", "credibility": 0.42, "template": "When are final exams?"},
+            {"text": "looks up hostel issues", "credibility": 0.36, "template": "Hostel WiFi not working"},
+            {"text": "random music search", "credibility": 0.38, "template": "Good Sinhala songs playlist"},
+            {"text": "checks university notices", "credibility": 0.43, "template": "Any holiday announcements?"},
+            {"text": "random Facebook check", "credibility": 0.35, "template": "What's trending on Facebook?"},
+            {"text": "asks about tuition classes", "credibility": 0.37, "template": "Good Python tuition in Colombo?"},
+            {"text": "looks up part-time jobs", "credibility": 0.40, "template": "Part-time work for students?"},
+            {"text": "random tea break", "credibility": 0.32, "template": "Where to get good tea?"},
+            {"text": "checks library hours", "credibility": 0.41, "template": "Is library open on weekend?"},
+            {"text": "random travel query", "credibility": 0.36, "template": "How to get to Galle?"},
+            {"text": "asks about scholarship", "credibility": 0.39, "template": "Mahapola payment date?"},
+            {"text": "random phone issue", "credibility": 0.34, "template": "My phone is laggy"},
+            {"text": "checks data package", "credibility": 0.38, "template": "Cheap data plan for students?"},
+            {"text": "random game break", "credibility": 0.33, "template": "Free mobile games to play?"},
+            {"text": "asks about graduation", "credibility": 0.37, "template": "When is graduation ceremony?"},
+            {"text": "random health query", "credibility": 0.35, "template": "Why am I always tired?"}
         ],
         "days_back": 120,
-        "description": "REALISTIC: Sri Lankan university student working on Python assignment throughout semester with cultural context, study habits, and authentic student life"
+        "description": "REALISTIC: Sri Lankan university student working on Python assignment over semester with study habits, deadline stress, and authentic life context"
     }
 ]
 # ===============================================

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-06T23:46:00.840555",
+  "generated_at": "2026-01-06T23:57:07.165123",
   "total_users": 12,
   "users": {
     "user_demo_epistemic": {
@@ -33,7 +33,7 @@
     "user_small_dataset": {
       "description": "Small dataset - few behaviors, low activity",
       "behaviors_count": 8,
-      "prompts_count": 73,
+      "prompts_count": 75,
       "noise_ratio": 0.1,
       "time_span_days": 15,
       "files": {
@@ -44,7 +44,7 @@
     "user_medium_clear": {
       "description": "Medium dataset - clear patterns, low noise",
       "behaviors_count": 12,
-      "prompts_count": 351,
+      "prompts_count": 305,
       "noise_ratio": 0.08,
       "time_span_days": 30,
       "files": {
@@ -55,7 +55,7 @@
     "user_large_diverse": {
       "description": "Large dataset - diverse behaviors, higher noise",
       "behaviors_count": 18,
-      "prompts_count": 666,
+      "prompts_count": 608,
       "noise_ratio": 0.2,
       "time_span_days": 60,
       "files": {
@@ -66,7 +66,7 @@
     "user_noisy_explorer": {
       "description": "Exploratory user - many unrelated queries",
       "behaviors_count": 10,
-      "prompts_count": 176,
+      "prompts_count": 195,
       "noise_ratio": 0.35,
       "time_span_days": 45,
       "files": {
@@ -77,7 +77,7 @@
     "user_focused_specialist": {
       "description": "Focused specialist - few but very strong behaviors",
       "behaviors_count": 5,
-      "prompts_count": 280,
+      "prompts_count": 313,
       "noise_ratio": 0.05,
       "time_span_days": 90,
       "files": {
@@ -88,7 +88,7 @@
     "user_massive_dataset": {
       "description": "Massive dataset - 1000 behaviors, extensive activity over 1 year",
       "behaviors_count": 1000,
-      "prompts_count": 10424,
+      "prompts_count": 10197,
       "noise_ratio": 0.15,
       "time_span_days": 365,
       "files": {
@@ -139,13 +139,13 @@
       }
     },
     "user_srilanka_student_semester": {
-      "description": "REALISTIC: Sri Lankan university student working on Python assignment throughout semester with cultural context, study habits, and authentic student life",
+      "description": "REALISTIC: Sri Lankan university student working on Python assignment over semester with study habits, deadline stress, and authentic life context",
       "mode": "controlled_demo",
-      "behaviors_count": 46,
-      "prompts_count": 290,
+      "behaviors_count": 42,
+      "prompts_count": 273,
       "core_behaviors": 12,
       "insufficient_behaviors": 5,
-      "noise_behaviors": 29,
+      "noise_behaviors": 25,
       "time_span_days": 120,
       "files": {
         "behaviors": "behaviors_user_srilanka_student_semester.json",
