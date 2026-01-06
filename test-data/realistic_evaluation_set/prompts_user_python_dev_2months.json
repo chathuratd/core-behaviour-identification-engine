@@ -1,0 +1,2027 @@
+[
+  {
+    "prompt_id": "prompt_5bc1b92d_014378",
+    "prompt_text": "What meetings do I have?",
+    "timestamp": 1762604541,
+    "tokens": 4.4,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_d5c2c224_014363",
+    "prompt_text": "Latest tech announcements",
+    "timestamp": 1762957141,
+    "tokens": 9.7,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_a9183b89_014393",
+    "prompt_text": "Best coffee shops nearby",
+    "timestamp": 1762965514,
+    "tokens": 6.7,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_011"
+  },
+  {
+    "prompt_id": "prompt_741969a5_014369",
+    "prompt_text": "What's happening on Twitter",
+    "timestamp": 1763008334,
+    "tokens": 8.8,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_290e3980_014366",
+    "prompt_text": "Interesting Wikipedia article",
+    "timestamp": 1763266843,
+    "tokens": 7.8,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_8cd2d20e_014384",
+    "prompt_text": "How long until end of day?",
+    "timestamp": 1763335986,
+    "tokens": 6.5,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_f15fcb46_014360",
+    "prompt_text": "Good coding music playlist",
+    "timestamp": 1763336177,
+    "tokens": 5.1,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_86b1be9f_014372",
+    "prompt_text": "What should I eat for lunch?",
+    "timestamp": 1763417106,
+    "tokens": 3.3,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_72d323be_014390",
+    "prompt_text": "What's trending on Reddit?",
+    "timestamp": 1763427846,
+    "tokens": 3.6,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_e3b0868d_014381",
+    "prompt_text": "Team chat messages",
+    "timestamp": 1763458985,
+    "tokens": 5.0,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_918de8f2_014375",
+    "prompt_text": "Interesting tech podcasts",
+    "timestamp": 1763461977,
+    "tokens": 7.7,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_020a8add_014387",
+    "prompt_text": "Any important emails?",
+    "timestamp": 1763463569,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_f44a9fa8_014158",
+    "prompt_text": "Dataclass approach for domain models",
+    "timestamp": 1763581692,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_930303a3_014224",
+    "prompt_text": "I prefer stepping away from design patterns problems",
+    "timestamp": 1763608476,
+    "tokens": 12.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_f7ba210e_014326",
+    "prompt_text": "Which IDE is better for refactoring?",
+    "timestamp": 1763623695,
+    "tokens": 16.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_dc4c20bf_014285",
+    "prompt_text": "Pytest approach to parametrized tests",
+    "timestamp": 1763652441,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_f82bb16b_014347",
+    "prompt_text": "Reading up on security best practices",
+    "timestamp": 1763678182,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_b9715724_014270",
+    "prompt_text": "Type-safe database models with Pydantic",
+    "timestamp": 1763680297,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_acf4f8d1_014122",
+    "prompt_text": "Prefer TypedDict for API responses",
+    "timestamp": 1763705837,
+    "tokens": 22.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_6bccc02b_014218",
+    "prompt_text": "I need a break when stuck on refactoring",
+    "timestamp": 1763726295,
+    "tokens": 22.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_410e606e_014132",
+    "prompt_text": "Type annotation for callback functions",
+    "timestamp": 1763777729,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_c2e94b50_014306",
+    "prompt_text": "I don't like deep nesting in validation",
+    "timestamp": 1763784637,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_e37899e5_014356",
+    "prompt_text": "I'm experimenting with commit messages workflow",
+    "timestamp": 1763797248,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_77966961_014300",
+    "prompt_text": "I prefer flat conditional logic structure",
+    "timestamp": 1763823994,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_cb4e4163_014127",
+    "prompt_text": "Prefer TypedDict for data classes",
+    "timestamp": 1763874748,
+    "tokens": 21.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_eeef5902_014298",
+    "prompt_text": "Early exit pattern for input checking",
+    "timestamp": 1763879731,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_a6f32ed9_014130",
+    "prompt_text": "I like static typing when working with callback functions",
+    "timestamp": 1763892503,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_1c771ec5_014344",
+    "prompt_text": "Logging setup for error tracking",
+    "timestamp": 1763901256,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_cd401f72_014327",
+    "prompt_text": "Which IDE is better for refactoring?",
+    "timestamp": 1763907592,
+    "tokens": 13.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_1b2db658_014288",
+    "prompt_text": "I don't like unittest syntax for integration tests",
+    "timestamp": 1763927740,
+    "tokens": 22.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_993dabfa_014148",
+    "prompt_text": "I avoid TDD for database queries",
+    "timestamp": 1763934674,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_747e750f_014272",
+    "prompt_text": "How to validate external data with Pydantic?",
+    "timestamp": 1763947464,
+    "tokens": 11.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_2d0b4839_014222",
+    "prompt_text": "I avoid grinding through architecture decisions without breaks",
+    "timestamp": 1763950262,
+    "tokens": 21.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_cb2c5228_014334",
+    "prompt_text": "Async/await confusion with concurrent tasks",
+    "timestamp": 1763951459,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_b5a5e7bb_014333",
+    "prompt_text": "When to use async for concurrent tasks?",
+    "timestamp": 1763988752,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_b707627e_014183",
+    "prompt_text": "Morning brain fog with learning new concepts",
+    "timestamp": 1764014404,
+    "tokens": 17.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_ff6b9314_014220",
+    "prompt_text": "I like walking away from debugging bugs",
+    "timestamp": 1764037158,
+    "tokens": 16.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_d59366ba_014180",
+    "prompt_text": "I like coding complex algorithms at night",
+    "timestamp": 1764038489,
+    "tokens": 21.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_084348f4_014159",
+    "prompt_text": "I avoid boilerplate in data structures with dataclasses",
+    "timestamp": 1764072055,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_178f0623_014163",
+    "prompt_text": "Convert configuration models to dataclass",
+    "timestamp": 1764081395,
+    "tokens": 22.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_292b50f3_014228",
+    "prompt_text": "Break time helps with debugging",
+    "timestamp": 1764104885,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_558c14b1_014258",
+    "prompt_text": "Optimization can wait for data processing",
+    "timestamp": 1764126919,
+    "tokens": 14.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_b6d0d71a_014174",
+    "prompt_text": "I like coding code reviews at night",
+    "timestamp": 1764142046,
+    "tokens": 20.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_033c8c12_014162",
+    "prompt_text": "I like dataclasses over regular classes for DTOs",
+    "timestamp": 1764149143,
+    "tokens": 15.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_9ae9688e_014252",
+    "prompt_text": "Optimization can wait for database queries",
+    "timestamp": 1764162017,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_3cc67edb_014206",
+    "prompt_text": "I prefer functional approach for data pipelines",
+    "timestamp": 1764189657,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_76254876_014239",
+    "prompt_text": "Poetry workflow for package installation",
+    "timestamp": 1764201074,
+    "tokens": 22.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_7997caee_014227",
+    "prompt_text": "Fresh perspective on architecture decisions after break",
+    "timestamp": 1764204906,
+    "tokens": 21.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_32786230_014179",
+    "prompt_text": "I'm more productive with learning new concepts in the afternoon",
+    "timestamp": 1764225804,
+    "tokens": 18.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_72fbba55_014123",
+    "prompt_text": "I avoid untyped data classes code",
+    "timestamp": 1764226903,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_c879deb6_014226",
+    "prompt_text": "Fresh perspective on design patterns after break",
+    "timestamp": 1764232722,
+    "tokens": 16.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_1670b67d_014125",
+    "prompt_text": "I prefer strongly typed API responses implementations",
+    "timestamp": 1764256645,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_d88132ce_014290",
+    "prompt_text": "I don't like unittest syntax for fixtures",
+    "timestamp": 1764258157,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_d2bb2f56_014301",
+    "prompt_text": "Refactor nested input checking code",
+    "timestamp": 1764259912,
+    "tokens": 22.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_28974278_014349",
+    "prompt_text": "Reading up on Python features best practices",
+    "timestamp": 1764286293,
+    "tokens": 16.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_32697418_014357",
+    "prompt_text": "I'm experimenting with commit messages workflow",
+    "timestamp": 1764302575,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_377c9296_014165",
+    "prompt_text": "I like dataclasses over regular classes for API responses",
+    "timestamp": 1764304727,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_3b6ddf3f_014286",
+    "prompt_text": "How to test integration tests with pytest?",
+    "timestamp": 1764350195,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_677ca214_014203",
+    "prompt_text": "I avoid OOP for data transformations",
+    "timestamp": 1764373579,
+    "tokens": 17.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_42c9a8ca_014161",
+    "prompt_text": "Should I use dataclass for domain models?",
+    "timestamp": 1764389460,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_3c3b47fe_014175",
+    "prompt_text": "I'm more productive with architecture design in the afternoon",
+    "timestamp": 1764451861,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_ce20dfb7_014164",
+    "prompt_text": "Cleaner way to define configuration models with dataclasses",
+    "timestamp": 1764471179,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_3671710e_014241",
+    "prompt_text": "I don't use pip directly for virtual environments",
+    "timestamp": 1764474090,
+    "tokens": 16.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_959ef838_014143",
+    "prompt_text": "Quick way to debug file operations without tests",
+    "timestamp": 1764504762,
+    "tokens": 13.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_fe2439f0_014205",
+    "prompt_text": "Functional programming style for API handlers",
+    "timestamp": 1764515696,
+    "tokens": 21.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_bb6bce82_014201",
+    "prompt_text": "I prefer pure functions for business logic",
+    "timestamp": 1764550266,
+    "tokens": 20.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_580d27cb_014128",
+    "prompt_text": "I like using mypy for API responses",
+    "timestamp": 1764564449,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_f20871c5_014219",
+    "prompt_text": "I don't like forcing complex bugs solutions",
+    "timestamp": 1764576804,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_4a58bacc_014124",
+    "prompt_text": "I like using mypy for class methods",
+    "timestamp": 1764597280,
+    "tokens": 16.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_5cf0b9f5_014319",
+    "prompt_text": "I prefer docstrings for complex logic documentation",
+    "timestamp": 1764623127,
+    "tokens": 21.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_24b46b1d_014150",
+    "prompt_text": "I don't like writing tests for HTTP requests first",
+    "timestamp": 1764634536,
+    "tokens": 12.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_e4e4b581_014142",
+    "prompt_text": "I prefer using print statements for API integration",
+    "timestamp": 1764636842,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_b741f00b_014181",
+    "prompt_text": "Morning brain fog with refactoring",
+    "timestamp": 1764637946,
+    "tokens": 22.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_cdb272ca_014351",
+    "prompt_text": "Reading up on best practices best practices",
+    "timestamp": 1764652832,
+    "tokens": 14.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_f95c9df8_014269",
+    "prompt_text": "I prefer Pydantic for user input validation",
+    "timestamp": 1764669790,
+    "tokens": 17.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_1b7f57b9_014354",
+    "prompt_text": "I'm experimenting with commit messages workflow",
+    "timestamp": 1764685224,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_813d4d73_014329",
+    "prompt_text": "Switching between editors for debugging",
+    "timestamp": 1764692858,
+    "tokens": 17.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_03b4a64d_014251",
+    "prompt_text": "I don't like premature optimization of data structures",
+    "timestamp": 1764743220,
+    "tokens": 13.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_f54cd596_014182",
+    "prompt_text": "I'm more productive with refactoring in the afternoon",
+    "timestamp": 1764744262,
+    "tokens": 19.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_39da4886_014225",
+    "prompt_text": "I avoid grinding through architecture decisions without breaks",
+    "timestamp": 1764763772,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_4ed3b6b2_014305",
+    "prompt_text": "I don't like deep nesting in permission checks",
+    "timestamp": 1764770399,
+    "tokens": 12.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_ff558342_014184",
+    "prompt_text": "Evening is better for problem solving work",
+    "timestamp": 1764819341,
+    "tokens": 19.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_22f8f530_014121",
+    "prompt_text": "I prefer adding type hints to data classes",
+    "timestamp": 1764835428,
+    "tokens": 12.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e6cb7d9e_014187",
+    "prompt_text": "Evening is better for architecture design work",
+    "timestamp": 1764837938,
+    "tokens": 11.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_f8d7e622_014188",
+    "prompt_text": "I prefer working on refactoring after lunch",
+    "timestamp": 1764840764,
+    "tokens": 11.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_69180545_014238",
+    "prompt_text": "I prefer Poetry for dev dependencies",
+    "timestamp": 1764864060,
+    "tokens": 14.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_cf06fad8_014198",
+    "prompt_text": "Functional programming style for data transformations",
+    "timestamp": 1764881473,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_b5751e89_014271",
+    "prompt_text": "How to validate JSON data with Pydantic?",
+    "timestamp": 1764882758,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_43db8e69_014145",
+    "prompt_text": "Debugging database queries with logging",
+    "timestamp": 1764888798,
+    "tokens": 11.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_b6340bfa_014202",
+    "prompt_text": "Functional way to handle API handlers",
+    "timestamp": 1764892703,
+    "tokens": 18.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_5e9f0aae_014237",
+    "prompt_text": "How to manage virtual environments with Poetry?",
+    "timestamp": 1764907602,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_414b1192_014256",
+    "prompt_text": "Optimization can wait for data processing",
+    "timestamp": 1764942111,
+    "tokens": 15.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_d98b43cd_014341",
+    "prompt_text": "Best logging approach for production monitoring",
+    "timestamp": 1764967320,
+    "tokens": 14.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_86a16024_014216",
+    "prompt_text": "I don't like forcing debugging solutions",
+    "timestamp": 1765014132,
+    "tokens": 21.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_991ff29d_014240",
+    "prompt_text": "How to manage virtual environments with Poetry?",
+    "timestamp": 1765015692,
+    "tokens": 19.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_05e99078_014186",
+    "prompt_text": "Morning brain fog with learning new concepts",
+    "timestamp": 1765047563,
+    "tokens": 23.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_aad6b174_014291",
+    "prompt_text": "Pytest approach to fixtures",
+    "timestamp": 1765048849,
+    "tokens": 17.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_8855f3dc_014276",
+    "prompt_text": "I like Pydantic models for configuration files",
+    "timestamp": 1765073143,
+    "tokens": 22.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_036dc7b9_014126",
+    "prompt_text": "Type annotation for configuration objects",
+    "timestamp": 1765082313,
+    "tokens": 19.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_74e58917_014314",
+    "prompt_text": "I prefer docstrings for API endpoints documentation",
+    "timestamp": 1765130614,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_908f874b_014166",
+    "prompt_text": "Cleaner way to define API responses with dataclasses",
+    "timestamp": 1765157433,
+    "tokens": 15.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_32d19c96_014304",
+    "prompt_text": "How to avoid nested API handlers logic?",
+    "timestamp": 1765169460,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_0e2b5cb5_014242",
+    "prompt_text": "How to manage virtual environments with Poetry?",
+    "timestamp": 1765192842,
+    "tokens": 21.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_ba995789_014316",
+    "prompt_text": "I like self-documenting modules code",
+    "timestamp": 1765193664,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_cf622970_014338",
+    "prompt_text": "I sometimes try asyncio for database operations",
+    "timestamp": 1765222514,
+    "tokens": 14.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_32832d6d_014131",
+    "prompt_text": "I avoid untyped configuration objects code",
+    "timestamp": 1765224185,
+    "tokens": 11.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_63d80884_014268",
+    "prompt_text": "Type-safe JSON data with Pydantic",
+    "timestamp": 1765244463,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_f285fdf5_014299",
+    "prompt_text": "I avoid indentation hell in conditional logic",
+    "timestamp": 1765295192,
+    "tokens": 18.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_3fba1222_014303",
+    "prompt_text": "Early exit pattern for error handling",
+    "timestamp": 1765325123,
+    "tokens": 14.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_00c31011_014177",
+    "prompt_text": "I don't like morning sessions for problem solving",
+    "timestamp": 1765360059,
+    "tokens": 20.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_0f24b715_014243",
+    "prompt_text": "I avoid requirements.txt for dependency management",
+    "timestamp": 1765360441,
+    "tokens": 19.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_4e4ad7cc_014146",
+    "prompt_text": "Quick way to debug HTTP requests without tests",
+    "timestamp": 1765364167,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_1303a2ad_014253",
+    "prompt_text": "Optimization can wait for API calls",
+    "timestamp": 1765380315,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_4a87f1ec_014141",
+    "prompt_text": "Print debugging HTTP requests",
+    "timestamp": 1765385110,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_d407947c_014287",
+    "prompt_text": "Pytest approach to fixtures",
+    "timestamp": 1765401559,
+    "tokens": 21.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_c6944cd4_014221",
+    "prompt_text": "Break time helps with architecture decisions",
+    "timestamp": 1765406833,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_a0d5c87e_014275",
+    "prompt_text": "Type-safe user input with Pydantic",
+    "timestamp": 1765432395,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_5607a331_014208",
+    "prompt_text": "How to do validation without classes?",
+    "timestamp": 1765439830,
+    "tokens": 22.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_a62a4d0c_014160",
+    "prompt_text": "Cleaner way to define DTOs with dataclasses",
+    "timestamp": 1765450503,
+    "tokens": 10.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_d02a8c62_014315",
+    "prompt_text": "I don't over-comment complex logic",
+    "timestamp": 1765483845,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_b39bc292_014149",
+    "prompt_text": "I prefer using print statements for async workflows",
+    "timestamp": 1765510323,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_761145d1_014204",
+    "prompt_text": "Functional programming style for validation",
+    "timestamp": 1765521558,
+    "tokens": 17.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_8bbfa59c_014129",
+    "prompt_text": "I prefer strongly typed data classes implementations",
+    "timestamp": 1765596467,
+    "tokens": 21.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_c3831572_014302",
+    "prompt_text": "I prefer flat permission checks structure",
+    "timestamp": 1765619190,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_b3024d4e_014207",
+    "prompt_text": "I avoid OOP for data transformations",
+    "timestamp": 1765626767,
+    "tokens": 19.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_f0744290_014178",
+    "prompt_text": "I avoid debugging sessions tasks in the morning",
+    "timestamp": 1765640656,
+    "tokens": 23.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_cada5824_014254",
+    "prompt_text": "I avoid optimizing data structures too early",
+    "timestamp": 1765663556,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_3307883f_014274",
+    "prompt_text": "Type-safe user input with Pydantic",
+    "timestamp": 1765688239,
+    "tokens": 22.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_d2cad053_014289",
+    "prompt_text": "Better pytest setup for fixtures",
+    "timestamp": 1765698479,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_5100de77_014317",
+    "prompt_text": "Docstring format for classes",
+    "timestamp": 1765711810,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_d7672932_014223",
+    "prompt_text": "Break time helps with algorithm optimization",
+    "timestamp": 1765722410,
+    "tokens": 13.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_3d16943a_014266",
+    "prompt_text": "I prefer Pydantic for environment variables validation",
+    "timestamp": 1765731488,
+    "tokens": 14.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_42f5a5b7_014257",
+    "prompt_text": "I prefer getting database queries working first",
+    "timestamp": 1765731539,
+    "tokens": 15.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_f8c747a3_014176",
+    "prompt_text": "Evening is better for debugging sessions work",
+    "timestamp": 1765746848,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_49dbc607_014348",
+    "prompt_text": "I found an article about best practices",
+    "timestamp": 1765748145,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_87eb53d0_014336",
+    "prompt_text": "Async best practices for file I/O",
+    "timestamp": 1765825531,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_8aafaa55_014318",
+    "prompt_text": "I prefer docstrings for modules documentation",
+    "timestamp": 1765841891,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_37c280b1_014144",
+    "prompt_text": "How to debug async workflows quickly?",
+    "timestamp": 1765876392,
+    "tokens": 17.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_4572b6e0_014199",
+    "prompt_text": "I prefer functional approach for error handling",
+    "timestamp": 1765899790,
+    "tokens": 24.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_81a237af_014273",
+    "prompt_text": "BaseModel for JSON data",
+    "timestamp": 1765905078,
+    "tokens": 22.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_fe5da3e3_014255",
+    "prompt_text": "Make caching work before optimizing",
+    "timestamp": 1765931191,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_9b9e078c_014320",
+    "prompt_text": "I avoid inline comments in utilities",
+    "timestamp": 1765933166,
+    "tokens": 16.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_aeea5b22_014267",
+    "prompt_text": "BaseModel for configuration files",
+    "timestamp": 1765937739,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_2ed007a8_014185",
+    "prompt_text": "Morning brain fog with problem solving",
+    "timestamp": 1765939234,
+    "tokens": 13.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_b0ea7e50_014328",
+    "prompt_text": "Switching between editors for debugging",
+    "timestamp": 1765996335,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_dbf2f36e_014200",
+    "prompt_text": "How to do data pipelines without classes?",
+    "timestamp": 1766008906,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_38922ca0_014259",
+    "prompt_text": "I prefer getting caching working first",
+    "timestamp": 1766012673,
+    "tokens": 19.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_28b1f72d_014147",
+    "prompt_text": "I prefer debugging async workflows interactively",
+    "timestamp": 1766030180,
+    "tokens": 14.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6da132aa_014217",
+    "prompt_text": "I don't like forcing architecture decisions solutions",
+    "timestamp": 1766050527,
+    "tokens": 22.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_92f9eb41_014244",
+    "prompt_text": "I prefer Poetry for dev dependencies",
+    "timestamp": 1766127604,
+    "tokens": 14.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_7b7b474d_014322",
+    "prompt_text": "I prefer docstrings for utilities documentation",
+    "timestamp": 1766196583,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_a47c5a6b_014171",
+    "prompt_text": "Convert domain models to dataclass",
+    "timestamp": 1766233464,
+    "tokens": 16.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_eba36b33_014169",
+    "prompt_text": "I avoid boilerplate in request objects with dataclasses",
+    "timestamp": 1766242959,
+    "tokens": 15.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_31c27951_014153",
+    "prompt_text": "I prefer using print statements for database queries",
+    "timestamp": 1766245294,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_07f8205e_014293",
+    "prompt_text": "Better pytest setup for parametrized tests",
+    "timestamp": 1766254766,
+    "tokens": 16.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_ce783eae_014209",
+    "prompt_text": "I prefer pure functions for business logic",
+    "timestamp": 1766262777,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_a45d194d_014138",
+    "prompt_text": "Type hints for API responses functions",
+    "timestamp": 1766269309,
+    "tokens": 24.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_52e183ca_014308",
+    "prompt_text": "Refactor nested input checking code",
+    "timestamp": 1766304514,
+    "tokens": 24.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_6fd258fe_014247",
+    "prompt_text": "Poetry command for project setup",
+    "timestamp": 1766306205,
+    "tokens": 12.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_dac5d8f1_014135",
+    "prompt_text": "How to add generics to async functions?",
+    "timestamp": 1766311926,
+    "tokens": 23.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_d002668e_014155",
+    "prompt_text": "How to debug file operations quickly?",
+    "timestamp": 1766314208,
+    "tokens": 16.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_9aa188ee_014168",
+    "prompt_text": "I avoid boilerplate in data structures with dataclasses",
+    "timestamp": 1766325718,
+    "tokens": 15.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_90fedd00_014210",
+    "prompt_text": "I prefer functional approach for data transformations",
+    "timestamp": 1766336507,
+    "tokens": 20.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_e2d6e943_014233",
+    "prompt_text": "I like walking away from complex bugs bugs",
+    "timestamp": 1766346042,
+    "tokens": 14.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_68f807b7_014260",
+    "prompt_text": "I focus on correctness for data processing first",
+    "timestamp": 1766360307,
+    "tokens": 21.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_fc955215_014234",
+    "prompt_text": "Break time helps with debugging",
+    "timestamp": 1766367005,
+    "tokens": 18.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_2f023a51_014414",
+    "prompt_text": "Best mechanical keyboards",
+    "timestamp": 1766431341,
+    "tokens": 6.5,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_018"
+  },
+  {
+    "prompt_id": "prompt_2ffbae5b_014212",
+    "prompt_text": "How to do validation without classes?",
+    "timestamp": 1766467340,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_f6a0764f_014170",
+    "prompt_text": "Dataclass approach for API responses",
+    "timestamp": 1766570308,
+    "tokens": 10.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_5a76302f_014133",
+    "prompt_text": "Best way to type callback functions in Python",
+    "timestamp": 1766582346,
+    "tokens": 24.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_2dcb424f_014231",
+    "prompt_text": "I like walking away from refactoring bugs",
+    "timestamp": 1766622986,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_6f45eee3_014282",
+    "prompt_text": "I like Pydantic models for user input",
+    "timestamp": 1766625839,
+    "tokens": 12.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_13cdaffe_014261",
+    "prompt_text": "I prefer getting caching working first",
+    "timestamp": 1766662445,
+    "tokens": 17.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_e26bee3a_014294",
+    "prompt_text": "How to test fixtures with pytest?",
+    "timestamp": 1766663876,
+    "tokens": 25.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_5e4544fa_014295",
+    "prompt_text": "I prefer pytest for API testing tests",
+    "timestamp": 1766714201,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_3bec15f8_014335",
+    "prompt_text": "Struggling with async concurrent tasks",
+    "timestamp": 1766716902,
+    "tokens": 12.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_32fc830a_014167",
+    "prompt_text": "Dataclass approach for DTOs",
+    "timestamp": 1766742649,
+    "tokens": 16.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_7b06954d_014342",
+    "prompt_text": "Logging setup for production monitoring",
+    "timestamp": 1766748357,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_2966fa4e_014307",
+    "prompt_text": "Early exit pattern for permission checks",
+    "timestamp": 1766753074,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_26f4f891_014405",
+    "prompt_text": "Programming memes",
+    "timestamp": 1766769707,
+    "tokens": 5.3,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_015"
+  },
+  {
+    "prompt_id": "prompt_737a5719_014309",
+    "prompt_text": "I prefer early returns for validation",
+    "timestamp": 1766772553,
+    "tokens": 14.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_f2b14c45_014262",
+    "prompt_text": "I avoid optimizing loops too early",
+    "timestamp": 1766778556,
+    "tokens": 20.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_a7e763a6_014292",
+    "prompt_text": "I don't like unittest syntax for parametrized tests",
+    "timestamp": 1766805482,
+    "tokens": 16.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009"
+  },
+  {
+    "prompt_id": "prompt_f2466542_014417",
+    "prompt_text": "Interesting YouTube videos",
+    "timestamp": 1766836953,
+    "tokens": 9.4,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_019"
+  },
+  {
+    "prompt_id": "prompt_9100f098_014321",
+    "prompt_text": "I avoid inline comments in complex logic",
+    "timestamp": 1766886781,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_12d8937a_014189",
+    "prompt_text": "Evening is better for debugging sessions work",
+    "timestamp": 1766889472,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_6ce13d3e_014151",
+    "prompt_text": "I don't like writing tests for JSON parsing first",
+    "timestamp": 1766904050,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_fa9c2f89_014337",
+    "prompt_text": "I'm learning async for API calls",
+    "timestamp": 1766956311,
+    "tokens": 12.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_607f47d8_014402",
+    "prompt_text": "Did my team win?",
+    "timestamp": 1766965392,
+    "tokens": 8.3,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_014"
+  },
+  {
+    "prompt_id": "prompt_c10d3639_014311",
+    "prompt_text": "Early exit pattern for data processing",
+    "timestamp": 1767000630,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_4df35f26_014278",
+    "prompt_text": "Pydantic schema for user input",
+    "timestamp": 1767076002,
+    "tokens": 21.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_ac057a4a_014152",
+    "prompt_text": "Print debugging API integration",
+    "timestamp": 1767107590,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_9567c421_014350",
+    "prompt_text": "Learning about security from articles",
+    "timestamp": 1767115646,
+    "tokens": 16.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003"
+  },
+  {
+    "prompt_id": "prompt_928fbe50_014280",
+    "prompt_text": "I like Pydantic models for API requests",
+    "timestamp": 1767136434,
+    "tokens": 21.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_8744c4fe_014411",
+    "prompt_text": "What's in the news today?",
+    "timestamp": 1767140053,
+    "tokens": 6.7,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_017"
+  },
+  {
+    "prompt_id": "prompt_c1eec958_014134",
+    "prompt_text": "How to add generics to data classes?",
+    "timestamp": 1767164723,
+    "tokens": 18.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_a57bf0c9_014246",
+    "prompt_text": "I like Poetry's approach to package installation",
+    "timestamp": 1767202307,
+    "tokens": 15.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_8265cc84_014279",
+    "prompt_text": "Pydantic schema for user input",
+    "timestamp": 1767220284,
+    "tokens": 20.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_d62ef260_014193",
+    "prompt_text": "I'm more productive with debugging sessions in the afternoon",
+    "timestamp": 1767235401,
+    "tokens": 20.3,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_3ca39ce7_014277",
+    "prompt_text": "How to validate external data with Pydantic?",
+    "timestamp": 1767242785,
+    "tokens": 12.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_531bc6c0_014396",
+    "prompt_text": "Good movies to watch tonight",
+    "timestamp": 1767247651,
+    "tokens": 7.1,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_012"
+  },
+  {
+    "prompt_id": "prompt_ff45e834_014154",
+    "prompt_text": "I don't like writing tests for file operations first",
+    "timestamp": 1767272523,
+    "tokens": 18.6,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_b89fb777_014245",
+    "prompt_text": "Poetry command for dev dependencies",
+    "timestamp": 1767287791,
+    "tokens": 20.1,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_3628835b_014330",
+    "prompt_text": "I'm trying VS Code for code navigation",
+    "timestamp": 1767301453,
+    "tokens": 12.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_517c3993_014230",
+    "prompt_text": "I don't like forcing architecture decisions solutions",
+    "timestamp": 1767317511,
+    "tokens": 14.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_4a90832d_014192",
+    "prompt_text": "Evening focus for complex algorithms",
+    "timestamp": 1767334279,
+    "tokens": 13.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_6bf7c1d4_014323",
+    "prompt_text": "I like self-documenting classes code",
+    "timestamp": 1767348330,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011"
+  },
+  {
+    "prompt_id": "prompt_c96243b4_014190",
+    "prompt_text": "I don't like morning sessions for problem solving",
+    "timestamp": 1767379183,
+    "tokens": 19.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_042f7e52_014343",
+    "prompt_text": "I'm trying structured logging for audit trails",
+    "timestamp": 1767388160,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_c52674b7_014195",
+    "prompt_text": "I prefer working on architecture design after lunch",
+    "timestamp": 1767399998,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_ed8e2218_014191",
+    "prompt_text": "Morning brain fog with learning new concepts",
+    "timestamp": 1767436210,
+    "tokens": 20.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_56e2c18d_014248",
+    "prompt_text": "Poetry command for virtual environments",
+    "timestamp": 1767450338,
+    "tokens": 9.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006"
+  },
+  {
+    "prompt_id": "prompt_375b7c76_014281",
+    "prompt_text": "I like Pydantic models for configuration files",
+    "timestamp": 1767462569,
+    "tokens": 19.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008"
+  },
+  {
+    "prompt_id": "prompt_94335874_014137",
+    "prompt_text": "I prefer strongly typed configuration objects implementations",
+    "timestamp": 1767491685,
+    "tokens": 18.2,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_6f66440a_014194",
+    "prompt_text": "I don't like morning sessions for problem solving",
+    "timestamp": 1767501016,
+    "tokens": 21.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_08edeb48_014136",
+    "prompt_text": "I prefer adding type hints to API responses",
+    "timestamp": 1767525697,
+    "tokens": 20.7,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_ffbb6f3b_014399",
+    "prompt_text": "Desk stretching exercises",
+    "timestamp": 1767551200,
+    "tokens": 8.7,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_657e2cb4_014232",
+    "prompt_text": "I avoid grinding through complex bugs without breaks",
+    "timestamp": 1767567106,
+    "tokens": 24.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_22f38cf2_014408",
+    "prompt_text": "What's the weather this weekend?",
+    "timestamp": 1767583803,
+    "tokens": 5.8,
+    "is_noise": true,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_016"
+  },
+  {
+    "prompt_id": "prompt_1b138225_014211",
+    "prompt_text": "I avoid OOP for error handling",
+    "timestamp": 1767589378,
+    "tokens": 13.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_c9962cd5_014229",
+    "prompt_text": "Fresh perspective on algorithm optimization after break",
+    "timestamp": 1767608375,
+    "tokens": 15.9,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005"
+  },
+  {
+    "prompt_id": "prompt_4dd3b7fd_014263",
+    "prompt_text": "I prefer simple algorithms implementation initially",
+    "timestamp": 1767609630,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007"
+  },
+  {
+    "prompt_id": "prompt_34ada7df_014310",
+    "prompt_text": "I avoid indentation hell in permission checks",
+    "timestamp": 1767628595,
+    "tokens": 21.0,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010"
+  },
+  {
+    "prompt_id": "prompt_ed69ccfc_014355",
+    "prompt_text": "Git strategy for rebasing",
+    "timestamp": 1767661388,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_004"
+  },
+  {
+    "prompt_id": "prompt_685b1161_014213",
+    "prompt_text": "I like composition over inheritance for business logic",
+    "timestamp": 1767670597,
+    "tokens": 22.5,
+    "is_noise": false,
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004"
+  }
+]

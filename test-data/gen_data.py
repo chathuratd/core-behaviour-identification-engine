@@ -432,166 +432,304 @@ USER_PROFILES = [
         "description": "DEMO: Learner with strong preferences for hands-on examples, concise docs, and video tutorials"
     },
     {
-        "user_id": "user_python_project_2month",
+        "user_id": "user_python_dev_2months",
         "mode": "controlled_demo",
         "core_behaviors": [
             {
-                "text": "debugging FastAPI endpoint issues and request validation",
-                "occurrences": 15,
-                "credibility_range": (0.84, 0.93),
-                "templates": [
-                    "FastAPI {topic} not working as expected",
-                    "How to debug {topic} in FastAPI?",
-                    "FastAPI {topic} returning wrong response",
-                    "Troubleshoot FastAPI {topic} validation error",
-                    "Why is my FastAPI {topic} failing?",
-                    "Fix FastAPI {topic} exception",
-                    "FastAPI {topic} best practices",
-                    "Proper way to handle {topic} in FastAPI"
-                ],
-                "topics": ["request validation", "response models", "dependency injection", "background tasks",
-                          "middleware", "exception handlers", "path parameters", "query parameters", 
-                          "request body validation", "status codes", "CORS configuration"]
-            },
-            {
-                "text": "working with SQLAlchemy ORM queries and relationships",
+                "text": "prefers type hints and static typing in Python code",
                 "occurrences": 18,
-                "credibility_range": (0.86, 0.94),
+                "credibility_range": (0.87, 0.95),
                 "templates": [
-                    "SQLAlchemy {topic} query example",
-                    "How to implement {topic} in SQLAlchemy?",
-                    "SQLAlchemy {topic} relationship",
-                    "Optimize SQLAlchemy {topic} query",
-                    "SQLAlchemy {topic} not loading correctly",
-                    "Debug SQLAlchemy {topic}",
-                    "Best way to query {topic} with SQLAlchemy",
-                    "SQLAlchemy {topic} performance issue"
+                    "I prefer adding type hints to {topic}",
+                    "How to properly type annotate {topic}?",
+                    "I like using mypy for {topic}",
+                    "Type hints for {topic} functions",
+                    "I prefer strongly typed {topic} implementations",
+                    "Best way to type {topic} in Python",
+                    "I avoid untyped {topic} code",
+                    "Type annotation for {topic}",
+                    "I like static typing when working with {topic}",
+                    "Prefer TypedDict for {topic}",
+                    "How to add generics to {topic}?"
                 ],
-                "topics": ["eager loading", "lazy loading", "many-to-many relationships", "one-to-many relationships",
-                          "join queries", "filter operations", "session management", "query optimization",
-                          "relationship cascade", "backref", "foreign keys", "composite keys"]
+                "topics": ["data classes", "API responses", "configuration objects", "utility functions", 
+                          "async functions", "decorators", "class methods", "callback functions"]
             },
             {
-                "text": "implementing async operations and background tasks",
-                "occurrences": 12,
+                "text": "avoids writing tests upfront, prefers debugging with print statements",
+                "occurrences": 15,
                 "credibility_range": (0.82, 0.91),
                 "templates": [
-                    "Python async {topic} implementation",
-                    "How to use asyncio for {topic}?",
-                    "Async/await with {topic}",
-                    "Background task for {topic}",
-                    "Celery vs asyncio for {topic}",
-                    "Async {topic} best practices",
-                    "Handle {topic} asynchronously"
+                    "Quick way to debug {topic} without tests",
+                    "I prefer using print statements for {topic}",
+                    "How to debug {topic} quickly?",
+                    "I don't like writing tests for {topic} first",
+                    "Debugging {topic} with logging",
+                    "I avoid TDD for {topic}",
+                    "Fast debugging approach for {topic}",
+                    "Print debugging {topic}",
+                    "I prefer debugging {topic} interactively",
+                    "Quick fix for {topic} issue"
                 ],
-                "topics": ["database operations", "API calls", "file processing", "email sending",
-                          "task queues", "concurrent requests", "event loops", "async context managers"]
+                "topics": ["API integration", "data processing", "async workflows", "database queries", 
+                          "file operations", "HTTP requests", "JSON parsing", "error handling"]
             },
             {
-                "text": "pytest fixtures and testing API endpoints",
+                "text": "likes using dataclasses over traditional classes",
+                "occurrences": 14,
+                "credibility_range": (0.85, 0.93),
+                "templates": [
+                    "I prefer dataclasses for {topic}",
+                    "Should I use dataclass for {topic}?",
+                    "I like dataclasses over regular classes for {topic}",
+                    "Convert {topic} to dataclass",
+                    "I avoid boilerplate in {topic} with dataclasses",
+                    "Dataclass approach for {topic}",
+                    "I prefer @dataclass decorator for {topic}",
+                    "Cleaner way to define {topic} with dataclasses"
+                ],
+                "topics": ["DTOs", "configuration models", "API responses", "data structures", 
+                          "domain models", "request objects", "validation schemas"]
+            },
+            {
+                "text": "prefers working in afternoon/evening over mornings",
+                "occurrences": 22,
+                "credibility_range": (0.79, 0.89),
+                "templates": [
+                    "I'm more productive with {topic} in the afternoon",
+                    "Evening is better for {topic} work",
+                    "I avoid {topic} tasks in the morning",
+                    "I prefer working on {topic} after lunch",
+                    "Morning brain fog with {topic}",
+                    "I like coding {topic} at night",
+                    "Evening focus for {topic}",
+                    "I don't like morning sessions for {topic}"
+                ],
+                "topics": ["complex algorithms", "refactoring", "debugging sessions", "architecture design", 
+                          "code reviews", "learning new concepts", "problem solving"]
+            },
+            {
+                "text": "avoids object-oriented patterns, prefers functional style",
+                "occurrences": 16,
+                "credibility_range": (0.83, 0.92),
+                "templates": [
+                    "I prefer functional approach for {topic}",
+                    "How to do {topic} without classes?",
+                    "I avoid OOP for {topic}",
+                    "Functional way to handle {topic}",
+                    "I don't like class hierarchies for {topic}",
+                    "I prefer pure functions for {topic}",
+                    "Avoiding inheritance in {topic}",
+                    "I like composition over inheritance for {topic}",
+                    "Functional programming style for {topic}"
+                ],
+                "topics": ["data transformations", "business logic", "validation", "error handling", 
+                          "state management", "API handlers", "data pipelines"]
+            },
+            {
+                "text": "likes taking short breaks every hour when stuck",
+                "occurrences": 19,
+                "credibility_range": (0.76, 0.86),
+                "templates": [
+                    "I need a break when stuck on {topic}",
+                    "I prefer stepping away from {topic} problems",
+                    "Break time helps with {topic}",
+                    "I avoid grinding through {topic} without breaks",
+                    "I like walking away from {topic} bugs",
+                    "Fresh perspective on {topic} after break",
+                    "I don't like forcing {topic} solutions"
+                ],
+                "topics": ["debugging", "architecture decisions", "complex bugs", "refactoring", 
+                          "algorithm optimization", "design patterns"]
+            },
+            {
+                "text": "prefers Poetry over pip for dependency management",
+                "occurrences": 12,
+                "credibility_range": (0.84, 0.91),
+                "templates": [
+                    "I prefer Poetry for {topic}",
+                    "How to manage {topic} with Poetry?",
+                    "I avoid requirements.txt for {topic}",
+                    "Poetry workflow for {topic}",
+                    "I like Poetry's approach to {topic}",
+                    "I don't use pip directly for {topic}",
+                    "Poetry command for {topic}"
+                ],
+                "topics": ["dependency management", "virtual environments", "package installation", 
+                          "version locking", "dev dependencies", "project setup"]
+            },
+            {
+                "text": "avoids premature optimization, focuses on working code first",
+                "occurrences": 13,
+                "credibility_range": (0.81, 0.89),
+                "templates": [
+                    "I prefer getting {topic} working first",
+                    "I avoid optimizing {topic} too early",
+                    "Make {topic} work before optimizing",
+                    "I don't like premature optimization of {topic}",
+                    "I focus on correctness for {topic} first",
+                    "Optimization can wait for {topic}",
+                    "I prefer simple {topic} implementation initially"
+                ],
+                "topics": ["algorithms", "database queries", "API calls", "data processing", 
+                          "loops", "data structures", "caching"]
+            },
+            {
+                "text": "likes using Pydantic for data validation",
+                "occurrences": 17,
+                "credibility_range": (0.86, 0.94),
+                "templates": [
+                    "I prefer Pydantic for {topic} validation",
+                    "How to validate {topic} with Pydantic?",
+                    "I like Pydantic models for {topic}",
+                    "Pydantic schema for {topic}",
+                    "I avoid manual validation of {topic}",
+                    "BaseModel for {topic}",
+                    "I prefer Pydantic over manual checks for {topic}",
+                    "Type-safe {topic} with Pydantic"
+                ],
+                "topics": ["API requests", "configuration files", "user input", "JSON data", 
+                          "environment variables", "database models", "external data"]
+            },
+            {
+                "text": "prefers pytest over unittest for testing",
                 "occurrences": 11,
-                "credibility_range": (0.80, 0.89),
+                "credibility_range": (0.83, 0.90),
                 "templates": [
+                    "I prefer pytest for {topic} tests",
                     "How to test {topic} with pytest?",
-                    "Pytest fixture for {topic}",
-                    "Mock {topic} in pytest",
-                    "Test FastAPI {topic} endpoint",
-                    "Pytest {topic} best practices",
-                    "Setup {topic} for testing",
-                    "Integration test for {topic}"
+                    "I like pytest fixtures for {topic}",
+                    "I avoid unittest for {topic}",
+                    "Pytest approach to {topic}",
+                    "I don't like unittest syntax for {topic}",
+                    "Better pytest setup for {topic}"
                 ],
-                "topics": ["database connections", "API endpoints", "authentication", "external APIs",
-                          "file uploads", "background tasks", "dependency injection", "request/response"]
+                "topics": ["API testing", "integration tests", "mocking", "fixtures", 
+                          "parametrized tests", "async tests"]
             },
             {
-                "text": "Docker containerization and deployment configuration",
-                "occurrences": 9,
-                "credibility_range": (0.78, 0.87),
+                "text": "avoids deep nesting, prefers early returns and guard clauses",
+                "occurrences": 14,
+                "credibility_range": (0.82, 0.90),
                 "templates": [
-                    "Dockerfile for Python {topic}",
-                    "Docker compose {topic} setup",
-                    "Containerize {topic} application",
-                    "Docker {topic} best practices",
-                    "Multi-stage Docker build for {topic}",
-                    "Docker environment variables for {topic}",
-                    "Debug Docker {topic} issue"
+                    "I prefer early returns for {topic}",
+                    "How to avoid nested {topic} logic?",
+                    "I don't like deep nesting in {topic}",
+                    "Guard clauses for {topic}",
+                    "I avoid indentation hell in {topic}",
+                    "I prefer flat {topic} structure",
+                    "Refactor nested {topic} code",
+                    "Early exit pattern for {topic}"
                 ],
-                "topics": ["FastAPI app", "PostgreSQL", "Redis", "multi-service setup",
-                          "production deployment", "development environment", "volume mounting"]
+                "topics": ["validation", "error handling", "conditional logic", "input checking", 
+                          "permission checks", "data processing", "API handlers"]
+            },
+            {
+                "text": "likes documenting with docstrings but avoids extensive comments",
+                "occurrences": 10,
+                "credibility_range": (0.80, 0.88),
+                "templates": [
+                    "I prefer docstrings for {topic} documentation",
+                    "I avoid inline comments in {topic}",
+                    "Docstring format for {topic}",
+                    "I like self-documenting {topic} code",
+                    "I don't over-comment {topic}",
+                    "Good docstring for {topic}",
+                    "I prefer clear names over comments in {topic}"
+                ],
+                "topics": ["functions", "classes", "modules", "API endpoints", "complex logic", "utilities"]
             }
         ],
         "insufficient_behaviors": [
             {
-                "text": "exploring Redis caching strategies",
-                "occurrences": 4,
-                "credibility_range": (0.70, 0.82),
-                "templates": [
-                    "Redis caching for {topic}",
-                    "How to cache {topic} with Redis?",
-                    "Redis {topic} pattern",
-                    "Implement {topic} caching strategy"
-                ],
-                "topics": ["API responses", "database queries", "session data", "rate limiting"]
-            },
-            {
-                "text": "considering security and authentication patterns",
+                "text": "sometimes uses VS Code, other times PyCharm",
                 "occurrences": 5,
-                "credibility_range": (0.72, 0.83),
+                "credibility_range": (0.71, 0.82),
                 "templates": [
-                    "JWT authentication for {topic}",
-                    "Secure {topic} implementation",
-                    "OAuth2 with {topic}",
-                    "Best practices for {topic} security",
-                    "Protect {topic} endpoint"
+                    "I'm trying VS Code for {topic}",
+                    "PyCharm tips for {topic}",
+                    "Which IDE is better for {topic}?",
+                    "Switching between editors for {topic}",
+                    "I sometimes use PyCharm for {topic}"
                 ],
-                "topics": ["API endpoints", "user registration", "password hashing", "token refresh", "CORS"]
+                "topics": ["debugging", "refactoring", "testing", "code navigation", "git integration"]
             },
             {
-                "text": "investigating database migration tools",
-                "occurrences": 3,
+                "text": "occasionally tries async programming but struggles with it",
+                "occurrences": 6,
                 "credibility_range": (0.68, 0.79),
                 "templates": [
-                    "Alembic {topic} migration",
-                    "Database migration for {topic}",
-                    "How to handle {topic} with Alembic?"
+                    "I'm learning async for {topic}",
+                    "Async/await confusion with {topic}",
+                    "I sometimes try asyncio for {topic}",
+                    "Struggling with async {topic}",
+                    "When to use async for {topic}?",
+                    "Async best practices for {topic}"
                 ],
-                "topics": ["schema changes", "data migration", "rollback strategies"]
+                "topics": ["API calls", "database operations", "file I/O", "concurrent tasks", "HTTP requests"]
+            },
+            {
+                "text": "experiments with different logging approaches",
+                "occurrences": 4,
+                "credibility_range": (0.69, 0.80),
+                "templates": [
+                    "I'm trying structured logging for {topic}",
+                    "Logging setup for {topic}",
+                    "Best logging approach for {topic}",
+                    "I sometimes use loguru for {topic}"
+                ],
+                "topics": ["debugging", "production monitoring", "error tracking", "audit trails"]
+            },
+            {
+                "text": "occasionally reads technical blogs during work",
+                "occurrences": 5,
+                "credibility_range": (0.66, 0.77),
+                "templates": [
+                    "I found an article about {topic}",
+                    "Reading up on {topic} best practices",
+                    "Blog post about {topic}",
+                    "I sometimes research {topic} while working",
+                    "Learning about {topic} from articles"
+                ],
+                "topics": ["architecture patterns", "performance", "security", "Python features", "best practices"]
+            },
+            {
+                "text": "tries different git workflows inconsistently",
+                "occurrences": 4,
+                "credibility_range": (0.70, 0.81),
+                "templates": [
+                    "I'm experimenting with {topic} workflow",
+                    "Git strategy for {topic}",
+                    "Should I use feature branches for {topic}?",
+                    "I sometimes commit {topic} directly to main"
+                ],
+                "topics": ["feature branches", "commit messages", "rebasing", "pull requests"]
             }
         ],
         "noise_behaviors": [
-            # Development-related but not project-specific
-            {"text": "quick Python syntax lookup", "credibility": 0.42, "template": "Python list comprehension syntax"},
-            {"text": "git command reference", "credibility": 0.38, "template": "How to revert git commit?"},
-            {"text": "VS Code extension question", "credibility": 0.35, "template": "Best Python linter for VS Code"},
-            {"text": "random JavaScript question", "credibility": 0.44, "template": "JavaScript array methods"},
-            {"text": "Linux command query", "credibility": 0.40, "template": "Find files in Linux recursively"},
-            {"text": "regex pattern help", "credibility": 0.46, "template": "Regex to match email addresses"},
-            {"text": "JSON parsing question", "credibility": 0.39, "template": "Parse nested JSON in Python"},
-            {"text": "environment variable question", "credibility": 0.41, "template": "Set environment variables in bash"},
-            
-            # Completely unrelated noise
-            {"text": "random news query", "credibility": 0.33, "template": "Latest tech news today"},
-            {"text": "weather question", "credibility": 0.31, "template": "What's the weather tomorrow?"},
-            {"text": "movie recommendation", "credibility": 0.36, "template": "Good movies to watch on Netflix"},
-            {"text": "cooking recipe", "credibility": 0.29, "template": "Easy dinner recipes"},
-            {"text": "travel question", "credibility": 0.34, "template": "Best places to visit in Europe"},
-            {"text": "fitness query", "credibility": 0.32, "template": "Home workout routine"},
-            {"text": "random trivia", "credibility": 0.30, "template": "What's the speed of light?"},
-            {"text": "book recommendation", "credibility": 0.37, "template": "Good sci-fi books to read"},
-            {"text": "music question", "credibility": 0.35, "template": "Best productivity music playlists"},
-            {"text": "general knowledge", "credibility": 0.28, "template": "What is quantum computing?"},
-            {"text": "shopping query", "credibility": 0.33, "template": "Best mechanical keyboards 2026"},
-            {"text": "casual conversation", "credibility": 0.27, "template": "Tell me a joke"},
-            
-            # Occasional unrelated tech queries
-            {"text": "blockchain question", "credibility": 0.43, "template": "How does blockchain work?"},
-            {"text": "machine learning curiosity", "credibility": 0.45, "template": "What is deep learning?"},
-            {"text": "mobile app question", "credibility": 0.42, "template": "React Native vs Flutter"},
-            {"text": "random algorithm question", "credibility": 0.44, "template": "Explain quicksort algorithm"},
-            {"text": "system design curiosity", "credibility": 0.46, "template": "How to design a URL shortener?"}
+            {"text": "checks news headlines", "credibility": 0.41, "template": "What's in the news today?"},
+            {"text": "looks up sports scores", "credibility": 0.38, "template": "Did my team win?"},
+            {"text": "random YouTube break", "credibility": 0.35, "template": "Interesting YouTube videos"},
+            {"text": "checks weather forecast", "credibility": 0.40, "template": "What's the weather this weekend?"},
+            {"text": "lunch ideas search", "credibility": 0.37, "template": "What should I eat for lunch?"},
+            {"text": "coffee break chat", "credibility": 0.33, "template": "Best coffee shops nearby"},
+            {"text": "random Reddit browsing", "credibility": 0.36, "template": "What's trending on Reddit?"},
+            {"text": "music playlist search", "credibility": 0.39, "template": "Good coding music playlist"},
+            {"text": "random tech news", "credibility": 0.44, "template": "Latest tech announcements"},
+            {"text": "checks email", "credibility": 0.42, "template": "Any important emails?"},
+            {"text": "Slack distraction", "credibility": 0.38, "template": "Team chat messages"},
+            {"text": "looks up movie", "credibility": 0.34, "template": "Good movies to watch tonight"},
+            {"text": "random Wikipedia", "credibility": 0.36, "template": "Interesting Wikipedia article"},
+            {"text": "checks calendar", "credibility": 0.43, "template": "What meetings do I have?"},
+            {"text": "stretching break", "credibility": 0.31, "template": "Desk stretching exercises"},
+            {"text": "social media check", "credibility": 0.37, "template": "What's happening on Twitter"},
+            {"text": "random shopping", "credibility": 0.35, "template": "Best mechanical keyboards"},
+            {"text": "podcast search", "credibility": 0.39, "template": "Interesting tech podcasts"},
+            {"text": "random meme", "credibility": 0.32, "template": "Programming memes"},
+            {"text": "checks time", "credibility": 0.29, "template": "How long until end of day?"}
         ],
         "days_back": 60,
-        "description": "REALISTIC: Python developer building a FastAPI project over 2 months with mixed queries"
+        "description": "REALISTIC: Python developer working on project over 2 months with evolving preferences, work habits, and natural distractions"
     }
 ]
 # ===============================================
