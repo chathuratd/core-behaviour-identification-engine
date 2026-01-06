@@ -1,0 +1,566 @@
+[
+  {
+    "behavior_id": "beh_3a23a220_014141",
+    "observation_id": "obs_29070d43_014142",
+    "behavior_text": "debugging FastAPI endpoint issues and request validation",
+    "credibility": 0.89,
+    "reinforcement_count": 15,
+    "last_seen": 1767612517,
+    "prompt_history_ids": [
+      "prompt_aab289c2_014143",
+      "prompt_0384e2c9_014144",
+      "prompt_dd2a2cc5_014145",
+      "prompt_aa632009_014146",
+      "prompt_dd81d939_014147",
+      "prompt_3680f173_014148",
+      "prompt_9dc9a3c7_014149",
+      "prompt_59b1eb49_014150",
+      "prompt_8c7243e1_014151",
+      "prompt_5e96b015_014152",
+      "prompt_d3c4ec56_014153",
+      "prompt_f5028980_014154",
+      "prompt_961a2a76_014155",
+      "prompt_3bda2693_014156",
+      "prompt_23c6f748_014157"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000",
+    "clarity_score": 0.96,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_8d804f8d_014158",
+    "observation_id": "obs_6e61c650_014159",
+    "behavior_text": "working with SQLAlchemy ORM queries and relationships",
+    "credibility": 0.9,
+    "reinforcement_count": 18,
+    "last_seen": 1767516894,
+    "prompt_history_ids": [
+      "prompt_cecc4af4_014160",
+      "prompt_6c2644a3_014161",
+      "prompt_04ab5d00_014162",
+      "prompt_303d1850_014163",
+      "prompt_24919a09_014164",
+      "prompt_d1319683_014165",
+      "prompt_b5d7da65_014166",
+      "prompt_feed21c0_014167",
+      "prompt_0f865173_014168",
+      "prompt_0f209695_014169",
+      "prompt_68c3ec01_014170",
+      "prompt_22e9868f_014171",
+      "prompt_bd6fa28b_014172",
+      "prompt_803ed2bf_014173",
+      "prompt_59ca15ca_014174",
+      "prompt_eb491378_014175",
+      "prompt_b8ebe34f_014176",
+      "prompt_064f9d46_014177"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001",
+    "clarity_score": 0.93,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_73aee5cd_014178",
+    "observation_id": "obs_639e4cf7_014179",
+    "behavior_text": "implementing async operations and background tasks",
+    "credibility": 0.86,
+    "reinforcement_count": 12,
+    "last_seen": 1766766383,
+    "prompt_history_ids": [
+      "prompt_84274405_014180",
+      "prompt_55d1b3fd_014181",
+      "prompt_74182d4e_014182",
+      "prompt_3ed938f4_014183",
+      "prompt_b5b1eb74_014184",
+      "prompt_8bdc9cb2_014185",
+      "prompt_20d26a5a_014186",
+      "prompt_2d87a68a_014187",
+      "prompt_26434eb1_014188",
+      "prompt_f2958635_014189",
+      "prompt_874b503f_014190",
+      "prompt_e402852e_014191"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002",
+    "clarity_score": 0.96,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_b2a6673e_014192",
+    "observation_id": "obs_6ff078dc_014193",
+    "behavior_text": "pytest fixtures and testing API endpoints",
+    "credibility": 0.84,
+    "reinforcement_count": 11,
+    "last_seen": 1767041255,
+    "prompt_history_ids": [
+      "prompt_9e610b8b_014194",
+      "prompt_54610847_014195",
+      "prompt_afcf0cc6_014196",
+      "prompt_519703a2_014197",
+      "prompt_c95ec6e4_014198",
+      "prompt_59de5769_014199",
+      "prompt_723fc6d7_014200",
+      "prompt_28b559c6_014201",
+      "prompt_f896eaac_014202",
+      "prompt_b3a0cc1a_014203",
+      "prompt_19d65480_014204"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003",
+    "clarity_score": 0.97,
+    "confidence": 0.94
+  },
+  {
+    "behavior_id": "beh_07a4bc1b_014205",
+    "observation_id": "obs_e1177010_014206",
+    "behavior_text": "Docker containerization and deployment configuration",
+    "credibility": 0.82,
+    "reinforcement_count": 9,
+    "last_seen": 1767383736,
+    "prompt_history_ids": [
+      "prompt_3999199e_014207",
+      "prompt_9d42c0c1_014208",
+      "prompt_146a86bc_014209",
+      "prompt_3cebef4b_014210",
+      "prompt_56ebd139_014211",
+      "prompt_c6a9eb32_014212",
+      "prompt_28052351_014213",
+      "prompt_5177a439_014214",
+      "prompt_2a68ee29_014215"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004",
+    "clarity_score": 0.86,
+    "confidence": 0.86
+  },
+  {
+    "behavior_id": "beh_5ba4072c_014216",
+    "observation_id": "obs_6262353e_014217",
+    "behavior_text": "exploring Redis caching strategies",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "last_seen": 1766409362,
+    "prompt_history_ids": [
+      "prompt_bb6d9b66_014218",
+      "prompt_ad3f7a92_014219",
+      "prompt_6503426e_014220",
+      "prompt_9330422f_014221"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_000",
+    "clarity_score": 0.84,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_84e8f685_014222",
+    "observation_id": "obs_e52819be_014223",
+    "behavior_text": "considering security and authentication patterns",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "last_seen": 1767398050,
+    "prompt_history_ids": [
+      "prompt_1378e57f_014224",
+      "prompt_028a0fb4_014225",
+      "prompt_39b854b9_014226",
+      "prompt_66572934_014227",
+      "prompt_43b144f0_014228"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001",
+    "clarity_score": 0.77,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_a22a5248_014229",
+    "observation_id": "obs_a9dadcbf_014230",
+    "behavior_text": "investigating database migration tools",
+    "credibility": 0.74,
+    "reinforcement_count": 3,
+    "last_seen": 1766951023,
+    "prompt_history_ids": [
+      "prompt_7fd33fa5_014231",
+      "prompt_7a953fbd_014232",
+      "prompt_fb87f33f_014233"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_002",
+    "clarity_score": 0.75,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_9774590b_014234",
+    "observation_id": "obs_4fbed6aa_014235",
+    "behavior_text": "JSON parsing question",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1763557858,
+    "prompt_history_ids": [
+      "prompt_e95bee03_014236"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_000",
+    "clarity_score": 0.65,
+    "confidence": 0.37
+  },
+  {
+    "behavior_id": "beh_c34a1898_014237",
+    "observation_id": "obs_605e9dd9_014238",
+    "behavior_text": "quick Python syntax lookup",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1763197689,
+    "prompt_history_ids": [
+      "prompt_9d36ff6e_014239"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_001",
+    "clarity_score": 0.48,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_5cc0e134_014240",
+    "observation_id": "obs_e66b947a_014241",
+    "behavior_text": "random trivia",
+    "credibility": 0.3,
+    "reinforcement_count": 1,
+    "last_seen": 1762816832,
+    "prompt_history_ids": [
+      "prompt_b0bd2d89_014242"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_002",
+    "clarity_score": 0.49,
+    "confidence": 0.36
+  },
+  {
+    "behavior_id": "beh_8e3a0299_014243",
+    "observation_id": "obs_212b32c8_014244",
+    "behavior_text": "random JavaScript question",
+    "credibility": 0.44,
+    "reinforcement_count": 1,
+    "last_seen": 1762868078,
+    "prompt_history_ids": [
+      "prompt_16054189_014245"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_003",
+    "clarity_score": 0.52,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_260103e4_014246",
+    "observation_id": "obs_27e906e2_014247",
+    "behavior_text": "travel question",
+    "credibility": 0.34,
+    "reinforcement_count": 1,
+    "last_seen": 1762794899,
+    "prompt_history_ids": [
+      "prompt_be98c745_014248"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_004",
+    "clarity_score": 0.52,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_2bf990f7_014249",
+    "observation_id": "obs_711843c0_014250",
+    "behavior_text": "mobile app question",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1762743078,
+    "prompt_history_ids": [
+      "prompt_c944889c_014251"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_005",
+    "clarity_score": 0.48,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_a533c311_014252",
+    "observation_id": "obs_63994700_014253",
+    "behavior_text": "environment variable question",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1763136650,
+    "prompt_history_ids": [
+      "prompt_910f21f4_014254"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_006",
+    "clarity_score": 0.59,
+    "confidence": 0.45
+  },
+  {
+    "behavior_id": "beh_5d353b3f_014255",
+    "observation_id": "obs_84ff69f0_014256",
+    "behavior_text": "regex pattern help",
+    "credibility": 0.46,
+    "reinforcement_count": 1,
+    "last_seen": 1763425176,
+    "prompt_history_ids": [
+      "prompt_66e6676f_014257"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_007",
+    "clarity_score": 0.65,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_ad4cbf50_014258",
+    "observation_id": "obs_e9cf174a_014259",
+    "behavior_text": "music question",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1762588843,
+    "prompt_history_ids": [
+      "prompt_67c7b886_014260"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_008",
+    "clarity_score": 0.47,
+    "confidence": 0.3
+  },
+  {
+    "behavior_id": "beh_5eb7405d_014261",
+    "observation_id": "obs_99fbde17_014262",
+    "behavior_text": "blockchain question",
+    "credibility": 0.43,
+    "reinforcement_count": 1,
+    "last_seen": 1762723069,
+    "prompt_history_ids": [
+      "prompt_11fa941b_014263"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_009",
+    "clarity_score": 0.45,
+    "confidence": 0.49
+  },
+  {
+    "behavior_id": "beh_885a18a7_014264",
+    "observation_id": "obs_b1805721_014265",
+    "behavior_text": "weather question",
+    "credibility": 0.31,
+    "reinforcement_count": 1,
+    "last_seen": 1763045865,
+    "prompt_history_ids": [
+      "prompt_4a4719cc_014266"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_010",
+    "clarity_score": 0.4,
+    "confidence": 0.47
+  },
+  {
+    "behavior_id": "beh_dbc7e714_014267",
+    "observation_id": "obs_5c6ea244_014268",
+    "behavior_text": "machine learning curiosity",
+    "credibility": 0.45,
+    "reinforcement_count": 1,
+    "last_seen": 1762544200,
+    "prompt_history_ids": [
+      "prompt_11eedb1c_014269"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_011",
+    "clarity_score": 0.56,
+    "confidence": 0.32
+  },
+  {
+    "behavior_id": "beh_ab99eccc_014270",
+    "observation_id": "obs_f3922736_014271",
+    "behavior_text": "shopping query",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1762989135,
+    "prompt_history_ids": [
+      "prompt_d228f54c_014272"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_012",
+    "clarity_score": 0.61,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_72f09854_014273",
+    "observation_id": "obs_864c6890_014274",
+    "behavior_text": "casual conversation",
+    "credibility": 0.27,
+    "reinforcement_count": 1,
+    "last_seen": 1763218900,
+    "prompt_history_ids": [
+      "prompt_30b198dc_014275"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_013",
+    "clarity_score": 0.49,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_db25dac4_014276",
+    "observation_id": "obs_db652372_014277",
+    "behavior_text": "git command reference",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1763056398,
+    "prompt_history_ids": [
+      "prompt_9db9b7dc_014278"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_014",
+    "clarity_score": 0.59,
+    "confidence": 0.46
+  },
+  {
+    "behavior_id": "beh_4bc0b919_014279",
+    "observation_id": "obs_1f4fa268_014280",
+    "behavior_text": "cooking recipe",
+    "credibility": 0.29,
+    "reinforcement_count": 1,
+    "last_seen": 1767560247,
+    "prompt_history_ids": [
+      "prompt_b716288a_014281"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_015",
+    "clarity_score": 0.57,
+    "confidence": 0.32
+  },
+  {
+    "behavior_id": "beh_cd525189_014282",
+    "observation_id": "obs_2f1a9252_014283",
+    "behavior_text": "VS Code extension question",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1767658363,
+    "prompt_history_ids": [
+      "prompt_8380e46d_014284"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_016",
+    "clarity_score": 0.54,
+    "confidence": 0.32
+  },
+  {
+    "behavior_id": "beh_0ab0a868_014285",
+    "observation_id": "obs_29ef4485_014286",
+    "behavior_text": "Linux command query",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1766702310,
+    "prompt_history_ids": [
+      "prompt_fc9a5c7b_014287"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_017",
+    "clarity_score": 0.59,
+    "confidence": 0.34
+  },
+  {
+    "behavior_id": "beh_ee9f2b0a_014288",
+    "observation_id": "obs_3704c316_014289",
+    "behavior_text": "general knowledge",
+    "credibility": 0.28,
+    "reinforcement_count": 1,
+    "last_seen": 1767548936,
+    "prompt_history_ids": [
+      "prompt_7b78a934_014290"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_018",
+    "clarity_score": 0.56,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_fbef6b47_014291",
+    "observation_id": "obs_f575e719_014292",
+    "behavior_text": "system design curiosity",
+    "credibility": 0.46,
+    "reinforcement_count": 1,
+    "last_seen": 1766370787,
+    "prompt_history_ids": [
+      "prompt_8763e110_014293"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_019",
+    "clarity_score": 0.48,
+    "confidence": 0.44
+  },
+  {
+    "behavior_id": "beh_d13cb1f3_014294",
+    "observation_id": "obs_2bbb7bd8_014295",
+    "behavior_text": "book recommendation",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1766396162,
+    "prompt_history_ids": [
+      "prompt_bef91bec_014296"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_020",
+    "clarity_score": 0.47,
+    "confidence": 0.33
+  },
+  {
+    "behavior_id": "beh_c8d851e2_014297",
+    "observation_id": "obs_8fbc6125_014298",
+    "behavior_text": "fitness query",
+    "credibility": 0.32,
+    "reinforcement_count": 1,
+    "last_seen": 1767327929,
+    "prompt_history_ids": [
+      "prompt_64294d0a_014299"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_021",
+    "clarity_score": 0.49,
+    "confidence": 0.46
+  },
+  {
+    "behavior_id": "beh_ec3fe373_014300",
+    "observation_id": "obs_f6ac2730_014301",
+    "behavior_text": "movie recommendation",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1766426286,
+    "prompt_history_ids": [
+      "prompt_9f3f43da_014302"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_022",
+    "clarity_score": 0.55,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_7bcbb34a_014303",
+    "observation_id": "obs_661ec4b3_014304",
+    "behavior_text": "random news query",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1767212299,
+    "prompt_history_ids": [
+      "prompt_8fdcea50_014305"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_023",
+    "clarity_score": 0.47,
+    "confidence": 0.36
+  },
+  {
+    "behavior_id": "beh_5b9a34ee_014306",
+    "observation_id": "obs_5a2cfc20_014307",
+    "behavior_text": "random algorithm question",
+    "credibility": 0.44,
+    "reinforcement_count": 1,
+    "last_seen": 1766685288,
+    "prompt_history_ids": [
+      "prompt_7b5f7688_014308"
+    ],
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_024",
+    "clarity_score": 0.6,
+    "confidence": 0.32
+  }
+]

@@ -430,6 +430,168 @@ USER_PROFILES = [
         ],
         "days_back": 18,
         "description": "DEMO: Learner with strong preferences for hands-on examples, concise docs, and video tutorials"
+    },
+    {
+        "user_id": "user_python_project_2month",
+        "mode": "controlled_demo",
+        "core_behaviors": [
+            {
+                "text": "debugging FastAPI endpoint issues and request validation",
+                "occurrences": 15,
+                "credibility_range": (0.84, 0.93),
+                "templates": [
+                    "FastAPI {topic} not working as expected",
+                    "How to debug {topic} in FastAPI?",
+                    "FastAPI {topic} returning wrong response",
+                    "Troubleshoot FastAPI {topic} validation error",
+                    "Why is my FastAPI {topic} failing?",
+                    "Fix FastAPI {topic} exception",
+                    "FastAPI {topic} best practices",
+                    "Proper way to handle {topic} in FastAPI"
+                ],
+                "topics": ["request validation", "response models", "dependency injection", "background tasks",
+                          "middleware", "exception handlers", "path parameters", "query parameters", 
+                          "request body validation", "status codes", "CORS configuration"]
+            },
+            {
+                "text": "working with SQLAlchemy ORM queries and relationships",
+                "occurrences": 18,
+                "credibility_range": (0.86, 0.94),
+                "templates": [
+                    "SQLAlchemy {topic} query example",
+                    "How to implement {topic} in SQLAlchemy?",
+                    "SQLAlchemy {topic} relationship",
+                    "Optimize SQLAlchemy {topic} query",
+                    "SQLAlchemy {topic} not loading correctly",
+                    "Debug SQLAlchemy {topic}",
+                    "Best way to query {topic} with SQLAlchemy",
+                    "SQLAlchemy {topic} performance issue"
+                ],
+                "topics": ["eager loading", "lazy loading", "many-to-many relationships", "one-to-many relationships",
+                          "join queries", "filter operations", "session management", "query optimization",
+                          "relationship cascade", "backref", "foreign keys", "composite keys"]
+            },
+            {
+                "text": "implementing async operations and background tasks",
+                "occurrences": 12,
+                "credibility_range": (0.82, 0.91),
+                "templates": [
+                    "Python async {topic} implementation",
+                    "How to use asyncio for {topic}?",
+                    "Async/await with {topic}",
+                    "Background task for {topic}",
+                    "Celery vs asyncio for {topic}",
+                    "Async {topic} best practices",
+                    "Handle {topic} asynchronously"
+                ],
+                "topics": ["database operations", "API calls", "file processing", "email sending",
+                          "task queues", "concurrent requests", "event loops", "async context managers"]
+            },
+            {
+                "text": "pytest fixtures and testing API endpoints",
+                "occurrences": 11,
+                "credibility_range": (0.80, 0.89),
+                "templates": [
+                    "How to test {topic} with pytest?",
+                    "Pytest fixture for {topic}",
+                    "Mock {topic} in pytest",
+                    "Test FastAPI {topic} endpoint",
+                    "Pytest {topic} best practices",
+                    "Setup {topic} for testing",
+                    "Integration test for {topic}"
+                ],
+                "topics": ["database connections", "API endpoints", "authentication", "external APIs",
+                          "file uploads", "background tasks", "dependency injection", "request/response"]
+            },
+            {
+                "text": "Docker containerization and deployment configuration",
+                "occurrences": 9,
+                "credibility_range": (0.78, 0.87),
+                "templates": [
+                    "Dockerfile for Python {topic}",
+                    "Docker compose {topic} setup",
+                    "Containerize {topic} application",
+                    "Docker {topic} best practices",
+                    "Multi-stage Docker build for {topic}",
+                    "Docker environment variables for {topic}",
+                    "Debug Docker {topic} issue"
+                ],
+                "topics": ["FastAPI app", "PostgreSQL", "Redis", "multi-service setup",
+                          "production deployment", "development environment", "volume mounting"]
+            }
+        ],
+        "insufficient_behaviors": [
+            {
+                "text": "exploring Redis caching strategies",
+                "occurrences": 4,
+                "credibility_range": (0.70, 0.82),
+                "templates": [
+                    "Redis caching for {topic}",
+                    "How to cache {topic} with Redis?",
+                    "Redis {topic} pattern",
+                    "Implement {topic} caching strategy"
+                ],
+                "topics": ["API responses", "database queries", "session data", "rate limiting"]
+            },
+            {
+                "text": "considering security and authentication patterns",
+                "occurrences": 5,
+                "credibility_range": (0.72, 0.83),
+                "templates": [
+                    "JWT authentication for {topic}",
+                    "Secure {topic} implementation",
+                    "OAuth2 with {topic}",
+                    "Best practices for {topic} security",
+                    "Protect {topic} endpoint"
+                ],
+                "topics": ["API endpoints", "user registration", "password hashing", "token refresh", "CORS"]
+            },
+            {
+                "text": "investigating database migration tools",
+                "occurrences": 3,
+                "credibility_range": (0.68, 0.79),
+                "templates": [
+                    "Alembic {topic} migration",
+                    "Database migration for {topic}",
+                    "How to handle {topic} with Alembic?"
+                ],
+                "topics": ["schema changes", "data migration", "rollback strategies"]
+            }
+        ],
+        "noise_behaviors": [
+            # Development-related but not project-specific
+            {"text": "quick Python syntax lookup", "credibility": 0.42, "template": "Python list comprehension syntax"},
+            {"text": "git command reference", "credibility": 0.38, "template": "How to revert git commit?"},
+            {"text": "VS Code extension question", "credibility": 0.35, "template": "Best Python linter for VS Code"},
+            {"text": "random JavaScript question", "credibility": 0.44, "template": "JavaScript array methods"},
+            {"text": "Linux command query", "credibility": 0.40, "template": "Find files in Linux recursively"},
+            {"text": "regex pattern help", "credibility": 0.46, "template": "Regex to match email addresses"},
+            {"text": "JSON parsing question", "credibility": 0.39, "template": "Parse nested JSON in Python"},
+            {"text": "environment variable question", "credibility": 0.41, "template": "Set environment variables in bash"},
+            
+            # Completely unrelated noise
+            {"text": "random news query", "credibility": 0.33, "template": "Latest tech news today"},
+            {"text": "weather question", "credibility": 0.31, "template": "What's the weather tomorrow?"},
+            {"text": "movie recommendation", "credibility": 0.36, "template": "Good movies to watch on Netflix"},
+            {"text": "cooking recipe", "credibility": 0.29, "template": "Easy dinner recipes"},
+            {"text": "travel question", "credibility": 0.34, "template": "Best places to visit in Europe"},
+            {"text": "fitness query", "credibility": 0.32, "template": "Home workout routine"},
+            {"text": "random trivia", "credibility": 0.30, "template": "What's the speed of light?"},
+            {"text": "book recommendation", "credibility": 0.37, "template": "Good sci-fi books to read"},
+            {"text": "music question", "credibility": 0.35, "template": "Best productivity music playlists"},
+            {"text": "general knowledge", "credibility": 0.28, "template": "What is quantum computing?"},
+            {"text": "shopping query", "credibility": 0.33, "template": "Best mechanical keyboards 2026"},
+            {"text": "casual conversation", "credibility": 0.27, "template": "Tell me a joke"},
+            
+            # Occasional unrelated tech queries
+            {"text": "blockchain question", "credibility": 0.43, "template": "How does blockchain work?"},
+            {"text": "machine learning curiosity", "credibility": 0.45, "template": "What is deep learning?"},
+            {"text": "mobile app question", "credibility": 0.42, "template": "React Native vs Flutter"},
+            {"text": "random algorithm question", "credibility": 0.44, "template": "Explain quicksort algorithm"},
+            {"text": "system design curiosity", "credibility": 0.46, "template": "How to design a URL shortener?"}
+        ],
+        "days_back": 60,
+        "description": "REALISTIC: Python developer building a FastAPI project over 2 months with mixed queries"
     }
 ]
 # ===============================================

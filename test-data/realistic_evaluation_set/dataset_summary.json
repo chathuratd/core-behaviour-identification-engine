@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-06T15:43:43.858273",
-  "total_users": 10,
+  "generated_at": "2026-01-06T23:02:20.936380",
+  "total_users": 11,
   "users": {
     "user_demo_epistemic": {
       "description": "DEMO: Controlled dataset showing CORE, INSUFFICIENT_EVIDENCE, and NOISE states",
@@ -33,7 +33,7 @@
     "user_small_dataset": {
       "description": "Small dataset - few behaviors, low activity",
       "behaviors_count": 8,
-      "prompts_count": 77,
+      "prompts_count": 83,
       "noise_ratio": 0.1,
       "time_span_days": 15,
       "files": {
@@ -44,7 +44,7 @@
     "user_medium_clear": {
       "description": "Medium dataset - clear patterns, low noise",
       "behaviors_count": 12,
-      "prompts_count": 318,
+      "prompts_count": 345,
       "noise_ratio": 0.08,
       "time_span_days": 30,
       "files": {
@@ -55,7 +55,7 @@
     "user_large_diverse": {
       "description": "Large dataset - diverse behaviors, higher noise",
       "behaviors_count": 18,
-      "prompts_count": 466,
+      "prompts_count": 615,
       "noise_ratio": 0.2,
       "time_span_days": 60,
       "files": {
@@ -66,7 +66,7 @@
     "user_noisy_explorer": {
       "description": "Exploratory user - many unrelated queries",
       "behaviors_count": 10,
-      "prompts_count": 209,
+      "prompts_count": 191,
       "noise_ratio": 0.35,
       "time_span_days": 45,
       "files": {
@@ -77,7 +77,7 @@
     "user_focused_specialist": {
       "description": "Focused specialist - few but very strong behaviors",
       "behaviors_count": 5,
-      "prompts_count": 278,
+      "prompts_count": 312,
       "noise_ratio": 0.05,
       "time_span_days": 90,
       "files": {
@@ -88,7 +88,7 @@
     "user_massive_dataset": {
       "description": "Massive dataset - 1000 behaviors, extensive activity over 1 year",
       "behaviors_count": 1000,
-      "prompts_count": 10456,
+      "prompts_count": 10174,
       "noise_ratio": 0.15,
       "time_span_days": 365,
       "files": {
@@ -122,6 +122,20 @@
       "files": {
         "behaviors": "behaviors_user_learning_preferences.json",
         "prompts": "prompts_user_learning_preferences.json"
+      }
+    },
+    "user_python_project_2month": {
+      "description": "REALISTIC: Python developer building a FastAPI project over 2 months with mixed queries",
+      "mode": "controlled_demo",
+      "behaviors_count": 33,
+      "prompts_count": 102,
+      "core_behaviors": 5,
+      "insufficient_behaviors": 3,
+      "noise_behaviors": 25,
+      "time_span_days": 60,
+      "files": {
+        "behaviors": "behaviors_user_python_project_2month.json",
+        "prompts": "prompts_user_python_project_2month.json"
       }
     }
   }

@@ -1,0 +1,920 @@
+[
+  {
+    "prompt_id": "prompt_11eedb1c_014269",
+    "prompt_text": "What is deep learning?",
+    "timestamp": 1762544200,
+    "tokens": 4.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_011"
+  },
+  {
+    "prompt_id": "prompt_67c7b886_014260",
+    "prompt_text": "Best productivity music playlists",
+    "timestamp": 1762588843,
+    "tokens": 8.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_11fa941b_014263",
+    "prompt_text": "How does blockchain work?",
+    "timestamp": 1762723069,
+    "tokens": 4.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_c944889c_014251",
+    "prompt_text": "React Native vs Flutter",
+    "timestamp": 1762743078,
+    "tokens": 8.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_be98c745_014248",
+    "prompt_text": "Best places to visit in Europe",
+    "timestamp": 1762794899,
+    "tokens": 7.4,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_b0bd2d89_014242",
+    "prompt_text": "What's the speed of light?",
+    "timestamp": 1762816832,
+    "tokens": 8.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_16054189_014245",
+    "prompt_text": "JavaScript array methods",
+    "timestamp": 1762868078,
+    "tokens": 9.4,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_d228f54c_014272",
+    "prompt_text": "Best mechanical keyboards 2026",
+    "timestamp": 1762989135,
+    "tokens": 8.4,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_012"
+  },
+  {
+    "prompt_id": "prompt_4a4719cc_014266",
+    "prompt_text": "What's the weather tomorrow?",
+    "timestamp": 1763045865,
+    "tokens": 7.2,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_9db9b7dc_014278",
+    "prompt_text": "How to revert git commit?",
+    "timestamp": 1763056398,
+    "tokens": 7.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_014"
+  },
+  {
+    "prompt_id": "prompt_910f21f4_014254",
+    "prompt_text": "Set environment variables in bash",
+    "timestamp": 1763136650,
+    "tokens": 7.0,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_9d36ff6e_014239",
+    "prompt_text": "Python list comprehension syntax",
+    "timestamp": 1763197689,
+    "tokens": 9.8,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_30b198dc_014275",
+    "prompt_text": "Tell me a joke",
+    "timestamp": 1763218900,
+    "tokens": 8.2,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_66e6676f_014257",
+    "prompt_text": "Regex to match email addresses",
+    "timestamp": 1763425176,
+    "tokens": 7.2,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_e95bee03_014236",
+    "prompt_text": "Parse nested JSON in Python",
+    "timestamp": 1763557858,
+    "tokens": 6.5,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_feed21c0_014167",
+    "prompt_text": "How to implement lazy loading in SQLAlchemy?",
+    "timestamp": 1763589404,
+    "tokens": 17.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_0f865173_014168",
+    "prompt_text": "Debug SQLAlchemy relationship cascade",
+    "timestamp": 1763713547,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_3ed938f4_014183",
+    "prompt_text": "Handle email sending asynchronously",
+    "timestamp": 1763716839,
+    "tokens": 15.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_c95ec6e4_014198",
+    "prompt_text": "Setup dependency injection for testing",
+    "timestamp": 1763728624,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_b5d7da65_014166",
+    "prompt_text": "SQLAlchemy session management relationship",
+    "timestamp": 1763763995,
+    "tokens": 21.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6503426e_014220",
+    "prompt_text": "How to cache session data with Redis?",
+    "timestamp": 1763774834,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_9330422f_014221",
+    "prompt_text": "Implement database queries caching strategy",
+    "timestamp": 1763792136,
+    "tokens": 7.4,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_dd81d939_014147",
+    "prompt_text": "How to debug request validation in FastAPI?",
+    "timestamp": 1763861705,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_8bdc9cb2_014185",
+    "prompt_text": "Background task for async context managers",
+    "timestamp": 1763889848,
+    "tokens": 21.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_303d1850_014163",
+    "prompt_text": "Debug SQLAlchemy many-to-many relationships",
+    "timestamp": 1763943217,
+    "tokens": 19.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_afcf0cc6_014196",
+    "prompt_text": "Pytest fixture for request/response",
+    "timestamp": 1763967235,
+    "tokens": 21.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_b5b1eb74_014184",
+    "prompt_text": "Celery vs asyncio for API calls",
+    "timestamp": 1763997495,
+    "tokens": 22.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_56ebd139_014211",
+    "prompt_text": "Multi-stage Docker build for development environment",
+    "timestamp": 1764095927,
+    "tokens": 18.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_d1319683_014165",
+    "prompt_text": "SQLAlchemy lazy loading performance issue",
+    "timestamp": 1764139519,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_c6a9eb32_014212",
+    "prompt_text": "Dockerfile for Python Redis",
+    "timestamp": 1764150265,
+    "tokens": 8.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_dd2a2cc5_014145",
+    "prompt_text": "Proper way to handle request body validation in FastAPI",
+    "timestamp": 1764206954,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_22e9868f_014171",
+    "prompt_text": "Debug SQLAlchemy composite keys",
+    "timestamp": 1764210542,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_723fc6d7_014200",
+    "prompt_text": "Pytest fixture for background tasks",
+    "timestamp": 1764265023,
+    "tokens": 24.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_519703a2_014197",
+    "prompt_text": "Setup API endpoints for testing",
+    "timestamp": 1764315285,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_3cebef4b_014210",
+    "prompt_text": "Debug Docker FastAPI app issue",
+    "timestamp": 1764331047,
+    "tokens": 23.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_9e610b8b_014194",
+    "prompt_text": "Integration test for external APIs",
+    "timestamp": 1764457465,
+    "tokens": 18.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_59de5769_014199",
+    "prompt_text": "Setup background tasks for testing",
+    "timestamp": 1764480586,
+    "tokens": 20.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_54610847_014195",
+    "prompt_text": "Mock file uploads in pytest",
+    "timestamp": 1764571303,
+    "tokens": 8.6,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_9d42c0c1_014208",
+    "prompt_text": "Docker environment variables for multi-service setup",
+    "timestamp": 1764650440,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_20d26a5a_014186",
+    "prompt_text": "Background task for task queues",
+    "timestamp": 1764716741,
+    "tokens": 16.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_6c2644a3_014161",
+    "prompt_text": "SQLAlchemy join queries not loading correctly",
+    "timestamp": 1764795484,
+    "tokens": 21.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_aab289c2_014143",
+    "prompt_text": "FastAPI middleware best practices",
+    "timestamp": 1764853366,
+    "tokens": 24.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_2d87a68a_014187",
+    "prompt_text": "Async/await with database operations",
+    "timestamp": 1764856626,
+    "tokens": 16.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_68c3ec01_014170",
+    "prompt_text": "SQLAlchemy relationship cascade query example",
+    "timestamp": 1764936750,
+    "tokens": 14.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_0f209695_014169",
+    "prompt_text": "Best way to query backref with SQLAlchemy",
+    "timestamp": 1765014691,
+    "tokens": 14.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_3680f173_014148",
+    "prompt_text": "How to debug dependency injection in FastAPI?",
+    "timestamp": 1765055312,
+    "tokens": 15.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_04ab5d00_014162",
+    "prompt_text": "Optimize SQLAlchemy one-to-many relationships query",
+    "timestamp": 1765079363,
+    "tokens": 23.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_ad3f7a92_014219",
+    "prompt_text": "Redis caching for rate limiting",
+    "timestamp": 1765179612,
+    "tokens": 17.4,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_55d1b3fd_014181",
+    "prompt_text": "Async email sending best practices",
+    "timestamp": 1765282474,
+    "tokens": 21.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_7a953fbd_014232",
+    "prompt_text": "Alembic schema changes migration",
+    "timestamp": 1765327291,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_24919a09_014164",
+    "prompt_text": "How to implement session management in SQLAlchemy?",
+    "timestamp": 1765338367,
+    "tokens": 11.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_0384e2c9_014144",
+    "prompt_text": "Troubleshoot FastAPI path parameters validation error",
+    "timestamp": 1765386069,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_cecc4af4_014160",
+    "prompt_text": "SQLAlchemy many-to-many relationships query example",
+    "timestamp": 1765388824,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_5e96b015_014152",
+    "prompt_text": "Why is my FastAPI response models failing?",
+    "timestamp": 1765642905,
+    "tokens": 14.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_9dc9a3c7_014149",
+    "prompt_text": "FastAPI query parameters best practices",
+    "timestamp": 1765768469,
+    "tokens": 22.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_aa632009_014146",
+    "prompt_text": "FastAPI background tasks not working as expected",
+    "timestamp": 1765776437,
+    "tokens": 8.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_59b1eb49_014150",
+    "prompt_text": "Fix FastAPI response models exception",
+    "timestamp": 1765785776,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_39b854b9_014226",
+    "prompt_text": "Best practices for token refresh security",
+    "timestamp": 1765857335,
+    "tokens": 12.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_84274405_014180",
+    "prompt_text": "Async async context managers best practices",
+    "timestamp": 1765884794,
+    "tokens": 19.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_3999199e_014207",
+    "prompt_text": "Docker environment variables for volume mounting",
+    "timestamp": 1765903458,
+    "tokens": 24.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_74182d4e_014182",
+    "prompt_text": "How to use asyncio for event loops?",
+    "timestamp": 1765954438,
+    "tokens": 20.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_8c7243e1_014151",
+    "prompt_text": "FastAPI response models returning wrong response",
+    "timestamp": 1766096926,
+    "tokens": 14.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_146a86bc_014209",
+    "prompt_text": "Dockerfile for Python production deployment",
+    "timestamp": 1766104945,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_28b559c6_014201",
+    "prompt_text": "Setup file uploads for testing",
+    "timestamp": 1766187703,
+    "tokens": 14.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_d3c4ec56_014153",
+    "prompt_text": "Troubleshoot FastAPI background tasks validation error",
+    "timestamp": 1766260824,
+    "tokens": 14.4,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_028a0fb4_014225",
+    "prompt_text": "Best practices for token refresh security",
+    "timestamp": 1766295139,
+    "tokens": 13.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_8763e110_014293",
+    "prompt_text": "How to design a URL shortener?",
+    "timestamp": 1766370787,
+    "tokens": 6.9,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_019"
+  },
+  {
+    "prompt_id": "prompt_bef91bec_014296",
+    "prompt_text": "Good sci-fi books to read",
+    "timestamp": 1766396162,
+    "tokens": 7.3,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_020"
+  },
+  {
+    "prompt_id": "prompt_bb6d9b66_014218",
+    "prompt_text": "How to cache rate limiting with Redis?",
+    "timestamp": 1766409362,
+    "tokens": 19.6,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_e402852e_014191",
+    "prompt_text": "Celery vs asyncio for task queues",
+    "timestamp": 1766424457,
+    "tokens": 24.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_9f3f43da_014302",
+    "prompt_text": "Good movies to watch on Netflix",
+    "timestamp": 1766426286,
+    "tokens": 8.2,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_022"
+  },
+  {
+    "prompt_id": "prompt_59ca15ca_014174",
+    "prompt_text": "How to implement eager loading in SQLAlchemy?",
+    "timestamp": 1766444986,
+    "tokens": 23.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_f2958635_014189",
+    "prompt_text": "Background task for file processing",
+    "timestamp": 1766489836,
+    "tokens": 14.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_23c6f748_014157",
+    "prompt_text": "FastAPI CORS configuration not working as expected",
+    "timestamp": 1766496637,
+    "tokens": 18.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_19d65480_014204",
+    "prompt_text": "Setup background tasks for testing",
+    "timestamp": 1766526112,
+    "tokens": 13.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_26434eb1_014188",
+    "prompt_text": "Async email sending best practices",
+    "timestamp": 1766554599,
+    "tokens": 18.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_1378e57f_014224",
+    "prompt_text": "Protect API endpoints endpoint",
+    "timestamp": 1766597180,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_5177a439_014214",
+    "prompt_text": "Multi-stage Docker build for FastAPI app",
+    "timestamp": 1766599976,
+    "tokens": 16.7,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_3bda2693_014156",
+    "prompt_text": "Troubleshoot FastAPI response models validation error",
+    "timestamp": 1766623750,
+    "tokens": 18.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_28052351_014213",
+    "prompt_text": "Dockerfile for Python Redis",
+    "timestamp": 1766639052,
+    "tokens": 8.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_b8ebe34f_014176",
+    "prompt_text": "SQLAlchemy backref not loading correctly",
+    "timestamp": 1766659762,
+    "tokens": 24.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_7fd33fa5_014231",
+    "prompt_text": "Alembic rollback strategies migration",
+    "timestamp": 1766666703,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_f5028980_014154",
+    "prompt_text": "FastAPI middleware best practices",
+    "timestamp": 1766668522,
+    "tokens": 17.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_7b5f7688_014308",
+    "prompt_text": "Explain quicksort algorithm",
+    "timestamp": 1766685288,
+    "tokens": 4.3,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_024"
+  },
+  {
+    "prompt_id": "prompt_fc9a5c7b_014287",
+    "prompt_text": "Find files in Linux recursively",
+    "timestamp": 1766702310,
+    "tokens": 6.3,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_017"
+  },
+  {
+    "prompt_id": "prompt_874b503f_014190",
+    "prompt_text": "Background task for event loops",
+    "timestamp": 1766766383,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_064f9d46_014177",
+    "prompt_text": "SQLAlchemy eager loading not loading correctly",
+    "timestamp": 1766858140,
+    "tokens": 11.2,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_fb87f33f_014233",
+    "prompt_text": "How to handle rollback strategies with Alembic?",
+    "timestamp": 1766951023,
+    "tokens": 18.5,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_002"
+  },
+  {
+    "prompt_id": "prompt_b3a0cc1a_014203",
+    "prompt_text": "Pytest authentication best practices",
+    "timestamp": 1767030450,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_f896eaac_014202",
+    "prompt_text": "Setup request/response for testing",
+    "timestamp": 1767041255,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_003"
+  },
+  {
+    "prompt_id": "prompt_eb491378_014175",
+    "prompt_text": "Best way to query one-to-many relationships with SQLAlchemy",
+    "timestamp": 1767049939,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_66572934_014227",
+    "prompt_text": "JWT authentication for token refresh",
+    "timestamp": 1767125835,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_8fdcea50_014305",
+    "prompt_text": "Latest tech news today",
+    "timestamp": 1767212299,
+    "tokens": 9.1,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_023"
+  },
+  {
+    "prompt_id": "prompt_64294d0a_014299",
+    "prompt_text": "Home workout routine",
+    "timestamp": 1767327929,
+    "tokens": 6.9,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_021"
+  },
+  {
+    "prompt_id": "prompt_2a68ee29_014215",
+    "prompt_text": "Docker FastAPI app best practices",
+    "timestamp": 1767383736,
+    "tokens": 8.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_004"
+  },
+  {
+    "prompt_id": "prompt_43b144f0_014228",
+    "prompt_text": "Best practices for token refresh security",
+    "timestamp": 1767398050,
+    "tokens": 10.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_803ed2bf_014173",
+    "prompt_text": "SQLAlchemy query optimization not loading correctly",
+    "timestamp": 1767504822,
+    "tokens": 24.9,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_bd6fa28b_014172",
+    "prompt_text": "Best way to query foreign keys with SQLAlchemy",
+    "timestamp": 1767516894,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_7b78a934_014290",
+    "prompt_text": "What is quantum computing?",
+    "timestamp": 1767548936,
+    "tokens": 5.6,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_018"
+  },
+  {
+    "prompt_id": "prompt_b716288a_014281",
+    "prompt_text": "Easy dinner recipes",
+    "timestamp": 1767560247,
+    "tokens": 6.6,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_015"
+  },
+  {
+    "prompt_id": "prompt_961a2a76_014155",
+    "prompt_text": "Troubleshoot FastAPI response models validation error",
+    "timestamp": 1767612517,
+    "tokens": 20.0,
+    "is_noise": false,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_8380e46d_014284",
+    "prompt_text": "Best Python linter for VS Code",
+    "timestamp": 1767658363,
+    "tokens": 8.0,
+    "is_noise": true,
+    "user_id": "user_python_project_2month",
+    "session_id": "sess_noise_016"
+  }
+]
