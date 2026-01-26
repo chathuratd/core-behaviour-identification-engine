@@ -74,6 +74,17 @@ export async function fetchAnalysisData(userId: string): Promise<AnalysisResult>
   return await response.json();
 }
 
+// Delete analysis results for a user
+export async function deleteUserAnalysis(userId: string): Promise<{ message: string; behaviors_updated: number; profile_deleted: boolean; clusters_deleted: number }> {
+  const response = await fetch(`${API_BASE_URL}/profile/${userId}/analysis`, {
+    method: 'DELETE'
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to delete analysis: ${response.statusText}`);
+  }
+  return await response.json();
+}
+
 // Fetch list of available test users
 export async function fetchTestUsers(): Promise<UserInfo[]> {
   const response = await fetch(`${API_BASE_URL}/test-users`);

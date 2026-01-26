@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import { GoogleGenAI } from "@google/genai";
-import { fetchAnalysisData, fetchTestUsers, simulateThreshold, fetchLLMContext, runAnalysis as triggerAnalysis, type UserInfo } from './api.ts';
+import { fetchAnalysisData, fetchTestUsers, simulateThreshold, fetchLLMContext, runAnalysis as triggerAnalysis, deleteUserAnalysis, type UserInfo } from './api.ts';
 
 // --- Types & Constants ---
 
@@ -679,6 +679,26 @@ const App = () => {
     }
   };
 
+  const deleteAnalysis = async () => {
+    if (!confirm(`Are you sure you want to delete the analysis results for ${selectedUser.name}? This will preserve behaviors and embeddings but remove all clustering/profile data.`)) {
+      return;
+    }
+    
+    try {
+      console.log(`Deleting analysis for user ${selectedUser.id}...`);
+      const result = await deleteUserAnalysis(selectedUser.id);
+      console.log(`Deleted: ${result.behaviors_updated} behaviors updated, ${result.clusters_deleted} clusters deleted`);
+      
+      // Clear the analysis result from UI
+      setAnalysisResult(null);
+      setChatMessages([]);
+      setError(null);
+    } catch (e) {
+      console.error("Delete failed:", e);
+      setError(`Failed to delete analysis for ${selectedUser.id}. Please try again.`);
+    }
+  };
+
   // Re-run threshold simulation when threshold changes
   useEffect(() => {
     if (analysisResult && analysisResult.behaviors.length > 0) {
@@ -740,10 +760,20 @@ const App = () => {
                 <h2 style={{ fontSize: '1.5rem', fontWeight: '700', margin: 0 }}>User Analysis Dashboard</h2>
                 <p style={{ color: 'var(--color-text-muted)', marginTop: '0.25rem' }}>Current Target: {selectedUser.name}</p>
               </div>
-              <div className="card" style={{ padding: '0.5rem' }}>
+              <div className="card" style={{ padding: '0.5rem', display: 'flex', gap: '0.5rem' }}>
                 <button className="btn btn-primary" onClick={runAnalysis} disabled={isAnalyzing}>
                   {isAnalyzing ? 'Processing...' : 'Run Analysis'}
                 </button>
+                {analysisResult && (
+                  <button 
+                    className="btn" 
+                    onClick={deleteAnalysis}
+                    style={{ background: '#EF4444', color: 'white' }}
+                    title="Delete analysis results (keeps behaviors and embeddings)"
+                  >
+                    🗑️ Clear Analysis
+                  </button>
+                )}
               </div>
             </div>
 

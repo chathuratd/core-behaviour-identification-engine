@@ -1,0 +1,181 @@
+[
+  {
+    "behavior_id": "beh_5880d5ec_000154",
+    "observation_id": "obs_c783322e_000155",
+    "behavior_text": "prefers visual diagrams and flowcharts",
+    "credibility": 0.64,
+    "reinforcement_count": 9,
+    "last_seen": 1766475269,
+    "prompt_history_ids": [
+      "prompt_6b4cc479_000156",
+      "prompt_15f79907_000157",
+      "prompt_dc15d271_000158",
+      "prompt_56164008_000159",
+      "prompt_f7c1696c_000160",
+      "prompt_8e002921_000161",
+      "prompt_0b748464_000162",
+      "prompt_e2e1657a_000163",
+      "prompt_75cf9fd3_000164"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_visual_000",
+    "clarity_score": 0.88,
+    "confidence": 0.64
+  },
+  {
+    "behavior_id": "beh_ed807e5e_000165",
+    "observation_id": "obs_a411c993_000166",
+    "behavior_text": "prefers concise, brief explanations",
+    "credibility": 0.64,
+    "reinforcement_count": 9,
+    "last_seen": 1766507597,
+    "prompt_history_ids": [
+      "prompt_3048f3eb_000167",
+      "prompt_e55bab20_000168",
+      "prompt_c52f1c79_000169",
+      "prompt_7c5a44ed_000170",
+      "prompt_127d2497_000171",
+      "prompt_547d03da_000172",
+      "prompt_59bc32cf_000173",
+      "prompt_5b309b45_000174",
+      "prompt_bd75bdc0_000175"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_concise_001",
+    "clarity_score": 0.77,
+    "confidence": 0.64
+  },
+  {
+    "behavior_id": "beh_6e113c4b_000176",
+    "observation_id": "obs_80c87992_000177",
+    "behavior_text": "frequently asks about security vulnerabilities",
+    "credibility": 0.62,
+    "reinforcement_count": 8,
+    "last_seen": 1766546319,
+    "prompt_history_ids": [
+      "prompt_c2fb40b2_000178",
+      "prompt_1f1ad7cf_000179",
+      "prompt_8153ec94_000180",
+      "prompt_9c7fec5f_000181",
+      "prompt_56fe28b4_000182",
+      "prompt_5956f1f1_000183",
+      "prompt_c2b503d3_000184",
+      "prompt_e466a268_000185"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_security_002",
+    "clarity_score": 0.72,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_6f7e05f5_000186",
+    "observation_id": "obs_cd049e4c_000187",
+    "behavior_text": "requests code examples and snippets",
+    "credibility": 0.59,
+    "reinforcement_count": 6,
+    "last_seen": 1766575847,
+    "prompt_history_ids": [
+      "prompt_cfcf6eb4_000188",
+      "prompt_8b5aa45e_000189",
+      "prompt_33abe4f6_000190",
+      "prompt_ea44f2bb_000191",
+      "prompt_6e2f4386_000192",
+      "prompt_ff58a205_000193"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_code_003",
+    "clarity_score": 0.77,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_444fcca3_000194",
+    "observation_id": "obs_bd009d2f_000195",
+    "behavior_text": "requests best practices and standards",
+    "credibility": 0.65,
+    "reinforcement_count": 10,
+    "last_seen": 1766632727,
+    "prompt_history_ids": [
+      "prompt_093e0e1a_000196",
+      "prompt_8e82b5d2_000197",
+      "prompt_b741b815_000198",
+      "prompt_1dca01f1_000199",
+      "prompt_e9782553_000200",
+      "prompt_d6b21ce3_000201",
+      "prompt_782c4a6e_000202",
+      "prompt_5c4e526d_000203",
+      "prompt_6afdd9b7_000204",
+      "prompt_8ea5a9ca_000205"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_best_practice_004",
+    "clarity_score": 0.89,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_dfb401d2_000206",
+    "observation_id": "obs_62173f69_000207",
+    "behavior_text": "prefers theoretical concepts over implementation",
+    "credibility": 0.65,
+    "reinforcement_count": 10,
+    "last_seen": 1766679969,
+    "prompt_history_ids": [
+      "prompt_499ebdcb_000208",
+      "prompt_1ce89b80_000209",
+      "prompt_ac32d493_000210",
+      "prompt_e613caaa_000211",
+      "prompt_ee519051_000212",
+      "prompt_991f4c3e_000213",
+      "prompt_308a4e6f_000214",
+      "prompt_cbe43e72_000215",
+      "prompt_24d35167_000216",
+      "prompt_7a0e1a1d_000217"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_theory_005",
+    "clarity_score": 0.83,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_cb4d77a4_000218",
+    "observation_id": "obs_ee607eeb_000219",
+    "behavior_text": "requests detailed, comprehensive explanations",
+    "credibility": 0.59,
+    "reinforcement_count": 6,
+    "last_seen": 1766695844,
+    "prompt_history_ids": [
+      "prompt_6cc901d0_000220",
+      "prompt_29abc905_000221",
+      "prompt_4e6bf4fb_000222",
+      "prompt_1b40481a_000223",
+      "prompt_1a9d6725_000224",
+      "prompt_0d46ba3d_000225"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_deep_006",
+    "clarity_score": 0.91,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_c40d6c92_000226",
+    "observation_id": "obs_c39fb761_000227",
+    "behavior_text": "asks for comparisons between technologies",
+    "credibility": 0.64,
+    "reinforcement_count": 9,
+    "last_seen": 1766742633,
+    "prompt_history_ids": [
+      "prompt_be59e939_000228",
+      "prompt_5a3d4586_000229",
+      "prompt_9ecae45c_000230",
+      "prompt_3c74475d_000231",
+      "prompt_cff08da1_000232",
+      "prompt_2084f02f_000233",
+      "prompt_0d8ae991_000234",
+      "prompt_38984090_000235",
+      "prompt_eebb0486_000236"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_compare_007",
+    "clarity_score": 0.8,
+    "confidence": 0.64
+  }
+]

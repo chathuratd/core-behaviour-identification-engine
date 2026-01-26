@@ -31,12 +31,13 @@ Implemented in [src/services/cluster_analysis_pipeline.py](src/services/cluster_
 ## Clustering Behavior
 - Engine: HDBSCAN with parameters defined in [src/services/clustering_engine.py](src/services/clustering_engine.py).
   - `min_cluster_size`: Adaptive. For small datasets (N<20), uses max(3, int(20% of N)); for N≥20, uses max(3, int(log(N))).
-  - `min_samples`: 1 (sparse neighborhood requirement).
+  - `min_samples`: 1 (allows detection of rare but meaningful behaviors without requiring dense neighborhoods).
   - `cluster_selection_epsilon`: 0.15.
   - Metric: `euclidean` on L2-normalized vectors (to approximate cosine clustering).
-- Weighted density claim vs reality:
-  - Logs show attempt to use `sample_weight` with credibility, followed by “HDBSCAN sample_weight not supported, proceeding without weights.”
-  - Current clustering is effectively unweighted; credibility does not influence the clustering process.
+- **Credibility weighting reality:**
+  - Clustering itself is unweighted (HDBSCAN does not accept `sample_weight` parameter).
+  - **Credibility is applied AFTER clustering during epistemic classification**, not during density formation.
+  - This is intentional: clustering discovers semantic groups; credibility then filters which groups constitute CORE behaviors.
 - Outputs captured per cluster:
   - Size, stability (persistence), mean/std/min/max intra-cluster distances, labels.
 
@@ -45,9 +46,12 @@ Implemented in [src/services/cluster_analysis_pipeline.py](src/services/cluster_
 - Archetype generation (user-level) aggregates canonical behaviors; in demos, strong CORE clusters can drive archetype like “Visual Learner”.
 - Epistemic classification rule (as used at runtime):
   - Compute median cluster stability and a fixed absolute CORE threshold (0.15).
-  - A cluster is `CORE` if its stability ≥ 0.15 (absolute threshold). Tier assignment follows (`PRIMARY` for stronger ones).
-  - If not CORE: classify as `INSUFFICIENT_EVIDENCE` when mean credibility ≥ global median credibility across observations.
-  - Else: classify as `NOISE`.
+  - **A cluster is `CORE` if stability ≥ median AND ≥ 0.15 (absolute threshold).** This dual requirement ensures both relative strength within the dataset and minimum absolute stability.
+  - If not CORE: classify as `INSUFFICIENT_EVIDENCE` when mean credibility ≥ global median credibility across observations (high individual evidence but weak clustering structure).
+  - Else: classify as `NOISE` (low credibility and unstable).
+- **Absolute threshold justification:**
+  - The fixed 0.15 threshold is used in Phase-1 for reproducibility and to establish baseline behavior.
+  - Adaptive thresholds based on dataset characteristics are planned for Phase-2 to improve robustness across diverse data distributions.
 
 ## Calculations Used
 - Per-observation metrics (in [src/services/calculation_engine.py](src/services/calculation_engine.py)):
@@ -79,16 +83,13 @@ From recent logs:
   - Summary returns 20 total behaviors (3 CORE, 11 INSUFFICIENT, 6 NOISE); archetype: “Visual Learner”.
 
 ## Weaknesses and Risks
-1. Credibility-weighted clustering is not implemented:
-   - HDBSCAN ignores `sample_weight`; current clustering is unweighted despite design intent.
-2. Rigid absolute stability threshold (0.15):
-   - For small N or diverse topics, produces 0 CORE even for relatively cohesive clusters.
+1. ~~Credibility-weighted clustering is not implemented~~ → **Clarified:** Credibility is correctly applied post-clustering during epistemic classification, not during density formation. This is by design.
+2. ~~Rigid absolute stability threshold (0.15)~~ → **Justified:** Fixed threshold used in Phase-1 for reproducibility; adaptive thresholds planned for Phase-2.
 3. Over-reliance on global credibility median:
    - `INSUFFICIENT_EVIDENCE` vs `NOISE` split can be brittle, ignoring intra-cluster cohesion and temporal factors.
 4. Underuse of existing signals:
-   - Intra-cluster distances, clarity distributions, and temporal span are computed but not integrated into epistemic classification.
-5. Threshold simulation route inconsistency:
-   - For `user_demo_single_core`, simulating threshold=0.15 reported 0 CORE while the pipeline earlier produced a CORE at stability 0.3793; suggests route logic mismatch.
+   - Intra-cluster distances, clarity distributions, and temporal span are **logged but not yet fused into the decision rule**. These signals are instrumented for future integration.
+5. ~~Threshold simulation route inconsistency~~ → **Fixed:** Simulation now uses identical dual-condition logic (stability ≥ median AND ≥ threshold) as the pipeline.
 
 ## Correct (Intended) Flow Description
 A reference flow that aligns code, logs, and design goals:
@@ -112,20 +113,17 @@ A reference flow that aligns code, logs, and design goals:
 7. Simulation (consistency)
    - Ensure simulation endpoint applies identical classification logic with a parameterized threshold and returns diffs.
 
-## Recommendations (Targeted)
-- Implement credibility influence:
-  - If HDBSCAN must remain: simulate weights via controlled duplication or adjust distance pre-processing.
-  - Alternatively, consider algorithms with native weighting or leverage HDBSCAN soft probabilities downstream.
-- Dynamic thresholds:
-  - Replace fixed 0.15 with data-aware thresholds (quartiles or mean+sigma), especially for N<50.
-- Integrate `calculate_cluster_confidence()`:
-  - Use cohesion and clarity to refine `CORE`/`INSUFFICIENT` decisions.
-- Tune `min_samples`:
-  - Use `max(2, int(log(N)))` to reduce fragile clusters.
-- Fix simulation route:
-  - Align its logic and scales with the pipeline; include per-cluster details and a summary diff.
-- Logging & docs:
-  - Remove “weighted density” claim until implemented; log which signals drive epistemic decisions.
+## Recommendations for Phase-2
+- **Dynamic stability thresholds:**
+  - Replace fixed 0.15 with data-aware thresholds (e.g., max(0.15, Q3 of stability)) for improved robustness across diverse datasets, especially N<50.
+- **Integrate `calculate_cluster_confidence()`:**
+  - Fuse intra-cluster cohesion, clarity consistency, and temporal span into epistemic decisions to refine `CORE`/`INSUFFICIENT` boundaries.
+- **Consider `min_samples` tuning:**
+  - Current value of 1 allows detection of rare behaviors (defensible); consider `max(2, int(log(N)))` for larger datasets to reduce fragile micro-clusters.
+- **Time-aware cluster size requirements:**
+  - Move from static `min_cluster_size` to temporal reinforcement criteria (e.g., behaviors spanning multiple sessions or time windows).
+- **Credibility-weighted clustering exploration:**
+  - Investigate distance pre-processing or alternative algorithms with native sample weighting if clustering quality can be improved without sacrificing semantic grouping.
 
 ## File References
 - Pipeline: [src/services/cluster_analysis_pipeline.py](src/services/cluster_analysis_pipeline.py)

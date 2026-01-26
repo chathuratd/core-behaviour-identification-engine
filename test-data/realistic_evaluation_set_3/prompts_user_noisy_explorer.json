@@ -1,0 +1,1586 @@
+[
+  {
+    "prompt_id": "prompt_4d22d2d5_001322",
+    "prompt_text": "Security vulnerabilities in BASE consistency",
+    "timestamp": 1763843589,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_0ad70a23_001323",
+    "prompt_text": "How to prevent attacks on JavaScript promises",
+    "timestamp": 1763844165,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_f98dee90_001488",
+    "prompt_text": "SSL/TLS",
+    "timestamp": 1763845758,
+    "tokens": 4.4,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_017"
+  },
+  {
+    "prompt_id": "prompt_c5cb7bec_001324",
+    "prompt_text": "Securing Next.js routing",
+    "timestamp": 1763853749,
+    "tokens": 4.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_58dff525_001325",
+    "prompt_text": "Securing Heaps",
+    "timestamp": 1763863786,
+    "tokens": 6.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_49417188_001326",
+    "prompt_text": "Best security practices for Python decorators",
+    "timestamp": 1763868011,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_571fc918_001327",
+    "prompt_text": "Is REST APIs secure?",
+    "timestamp": 1763873797,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_fd7cbdc8_001328",
+    "prompt_text": "Security vulnerabilities in CSRF protection",
+    "timestamp": 1763879610,
+    "tokens": 9.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_abea8755_001329",
+    "prompt_text": "Is Python decorators secure?",
+    "timestamp": 1763888591,
+    "tokens": 4.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_cd4eda77_001500",
+    "prompt_text": "I need help with Stacks",
+    "timestamp": 1763888671,
+    "tokens": 4.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_029"
+  },
+  {
+    "prompt_id": "prompt_a1f7a355_001515",
+    "prompt_text": "Docker containers please",
+    "timestamp": 1763891337,
+    "tokens": 4.0,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_044"
+  },
+  {
+    "prompt_id": "prompt_79d127f5_001330",
+    "prompt_text": "How to prevent attacks on Event-driven architecture",
+    "timestamp": 1763893058,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_079201f1_001331",
+    "prompt_text": "Best security practices for Serverless",
+    "timestamp": 1763896944,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_7c01824a_001484",
+    "prompt_text": "Linting please",
+    "timestamp": 1763903462,
+    "tokens": 4.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_23ef35d2_001332",
+    "prompt_text": "Best security practices for Load balancing",
+    "timestamp": 1763905825,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_security_000"
+  },
+  {
+    "prompt_id": "prompt_5fea0f04_001335",
+    "prompt_text": "I'm getting an error with CQRS",
+    "timestamp": 1763910914,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_42d845f8_001336",
+    "prompt_text": "What's wrong with my Encryption?",
+    "timestamp": 1763914246,
+    "tokens": 2.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_5829593b_001337",
+    "prompt_text": "Why isn't Depth-first search working?",
+    "timestamp": 1763920563,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_8ebf7f29_001338",
+    "prompt_text": "Fix my Merge sort problem",
+    "timestamp": 1763929436,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_24204a56_001339",
+    "prompt_text": "What's wrong with my REST APIs?",
+    "timestamp": 1763933236,
+    "tokens": 5.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_5ba3358b_001340",
+    "prompt_text": "How to fix Vue composition API errors",
+    "timestamp": 1763941097,
+    "tokens": 2.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_b2ee30c1_001341",
+    "prompt_text": "Troubleshooting guide for CQRS",
+    "timestamp": 1763941722,
+    "tokens": 6.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_68a4cdad_001342",
+    "prompt_text": "Fix my Recursion problem",
+    "timestamp": 1763943996,
+    "tokens": 5.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_0832cb4f_001343",
+    "prompt_text": "Fix my Serverless problem",
+    "timestamp": 1763946951,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_29ab1fc0_001344",
+    "prompt_text": "Troubleshooting guide for TypeScript generics",
+    "timestamp": 1763952820,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_2b1b4966_001494",
+    "prompt_text": "What is Microservices?",
+    "timestamp": 1763958421,
+    "tokens": 2.3,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_023"
+  },
+  {
+    "prompt_id": "prompt_a9fc3b94_001345",
+    "prompt_text": "Why isn't Graphs working?",
+    "timestamp": 1763962830,
+    "tokens": 3.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_b4e897c2_001495",
+    "prompt_text": "I need help with ACID properties",
+    "timestamp": 1763965048,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_024"
+  },
+  {
+    "prompt_id": "prompt_96671019_001346",
+    "prompt_text": "What's wrong with my Monoliths?",
+    "timestamp": 1763969700,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_c6279831_001479",
+    "prompt_text": "WebSockets please",
+    "timestamp": 1763970354,
+    "tokens": 5.0,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_0812bd6a_001347",
+    "prompt_text": "Help me debug Caching strategies",
+    "timestamp": 1763973937,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_6d9cadfa_001348",
+    "prompt_text": "I'm getting an error with Salting",
+    "timestamp": 1763975626,
+    "tokens": 3.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_2013d23c_001349",
+    "prompt_text": "What's wrong with my System design?",
+    "timestamp": 1763982948,
+    "tokens": 6.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_1b9b6c22_001350",
+    "prompt_text": "Troubleshoot Angular signals",
+    "timestamp": 1763987674,
+    "tokens": 1.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_a9c07cd4_001498",
+    "prompt_text": "Can you help with Binary search?",
+    "timestamp": 1763988369,
+    "tokens": 5.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_027"
+  },
+  {
+    "prompt_id": "prompt_21ac45a3_001351",
+    "prompt_text": "How to fix Linting errors",
+    "timestamp": 1763994201,
+    "tokens": 3.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_debug_001"
+  },
+  {
+    "prompt_id": "prompt_54d8cd04_001513",
+    "prompt_text": "Tell me about Replication",
+    "timestamp": 1763996585,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_042"
+  },
+  {
+    "prompt_id": "prompt_3c2479c6_001354",
+    "prompt_text": "Latency issues with GraphQL",
+    "timestamp": 1763999376,
+    "tokens": 7.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_578d7972_001355",
+    "prompt_text": "Speed up Azure Functions",
+    "timestamp": 1764001181,
+    "tokens": 4.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_3613575d_001471",
+    "prompt_text": "About Monoliths",
+    "timestamp": 1764006529,
+    "tokens": 5.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_39e8294b_001512",
+    "prompt_text": "What is GraphQL?",
+    "timestamp": 1764007949,
+    "tokens": 4.8,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_041"
+  },
+  {
+    "prompt_id": "prompt_c7aa3a36_001356",
+    "prompt_text": "Benchmarking Graphs",
+    "timestamp": 1764010992,
+    "tokens": 7.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_9d4aba70_001357",
+    "prompt_text": "Improving performance of TypeScript generics",
+    "timestamp": 1764012343,
+    "tokens": 5.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_04a83428_001358",
+    "prompt_text": "How to optimize Next.js routing",
+    "timestamp": 1764020253,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_4fe0bd26_001359",
+    "prompt_text": "Speed up JWT authentication",
+    "timestamp": 1764022690,
+    "tokens": 6.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_06cd5f73_001360",
+    "prompt_text": "How to optimize CI/CD pipelines",
+    "timestamp": 1764026337,
+    "tokens": 9.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_affca39e_001361",
+    "prompt_text": "How to optimize XSS prevention",
+    "timestamp": 1764030575,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_e5d280b8_001362",
+    "prompt_text": "Speed up CAP theorem",
+    "timestamp": 1764035860,
+    "tokens": 2.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_cbeeef36_001363",
+    "prompt_text": "Speed up FastAPI",
+    "timestamp": 1764041070,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_8a606839_001485",
+    "prompt_text": "What is FastAPI?",
+    "timestamp": 1764047783,
+    "tokens": 2.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_014"
+  },
+  {
+    "prompt_id": "prompt_8563886d_001364",
+    "prompt_text": "How to optimize Microservices",
+    "timestamp": 1764048464,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_9d0b71aa_001365",
+    "prompt_text": "Improving performance of BASE consistency",
+    "timestamp": 1764049266,
+    "tokens": 7.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_ede43cf3_001366",
+    "prompt_text": "Improving performance of Hash tables",
+    "timestamp": 1764056410,
+    "tokens": 4.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_c69eda6e_001367",
+    "prompt_text": "Improving performance of Trees",
+    "timestamp": 1764057025,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_16f270ae_001477",
+    "prompt_text": "Can you help with Code coverage?",
+    "timestamp": 1764058875,
+    "tokens": 4.4,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_d8db3476_001368",
+    "prompt_text": "Speed up End-to-end testing",
+    "timestamp": 1764059499,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_0f109544_001369",
+    "prompt_text": "Improving performance of End-to-end testing",
+    "timestamp": 1764069175,
+    "tokens": 3.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_e92565ee_001370",
+    "prompt_text": "Benchmarking Replication",
+    "timestamp": 1764069900,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_4d81500f_001501",
+    "prompt_text": "Can you help with Flask blueprints?",
+    "timestamp": 1764071144,
+    "tokens": 1.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_030"
+  },
+  {
+    "prompt_id": "prompt_b499eeef_001371",
+    "prompt_text": "Benchmarking Quick sort",
+    "timestamp": 1764077553,
+    "tokens": 3.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_perf_002"
+  },
+  {
+    "prompt_id": "prompt_2025ad23_001374",
+    "prompt_text": "Pros and cons of Git workflows",
+    "timestamp": 1764087110,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_c6b1f169_001375",
+    "prompt_text": "Difference between Quick sort and...",
+    "timestamp": 1764090089,
+    "tokens": 9.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_136a33e2_001376",
+    "prompt_text": "Compare Azure Functions vs alternatives",
+    "timestamp": 1764090618,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_5cd70744_001377",
+    "prompt_text": "Compare MongoDB aggregation vs alternatives",
+    "timestamp": 1764095155,
+    "tokens": 8.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_bfc85d4c_001473",
+    "prompt_text": "Info on CAP theorem",
+    "timestamp": 1764100446,
+    "tokens": 5.4,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_4bc73e2f_001378",
+    "prompt_text": "Pros and cons of Hash tables",
+    "timestamp": 1764101517,
+    "tokens": 5.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_fef57a61_001379",
+    "prompt_text": "When to use Heaps",
+    "timestamp": 1764107379,
+    "tokens": 1.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_f28e392d_001380",
+    "prompt_text": "Compare Backtracking vs alternatives",
+    "timestamp": 1764110366,
+    "tokens": 6.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_a8d445b5_001381",
+    "prompt_text": "When to use Salting",
+    "timestamp": 1764112236,
+    "tokens": 3.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_78e00c4b_001382",
+    "prompt_text": "Pros and cons of Monoliths",
+    "timestamp": 1764115194,
+    "tokens": 3.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_2d461b41_001383",
+    "prompt_text": "CSRF protection vs others",
+    "timestamp": 1764119369,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_9bc7803e_001384",
+    "prompt_text": "Pros and cons of Event-driven architecture",
+    "timestamp": 1764128315,
+    "tokens": 7.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_b895e413_001385",
+    "prompt_text": "Big O notation vs others",
+    "timestamp": 1764133655,
+    "tokens": 2.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_e00a00fa_001386",
+    "prompt_text": "When to use Hashing",
+    "timestamp": 1764142501,
+    "tokens": 9.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_695004af_001387",
+    "prompt_text": "Pros and cons of REST APIs",
+    "timestamp": 1764142867,
+    "tokens": 3.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_cb1105f5_001388",
+    "prompt_text": "Compare ACID properties vs alternatives",
+    "timestamp": 1764149422,
+    "tokens": 11.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_compare_003"
+  },
+  {
+    "prompt_id": "prompt_d3c8a74e_001391",
+    "prompt_text": "I need a visual representation of Vue composition API",
+    "timestamp": 1764154291,
+    "tokens": 5.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_060dc008_001392",
+    "prompt_text": "Visual breakdown of Flask blueprints",
+    "timestamp": 1764158876,
+    "tokens": 8.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_5efbd46c_001393",
+    "prompt_text": "Illustrate Django models visually",
+    "timestamp": 1764161529,
+    "tokens": 4.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_ee006f2b_001481",
+    "prompt_text": "React hooks",
+    "timestamp": 1764164054,
+    "tokens": 3.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_8ec66792_001482",
+    "prompt_text": "Caching strategies",
+    "timestamp": 1764165405,
+    "tokens": 5.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_011"
+  },
+  {
+    "prompt_id": "prompt_64da13bb_001394",
+    "prompt_text": "Draw a flowchart for Kubernetes pods",
+    "timestamp": 1764170583,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_a58343ef_001514",
+    "prompt_text": "CI/CD pipelines",
+    "timestamp": 1764172656,
+    "tokens": 2.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_043"
+  },
+  {
+    "prompt_id": "prompt_8d78ccce_001395",
+    "prompt_text": "Draw a flowchart for XSS prevention",
+    "timestamp": 1764177623,
+    "tokens": 6.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_b28ff1ca_001396",
+    "prompt_text": "Can you create a diagram explaining Dynamic programming?",
+    "timestamp": 1764184831,
+    "tokens": 6.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_477805f2_001397",
+    "prompt_text": "Show me a diagram of AWS Lambda",
+    "timestamp": 1764192997,
+    "tokens": 10.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_10553284_001497",
+    "prompt_text": "Tell me about Queues",
+    "timestamp": 1764193459,
+    "tokens": 4.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_026"
+  },
+  {
+    "prompt_id": "prompt_f4b2b547_001398",
+    "prompt_text": "Draw a flowchart for MongoDB aggregation",
+    "timestamp": 1764196597,
+    "tokens": 1.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_4456737c_001399",
+    "prompt_text": "Can you create a diagram explaining Docker containers?",
+    "timestamp": 1764204564,
+    "tokens": 6.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_51dbe89a_001400",
+    "prompt_text": "Show me a diagram of Salting",
+    "timestamp": 1764209785,
+    "tokens": 1.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_visual_004"
+  },
+  {
+    "prompt_id": "prompt_94b802c2_001403",
+    "prompt_text": "In-depth analysis of Next.js routing",
+    "timestamp": 1764216981,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_d9e0cd23_001404",
+    "prompt_text": "Thorough explanation of Graphs",
+    "timestamp": 1764222604,
+    "tokens": 6.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_55e85b07_001405",
+    "prompt_text": "Explain CQRS in detail",
+    "timestamp": 1764230846,
+    "tokens": 2.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_dacae2df_001406",
+    "prompt_text": "Everything about OAuth2",
+    "timestamp": 1764235485,
+    "tokens": 7.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_89f8d77a_001407",
+    "prompt_text": "Detailed breakdown of GraphQL",
+    "timestamp": 1764237104,
+    "tokens": 5.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_79aa2f8c_001408",
+    "prompt_text": "Deep dive into Linting",
+    "timestamp": 1764243525,
+    "tokens": 4.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_cc2ee875_001409",
+    "prompt_text": "Full explanation of Clean Architecture",
+    "timestamp": 1764245761,
+    "tokens": 8.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_fc6f78be_001475",
+    "prompt_text": "Info on ACID properties",
+    "timestamp": 1764249125,
+    "tokens": 1.3,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_544bf1a3_001410",
+    "prompt_text": "Everything about Database sharding",
+    "timestamp": 1764255573,
+    "tokens": 5.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_0e5d4a70_001411",
+    "prompt_text": "Deep dive into Trees",
+    "timestamp": 1764257521,
+    "tokens": 6.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_deep_005"
+  },
+  {
+    "prompt_id": "prompt_f0a24059_001414",
+    "prompt_text": "Sequential instructions for Flask blueprints",
+    "timestamp": 1764261919,
+    "tokens": 3.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_61120bb5_001415",
+    "prompt_text": "Sequential instructions for Load balancing",
+    "timestamp": 1764266451,
+    "tokens": 11.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_82408836_001416",
+    "prompt_text": "How do I implement Breadth-first search? Step by step",
+    "timestamp": 1764275280,
+    "tokens": 12.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_b69ef607_001483",
+    "prompt_text": "What is Depth-first search?",
+    "timestamp": 1764277670,
+    "tokens": 2.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_012"
+  },
+  {
+    "prompt_id": "prompt_4d1937ce_001417",
+    "prompt_text": "Show me the steps to set up Heaps",
+    "timestamp": 1764277947,
+    "tokens": 1.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_017725bf_001418",
+    "prompt_text": "Sequential instructions for CAP theorem",
+    "timestamp": 1764282537,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_13c16089_001493",
+    "prompt_text": "Tell me about Code coverage",
+    "timestamp": 1764286158,
+    "tokens": 3.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_022"
+  },
+  {
+    "prompt_id": "prompt_30824ea6_001419",
+    "prompt_text": "Can you explain GraphQL step-by-step?",
+    "timestamp": 1764292019,
+    "tokens": 10.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_db2b2d43_001420",
+    "prompt_text": "Can you explain Heaps step-by-step?",
+    "timestamp": 1764296682,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_f4536847_001421",
+    "prompt_text": "Can you explain Hashing step-by-step?",
+    "timestamp": 1764304101,
+    "tokens": 7.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_9a28c705_001506",
+    "prompt_text": "OAuth2 please",
+    "timestamp": 1764311091,
+    "tokens": 5.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_035"
+  },
+  {
+    "prompt_id": "prompt_a413620c_001422",
+    "prompt_text": "Can you explain Graphs step-by-step?",
+    "timestamp": 1764312839,
+    "tokens": 1.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_0219be7e_001511",
+    "prompt_text": "I need help with Depth-first search",
+    "timestamp": 1764315985,
+    "tokens": 3.1,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_040"
+  },
+  {
+    "prompt_id": "prompt_30591825_001480",
+    "prompt_text": "Info on Recursion",
+    "timestamp": 1764319074,
+    "tokens": 1.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_708d3ed8_001491",
+    "prompt_text": "CSRF protection please",
+    "timestamp": 1764320379,
+    "tokens": 2.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_020"
+  },
+  {
+    "prompt_id": "prompt_a209bab7_001423",
+    "prompt_text": "What are the steps involved in CAP theorem?",
+    "timestamp": 1764322393,
+    "tokens": 3.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_step_006"
+  },
+  {
+    "prompt_id": "prompt_4b498777_001426",
+    "prompt_text": "Define SSL/TLS",
+    "timestamp": 1764323477,
+    "tokens": 6.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_7f3ac222_001427",
+    "prompt_text": "What is the theory behind Docker containers?",
+    "timestamp": 1764324939,
+    "tokens": 12.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_14ba74b2_001496",
+    "prompt_text": "What is Salting?",
+    "timestamp": 1764329642,
+    "tokens": 2.4,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_025"
+  },
+  {
+    "prompt_id": "prompt_eb4694b7_001428",
+    "prompt_text": "History of End-to-end testing",
+    "timestamp": 1764329997,
+    "tokens": 9.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_bbf2e7eb_001429",
+    "prompt_text": "History of Load balancing",
+    "timestamp": 1764330569,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_07ac88bc_001430",
+    "prompt_text": "History of MongoDB aggregation",
+    "timestamp": 1764339157,
+    "tokens": 5.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_d28471f0_001431",
+    "prompt_text": "Concept of CSRF protection",
+    "timestamp": 1764348133,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_742656ab_001432",
+    "prompt_text": "Why use Replication?",
+    "timestamp": 1764350022,
+    "tokens": 1.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_562732c5_001499",
+    "prompt_text": "Info on Event-driven architecture",
+    "timestamp": 1764351334,
+    "tokens": 1.1,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_028"
+  },
+  {
+    "prompt_id": "prompt_95d273ea_001492",
+    "prompt_text": "Tell me about Stacks",
+    "timestamp": 1764353880,
+    "tokens": 4.5,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_021"
+  },
+  {
+    "prompt_id": "prompt_fce81d0d_001433",
+    "prompt_text": "Define Replication",
+    "timestamp": 1764357497,
+    "tokens": 12.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_d3c4ae8b_001434",
+    "prompt_text": "Concept of FastAPI",
+    "timestamp": 1764361823,
+    "tokens": 3.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_c99371d8_001474",
+    "prompt_text": "Info on Design patterns",
+    "timestamp": 1764364499,
+    "tokens": 5.9,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_cafdbf34_001435",
+    "prompt_text": "Concept of Load balancing",
+    "timestamp": 1764365326,
+    "tokens": 3.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_d25434f7_001436",
+    "prompt_text": "History of WebSockets",
+    "timestamp": 1764372117,
+    "tokens": 10.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_5197fe6c_001437",
+    "prompt_text": "What is the theory behind Event-driven architecture?",
+    "timestamp": 1764381434,
+    "tokens": 9.2,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_71430af4_001438",
+    "prompt_text": "Why use Breadth-first search?",
+    "timestamp": 1764389670,
+    "tokens": 7.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_fc14202f_001439",
+    "prompt_text": "Concept of Linked lists",
+    "timestamp": 1764394049,
+    "tokens": 7.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_c926e8ac_001507",
+    "prompt_text": "What is CSRF protection?",
+    "timestamp": 1764395326,
+    "tokens": 1.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_036"
+  },
+  {
+    "prompt_id": "prompt_f2a5a61a_001440",
+    "prompt_text": "Why use Database sharding?",
+    "timestamp": 1764398152,
+    "tokens": 3.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_2242ebc0_001441",
+    "prompt_text": "Concept of Redis caching",
+    "timestamp": 1764401438,
+    "tokens": 6.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_7ff9811e_001486",
+    "prompt_text": "Breadth-first search please",
+    "timestamp": 1764405446,
+    "tokens": 4.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_015"
+  },
+  {
+    "prompt_id": "prompt_6289b702_001442",
+    "prompt_text": "History of Stacks",
+    "timestamp": 1764411309,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_8b52d962_001510",
+    "prompt_text": "Event sourcing please",
+    "timestamp": 1764414703,
+    "tokens": 1.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_039"
+  },
+  {
+    "prompt_id": "prompt_f26c58c1_001502",
+    "prompt_text": "Can you help with Google Cloud Run?",
+    "timestamp": 1764416038,
+    "tokens": 1.9,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_031"
+  },
+  {
+    "prompt_id": "prompt_c340287f_001443",
+    "prompt_text": "Why use Event-driven architecture?",
+    "timestamp": 1764416131,
+    "tokens": 10.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_6ddffd25_001478",
+    "prompt_text": "Tell me about Quick sort",
+    "timestamp": 1764418181,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_1e10d815_001444",
+    "prompt_text": "Define XSS prevention",
+    "timestamp": 1764426538,
+    "tokens": 10.8,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_f4843093_001445",
+    "prompt_text": "Why use REST APIs?",
+    "timestamp": 1764435582,
+    "tokens": 5.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_theory_007"
+  },
+  {
+    "prompt_id": "prompt_c8c13ec4_001504",
+    "prompt_text": "Info on Recursion",
+    "timestamp": 1764439334,
+    "tokens": 5.9,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_033"
+  },
+  {
+    "prompt_id": "prompt_027de5d0_001448",
+    "prompt_text": "Clean way to do Big O notation",
+    "timestamp": 1764439546,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_bd9da112_001505",
+    "prompt_text": "FastAPI please",
+    "timestamp": 1764442513,
+    "tokens": 3.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_034"
+  },
+  {
+    "prompt_id": "prompt_b151aaa7_001476",
+    "prompt_text": "Can you help with Angular signals?",
+    "timestamp": 1764446520,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_e3d89d85_001449",
+    "prompt_text": "Clean way to do Docker containers",
+    "timestamp": 1764449467,
+    "tokens": 2.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_e9940d42_001450",
+    "prompt_text": "Proper convention for PostgreSQL",
+    "timestamp": 1764452955,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_52dd19eb_001451",
+    "prompt_text": "Proper convention for Redis caching",
+    "timestamp": 1764460031,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_3f5534dc_001452",
+    "prompt_text": "Proper convention for TypeScript generics",
+    "timestamp": 1764469650,
+    "tokens": 4.4,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_cafaf84c_001453",
+    "prompt_text": "Clean way to do Queues",
+    "timestamp": 1764472535,
+    "tokens": 5.5,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_4a886c2a_001472",
+    "prompt_text": "I need help with CSRF protection",
+    "timestamp": 1764479757,
+    "tokens": 1.2,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_00e4149e_001454",
+    "prompt_text": "Best practices for OWASP Top 10",
+    "timestamp": 1764480493,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_d3890bfe_001455",
+    "prompt_text": "Proper convention for FastAPI",
+    "timestamp": 1764487293,
+    "tokens": 2.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_9bf35743_001487",
+    "prompt_text": "Design patterns please",
+    "timestamp": 1764489964,
+    "tokens": 4.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_016"
+  },
+  {
+    "prompt_id": "prompt_cd973e17_001456",
+    "prompt_text": "Proper convention for Event-driven architecture",
+    "timestamp": 1764492831,
+    "tokens": 10.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_875f65a0_001503",
+    "prompt_text": "Quick sort please",
+    "timestamp": 1764493766,
+    "tokens": 4.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_032"
+  },
+  {
+    "prompt_id": "prompt_1e073373_001457",
+    "prompt_text": "Industry standards for WebSockets",
+    "timestamp": 1764495149,
+    "tokens": 12.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_best_practice_008"
+  },
+  {
+    "prompt_id": "prompt_fe9618e6_001490",
+    "prompt_text": "Can you help with Depth-first search?",
+    "timestamp": 1764497200,
+    "tokens": 5.6,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_019"
+  },
+  {
+    "prompt_id": "prompt_311f590c_001460",
+    "prompt_text": "Brief intro to CSRF protection",
+    "timestamp": 1764504350,
+    "tokens": 3.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_fdb2072e_001461",
+    "prompt_text": "Concise guide to Event sourcing",
+    "timestamp": 1764511549,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_3d3e096f_001462",
+    "prompt_text": "In brief: OAuth2",
+    "timestamp": 1764514707,
+    "tokens": 4.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_4aa5c142_001509",
+    "prompt_text": "gRPC please",
+    "timestamp": 1764519439,
+    "tokens": 5.4,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_038"
+  },
+  {
+    "prompt_id": "prompt_2f4e5d9a_001463",
+    "prompt_text": "Concise guide to Event sourcing",
+    "timestamp": 1764520845,
+    "tokens": 7.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_9917965d_001464",
+    "prompt_text": "Quick answer: Breadth-first search",
+    "timestamp": 1764529248,
+    "tokens": 11.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_9acd7992_001465",
+    "prompt_text": "Concise guide to Clean Architecture",
+    "timestamp": 1764537152,
+    "tokens": 6.9,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_a3212714_001466",
+    "prompt_text": "Quick answer: Greedy algorithms",
+    "timestamp": 1764540390,
+    "tokens": 9.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_d0f6641d_001508",
+    "prompt_text": "Queues please",
+    "timestamp": 1764545712,
+    "tokens": 2.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_037"
+  },
+  {
+    "prompt_id": "prompt_787e313a_001467",
+    "prompt_text": "Concise guide to WebSockets",
+    "timestamp": 1764550512,
+    "tokens": 3.0,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_f9d7efe2_001468",
+    "prompt_text": "Quick answer: Code coverage",
+    "timestamp": 1764551863,
+    "tokens": 11.7,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_8e2ac83e_001469",
+    "prompt_text": "Quick answer: Microservices",
+    "timestamp": 1764552278,
+    "tokens": 1.6,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  },
+  {
+    "prompt_id": "prompt_5ee70df0_001489",
+    "prompt_text": "Tell me about Graphs",
+    "timestamp": 1764556964,
+    "tokens": 1.7,
+    "is_noise": true,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_noise_018"
+  },
+  {
+    "prompt_id": "prompt_e4d8105f_001470",
+    "prompt_text": "Short explanation of CSRF protection",
+    "timestamp": 1764557483,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_noisy_explorer",
+    "session_id": "sess_concise_009"
+  }
+]

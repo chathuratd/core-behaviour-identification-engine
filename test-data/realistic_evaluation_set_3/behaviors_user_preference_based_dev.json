@@ -1,0 +1,259 @@
+[
+  {
+    "behavior_id": "beh_faa87aea_014230",
+    "observation_id": "obs_4ff3e92b_014231",
+    "behavior_text": "prefers functional programming paradigms",
+    "credibility": 0.89,
+    "reinforcement_count": 12,
+    "last_seen": 1767693278,
+    "prompt_history_ids": [
+      "prompt_96b8b439_014232",
+      "prompt_45b2695d_014233",
+      "prompt_8234734f_014234",
+      "prompt_3f124841_014235",
+      "prompt_d3c62543_014236",
+      "prompt_4ecdfbc3_014237",
+      "prompt_20f274e5_014238",
+      "prompt_28dcea29_014239",
+      "prompt_346f255c_014240",
+      "prompt_1bb376f8_014241",
+      "prompt_014b95ff_014242",
+      "prompt_9f283379_014243"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_000",
+    "clarity_score": 0.86,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_4c0987d1_014244",
+    "observation_id": "obs_f18976c9_014245",
+    "behavior_text": "likes TypeScript over JavaScript",
+    "credibility": 0.86,
+    "reinforcement_count": 10,
+    "last_seen": 1767669714,
+    "prompt_history_ids": [
+      "prompt_a2af707a_014246",
+      "prompt_d59990dd_014247",
+      "prompt_3fc65b05_014248",
+      "prompt_c734b0b6_014249",
+      "prompt_63d2b0f7_014250",
+      "prompt_c4d989f2_014251",
+      "prompt_8a0035a1_014252",
+      "prompt_4c36512c_014253",
+      "prompt_d7ac3d00_014254",
+      "prompt_5c616f19_014255"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_001",
+    "clarity_score": 0.9,
+    "confidence": 0.9
+  },
+  {
+    "behavior_id": "beh_07464b98_014256",
+    "observation_id": "obs_2e8bae46_014257",
+    "behavior_text": "prefers minimal and lightweight libraries",
+    "credibility": 0.84,
+    "reinforcement_count": 8,
+    "last_seen": 1767615049,
+    "prompt_history_ids": [
+      "prompt_4513c496_014258",
+      "prompt_55543d24_014259",
+      "prompt_720831fb_014260",
+      "prompt_e432615a_014261",
+      "prompt_e482a2ae_014262",
+      "prompt_0ea175a1_014263",
+      "prompt_b3fba656_014264",
+      "prompt_0239b689_014265"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_core_002",
+    "clarity_score": 0.93,
+    "confidence": 0.82
+  },
+  {
+    "behavior_id": "beh_f545b66b_014266",
+    "observation_id": "obs_f9db4f51_014267",
+    "behavior_text": "enjoys experimenting with new frameworks",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "last_seen": 1767582230,
+    "prompt_history_ids": [
+      "prompt_c46ae7b8_014268",
+      "prompt_fdc4b431_014269",
+      "prompt_1acfaa27_014270",
+      "prompt_67bc5320_014271"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_000",
+    "clarity_score": 0.76,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_fdd56f06_014272",
+    "observation_id": "obs_9c08ba02_014273",
+    "behavior_text": "prefers CLI tools over GUI",
+    "credibility": 0.74,
+    "reinforcement_count": 3,
+    "last_seen": 1767644823,
+    "prompt_history_ids": [
+      "prompt_6d102b86_014274",
+      "prompt_16be199e_014275",
+      "prompt_498f3b88_014276"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_insuff_001",
+    "clarity_score": 0.83,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_f0a289e3_014277",
+    "observation_id": "obs_b5c00106_014278",
+    "behavior_text": "random trivia",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1765986485,
+    "prompt_history_ids": [
+      "prompt_2f975497_014279"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_000",
+    "clarity_score": 0.48,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_b960a616_014280",
+    "observation_id": "obs_a4ef191f_014281",
+    "behavior_text": "music question",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1766214366,
+    "prompt_history_ids": [
+      "prompt_9dd4e15b_014282"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_001",
+    "clarity_score": 0.58,
+    "confidence": 0.44
+  },
+  {
+    "behavior_id": "beh_50649e9b_014283",
+    "observation_id": "obs_690a07ba_014284",
+    "behavior_text": "weather inquiry",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1766202566,
+    "prompt_history_ids": [
+      "prompt_aba069f6_014285"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_002",
+    "clarity_score": 0.43,
+    "confidence": 0.33
+  },
+  {
+    "behavior_id": "beh_e887ae70_014286",
+    "observation_id": "obs_2db2dd80_014287",
+    "behavior_text": "travel query",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1766079538,
+    "prompt_history_ids": [
+      "prompt_1815e705_014288"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_003",
+    "clarity_score": 0.5,
+    "confidence": 0.39
+  },
+  {
+    "behavior_id": "beh_89c850a9_014289",
+    "observation_id": "obs_a8c0c199_014290",
+    "behavior_text": "random fact",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1766078583,
+    "prompt_history_ids": [
+      "prompt_232fdaaa_014291"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_004",
+    "clarity_score": 0.6,
+    "confidence": 0.36
+  },
+  {
+    "behavior_id": "beh_d547fd7e_014292",
+    "observation_id": "obs_923f9ea1_014293",
+    "behavior_text": "random sports query",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1766021667,
+    "prompt_history_ids": [
+      "prompt_a384be8a_014294"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_005",
+    "clarity_score": 0.63,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_272c521c_014295",
+    "observation_id": "obs_d66a22e1_014296",
+    "behavior_text": "unrelated question",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1767363943,
+    "prompt_history_ids": [
+      "prompt_08fb7f52_014297"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_006",
+    "clarity_score": 0.56,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_a098371e_014298",
+    "observation_id": "obs_85e81638_014299",
+    "behavior_text": "asks about recipes",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1767303127,
+    "prompt_history_ids": [
+      "prompt_fa07b8bb_014300"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_007",
+    "clarity_score": 0.43,
+    "confidence": 0.39
+  },
+  {
+    "behavior_id": "beh_14118ce8_014301",
+    "observation_id": "obs_9e696cb3_014302",
+    "behavior_text": "movie suggestion",
+    "credibility": 0.44,
+    "reinforcement_count": 1,
+    "last_seen": 1767188246,
+    "prompt_history_ids": [
+      "prompt_86dd3175_014303"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_008",
+    "clarity_score": 0.6,
+    "confidence": 0.3
+  },
+  {
+    "behavior_id": "beh_cafe072d_014304",
+    "observation_id": "obs_137a9a64_014305",
+    "behavior_text": "health question",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1767626479,
+    "prompt_history_ids": [
+      "prompt_0568e48c_014306"
+    ],
+    "user_id": "user_preference_based_dev",
+    "session_id": "sess_noise_009",
+    "clarity_score": 0.61,
+    "confidence": 0.47
+  }
+]

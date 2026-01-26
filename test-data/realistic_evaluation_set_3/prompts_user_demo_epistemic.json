@@ -1,0 +1,353 @@
+[
+  {
+    "prompt_id": "prompt_e2e85b8d_000050",
+    "prompt_text": "Recommend a good movie",
+    "timestamp": 1766538039,
+    "tokens": 6.7,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_cea6dd23_000047",
+    "prompt_text": "How does blockchain work?",
+    "timestamp": 1766554049,
+    "tokens": 8.2,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_be12abc9_000041",
+    "prompt_text": "What's the weather today?",
+    "timestamp": 1766623143,
+    "tokens": 8.2,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_4203a09e_000035",
+    "prompt_text": "What's the latest score in football?",
+    "timestamp": 1766645710,
+    "tokens": 6.6,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_aeaf903c_000053",
+    "prompt_text": "Tips for playing chess?",
+    "timestamp": 1766676718,
+    "tokens": 8.1,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_a8750d63_000038",
+    "prompt_text": "Best science fiction books?",
+    "timestamp": 1766688051,
+    "tokens": 3.6,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_6726ac27_000056",
+    "prompt_text": "What's the stock market doing?",
+    "timestamp": 1766695104,
+    "tokens": 9.4,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_c89bf26c_000044",
+    "prompt_text": "Hello, how are you?",
+    "timestamp": 1766695557,
+    "tokens": 3.5,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_e8e7b915_000059",
+    "prompt_text": "Recipe for chocolate cake?",
+    "timestamp": 1766719700,
+    "tokens": 6.2,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_18bbe9e4_000026",
+    "prompt_text": "How does event sourcing work in microservices?",
+    "timestamp": 1766811165,
+    "tokens": 18.6,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_b6a0538e_000014",
+    "prompt_text": "Troubleshooting database connections problems",
+    "timestamp": 1766909175,
+    "tokens": 15.9,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_d9f107d0_000031",
+    "prompt_text": "How to secure SQL injection prevention?",
+    "timestamp": 1766909202,
+    "tokens": 19.5,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_d85f929e_000032",
+    "prompt_text": "What are security considerations for SQL injection prevention?",
+    "timestamp": 1766942467,
+    "tokens": 15.8,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_537534a3_000006",
+    "prompt_text": "Draw a visual representation of Python descriptors",
+    "timestamp": 1766981505,
+    "tokens": 23.5,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_752f1c6c_000018",
+    "prompt_text": "Error handling for import errors",
+    "timestamp": 1767005248,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_278cd2e9_000017",
+    "prompt_text": "Fix my broken database connections code",
+    "timestamp": 1767069398,
+    "tokens": 20.0,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_8b73bdc3_000024",
+    "prompt_text": "How does load balancing work in microservices?",
+    "timestamp": 1767087623,
+    "tokens": 14.2,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_d222bdb9_000004",
+    "prompt_text": "Visual guide to Python metaclasses please",
+    "timestamp": 1767175754,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_98393b19_000015",
+    "prompt_text": "Help me troubleshoot memory leaks",
+    "timestamp": 1767185376,
+    "tokens": 24.3,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_1150dd65_000005",
+    "prompt_text": "Show me a flowchart for Python generators",
+    "timestamp": 1767208554,
+    "tokens": 11.3,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_c57840e6_000013",
+    "prompt_text": "Fix my broken async functions code",
+    "timestamp": 1767235107,
+    "tokens": 20.0,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_616751de_000016",
+    "prompt_text": "Resolve async functions issue",
+    "timestamp": 1767331613,
+    "tokens": 22.6,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_75febaa1_000007",
+    "prompt_text": "I'd like a visual breakdown of Python decorators in Python",
+    "timestamp": 1767345208,
+    "tokens": 15.5,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_e70c37cc_000003",
+    "prompt_text": "Visual guide to Python metaclasses please",
+    "timestamp": 1767348855,
+    "tokens": 19.4,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_d33cc798_000009",
+    "prompt_text": "Draw a visual representation of async/await in Python",
+    "timestamp": 1767444852,
+    "tokens": 18.5,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_b982dadb_000008",
+    "prompt_text": "Can you show me a diagram explaining Python metaclasses?",
+    "timestamp": 1767464749,
+    "tokens": 11.4,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_c6a7fd45_000065",
+    "prompt_text": "What's the square root of 144?",
+    "timestamp": 1767473540,
+    "tokens": 8.9,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_54e44999_000027",
+    "prompt_text": "How does event sourcing work in microservices?",
+    "timestamp": 1767491089,
+    "tokens": 7.5,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_87de0796_000019",
+    "prompt_text": "Resolve database connections issue",
+    "timestamp": 1767491508,
+    "tokens": 17.0,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_6c3f3c9c_000062",
+    "prompt_text": "When did World War 2 end?",
+    "timestamp": 1767516191,
+    "tokens": 5.3,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_224a8b06_000077",
+    "prompt_text": "Best time to visit Japan?",
+    "timestamp": 1767526125,
+    "tokens": 5.9,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_014"
+  },
+  {
+    "prompt_id": "prompt_054b3914_000074",
+    "prompt_text": "API endpoint syntax for random service",
+    "timestamp": 1767607864,
+    "tokens": 7.4,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_3012b79f_000021",
+    "prompt_text": "What's causing this race conditions error?",
+    "timestamp": 1767617684,
+    "tokens": 23.4,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_4750eb28_000025",
+    "prompt_text": "How does circuit breakers work in microservices?",
+    "timestamp": 1767626997,
+    "tokens": 17.6,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_0b5d6fa1_000068",
+    "prompt_text": "What's the capital of Mongolia?",
+    "timestamp": 1767642227,
+    "tokens": 9.4,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_011"
+  },
+  {
+    "prompt_id": "prompt_6306543f_000010",
+    "prompt_text": "Visual guide to async/await in Python please",
+    "timestamp": 1767655302,
+    "tokens": 13.3,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_925b67c4_000020",
+    "prompt_text": "Why is database connections throwing an exception?",
+    "timestamp": 1767677892,
+    "tokens": 16.1,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_0deeced3_000071",
+    "prompt_text": "Good jazz albums?",
+    "timestamp": 1767692042,
+    "tokens": 9.8,
+    "is_noise": true,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_noise_012"
+  },
+  {
+    "prompt_id": "prompt_24bf451d_000030",
+    "prompt_text": "What are security considerations for JWT tokens?",
+    "timestamp": 1767713134,
+    "tokens": 12.3,
+    "is_noise": false,
+    "user_id": "user_demo_epistemic",
+    "session_id": "sess_insuff_001"
+  }
+]

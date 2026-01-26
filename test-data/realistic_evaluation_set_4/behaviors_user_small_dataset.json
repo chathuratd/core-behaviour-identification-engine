@@ -1,0 +1,165 @@
+[
+  {
+    "behavior_id": "beh_1ffc2ad7_000154",
+    "observation_id": "obs_37643b16_000155",
+    "behavior_text": "prefers step-by-step instructions",
+    "credibility": 0.67,
+    "reinforcement_count": 11,
+    "last_seen": 1766504579,
+    "prompt_history_ids": [
+      "prompt_17b07db3_000156",
+      "prompt_d1852b76_000157",
+      "prompt_6a63733c_000158",
+      "prompt_c19d093b_000159",
+      "prompt_36474213_000160",
+      "prompt_faf20c41_000161",
+      "prompt_2dfa8fd0_000162",
+      "prompt_6cb2d463_000163",
+      "prompt_4cd6a6c4_000164",
+      "prompt_cf870978_000165",
+      "prompt_816c7569_000166"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_step_000",
+    "clarity_score": 0.76,
+    "confidence": 0.67
+  },
+  {
+    "behavior_id": "beh_23d66877_000167",
+    "observation_id": "obs_0209815d_000168",
+    "behavior_text": "requests best practices and standards",
+    "credibility": 0.57,
+    "reinforcement_count": 5,
+    "last_seen": 1766536053,
+    "prompt_history_ids": [
+      "prompt_58872b40_000169",
+      "prompt_6f2f9b94_000170",
+      "prompt_d803c760_000171",
+      "prompt_c3536d65_000172",
+      "prompt_6d64891b_000173"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_best_practice_001",
+    "clarity_score": 0.78,
+    "confidence": 0.57
+  },
+  {
+    "behavior_id": "beh_cca25235_000174",
+    "observation_id": "obs_b103ea60_000175",
+    "behavior_text": "prefers visual diagrams and flowcharts",
+    "credibility": 0.59,
+    "reinforcement_count": 6,
+    "last_seen": 1766565659,
+    "prompt_history_ids": [
+      "prompt_8dd14f7a_000176",
+      "prompt_3ff25dca_000177",
+      "prompt_f2d249a5_000178",
+      "prompt_0b31c3c9_000179",
+      "prompt_c3cc4b59_000180",
+      "prompt_20b4d6c8_000181"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_visual_002",
+    "clarity_score": 0.79,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_b6c7e9bf_000182",
+    "observation_id": "obs_1e31b407_000183",
+    "behavior_text": "focuses on performance optimization",
+    "credibility": 0.62,
+    "reinforcement_count": 8,
+    "last_seen": 1766626511,
+    "prompt_history_ids": [
+      "prompt_16405804_000184",
+      "prompt_7a1b875a_000185",
+      "prompt_64947a62_000186",
+      "prompt_a8eb2a2e_000187",
+      "prompt_f0fa4e40_000188",
+      "prompt_ff626655_000189",
+      "prompt_db22a994_000190",
+      "prompt_b8fd8c6a_000191"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_perf_003",
+    "clarity_score": 0.96,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_4ce091b2_000192",
+    "observation_id": "obs_20b4227a_000193",
+    "behavior_text": "requests detailed, comprehensive explanations",
+    "credibility": 0.57,
+    "reinforcement_count": 5,
+    "last_seen": 1766652224,
+    "prompt_history_ids": [
+      "prompt_1f473c10_000194",
+      "prompt_c4f26ad4_000195",
+      "prompt_cb913029_000196",
+      "prompt_98e8f36c_000197",
+      "prompt_68064913_000198"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_deep_004",
+    "clarity_score": 0.94,
+    "confidence": 0.57
+  },
+  {
+    "behavior_id": "beh_7472c060_000199",
+    "observation_id": "obs_30437f11_000200",
+    "behavior_text": "prefers concise, brief explanations",
+    "credibility": 0.57,
+    "reinforcement_count": 5,
+    "last_seen": 1766671618,
+    "prompt_history_ids": [
+      "prompt_381a4543_000201",
+      "prompt_7e01fda3_000202",
+      "prompt_c67f018e_000203",
+      "prompt_bb834199_000204",
+      "prompt_8d09cb59_000205"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_concise_005",
+    "clarity_score": 0.73,
+    "confidence": 0.57
+  },
+  {
+    "behavior_id": "beh_2d227a3c_000206",
+    "observation_id": "obs_bcdb85a5_000207",
+    "behavior_text": "focuses on debugging and troubleshooting",
+    "credibility": 0.57,
+    "reinforcement_count": 5,
+    "last_seen": 1766710234,
+    "prompt_history_ids": [
+      "prompt_194296d2_000208",
+      "prompt_469c5973_000209",
+      "prompt_dca7135b_000210",
+      "prompt_f1da00a0_000211",
+      "prompt_841ef704_000212"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_debug_006",
+    "clarity_score": 0.95,
+    "confidence": 0.57
+  },
+  {
+    "behavior_id": "beh_f9dcf740_000213",
+    "observation_id": "obs_2426f29e_000214",
+    "behavior_text": "requests code examples and snippets",
+    "credibility": 0.59,
+    "reinforcement_count": 6,
+    "last_seen": 1766741052,
+    "prompt_history_ids": [
+      "prompt_574110ae_000215",
+      "prompt_3ad19e69_000216",
+      "prompt_8d8a1d89_000217",
+      "prompt_3ae326e2_000218",
+      "prompt_633bbedf_000219",
+      "prompt_dfab4330_000220"
+    ],
+    "user_id": "user_small_dataset",
+    "session_id": "sess_code_007",
+    "clarity_score": 0.86,
+    "confidence": 0.59
+  }
+]

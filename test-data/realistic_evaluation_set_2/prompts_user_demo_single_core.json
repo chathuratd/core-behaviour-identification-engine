@@ -1,0 +1,326 @@
+[
+  {
+    "prompt_id": "prompt_7349af3b_000135",
+    "prompt_text": "Tips for video game X?",
+    "timestamp": 1766567477,
+    "tokens": 6.0,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_008"
+  },
+  {
+    "prompt_id": "prompt_3bc1534f_000117",
+    "prompt_text": "What's 15% of 240?",
+    "timestamp": 1766568676,
+    "tokens": 4.0,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_002"
+  },
+  {
+    "prompt_id": "prompt_323d8855_000123",
+    "prompt_text": "What's the weather forecast?",
+    "timestamp": 1766575070,
+    "tokens": 4.0,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_004"
+  },
+  {
+    "prompt_id": "prompt_e49745f9_000111",
+    "prompt_text": "How to make pasta carbonara?",
+    "timestamp": 1766619082,
+    "tokens": 4.7,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_000"
+  },
+  {
+    "prompt_id": "prompt_cc7bee67_000120",
+    "prompt_text": "Good action movies?",
+    "timestamp": 1766636255,
+    "tokens": 8.5,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_003"
+  },
+  {
+    "prompt_id": "prompt_32e50ac5_000126",
+    "prompt_text": "Best mystery novels?",
+    "timestamp": 1766665322,
+    "tokens": 4.7,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_005"
+  },
+  {
+    "prompt_id": "prompt_b4092da2_000114",
+    "prompt_text": "When did the Renaissance begin?",
+    "timestamp": 1766674956,
+    "tokens": 9.7,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_001"
+  },
+  {
+    "prompt_id": "prompt_1fb835c4_000129",
+    "prompt_text": "Best beaches in Thailand?",
+    "timestamp": 1766684017,
+    "tokens": 7.2,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_006"
+  },
+  {
+    "prompt_id": "prompt_9106ef0b_000132",
+    "prompt_text": "Best classical music pieces?",
+    "timestamp": 1766707074,
+    "tokens": 5.6,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_007"
+  },
+  {
+    "prompt_id": "prompt_10d6627e_000081",
+    "prompt_text": "Can you show me a diagram explaining Python decorators?",
+    "timestamp": 1766742850,
+    "tokens": 21.6,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_d70b90d1_000089",
+    "prompt_text": "I learn better with diagrams for Python classes",
+    "timestamp": 1766828460,
+    "tokens": 24.1,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_c44912c0_000095",
+    "prompt_text": "Illustrated tutorial on Python imports",
+    "timestamp": 1766842163,
+    "tokens": 14.3,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_472bc942_000102",
+    "prompt_text": "Testing approach for pytest fixtures",
+    "timestamp": 1766866867,
+    "tokens": 12.8,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_85fe071b_000088",
+    "prompt_text": "Visual guide to inheritance in Python would help",
+    "timestamp": 1766968882,
+    "tokens": 23.6,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_54a4f647_000108",
+    "prompt_text": "Performance tips for dictionary lookups",
+    "timestamp": 1767031684,
+    "tokens": 8.3,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_82345ad4_000083",
+    "prompt_text": "Could you illustrate async/await in Python with a chart?",
+    "timestamp": 1767040432,
+    "tokens": 24.2,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_21eda79f_000080",
+    "prompt_text": "Show me a flowchart for Python descriptors",
+    "timestamp": 1767045205,
+    "tokens": 23.0,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_919bb3a0_000090",
+    "prompt_text": "Picture/diagram of Python modules",
+    "timestamp": 1767061992,
+    "tokens": 18.1,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_76dd5d85_000082",
+    "prompt_text": "I'd like a visual breakdown of async/await in Python in Python",
+    "timestamp": 1767191639,
+    "tokens": 11.8,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_f57a69cf_000096",
+    "prompt_text": "Illustrated tutorial on Python iterators",
+    "timestamp": 1767314125,
+    "tokens": 9.3,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_79f119a0_000092",
+    "prompt_text": "I learn better with diagrams for virtual environments",
+    "timestamp": 1767337788,
+    "tokens": 8.0,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_2adb9a71_000098",
+    "prompt_text": "Illustrated tutorial on Python iterators",
+    "timestamp": 1767401595,
+    "tokens": 19.2,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_a6dbad03_000101",
+    "prompt_text": "Testing approach for integration tests",
+    "timestamp": 1767429393,
+    "tokens": 8.5,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_000"
+  },
+  {
+    "prompt_id": "prompt_1795263b_000144",
+    "prompt_text": "What's the latest football match result?",
+    "timestamp": 1767438885,
+    "tokens": 8.4,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_011"
+  },
+  {
+    "prompt_id": "prompt_6ee02970_000106",
+    "prompt_text": "Speed up list operations",
+    "timestamp": 1767447537,
+    "tokens": 17.0,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_809a488f_000150",
+    "prompt_text": "Explain blockchain technology",
+    "timestamp": 1767487801,
+    "tokens": 6.7,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_013"
+  },
+  {
+    "prompt_id": "prompt_3080c79b_000138",
+    "prompt_text": "Hi there!",
+    "timestamp": 1767512201,
+    "tokens": 9.5,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_009"
+  },
+  {
+    "prompt_id": "prompt_23311edd_000084",
+    "prompt_text": "I'd like a visual breakdown of Python generators in Python",
+    "timestamp": 1767521364,
+    "tokens": 24.4,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_2c102c5b_000141",
+    "prompt_text": "How's the stock market today?",
+    "timestamp": 1767523540,
+    "tokens": 9.2,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_010"
+  },
+  {
+    "prompt_id": "prompt_e4a5d916_000107",
+    "prompt_text": "Speed up list operations",
+    "timestamp": 1767532717,
+    "tokens": 11.1,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_001"
+  },
+  {
+    "prompt_id": "prompt_9b79f13c_000097",
+    "prompt_text": "Walk me through class methods vs static methods visually",
+    "timestamp": 1767566844,
+    "tokens": 9.5,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_002"
+  },
+  {
+    "prompt_id": "prompt_be3f580d_000147",
+    "prompt_text": "REST API best practices?",
+    "timestamp": 1767576372,
+    "tokens": 10.0,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_012"
+  },
+  {
+    "prompt_id": "prompt_d60920b3_000085",
+    "prompt_text": "Can you show me a diagram explaining Python descriptors?",
+    "timestamp": 1767586912,
+    "tokens": 20.4,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_000"
+  },
+  {
+    "prompt_id": "prompt_9135107d_000153",
+    "prompt_text": "What's the tallest mountain?",
+    "timestamp": 1767608784,
+    "tokens": 3.2,
+    "is_noise": true,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_noise_014"
+  },
+  {
+    "prompt_id": "prompt_90ace111_000091",
+    "prompt_text": "Diagram please for Python classes",
+    "timestamp": 1767646661,
+    "tokens": 11.5,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_core_001"
+  },
+  {
+    "prompt_id": "prompt_edba5b78_000103",
+    "prompt_text": "Testing approach for mock objects",
+    "timestamp": 1767684196,
+    "tokens": 14.3,
+    "is_noise": false,
+    "user_id": "user_demo_single_core",
+    "session_id": "sess_insuff_000"
+  }
+]

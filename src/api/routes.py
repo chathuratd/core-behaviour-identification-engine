@@ -676,3 +676,77 @@ async def simulate_threshold(
             detail=f"Failed to simulate threshold: {str(e)}"
         )
 
+
+@router.delete(
+    "/profile/{user_id}/analysis",
+    status_code=status.HTTP_200_OK,
+    summary="Delete analysis results for a user",
+    description="Removes all clustering/analysis results (clusters, profiles) while preserving behaviors, prompts, and embeddings"
+)
+async def delete_user_analysis(user_id: str):
+    """
+    Delete analysis results for a specific user
+    
+    This removes:
+    - Cluster assignments from behaviors (cluster_id, epistemic_state, etc.)
+    - User profile document
+    - Cluster documents for this user
+    
+    This preserves:
+    - Original behaviors (text, credibility, timestamps, etc.)
+    - Original prompts
+    - Embeddings in Qdrant (needed for re-analysis)
+    """
+    try:
+        logger.info(f"Deleting analysis results for user {user_id}")
+        
+        # 1. Remove cluster-related fields from behaviors
+        result = mongodb_service.db.behaviors.update_many(
+            {"user_id": user_id},
+            {
+                "$unset": {
+                    "cluster_id": "",
+                    "epistemic_state": "",
+                    "cluster_strength": "",
+                    "confidence": "",
+                    "cluster_stability": "",
+                    "consistency_score": "",
+                    "reinforcement_score": "",
+                    "clarity_trend": "",
+                    "recency_factor": "",
+                    "last_updated": ""
+                }
+            }
+        )
+        behaviors_updated = result.modified_count
+        
+        # 2. Delete user profile
+        profile_result = mongodb_service.db.profiles.delete_one({"user_id": user_id})
+        profile_deleted = profile_result.deleted_count
+        
+        # 3. Delete clusters for this user
+        clusters_result = mongodb_service.db.clusters.delete_many({"user_id": user_id})
+        clusters_deleted = clusters_result.deleted_count
+        
+        logger.info(
+            f"Deleted analysis for user {user_id}: "
+            f"{behaviors_updated} behaviors updated, "
+            f"{profile_deleted} profile deleted, "
+            f"{clusters_deleted} clusters deleted"
+        )
+        
+        return {
+            "message": f"Analysis results deleted for user {user_id}",
+            "user_id": user_id,
+            "behaviors_updated": behaviors_updated,
+            "profile_deleted": profile_deleted > 0,
+            "clusters_deleted": clusters_deleted
+        }
+        
+    except Exception as e:
+        logger.error(f"Error deleting analysis for user {user_id}: {e}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to delete analysis: {str(e)}"
+        )
+

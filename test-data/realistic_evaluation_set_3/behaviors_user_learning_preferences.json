@@ -1,0 +1,278 @@
+[
+  {
+    "behavior_id": "beh_a7d0e9dd_014307",
+    "observation_id": "obs_2be08344_014308",
+    "behavior_text": "prefers learning through hands-on examples",
+    "credibility": 0.91,
+    "reinforcement_count": 14,
+    "last_seen": 1767714838,
+    "prompt_history_ids": [
+      "prompt_61aed3bd_014309",
+      "prompt_4506b1c7_014310",
+      "prompt_74d6a178_014311",
+      "prompt_6af378f0_014312",
+      "prompt_e24b7cb3_014313",
+      "prompt_44930cd6_014314",
+      "prompt_9539bf7e_014315",
+      "prompt_61439bf1_014316",
+      "prompt_be306f87_014317",
+      "prompt_f72d197c_014318",
+      "prompt_e9d4fe19_014319",
+      "prompt_bb44ba2f_014320",
+      "prompt_95c6d237_014321",
+      "prompt_e33f59a6_014322"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_000",
+    "clarity_score": 0.89,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_6c5e0a04_014323",
+    "observation_id": "obs_aa806fb2_014324",
+    "behavior_text": "likes concise documentation over verbose explanations",
+    "credibility": 0.88,
+    "reinforcement_count": 11,
+    "last_seen": 1767540198,
+    "prompt_history_ids": [
+      "prompt_a1fe0fb5_014325",
+      "prompt_f5e7cc26_014326",
+      "prompt_2287ca3f_014327",
+      "prompt_a82d535a_014328",
+      "prompt_8e5ca18d_014329",
+      "prompt_99b97b94_014330",
+      "prompt_20045d1f_014331",
+      "prompt_872e97f4_014332",
+      "prompt_af53aee5_014333",
+      "prompt_d20ff2d6_014334",
+      "prompt_5202a85f_014335"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_001",
+    "clarity_score": 0.87,
+    "confidence": 0.94
+  },
+  {
+    "behavior_id": "beh_9bb40ed6_014336",
+    "observation_id": "obs_96370836_014337",
+    "behavior_text": "prefers video tutorials over text-based content",
+    "credibility": 0.85,
+    "reinforcement_count": 9,
+    "last_seen": 1767387554,
+    "prompt_history_ids": [
+      "prompt_94cf7052_014338",
+      "prompt_29179301_014339",
+      "prompt_97b0f7b9_014340",
+      "prompt_2d30ba0a_014341",
+      "prompt_4c1f5a6b_014342",
+      "prompt_c0f65caa_014343",
+      "prompt_7b996ea2_014344",
+      "prompt_97db074e_014345",
+      "prompt_fd1988c6_014346"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_core_002",
+    "clarity_score": 0.92,
+    "confidence": 0.86
+  },
+  {
+    "behavior_id": "beh_3e5c973c_014347",
+    "observation_id": "obs_c2be61b2_014348",
+    "behavior_text": "enjoys contributing to open source",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "last_seen": 1767595775,
+    "prompt_history_ids": [
+      "prompt_ed822144_014349",
+      "prompt_6f2cddd0_014350",
+      "prompt_450c513c_014351",
+      "prompt_d8fe2903_014352"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_000",
+    "clarity_score": 0.78,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_2f55b785_014353",
+    "observation_id": "obs_3f78fa9b_014354",
+    "behavior_text": "prefers pair programming for complex tasks",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "last_seen": 1766848167,
+    "prompt_history_ids": [
+      "prompt_ec8f22e6_014355",
+      "prompt_93668a96_014356",
+      "prompt_82787fae_014357"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_insuff_001",
+    "clarity_score": 0.77,
+    "confidence": 0.59
+  },
+  {
+    "behavior_id": "beh_537cf11d_014358",
+    "observation_id": "obs_c8d432d2_014359",
+    "behavior_text": "gaming question",
+    "credibility": 0.43,
+    "reinforcement_count": 1,
+    "last_seen": 1766387846,
+    "prompt_history_ids": [
+      "prompt_d259e884_014360"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_000",
+    "clarity_score": 0.53,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_d1432c57_014361",
+    "observation_id": "obs_f30cc419_014362",
+    "behavior_text": "food question",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1766476356,
+    "prompt_history_ids": [
+      "prompt_434416a8_014363"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_001",
+    "clarity_score": 0.52,
+    "confidence": 0.42
+  },
+  {
+    "behavior_id": "beh_314f3190_014364",
+    "observation_id": "obs_413526e4_014365",
+    "behavior_text": "historical fact",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1766474780,
+    "prompt_history_ids": [
+      "prompt_47dd54e6_014366"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_002",
+    "clarity_score": 0.61,
+    "confidence": 0.45
+  },
+  {
+    "behavior_id": "beh_556e5444_014367",
+    "observation_id": "obs_a51cb237_014368",
+    "behavior_text": "random science",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1766259031,
+    "prompt_history_ids": [
+      "prompt_ce1a52fa_014369"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_003",
+    "clarity_score": 0.5,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_602f97c9_014370",
+    "observation_id": "obs_98d67ccf_014371",
+    "behavior_text": "language query",
+    "credibility": 0.34,
+    "reinforcement_count": 1,
+    "last_seen": 1766268469,
+    "prompt_history_ids": [
+      "prompt_e333ffb7_014372"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_004",
+    "clarity_score": 0.55,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_58fa1531_014373",
+    "observation_id": "obs_2251cc63_014374",
+    "behavior_text": "random calculation",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1766459716,
+    "prompt_history_ids": [
+      "prompt_0f40ce3a_014375"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_005",
+    "clarity_score": 0.6,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_da0b68c2_014376",
+    "observation_id": "obs_8f1edd0f_014377",
+    "behavior_text": "asks about news",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1767651720,
+    "prompt_history_ids": [
+      "prompt_0bdc9e02_014378"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_006",
+    "clarity_score": 0.47,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_361e9a7a_014379",
+    "observation_id": "obs_e705b954_014380",
+    "behavior_text": "unrelated topic",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1767528669,
+    "prompt_history_ids": [
+      "prompt_4ce95e52_014381"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_007",
+    "clarity_score": 0.61,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_813beea9_014382",
+    "observation_id": "obs_7e06e00e_014383",
+    "behavior_text": "shopping question",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1767323190,
+    "prompt_history_ids": [
+      "prompt_2d7bca37_014384"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_008",
+    "clarity_score": 0.51,
+    "confidence": 0.46
+  },
+  {
+    "behavior_id": "beh_e695b1c8_014385",
+    "observation_id": "obs_3c7cbc57_014386",
+    "behavior_text": "geography query",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1767652661,
+    "prompt_history_ids": [
+      "prompt_4cbf0b73_014387"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_009",
+    "clarity_score": 0.6,
+    "confidence": 0.46
+  },
+  {
+    "behavior_id": "beh_5edcebeb_014388",
+    "observation_id": "obs_4a2b109f_014389",
+    "behavior_text": "book recommendation",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1767565529,
+    "prompt_history_ids": [
+      "prompt_2ddb98c0_014390"
+    ],
+    "user_id": "user_learning_preferences",
+    "session_id": "sess_noise_010",
+    "clarity_score": 0.63,
+    "confidence": 0.33
+  }
+]

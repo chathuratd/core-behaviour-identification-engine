@@ -1011,6 +1011,15 @@ USER_PROFILES = [
         ],
         "days_back": 120,
         "description": "REALISTIC: Sri Lankan university student working on Python assignment over semester with study habits, deadline stress, and authentic life context"
+    },
+    {
+        "user_id": "user_665390",
+        "num_behaviors": 15,
+        "min_prompts": 12,
+        "max_prompts": 40,
+        "noise_ratio": 0.12,
+        "days_back": 45,
+        "description": "Balanced dataset - moderate behaviors with clear patterns and reasonable noise"
     }
 ]
 # ===============================================

@@ -1,0 +1,863 @@
+[
+  {
+    "behavior_id": "beh_7a82658a_014526",
+    "observation_id": "obs_9b439f19_014527",
+    "behavior_text": "prefers learning through practical examples over reading documentation",
+    "credibility": 0.92,
+    "reinforcement_count": 24,
+    "last_seen": 1767648089,
+    "prompt_history_ids": [
+      "prompt_f106fbd4_014528",
+      "prompt_331d6087_014529",
+      "prompt_8b7227a5_014530",
+      "prompt_5d82ad72_014531",
+      "prompt_cfec9601_014532",
+      "prompt_baf79884_014533",
+      "prompt_e349b9a6_014534",
+      "prompt_42fb2200_014535",
+      "prompt_24a63822_014536",
+      "prompt_64d8c444_014537",
+      "prompt_54683d27_014538",
+      "prompt_8999e363_014539",
+      "prompt_a6169969_014540",
+      "prompt_2ee630c8_014541",
+      "prompt_6b676bdd_014542",
+      "prompt_1856b176_014543",
+      "prompt_3a587c9a_014544",
+      "prompt_aca80bfa_014545",
+      "prompt_32561ce3_014546",
+      "prompt_bf6cc875_014547",
+      "prompt_b7b86f2e_014548",
+      "prompt_d35dd03c_014549",
+      "prompt_60ba1cb0_014550",
+      "prompt_fc16fbdb_014551"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_000",
+    "clarity_score": 0.86,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_7c3e366e_014552",
+    "observation_id": "obs_2649797c_014553",
+    "behavior_text": "avoids starting assignments early, works better under deadline pressure",
+    "credibility": 0.89,
+    "reinforcement_count": 20,
+    "last_seen": 1767583510,
+    "prompt_history_ids": [
+      "prompt_53b6cc82_014554",
+      "prompt_4f4d59a6_014555",
+      "prompt_cf1d639a_014556",
+      "prompt_d552ae0e_014557",
+      "prompt_583fb7e2_014558",
+      "prompt_0978a868_014559",
+      "prompt_b841d9c2_014560",
+      "prompt_67079e57_014561",
+      "prompt_b0c847bc_014562",
+      "prompt_5d36cb40_014563",
+      "prompt_64d76267_014564",
+      "prompt_da895c8b_014565",
+      "prompt_157d15c4_014566",
+      "prompt_be77e693_014567",
+      "prompt_abbb1b48_014568",
+      "prompt_87bba25f_014569",
+      "prompt_21cd551f_014570",
+      "prompt_3ea679ac_014571",
+      "prompt_d3456cd2_014572",
+      "prompt_64193844_014573"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_001",
+    "clarity_score": 0.93,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_b17f5e83_014574",
+    "observation_id": "obs_26639e54_014575",
+    "behavior_text": "prefers working late at night rather than early morning",
+    "credibility": 0.9,
+    "reinforcement_count": 26,
+    "last_seen": 1767690773,
+    "prompt_history_ids": [
+      "prompt_153378e0_014576",
+      "prompt_3694bf5b_014577",
+      "prompt_35c70ee3_014578",
+      "prompt_ce612f63_014579",
+      "prompt_548f8b48_014580",
+      "prompt_a1a4f3f2_014581",
+      "prompt_80191483_014582",
+      "prompt_a57f404e_014583",
+      "prompt_03b92a7d_014584",
+      "prompt_ecf79855_014585",
+      "prompt_231cc9af_014586",
+      "prompt_2dc8cd5a_014587",
+      "prompt_a54e93b6_014588",
+      "prompt_458138d5_014589",
+      "prompt_43dfd0ed_014590",
+      "prompt_a964d7db_014591",
+      "prompt_8abf84ad_014592",
+      "prompt_858c2a1f_014593",
+      "prompt_71ed6a72_014594",
+      "prompt_7acbaef6_014595",
+      "prompt_5b27a62b_014596",
+      "prompt_561190a4_014597",
+      "prompt_3044eb4f_014598",
+      "prompt_816fe1c5_014599",
+      "prompt_1fb03d6c_014600",
+      "prompt_1a24f590_014601"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_002",
+    "clarity_score": 0.94,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_ff7ab4bc_014602",
+    "observation_id": "obs_6af25fed_014603",
+    "behavior_text": "likes breaking complex problems into smaller manageable steps",
+    "credibility": 0.89,
+    "reinforcement_count": 18,
+    "last_seen": 1767331242,
+    "prompt_history_ids": [
+      "prompt_a154ada5_014604",
+      "prompt_5572d541_014605",
+      "prompt_2ff29514_014606",
+      "prompt_09996b09_014607",
+      "prompt_b8045414_014608",
+      "prompt_09589972_014609",
+      "prompt_2a24361b_014610",
+      "prompt_802b5ac9_014611",
+      "prompt_727f3a04_014612",
+      "prompt_9e86172b_014613",
+      "prompt_3ba04325_014614",
+      "prompt_7b56dd08_014615",
+      "prompt_a4db8356_014616",
+      "prompt_a3542a55_014617",
+      "prompt_56706b3f_014618",
+      "prompt_eb6db629_014619",
+      "prompt_48ff5c9d_014620",
+      "prompt_de266318_014621"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_003",
+    "clarity_score": 0.97,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_ec83b2b9_014622",
+    "observation_id": "obs_a8a5cc3b_014623",
+    "behavior_text": "avoids asking lecturers directly, prefers using LLMs for help",
+    "credibility": 0.86,
+    "reinforcement_count": 22,
+    "last_seen": 1767731477,
+    "prompt_history_ids": [
+      "prompt_947fffdb_014624",
+      "prompt_5c565ac0_014625",
+      "prompt_b1dfc2f5_014626",
+      "prompt_2f1fd37e_014627",
+      "prompt_03565760_014628",
+      "prompt_be328d45_014629",
+      "prompt_f2a3651a_014630",
+      "prompt_61c836cd_014631",
+      "prompt_8f1a29a1_014632",
+      "prompt_1d1c6e6b_014633",
+      "prompt_5fc14b2c_014634",
+      "prompt_534d11f1_014635",
+      "prompt_5d3d51e9_014636",
+      "prompt_f64f85f2_014637",
+      "prompt_6931e12b_014638",
+      "prompt_c080e7e4_014639",
+      "prompt_a360fbc9_014640",
+      "prompt_9f46571c_014641",
+      "prompt_39d73f94_014642",
+      "prompt_df959ae4_014643",
+      "prompt_83fcdd93_014644",
+      "prompt_b993f110_014645"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_004",
+    "clarity_score": 0.9,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_43173a07_014646",
+    "observation_id": "obs_97f9ab68_014647",
+    "behavior_text": "prefers collaborative study sessions over studying alone",
+    "credibility": 0.84,
+    "reinforcement_count": 15,
+    "last_seen": 1767545915,
+    "prompt_history_ids": [
+      "prompt_7b4d2fdc_014648",
+      "prompt_831e0c04_014649",
+      "prompt_e7160313_014650",
+      "prompt_9c32bb57_014651",
+      "prompt_48b863a8_014652",
+      "prompt_68ebd857_014653",
+      "prompt_3d125100_014654",
+      "prompt_591b05f8_014655",
+      "prompt_f77231af_014656",
+      "prompt_bf0a9de0_014657",
+      "prompt_092e9068_014658",
+      "prompt_a4c9d5fe_014659",
+      "prompt_464f31a0_014660",
+      "prompt_c4f99aa4_014661",
+      "prompt_525176f8_014662"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_005",
+    "clarity_score": 0.89,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_778c3f85_014663",
+    "observation_id": "obs_8716fa7a_014664",
+    "behavior_text": "avoids complex theoretical explanations, prefers simple analogies",
+    "credibility": 0.87,
+    "reinforcement_count": 19,
+    "last_seen": 1767710078,
+    "prompt_history_ids": [
+      "prompt_3925f0b2_014665",
+      "prompt_a29ceeff_014666",
+      "prompt_b88f1664_014667",
+      "prompt_37e913f6_014668",
+      "prompt_80976649_014669",
+      "prompt_11286c8f_014670",
+      "prompt_d352f148_014671",
+      "prompt_42878f91_014672",
+      "prompt_b4ef987d_014673",
+      "prompt_d926349c_014674",
+      "prompt_4be0efef_014675",
+      "prompt_13c9e770_014676",
+      "prompt_e2a2a1ab_014677",
+      "prompt_ea521073_014678",
+      "prompt_793ec990_014679",
+      "prompt_0a81515d_014680",
+      "prompt_979a4433_014681",
+      "prompt_f8249a59_014682",
+      "prompt_4cdf0d14_014683"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_006",
+    "clarity_score": 0.88,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_9036c059_014684",
+    "observation_id": "obs_63eb9829_014685",
+    "behavior_text": "likes using Stack Overflow and online forums for debugging",
+    "credibility": 0.88,
+    "reinforcement_count": 17,
+    "last_seen": 1766909557,
+    "prompt_history_ids": [
+      "prompt_9e51637b_014686",
+      "prompt_c176e4ef_014687",
+      "prompt_8beecf23_014688",
+      "prompt_adbc1335_014689",
+      "prompt_e68a3201_014690",
+      "prompt_d1a12abc_014691",
+      "prompt_e259b8cd_014692",
+      "prompt_272ce7f0_014693",
+      "prompt_b41faa01_014694",
+      "prompt_41a41cd5_014695",
+      "prompt_2fb70796_014696",
+      "prompt_4f1f2066_014697",
+      "prompt_8961c8b1_014698",
+      "prompt_d54bf4c9_014699",
+      "prompt_7fd6c58b_014700",
+      "prompt_382d1f3c_014701",
+      "prompt_6d05052d_014702"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_007",
+    "clarity_score": 0.91,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_fbc02be1_014703",
+    "observation_id": "obs_974a413d_014704",
+    "behavior_text": "prefers YouTube tutorials over text-based tutorials",
+    "credibility": 0.85,
+    "reinforcement_count": 14,
+    "last_seen": 1767736885,
+    "prompt_history_ids": [
+      "prompt_cbf3ba02_014705",
+      "prompt_97c8234c_014706",
+      "prompt_0b0836a2_014707",
+      "prompt_e331d33b_014708",
+      "prompt_315ddef3_014709",
+      "prompt_3037527e_014710",
+      "prompt_f3673cf2_014711",
+      "prompt_5dd08162_014712",
+      "prompt_d21b2fa7_014713",
+      "prompt_e6afc196_014714",
+      "prompt_05fd04f3_014715",
+      "prompt_715ad979_014716",
+      "prompt_643a99f9_014717",
+      "prompt_27d4ce1a_014718"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_008",
+    "clarity_score": 0.89,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_3ba53380_014719",
+    "observation_id": "obs_3b3e363e_014720",
+    "behavior_text": "avoids perfectionism, prefers getting code working first",
+    "credibility": 0.86,
+    "reinforcement_count": 16,
+    "last_seen": 1767643767,
+    "prompt_history_ids": [
+      "prompt_89fe9445_014721",
+      "prompt_46a6a6f5_014722",
+      "prompt_94a7e0f6_014723",
+      "prompt_5c122ed2_014724",
+      "prompt_3a3cf194_014725",
+      "prompt_0881c0c3_014726",
+      "prompt_793924d2_014727",
+      "prompt_308d0e7f_014728",
+      "prompt_220d6187_014729",
+      "prompt_b680824e_014730",
+      "prompt_76738277_014731",
+      "prompt_94ce05db_014732",
+      "prompt_d8560167_014733",
+      "prompt_5c4209dd_014734",
+      "prompt_573f0890_014735",
+      "prompt_8cfcd2fc_014736"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_009",
+    "clarity_score": 0.91,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_81a2776c_014737",
+    "observation_id": "obs_92c9de59_014738",
+    "behavior_text": "likes taking short breaks when stuck on a problem",
+    "credibility": 0.83,
+    "reinforcement_count": 21,
+    "last_seen": 1766886415,
+    "prompt_history_ids": [
+      "prompt_e365756f_014739",
+      "prompt_aa8938b8_014740",
+      "prompt_3e1e6e88_014741",
+      "prompt_3876e277_014742",
+      "prompt_4d43d8e5_014743",
+      "prompt_aa4994c7_014744",
+      "prompt_c911b91a_014745",
+      "prompt_9b3d97d0_014746",
+      "prompt_4254079c_014747",
+      "prompt_0a4ae8ea_014748",
+      "prompt_d20e387e_014749",
+      "prompt_2652af12_014750",
+      "prompt_5e97dedc_014751",
+      "prompt_bb9cf515_014752",
+      "prompt_220f8124_014753",
+      "prompt_492d8714_014754",
+      "prompt_57a322b5_014755",
+      "prompt_2a8a4a79_014756",
+      "prompt_90df1d76_014757",
+      "prompt_4d25f6bd_014758",
+      "prompt_09741c37_014759"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_010",
+    "clarity_score": 0.96,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_6a651299_014760",
+    "observation_id": "obs_9fb65415_014761",
+    "behavior_text": "prefers commenting code in Sinhala/English mix for personal understanding",
+    "credibility": 0.81,
+    "reinforcement_count": 12,
+    "last_seen": 1767145236,
+    "prompt_history_ids": [
+      "prompt_1ba586ca_014762",
+      "prompt_36b1539c_014763",
+      "prompt_5c0fc17b_014764",
+      "prompt_7b78ec68_014765",
+      "prompt_4b35e648_014766",
+      "prompt_0eb30b42_014767",
+      "prompt_ddd60a37_014768",
+      "prompt_480fc340_014769",
+      "prompt_9676a2ed_014770",
+      "prompt_c2dfe1ae_014771",
+      "prompt_919a5e03_014772",
+      "prompt_ef780778_014773"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_core_011",
+    "clarity_score": 0.95,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_b5567e19_014774",
+    "observation_id": "obs_42beeb12_014775",
+    "behavior_text": "sometimes uses Jupyter Notebooks, other times VS Code",
+    "credibility": 0.76,
+    "reinforcement_count": 6,
+    "last_seen": 1766320190,
+    "prompt_history_ids": [
+      "prompt_d879d0fe_014776",
+      "prompt_855c68c3_014777",
+      "prompt_5e026e92_014778",
+      "prompt_5dc61daf_014779",
+      "prompt_fd166ef3_014780",
+      "prompt_32ee2d05_014781"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_000",
+    "clarity_score": 0.71,
+    "confidence": 0.68
+  },
+  {
+    "behavior_id": "beh_dfe857e8_014782",
+    "observation_id": "obs_8b81f69d_014783",
+    "behavior_text": "occasionally tries to understand algorithm complexity",
+    "credibility": 0.74,
+    "reinforcement_count": 5,
+    "last_seen": 1766237533,
+    "prompt_history_ids": [
+      "prompt_f85893fc_014784",
+      "prompt_5e0cd273_014785",
+      "prompt_3e093b17_014786",
+      "prompt_42fff7b5_014787",
+      "prompt_24b31d7e_014788"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_001",
+    "clarity_score": 0.72,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_c2f80e87_014789",
+    "observation_id": "obs_7e3c4deb_014790",
+    "behavior_text": "sometimes plans to use version control but forgets",
+    "credibility": 0.73,
+    "reinforcement_count": 4,
+    "last_seen": 1766702047,
+    "prompt_history_ids": [
+      "prompt_8d969a48_014791",
+      "prompt_45116190_014792",
+      "prompt_e6775651_014793",
+      "prompt_29f9d3a3_014794"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_002",
+    "clarity_score": 0.73,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_99363d5f_014795",
+    "observation_id": "obs_54a74db3_014796",
+    "behavior_text": "occasionally reads about Python best practices",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "last_seen": 1762663033,
+    "prompt_history_ids": [
+      "prompt_d529d2e3_014797",
+      "prompt_880004ca_014798",
+      "prompt_de47a79b_014799",
+      "prompt_faa4c6f6_014800",
+      "prompt_4c7448f2_014801"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_003",
+    "clarity_score": 0.79,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_ad8a8074_014802",
+    "observation_id": "obs_894d6c9b_014803",
+    "behavior_text": "tries different study techniques inconsistently",
+    "credibility": 0.75,
+    "reinforcement_count": 4,
+    "last_seen": 1766337510,
+    "prompt_history_ids": [
+      "prompt_1f761e5d_014804",
+      "prompt_4a33f3c6_014805",
+      "prompt_781fcfb7_014806",
+      "prompt_7e5247d2_014807"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_insuff_004",
+    "clarity_score": 0.83,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_98ff04d5_014808",
+    "observation_id": "obs_c00c3807_014809",
+    "behavior_text": "random phone issue",
+    "credibility": 0.34,
+    "reinforcement_count": 1,
+    "last_seen": 1758701622,
+    "prompt_history_ids": [
+      "prompt_72bee95c_014810"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_000",
+    "clarity_score": 0.43,
+    "confidence": 0.45
+  },
+  {
+    "behavior_id": "beh_8d645e63_014811",
+    "observation_id": "obs_e9693b81_014812",
+    "behavior_text": "random meme search",
+    "credibility": 0.34,
+    "reinforcement_count": 1,
+    "last_seen": 1759139940,
+    "prompt_history_ids": [
+      "prompt_045a7f08_014813"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_001",
+    "clarity_score": 0.59,
+    "confidence": 0.34
+  },
+  {
+    "behavior_id": "beh_7e0f8413_014814",
+    "observation_id": "obs_fd48c916_014815",
+    "behavior_text": "random tea break",
+    "credibility": 0.32,
+    "reinforcement_count": 1,
+    "last_seen": 1758767610,
+    "prompt_history_ids": [
+      "prompt_16f427bf_014816"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_002",
+    "clarity_score": 0.59,
+    "confidence": 0.42
+  },
+  {
+    "behavior_id": "beh_45f2da31_014817",
+    "observation_id": "obs_cd59105d_014818",
+    "behavior_text": "asks about scholarship",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1759248409,
+    "prompt_history_ids": [
+      "prompt_32fb056a_014819"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_003",
+    "clarity_score": 0.56,
+    "confidence": 0.31
+  },
+  {
+    "behavior_id": "beh_96067a01_014820",
+    "observation_id": "obs_e3eda3cf_014821",
+    "behavior_text": "looks up canteen menu",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1758469718,
+    "prompt_history_ids": [
+      "prompt_df1fd786_014822"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_004",
+    "clarity_score": 0.52,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_3c581066_014823",
+    "observation_id": "obs_2fb1b330_014824",
+    "behavior_text": "asks about graduation",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1758061874,
+    "prompt_history_ids": [
+      "prompt_5c83581e_014825"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_005",
+    "clarity_score": 0.63,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_1939153d_014826",
+    "observation_id": "obs_a830ed39_014827",
+    "behavior_text": "random recipe search",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1758774483,
+    "prompt_history_ids": [
+      "prompt_8f41ca38_014828"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_006",
+    "clarity_score": 0.57,
+    "confidence": 0.31
+  },
+  {
+    "behavior_id": "beh_c122816d_014829",
+    "observation_id": "obs_df255f93_014830",
+    "behavior_text": "asks about exam timetable",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1758233553,
+    "prompt_history_ids": [
+      "prompt_042d4037_014831"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_007",
+    "clarity_score": 0.43,
+    "confidence": 0.33
+  },
+  {
+    "behavior_id": "beh_a1e8f700_014832",
+    "observation_id": "obs_c295f63e_014833",
+    "behavior_text": "looks up part-time jobs",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1757782397,
+    "prompt_history_ids": [
+      "prompt_469d830c_014834"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_008",
+    "clarity_score": 0.43,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_e4d81f43_014835",
+    "observation_id": "obs_be6a7e49_014836",
+    "behavior_text": "asks about tuition classes",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1757895006,
+    "prompt_history_ids": [
+      "prompt_b6978034_014837"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_009",
+    "clarity_score": 0.52,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_9c57ae67_014838",
+    "observation_id": "obs_13397201_014839",
+    "behavior_text": "checks library hours",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1757983928,
+    "prompt_history_ids": [
+      "prompt_6b99ebe6_014840"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_010",
+    "clarity_score": 0.55,
+    "confidence": 0.36
+  },
+  {
+    "behavior_id": "beh_835ffc96_014841",
+    "observation_id": "obs_7e4ae962_014842",
+    "behavior_text": "checks university notices",
+    "credibility": 0.43,
+    "reinforcement_count": 1,
+    "last_seen": 1759121858,
+    "prompt_history_ids": [
+      "prompt_0305902f_014843"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_011",
+    "clarity_score": 0.41,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_32fe3b50_014844",
+    "observation_id": "obs_fd02ec3b_014845",
+    "behavior_text": "random health query",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1758993565,
+    "prompt_history_ids": [
+      "prompt_d46986b6_014846"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_012",
+    "clarity_score": 0.64,
+    "confidence": 0.46
+  },
+  {
+    "behavior_id": "beh_8a50f125_014847",
+    "observation_id": "obs_5a6fb6c8_014848",
+    "behavior_text": "asks about movie releases",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1758876242,
+    "prompt_history_ids": [
+      "prompt_5ed17c44_014849"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_013",
+    "clarity_score": 0.47,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_5c03e6b7_014850",
+    "observation_id": "obs_4c693dd4_014851",
+    "behavior_text": "asks about Colombo traffic",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1757472225,
+    "prompt_history_ids": [
+      "prompt_0cb6f07e_014852"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_014",
+    "clarity_score": 0.53,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_9b936832_014853",
+    "observation_id": "obs_73f63054_014854",
+    "behavior_text": "random weather check",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1767202138,
+    "prompt_history_ids": [
+      "prompt_85d059fc_014855"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_015",
+    "clarity_score": 0.57,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_b071ee64_014856",
+    "observation_id": "obs_6771cbd1_014857",
+    "behavior_text": "checks bus schedule",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1767338148,
+    "prompt_history_ids": [
+      "prompt_55c71883_014858"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_016",
+    "clarity_score": 0.62,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_07aa54f5_014859",
+    "observation_id": "obs_5f082934_014860",
+    "behavior_text": "random Facebook check",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1766897485,
+    "prompt_history_ids": [
+      "prompt_82f4444b_014861"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_017",
+    "clarity_score": 0.44,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_e662e324_014862",
+    "observation_id": "obs_371ca42f_014863",
+    "behavior_text": "looks up hostel issues",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1767322473,
+    "prompt_history_ids": [
+      "prompt_bd14ed82_014864"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_018",
+    "clarity_score": 0.43,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_a8a31a0e_014865",
+    "observation_id": "obs_c0907516_014866",
+    "behavior_text": "random music search",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1765275541,
+    "prompt_history_ids": [
+      "prompt_a56087dd_014867"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_019",
+    "clarity_score": 0.65,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_11b6defd_014868",
+    "observation_id": "obs_04b9b684_014869",
+    "behavior_text": "random travel query",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1767183587,
+    "prompt_history_ids": [
+      "prompt_9ec3ac8a_014870"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_020",
+    "clarity_score": 0.5,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_f1825352_014871",
+    "observation_id": "obs_bf89093e_014872",
+    "behavior_text": "checks cricket match scores",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1765062402,
+    "prompt_history_ids": [
+      "prompt_690aab86_014873"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_021",
+    "clarity_score": 0.63,
+    "confidence": 0.42
+  },
+  {
+    "behavior_id": "beh_23ee9f47_014874",
+    "observation_id": "obs_6b063f61_014875",
+    "behavior_text": "random game break",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1766264839,
+    "prompt_history_ids": [
+      "prompt_d16e3bea_014876"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_022",
+    "clarity_score": 0.47,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_2600ac27_014877",
+    "observation_id": "obs_866be8c5_014878",
+    "behavior_text": "power cut complaint",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1767158790,
+    "prompt_history_ids": [
+      "prompt_8287f81a_014879"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_023",
+    "clarity_score": 0.48,
+    "confidence": 0.33
+  },
+  {
+    "behavior_id": "beh_091e1043_014880",
+    "observation_id": "obs_f56112b4_014881",
+    "behavior_text": "checks data package",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1766493335,
+    "prompt_history_ids": [
+      "prompt_02533eae_014882"
+    ],
+    "user_id": "user_srilanka_student_semester",
+    "session_id": "sess_noise_024",
+    "clarity_score": 0.62,
+    "confidence": 0.41
+  }
+]

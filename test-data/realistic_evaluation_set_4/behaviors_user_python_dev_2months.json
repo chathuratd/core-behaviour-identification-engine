@@ -1,0 +1,745 @@
+[
+  {
+    "behavior_id": "beh_bc256473_014227",
+    "observation_id": "obs_252b3749_014228",
+    "behavior_text": "prefers type hints and static typing in Python code",
+    "credibility": 0.91,
+    "reinforcement_count": 18,
+    "last_seen": 1767749258,
+    "prompt_history_ids": [
+      "prompt_d56eaef6_014229",
+      "prompt_04436cf2_014230",
+      "prompt_95f1e71c_014231",
+      "prompt_90aaa798_014232",
+      "prompt_837cb04e_014233",
+      "prompt_29f07c88_014234",
+      "prompt_20e69811_014235",
+      "prompt_994c8e41_014236",
+      "prompt_eb742192_014237",
+      "prompt_e7de93c9_014238",
+      "prompt_d6d1fd29_014239",
+      "prompt_08567734_014240",
+      "prompt_20b12e77_014241",
+      "prompt_1705b281_014242",
+      "prompt_3b091a1b_014243",
+      "prompt_4859439e_014244",
+      "prompt_2099fce8_014245",
+      "prompt_37adba50_014246"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_000",
+    "clarity_score": 0.95,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_e8cc3518_014247",
+    "observation_id": "obs_eab77032_014248",
+    "behavior_text": "avoids writing tests upfront, prefers debugging with print statements",
+    "credibility": 0.86,
+    "reinforcement_count": 15,
+    "last_seen": 1767547365,
+    "prompt_history_ids": [
+      "prompt_55e08688_014249",
+      "prompt_e4b3a62a_014250",
+      "prompt_eb1b45ec_014251",
+      "prompt_b498bfeb_014252",
+      "prompt_ff276422_014253",
+      "prompt_dd41c1a6_014254",
+      "prompt_b47eefe1_014255",
+      "prompt_1e90f4ec_014256",
+      "prompt_c037d570_014257",
+      "prompt_82763126_014258",
+      "prompt_9117a7a5_014259",
+      "prompt_5b523f37_014260",
+      "prompt_b36e9ae4_014261",
+      "prompt_6b526758_014262",
+      "prompt_fc227b37_014263"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_001",
+    "clarity_score": 0.85,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_88805598_014264",
+    "observation_id": "obs_6406e3a4_014265",
+    "behavior_text": "likes using dataclasses over traditional classes",
+    "credibility": 0.89,
+    "reinforcement_count": 14,
+    "last_seen": 1766963255,
+    "prompt_history_ids": [
+      "prompt_da7ecde7_014266",
+      "prompt_53d3e405_014267",
+      "prompt_07276cce_014268",
+      "prompt_95726714_014269",
+      "prompt_8d326710_014270",
+      "prompt_4d8d7615_014271",
+      "prompt_eb67543f_014272",
+      "prompt_07b891f7_014273",
+      "prompt_5b1d6564_014274",
+      "prompt_bed20aef_014275",
+      "prompt_196a9ffb_014276",
+      "prompt_ce2c5da6_014277",
+      "prompt_d1445dd6_014278",
+      "prompt_2c671a0b_014279"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_002",
+    "clarity_score": 0.9,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_7f5de668_014280",
+    "observation_id": "obs_c7192718_014281",
+    "behavior_text": "prefers working in afternoon/evening over mornings",
+    "credibility": 0.84,
+    "reinforcement_count": 22,
+    "last_seen": 1767671221,
+    "prompt_history_ids": [
+      "prompt_167e0e1d_014282",
+      "prompt_1e586040_014283",
+      "prompt_9bd91bad_014284",
+      "prompt_c83f0967_014285",
+      "prompt_98c494b6_014286",
+      "prompt_666b0912_014287",
+      "prompt_9c05a76f_014288",
+      "prompt_3544d614_014289",
+      "prompt_b2679cf6_014290",
+      "prompt_39e88882_014291",
+      "prompt_4de8bd17_014292",
+      "prompt_51bda825_014293",
+      "prompt_8dae54ff_014294",
+      "prompt_e41c27fe_014295",
+      "prompt_fced0dce_014296",
+      "prompt_bbc50556_014297",
+      "prompt_7e4d95fd_014298",
+      "prompt_a30457fd_014299",
+      "prompt_054df789_014300",
+      "prompt_3732cb5d_014301",
+      "prompt_5f726a4c_014302",
+      "prompt_c0b4ad45_014303"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_003",
+    "clarity_score": 0.93,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_71cfc3f1_014304",
+    "observation_id": "obs_21ad83ce_014305",
+    "behavior_text": "avoids object-oriented patterns, prefers functional style",
+    "credibility": 0.88,
+    "reinforcement_count": 16,
+    "last_seen": 1767611689,
+    "prompt_history_ids": [
+      "prompt_321f42be_014306",
+      "prompt_4511f4b5_014307",
+      "prompt_15a97b25_014308",
+      "prompt_9d6b4ed2_014309",
+      "prompt_e2b82843_014310",
+      "prompt_ccc102bd_014311",
+      "prompt_f7792462_014312",
+      "prompt_9e213637_014313",
+      "prompt_2d59482b_014314",
+      "prompt_68c64136_014315",
+      "prompt_c16cf0c2_014316",
+      "prompt_96b8ed16_014317",
+      "prompt_5a720f3f_014318",
+      "prompt_8e4d9697_014319",
+      "prompt_b2f64cdf_014320",
+      "prompt_527a8dd6_014321"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_004",
+    "clarity_score": 0.85,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_97d802aa_014322",
+    "observation_id": "obs_df0e8383_014323",
+    "behavior_text": "likes taking short breaks every hour when stuck",
+    "credibility": 0.81,
+    "reinforcement_count": 19,
+    "last_seen": 1766907940,
+    "prompt_history_ids": [
+      "prompt_5648829d_014324",
+      "prompt_1b5842d6_014325",
+      "prompt_8eb0b049_014326",
+      "prompt_7d58409e_014327",
+      "prompt_8ea3cddd_014328",
+      "prompt_ea41dbb2_014329",
+      "prompt_cbb771ae_014330",
+      "prompt_2ac1e0a4_014331",
+      "prompt_039ce0e7_014332",
+      "prompt_bb61f7b0_014333",
+      "prompt_c4fc1ae3_014334",
+      "prompt_ff33be94_014335",
+      "prompt_7b1f1b19_014336",
+      "prompt_88d77cbb_014337",
+      "prompt_272ca770_014338",
+      "prompt_bf5cebb2_014339",
+      "prompt_41173099_014340",
+      "prompt_830d0502_014341",
+      "prompt_634d9db2_014342"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_005",
+    "clarity_score": 0.95,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_5b5a9804_014343",
+    "observation_id": "obs_0a2cf5a6_014344",
+    "behavior_text": "prefers Poetry over pip for dependency management",
+    "credibility": 0.88,
+    "reinforcement_count": 12,
+    "last_seen": 1767654445,
+    "prompt_history_ids": [
+      "prompt_91072f5f_014345",
+      "prompt_4035f89a_014346",
+      "prompt_2d532590_014347",
+      "prompt_cc218b3f_014348",
+      "prompt_c8ea6ec6_014349",
+      "prompt_9aff24ae_014350",
+      "prompt_3fc146e0_014351",
+      "prompt_07029872_014352",
+      "prompt_3878adb7_014353",
+      "prompt_8ffa0c44_014354",
+      "prompt_ff9e174c_014355",
+      "prompt_eedfb88a_014356"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_006",
+    "clarity_score": 0.97,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_49342d5f_014357",
+    "observation_id": "obs_ff2e2378_014358",
+    "behavior_text": "avoids premature optimization, focuses on working code first",
+    "credibility": 0.85,
+    "reinforcement_count": 13,
+    "last_seen": 1767537151,
+    "prompt_history_ids": [
+      "prompt_d4c0f896_014359",
+      "prompt_86aa2ebd_014360",
+      "prompt_cf8e8cf1_014361",
+      "prompt_98356760_014362",
+      "prompt_209cc131_014363",
+      "prompt_e7154e79_014364",
+      "prompt_589640f3_014365",
+      "prompt_14f5c92c_014366",
+      "prompt_eb03ac67_014367",
+      "prompt_f1d96510_014368",
+      "prompt_e7b758c1_014369",
+      "prompt_0e6bf315_014370",
+      "prompt_370eefd1_014371"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_007",
+    "clarity_score": 0.87,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_b24ac69e_014372",
+    "observation_id": "obs_2aefa3f4_014373",
+    "behavior_text": "likes using Pydantic for data validation",
+    "credibility": 0.9,
+    "reinforcement_count": 17,
+    "last_seen": 1767643516,
+    "prompt_history_ids": [
+      "prompt_4465cb42_014374",
+      "prompt_3efd49ab_014375",
+      "prompt_c867e045_014376",
+      "prompt_3649d178_014377",
+      "prompt_b7ac1e61_014378",
+      "prompt_a4effe08_014379",
+      "prompt_1893f2d6_014380",
+      "prompt_66c82264_014381",
+      "prompt_4fbd2f16_014382",
+      "prompt_a830ed43_014383",
+      "prompt_b66e0bf3_014384",
+      "prompt_106db37b_014385",
+      "prompt_20d7cf15_014386",
+      "prompt_8b1d0089_014387",
+      "prompt_95b6ba2b_014388",
+      "prompt_1caaaf2a_014389",
+      "prompt_e9b21cdd_014390"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_008",
+    "clarity_score": 0.86,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_f67a7e12_014391",
+    "observation_id": "obs_db01b1db_014392",
+    "behavior_text": "prefers pytest over unittest for testing",
+    "credibility": 0.86,
+    "reinforcement_count": 11,
+    "last_seen": 1767394802,
+    "prompt_history_ids": [
+      "prompt_6e85db2d_014393",
+      "prompt_de3fe469_014394",
+      "prompt_33b4fbf7_014395",
+      "prompt_40299909_014396",
+      "prompt_64b77ba5_014397",
+      "prompt_bbae1c07_014398",
+      "prompt_e94a887f_014399",
+      "prompt_68454f20_014400",
+      "prompt_d3ac0da6_014401",
+      "prompt_b33a4498_014402",
+      "prompt_1a5cdeea_014403"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_009",
+    "clarity_score": 0.9,
+    "confidence": 0.94
+  },
+  {
+    "behavior_id": "beh_724f9107_014404",
+    "observation_id": "obs_88d64df9_014405",
+    "behavior_text": "avoids deep nesting, prefers early returns and guard clauses",
+    "credibility": 0.86,
+    "reinforcement_count": 14,
+    "last_seen": 1767753398,
+    "prompt_history_ids": [
+      "prompt_8516df62_014406",
+      "prompt_d4d50b37_014407",
+      "prompt_0f1be75f_014408",
+      "prompt_dfa154a8_014409",
+      "prompt_8123123c_014410",
+      "prompt_66a23fd1_014411",
+      "prompt_b9d3cc8d_014412",
+      "prompt_b2de4358_014413",
+      "prompt_6ff55238_014414",
+      "prompt_84be253b_014415",
+      "prompt_23716dde_014416",
+      "prompt_90f498aa_014417",
+      "prompt_69893e6a_014418",
+      "prompt_faf80475_014419"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_010",
+    "clarity_score": 0.88,
+    "confidence": 0.95
+  },
+  {
+    "behavior_id": "beh_eda73fa8_014420",
+    "observation_id": "obs_7ac4d9f5_014421",
+    "behavior_text": "likes documenting with docstrings but avoids extensive comments",
+    "credibility": 0.84,
+    "reinforcement_count": 10,
+    "last_seen": 1767460337,
+    "prompt_history_ids": [
+      "prompt_7fbde686_014422",
+      "prompt_d88461c8_014423",
+      "prompt_41eed192_014424",
+      "prompt_0fe35756_014425",
+      "prompt_4e69ef85_014426",
+      "prompt_1827ffaa_014427",
+      "prompt_2ca50738_014428",
+      "prompt_8869b7f0_014429",
+      "prompt_acfe1349_014430",
+      "prompt_7f851ebf_014431"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_core_011",
+    "clarity_score": 0.86,
+    "confidence": 0.9
+  },
+  {
+    "behavior_id": "beh_2c95591a_014432",
+    "observation_id": "obs_0d5aae5c_014433",
+    "behavior_text": "sometimes uses VS Code, other times PyCharm",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "last_seen": 1766442188,
+    "prompt_history_ids": [
+      "prompt_73f5f55f_014434",
+      "prompt_1f7f539c_014435",
+      "prompt_4a82fbc5_014436",
+      "prompt_c291413a_014437",
+      "prompt_c7c107a5_014438"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_000",
+    "clarity_score": 0.75,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_d401707a_014439",
+    "observation_id": "obs_b21af767_014440",
+    "behavior_text": "occasionally tries async programming but struggles with it",
+    "credibility": 0.74,
+    "reinforcement_count": 6,
+    "last_seen": 1767542272,
+    "prompt_history_ids": [
+      "prompt_74be7b72_014441",
+      "prompt_5495dd0a_014442",
+      "prompt_d5546178_014443",
+      "prompt_09a63345_014444",
+      "prompt_86aece16_014445",
+      "prompt_c834f909_014446"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_001",
+    "clarity_score": 0.8,
+    "confidence": 0.68
+  },
+  {
+    "behavior_id": "beh_f753031a_014447",
+    "observation_id": "obs_a8c3b7b5_014448",
+    "behavior_text": "experiments with different logging approaches",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "last_seen": 1766928118,
+    "prompt_history_ids": [
+      "prompt_b7d70376_014449",
+      "prompt_941c7e4b_014450",
+      "prompt_80b56bb5_014451",
+      "prompt_0f3940cc_014452"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_002",
+    "clarity_score": 0.84,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_60a13e77_014453",
+    "observation_id": "obs_87c01bb6_014454",
+    "behavior_text": "occasionally reads technical blogs during work",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "last_seen": 1767107283,
+    "prompt_history_ids": [
+      "prompt_17c9bdd8_014455",
+      "prompt_5e599d38_014456",
+      "prompt_b03655f6_014457",
+      "prompt_0fea2025_014458",
+      "prompt_6a90bfac_014459"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_003",
+    "clarity_score": 0.8,
+    "confidence": 0.65
+  },
+  {
+    "behavior_id": "beh_edad8274_014460",
+    "observation_id": "obs_1873c929_014461",
+    "behavior_text": "tries different git workflows inconsistently",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "last_seen": 1767156947,
+    "prompt_history_ids": [
+      "prompt_b0a4a9c8_014462",
+      "prompt_08fb3629_014463",
+      "prompt_aa507dcd_014464",
+      "prompt_be631607_014465"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_insuff_004",
+    "clarity_score": 0.82,
+    "confidence": 0.62
+  },
+  {
+    "behavior_id": "beh_1078c49a_014466",
+    "observation_id": "obs_246f6ab0_014467",
+    "behavior_text": "checks weather forecast",
+    "credibility": 0.4,
+    "reinforcement_count": 1,
+    "last_seen": 1763470698,
+    "prompt_history_ids": [
+      "prompt_b970c4f0_014468"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_000",
+    "clarity_score": 0.6,
+    "confidence": 0.42
+  },
+  {
+    "behavior_id": "beh_f5427108_014469",
+    "observation_id": "obs_c3d04894_014470",
+    "behavior_text": "checks calendar",
+    "credibility": 0.43,
+    "reinforcement_count": 1,
+    "last_seen": 1762864771,
+    "prompt_history_ids": [
+      "prompt_d9ac82e3_014471"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_001",
+    "clarity_score": 0.56,
+    "confidence": 0.48
+  },
+  {
+    "behavior_id": "beh_30620f90_014472",
+    "observation_id": "obs_4128af0d_014473",
+    "behavior_text": "checks news headlines",
+    "credibility": 0.41,
+    "reinforcement_count": 1,
+    "last_seen": 1763559342,
+    "prompt_history_ids": [
+      "prompt_fbbe759b_014474"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_002",
+    "clarity_score": 0.59,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_77b1b857_014475",
+    "observation_id": "obs_fca547ea_014476",
+    "behavior_text": "random Wikipedia",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1763497349,
+    "prompt_history_ids": [
+      "prompt_ce63fea1_014477"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_003",
+    "clarity_score": 0.61,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_f190b95a_014478",
+    "observation_id": "obs_e7a41be6_014479",
+    "behavior_text": "random shopping",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1762873222,
+    "prompt_history_ids": [
+      "prompt_af0a9cb7_014480"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_004",
+    "clarity_score": 0.56,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_247edfce_014481",
+    "observation_id": "obs_e8e532df_014482",
+    "behavior_text": "Slack distraction",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1763540351,
+    "prompt_history_ids": [
+      "prompt_fc53a5e0_014483"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_005",
+    "clarity_score": 0.56,
+    "confidence": 0.39
+  },
+  {
+    "behavior_id": "beh_f327a54f_014484",
+    "observation_id": "obs_228e6c81_014485",
+    "behavior_text": "random meme",
+    "credibility": 0.32,
+    "reinforcement_count": 1,
+    "last_seen": 1763352949,
+    "prompt_history_ids": [
+      "prompt_475114a6_014486"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_006",
+    "clarity_score": 0.48,
+    "confidence": 0.41
+  },
+  {
+    "behavior_id": "beh_6f73b78d_014487",
+    "observation_id": "obs_1fb32576_014488",
+    "behavior_text": "social media check",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1763083548,
+    "prompt_history_ids": [
+      "prompt_cf792c40_014489"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_007",
+    "clarity_score": 0.41,
+    "confidence": 0.35
+  },
+  {
+    "behavior_id": "beh_5be14941_014490",
+    "observation_id": "obs_b89754df_014491",
+    "behavior_text": "random tech news",
+    "credibility": 0.44,
+    "reinforcement_count": 1,
+    "last_seen": 1762617447,
+    "prompt_history_ids": [
+      "prompt_04a11bd0_014492"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_008",
+    "clarity_score": 0.46,
+    "confidence": 0.4
+  },
+  {
+    "behavior_id": "beh_ded9fb09_014493",
+    "observation_id": "obs_1ace7539_014494",
+    "behavior_text": "stretching break",
+    "credibility": 0.31,
+    "reinforcement_count": 1,
+    "last_seen": 1762879608,
+    "prompt_history_ids": [
+      "prompt_2df6c01c_014495"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_009",
+    "clarity_score": 0.49,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_f5c0761a_014496",
+    "observation_id": "obs_b2f887aa_014497",
+    "behavior_text": "podcast search",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1763245216,
+    "prompt_history_ids": [
+      "prompt_da9c45f9_014498"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_010",
+    "clarity_score": 0.52,
+    "confidence": 0.31
+  },
+  {
+    "behavior_id": "beh_ef55f654_014499",
+    "observation_id": "obs_e68b9302_014500",
+    "behavior_text": "looks up sports scores",
+    "credibility": 0.38,
+    "reinforcement_count": 1,
+    "last_seen": 1762596512,
+    "prompt_history_ids": [
+      "prompt_83be4a0f_014501"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_011",
+    "clarity_score": 0.5,
+    "confidence": 0.44
+  },
+  {
+    "behavior_id": "beh_c6e5c5a5_014502",
+    "observation_id": "obs_9e473149_014503",
+    "behavior_text": "coffee break chat",
+    "credibility": 0.33,
+    "reinforcement_count": 1,
+    "last_seen": 1767068577,
+    "prompt_history_ids": [
+      "prompt_241595f2_014504"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_012",
+    "clarity_score": 0.51,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_9848c032_014505",
+    "observation_id": "obs_6f2b1789_014506",
+    "behavior_text": "checks time",
+    "credibility": 0.29,
+    "reinforcement_count": 1,
+    "last_seen": 1766656068,
+    "prompt_history_ids": [
+      "prompt_649bc0e9_014507"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_013",
+    "clarity_score": 0.43,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_692e2ce4_014508",
+    "observation_id": "obs_d1d855b9_014509",
+    "behavior_text": "checks email",
+    "credibility": 0.42,
+    "reinforcement_count": 1,
+    "last_seen": 1766966265,
+    "prompt_history_ids": [
+      "prompt_a5f1b7c3_014510"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_014",
+    "clarity_score": 0.43,
+    "confidence": 0.49
+  },
+  {
+    "behavior_id": "beh_cdb55139_014511",
+    "observation_id": "obs_af74c419_014512",
+    "behavior_text": "random Reddit browsing",
+    "credibility": 0.36,
+    "reinforcement_count": 1,
+    "last_seen": 1767277529,
+    "prompt_history_ids": [
+      "prompt_fc3c5e50_014513"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_015",
+    "clarity_score": 0.45,
+    "confidence": 0.44
+  },
+  {
+    "behavior_id": "beh_f3d593b9_014514",
+    "observation_id": "obs_eb84e79f_014515",
+    "behavior_text": "looks up movie",
+    "credibility": 0.34,
+    "reinforcement_count": 1,
+    "last_seen": 1766880074,
+    "prompt_history_ids": [
+      "prompt_89fd9ddf_014516"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_016",
+    "clarity_score": 0.42,
+    "confidence": 0.38
+  },
+  {
+    "behavior_id": "beh_7b1c03e2_014517",
+    "observation_id": "obs_ac3cc603_014518",
+    "behavior_text": "music playlist search",
+    "credibility": 0.39,
+    "reinforcement_count": 1,
+    "last_seen": 1766547005,
+    "prompt_history_ids": [
+      "prompt_6ea50594_014519"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_017",
+    "clarity_score": 0.51,
+    "confidence": 0.39
+  },
+  {
+    "behavior_id": "beh_74965e09_014520",
+    "observation_id": "obs_d6c68ae8_014521",
+    "behavior_text": "random YouTube break",
+    "credibility": 0.35,
+    "reinforcement_count": 1,
+    "last_seen": 1766796601,
+    "prompt_history_ids": [
+      "prompt_a4589e48_014522"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_018",
+    "clarity_score": 0.51,
+    "confidence": 0.43
+  },
+  {
+    "behavior_id": "beh_ad60307c_014523",
+    "observation_id": "obs_611da95a_014524",
+    "behavior_text": "lunch ideas search",
+    "credibility": 0.37,
+    "reinforcement_count": 1,
+    "last_seen": 1766568230,
+    "prompt_history_ids": [
+      "prompt_b2c978b8_014525"
+    ],
+    "user_id": "user_python_dev_2months",
+    "session_id": "sess_noise_019",
+    "clarity_score": 0.64,
+    "confidence": 0.44
+  }
+]
