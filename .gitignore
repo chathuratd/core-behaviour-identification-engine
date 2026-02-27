@@ -1,0 +1,30 @@
+# Environment & Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Data & large outputs
+data/
+*.csv
+*.log
+debug_out.txt
+output.log
+clustering_out.txt
+openai_test_out.txt
+test_out.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
