@@ -50,7 +50,7 @@ async def get_context(user_id: str):
         response = (
             _data_adapter.supabase
             .table("core_behavior_profiles")
-            .select("user_id, total_raw_behaviors, confirmed_interests, identity_anchor_prompt, updated_at")
+            .select("user_id, confirmed_interests, updated_at")
             .eq("user_id", user_id)
             .execute()
         )

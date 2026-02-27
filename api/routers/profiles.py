@@ -88,7 +88,7 @@ async def list_profiles(
         resp = (
             _data_adapter.supabase
             .table("core_behavior_profiles")
-            .select("user_id, total_raw_behaviors, confirmed_interests, updated_at")
+            .select("user_id, confirmed_interests, updated_at")
             .range(offset, offset + limit - 1)
             .execute()
         )
