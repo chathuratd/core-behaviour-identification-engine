@@ -114,11 +114,11 @@ class TopicDiscoverer:
         
         # We classify against generic conceptual labels rather than specific keywords
         candidate_labels = [
-            "medical condition or allergy",
+            "medical condition or severe allergy",
             "strict dietary restriction",
-            "permanent identity trait",
+            "hobby or regular habit",
             "personal preference",
-            "general question or query"
+            "informational query"
         ]
         
         for b in behaviors:
@@ -136,19 +136,17 @@ class TopicDiscoverer:
                 scores_dict = dict(zip(result['labels'], result['scores']))
                 
                 # Check how strongly the model believes this is a fact-like concept
-                med_score = scores_dict.get("medical condition or allergy", 0.0)
+                med_score = scores_dict.get("medical condition or severe allergy", 0.0)
                 diet_score = scores_dict.get("strict dietary restriction", 0.0)
-                trait_score = scores_dict.get("permanent identity trait", 0.0)
                 
                 # We take the max confidence across the fact-like labels
-                zero_shot_score = max(med_score, diet_score, trait_score)
+                zero_shot_score = max(med_score, diet_score)
                 fact_confidence += zero_shot_score
                 
                 if zero_shot_score > 0.5:
                     top_label = max(
                         ("medical condition", med_score),
                         ("dietary restriction", diet_score),
-                        ("identity trait", trait_score),
                         key=lambda x: x[1]
                     )[0]
                     detection_reasons.append(f"zero_shot_{top_label.replace(' ', '_')}: {zero_shot_score:.2f}")
@@ -168,9 +166,9 @@ class TopicDiscoverer:
                 detection_reasons.append("bac_negative_constraint")
             
             # ================================================================
-            # DECISION: Classify as Fact if combined confidence >= 0.60
+            # DECISION: Classify as Fact if combined confidence >= 0.70
             # ================================================================
-            FACT_THRESHOLD = 0.60
+            FACT_THRESHOLD = 0.70
             
             if fact_confidence >= FACT_THRESHOLD:
                 b['fact_confidence'] = round(fact_confidence, 3)

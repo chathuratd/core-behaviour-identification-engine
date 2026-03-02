@@ -93,12 +93,14 @@ class CBIEPipeline:
         if fact_behaviors:
             print(f"Adding {len(fact_behaviors)} absolute facts to profile.")
             for fb in fact_behaviors:
+                # We do not generalize facts because they are literal constraints
+                # (e.g. "cannot eat peanuts", "avoids processed foods").
+                # Generalizing them merges them into generic unhelpful labels like "Food Preferences".
                 raw_fact_text = fb.get('explicit_topics', [fb.get('source_text')])[0]
-                generalized_fact = self.topic_discoverer.generalize_cluster_topic([raw_fact_text])
                 
                 interest_profile = {
                     "cluster_id": "absolute_fact",
-                    "representative_topics": [generalized_fact],
+                    "representative_topics": [raw_fact_text],
                     "frequency": 1,
                     "consistency_score": 0.0,
                     "trend_score": 0.0,
@@ -129,7 +131,7 @@ class CBIEPipeline:
             
             # Extract timestamps and scores
             timestamps = [b.get('timestamp') for b in cluster_behaviors if b.get('timestamp')]
-            scores = [b.get('scores', {}).get('complexity_score', 0.5) for b in cluster_behaviors]
+            scores = [b.get('scores', {}).get('clarity_score', 0.5) for b in cluster_behaviors]
             
             # Compute average credibility for the cluster
             avg_credibility = sum(scores_obj.get('credibility', 0.5) for scores_obj in [b.get('scores', {}) for b in cluster_behaviors]) / freq
