@@ -171,19 +171,19 @@ Before clustering, every behavior's raw text is passed through a **multi-layer f
 
 | Layer | Signal | Weight |
 |-------|--------|--------|
-| **Zero-Shot NLP** (Primary) | Scores text against `"medical condition or allergy"`, `"strict dietary restriction"`, `"permanent identity trait"` using `multi_label=True` | Max score across all three labels |
+| **Zero-Shot NLP** (Primary) | Scores text against `"medical condition or severe allergy"`, `"strict dietary restriction"` using `multi_label=True` | Max score across the two labels |
 | **BAC Metadata** (Secondary Boost) | If `intent == CONSTRAINT`: +0.10. If `polarity == NEGATIVE` AND `intent == CONSTRAINT`: additional +0.05 | Additive boost only |
 
-**Decision Rule:** If combined `fact_confidence ≥ 0.60` → classified as **Absolute Fact**.
+**Decision Rule:** If combined `fact_confidence ≥ 0.70` → classified as **Absolute Fact**.
 
 **Example detection trace:**
 ```
 Input: "I am severely allergic to penicillin"
-  Zero-Shot "medical condition or allergy" → 0.92
-  BAC intent = CONSTRAINT                  → +0.10
-  BAC polarity = NEGATIVE                  → +0.05
+  Zero-Shot "medical condition or severe allergy" → 0.92
+  BAC intent = CONSTRAINT                         → +0.10
+  BAC polarity = NEGATIVE                         → +0.05
   ─────────────────────────────────────────────────
-  Total fact_confidence = 1.07  (≥ 0.60) → FACT ✓
+  Total fact_confidence = 1.07  (≥ 0.70) → FACT ✓
 ```
 
 Facts are immediately routed to the profile with `core_score = 1.0` and `status = "Stable Fact"`. No temporal analysis is needed.
@@ -214,9 +214,9 @@ Behaviors assigned `cluster_id = -1` are classified as **noise** and excluded fr
 
 #### 4.1.5 Generative Topic Labeling (Azure OpenAI `gpt-4o-mini`)
 
-After clustering, the raw behavior texts of each cluster are passed to `gpt-4o-mini` with a structured prompt asking for a single cohesive trait label (max 4-5 words). This replaces raw query strings like `"Creating a custom middleware in FastAPI"` with high-level traits like `"Python Backend Development"`.
+After clustering, the raw behavior texts of each standard cluster are passed to `gpt-4o-mini` with a structured prompt asking for a single cohesive trait label (max 4-5 words). This replaces raw query strings like `"Creating a custom middleware in FastAPI"` with high-level traits like `"Python Backend Development"`.
 
-The same generalization pipeline applies to Absolute Facts for consistent identity anchoring.
+> **Note on Absolute Facts:** Absolute Facts skip this LLM generalization step. To ensure the LLM strictly adheres to safety-critical constraints, their exact raw text (e.g., `"cannot eat peanuts"`) is injected directly into the Core Profile. This prevents multiple specific constraints from being merged into unhelpful generic labels like "Food Preferences".
 
 ---
 
@@ -306,7 +306,8 @@ Step 1: INGESTION
 
 Step 2: TOPIC DISCOVERY (Stage 1)
   ├─ Zero-Shot NLP Classification → Isolate Absolute Facts
-  │     └─ Facts bypass all scoring → core_score = 1.0, status = "Stable Fact"
+  │     ├─ Facts bypass all scoring → core_score = 1.0, status = "Stable Fact"
+  │     └─ Facts bypass LLM generalization; raw text is used directly
   └─ Standard Behaviors:
         ├─ spaCy NER + EntityRuler → extracted entities
         ├─ Use precomputed embeddings (or generate via Azure if missing)
