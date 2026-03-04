@@ -12,6 +12,9 @@ from datetime import datetime, timezone
 from typing import Any, Dict, Optional
 
 from pipeline import CBIEPipeline          # Existing engine orchestrator
+from logger import get_logger
+
+log = get_logger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -27,9 +30,9 @@ _pipeline_instance: Optional[CBIEPipeline] = None
 def init_pipeline() -> CBIEPipeline:
     """Called once in the app lifespan at startup."""
     global _pipeline_instance
-    print("[CBIE API] Initialising pipeline singleton…")
+    log.info("Initialising pipeline singleton — loading BART NLP model", extra={"stage": "STARTUP"})
     _pipeline_instance = CBIEPipeline()
-    print("[CBIE API] Pipeline ready.")
+    log.info("Pipeline singleton ready", extra={"stage": "STARTUP"})
     return _pipeline_instance
 
 
@@ -71,6 +74,7 @@ def create_job(user_id: str) -> str:
         "result": None,
         "error": None,
     }
+    log.info("Pipeline job created", extra={"job_id": job_id, "user_id": user_id, "status": "QUEUED"})
     return job_id
 
 
@@ -97,6 +101,7 @@ async def run_pipeline_background(job_id: str, user_id: str) -> None:
     not block the FastAPI event loop.
     """
     update_job(job_id, status="RUNNING", started_at=now_iso())
+    log.info("Pipeline job started", extra={"job_id": job_id, "user_id": user_id, "status": "RUNNING"})
     loop = asyncio.get_event_loop()
 
     def _run():
@@ -110,10 +115,23 @@ async def run_pipeline_background(job_id: str, user_id: str) -> None:
             completed_at=now_iso(),
             result=result,
         )
+        log.info(
+            "Pipeline job completed successfully",
+            extra={
+                "job_id": job_id,
+                "user_id": user_id,
+                "status": "COMPLETED",
+                "confirmed_interests": len(result.get("confirmed_interests", [])) if result else 0,
+            },
+        )
     except Exception as exc:
         update_job(
             job_id,
             status="FAILED",
             completed_at=now_iso(),
             error=str(exc),
+        )
+        log.error(
+            "Pipeline job failed",
+            extra={"job_id": job_id, "user_id": user_id, "status": "FAILED", "error": str(exc)},
         )

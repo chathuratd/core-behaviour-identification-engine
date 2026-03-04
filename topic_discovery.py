@@ -7,6 +7,10 @@ from transformers import pipeline
 import time
 from sklearn.metrics.pairwise import cosine_distances
 
+from logger import get_logger
+
+log = get_logger(__name__)
+
 class TopicDiscoverer:
     """
     Implements Stage 1 of the CBIE Methodology: Information Extraction & Topic Discovery.
@@ -14,7 +18,7 @@ class TopicDiscoverer:
     """
 
     def __init__(self, spacy_model: str = 'en_core_web_sm', zero_shot_model: str = 'facebook/bart-large-mnli'):
-        print(f"Initializing Azure OpenAI Client...")
+        log.info("Initializing Azure OpenAI Client", extra={"stage": "INIT"})
         self.openai_client = AzureOpenAI(
             api_key=os.getenv("OPENAI_API_KEY"),
             api_version=os.getenv("OPENAI_API_VERSION"),
@@ -25,17 +29,19 @@ class TopicDiscoverer:
         self.chat_model = "gpt-4o-mini" # Confirmed to be available
         
         
-        print(f"Loading Zero-Shot Classifier: {zero_shot_model}...")
+        log.info("Loading Zero-Shot Classifier (BART)", extra={"stage": "INIT", "model": zero_shot_model})
         self.classifier = pipeline("zero-shot-classification", model=zero_shot_model)
+        log.info("Zero-Shot Classifier loaded", extra={"stage": "INIT", "model": zero_shot_model})
         
-        print(f"Loading spaCy model: {spacy_model}...")
+        log.info("Loading spaCy NER model", extra={"stage": "INIT", "model": spacy_model})
         try:
             self.nlp = spacy.load(spacy_model)
         except OSError:
-            print(f"spaCy model {spacy_model} not found. Attempting to download...")
+            log.warning("spaCy model not found, downloading", extra={"stage": "INIT", "model": spacy_model})
             import subprocess
             subprocess.run(["python", "-m", "spacy", "download", spacy_model], check=True)
             self.nlp = spacy.load(spacy_model)
+        log.info("spaCy model loaded with EntityRuler", extra={"stage": "INIT", "model": spacy_model})
             
         # Initialize EntityRuler for domain adaptation
         self.ruler = self.nlp.add_pipe("entity_ruler", before="ner")
@@ -58,9 +64,11 @@ class TopicDiscoverer:
             return [], [], np.array([]), np.array([])
             
         # 1. Isolate Absolute Facts
+        log.info("Starting fact isolation via Zero-Shot BART classifier", extra={"stage": "FACT_ISOLATION", "total": len(behaviors)})
         fact_behaviors, standard_behaviors = self.isolate_absolute_facts(behaviors)
         
         # 2. Process Standard Behaviors
+        log.info("Extracting entities for standard behaviors", extra={"stage": "ENTITY_EXTRACTION", "count": len(standard_behaviors)})
         embeddings_list = []
         texts_to_embed = []
         indices_to_embed = []
@@ -80,10 +88,12 @@ class TopicDiscoverer:
                 
         # Generate missing embeddings
         if texts_to_embed:
-            print(f"Generating missing embeddings for {len(texts_to_embed)} behaviors...")
+            log.info("Generating missing embeddings via Azure OpenAI", extra={"stage": "EMBEDDINGS", "count": len(texts_to_embed)})
             new_embeddings = self.generate_embeddings(texts_to_embed)
             for idx, new_emb in zip(indices_to_embed, new_embeddings):
                 embeddings_list[idx] = new_emb
+        else:
+            log.info("All embeddings precomputed — skipping Azure OpenAI call", extra={"stage": "EMBEDDINGS", "count": 0})
                 
         # Format for clustering
         final_embeddings = np.array(embeddings_list)
@@ -91,9 +101,13 @@ class TopicDiscoverer:
         # 3. Cluster Behaviors
         labels = np.array([])
         if len(final_embeddings) > 0:
-            print(f"Clustering {len(final_embeddings)} standard behaviors using HDBSCAN...")
+            log.info("Starting DBSCAN clustering", extra={"stage": "CLUSTERING", "vectors": len(final_embeddings)})
             polarities = [b.get('polarity', 'NEUTRAL') for b in standard_behaviors]
             labels = self.cluster_behaviors(final_embeddings, polarities)
+            
+            n_clusters = len(set(labels)) - (1 if -1 in labels else 0)
+            n_noise = int(np.sum(labels == -1))
+            log.info("DBSCAN complete", extra={"stage": "CLUSTERING", "n_clusters": n_clusters, "n_noise": n_noise})
             
             # Attach labels
             for i, label in enumerate(labels):
@@ -121,7 +135,15 @@ class TopicDiscoverer:
             "informational query"
         ]
         
-        for b in behaviors:
+        total = len(behaviors)
+        for idx, b in enumerate(behaviors):
+            # Log progress every 50 records so the terminal stays alive during long BART runs
+            if idx % 50 == 0:
+                log.info(
+                    "Fact isolation in progress",
+                    extra={"stage": "FACT_ISOLATION", "processed": idx, "total": total, "pct": round(idx / total * 100)}
+                )
+            
             text = b.get('source_text', '')
             fact_confidence = 0.0
             detection_reasons = []
@@ -173,15 +195,12 @@ class TopicDiscoverer:
             if fact_confidence >= FACT_THRESHOLD:
                 b['fact_confidence'] = round(fact_confidence, 3)
                 b['fact_detection_reasons'] = detection_reasons
+                log.debug("Fact detected", extra={"stage": "FACT_ISOLATION", "text_preview": text[:60], "confidence": round(fact_confidence, 3), "reasons": detection_reasons})
                 facts.append(b)
             else:
                 standards.append(b)
         
-        print(f"Isolated {len(facts)} Absolute Facts from {len(behaviors)} total records.")
-        if facts:
-            for f in facts:
-                print(f"  FACT (conf={f['fact_confidence']}): \"{f.get('source_text', '')[:60]}\" "
-                      f"[{', '.join(f.get('fact_detection_reasons', []))}]")
+        log.info("Fact isolation complete", extra={"stage": "FACT_ISOLATION", "facts_found": len(facts), "standard_behaviors": len(standards)})
         return facts, standards
 
     def extract_entities(self, text: str) -> List[Dict[str, str]]:
@@ -198,8 +217,11 @@ class TopicDiscoverer:
         # OpenAI API has limits, we can batch them.
         embeddings = []
         batch_size = 100
+        total_batches = (len(texts) + batch_size - 1) // batch_size
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i+batch_size]
+            batch_num = i // batch_size + 1
+            log.info("Generating embedding batch", extra={"stage": "EMBEDDINGS", "batch": batch_num, "total_batches": total_batches, "batch_size": len(batch)})
             # Handle rate limits
             retries = 3
             while retries > 0:
@@ -209,9 +231,10 @@ class TopicDiscoverer:
                         model=self.embedding_model
                     )
                     embeddings.extend([r.embedding for r in response.data])
+                    log.info("Embedding batch complete", extra={"stage": "EMBEDDINGS", "batch": batch_num, "total_batches": total_batches})
                     break
                 except Exception as e:
-                    print(f"Azure OpenAI Error formatting embeddings: {e}. Retrying...")
+                    log.warning("Azure OpenAI embedding error — retrying", extra={"stage": "EMBEDDINGS", "error": str(e), "retries_left": retries - 1})
                     time.sleep(2)
                     retries -= 1
             if retries == 0:
@@ -241,6 +264,7 @@ class TopicDiscoverer:
         for t in sample:
             prompt += f"- {t}\n"
             
+        log.info("Calling gpt-4o-mini to label cluster", extra={"stage": "TOPIC_LABELING", "sample_size": len(sample)})
         try:
             response = self.openai_client.chat.completions.create(
                 model=self.chat_model,
@@ -248,9 +272,11 @@ class TopicDiscoverer:
                 temperature=0.3,
                 max_tokens=20
             )
-            return response.choices[0].message.content.strip()
+            label = response.choices[0].message.content.strip()
+            log.info("Cluster label assigned", extra={"stage": "TOPIC_LABELING", "label": label})
+            return label
         except Exception as e:
-            print(f"Azure OpenAI Chat Error: {e}")
+            log.error("Azure OpenAI Chat Error during topic labeling", extra={"stage": "TOPIC_LABELING", "error": str(e)})
             # Fallback to the most frequent string if LLM fails
             from collections import Counter
             counts = Counter(texts)
@@ -258,18 +284,19 @@ class TopicDiscoverer:
 
     def cluster_behaviors(self, embeddings: np.ndarray, polarities: List[str] = None, min_cluster_size: int = 2, min_samples: int = 1) -> np.ndarray:
         """
-        Uses HDBSCAN to find latent topic clusters. HDBSCAN is robust to noise and 
-        varying cluster densities.
+        Uses DBSCAN to find latent topic clusters.
         Applies a 'Polarity Penalty' to prevent POSITIVE and NEGATIVE sentiments
         from clustering together.
         """
         
         from sklearn.metrics.pairwise import euclidean_distances
+        log.info("Building pairwise Euclidean distance matrix", extra={"stage": "CLUSTERING", "n": len(embeddings)})
         dist_matrix = euclidean_distances(embeddings).astype(np.float64)
         
         # Apply Polarity Penalty
         if polarities and len(polarities) == len(embeddings):
             n = len(embeddings)
+            penalty_count = 0
             for i in range(n):
                 for j in range(i+1, n):
                     p1 = str(polarities[i] or '').upper()
@@ -278,10 +305,10 @@ class TopicDiscoverer:
                     if (p1 == 'POSITIVE' and p2 == 'NEGATIVE') or (p1 == 'NEGATIVE' and p2 == 'POSITIVE'):
                         dist_matrix[i, j] = 1000.0
                         dist_matrix[j, i] = 1000.0
+                        penalty_count += 1
+            log.info("Polarity penalty applied to distance matrix", extra={"stage": "CLUSTERING", "penalized_pairs": penalty_count})
 
-        # High-dimensional space (384-dim) without UMAP causes HDBSCAN to fail 
-        # at finding density valleys, merging diverse topics. 
-        # Standard DBSCAN heavily thresholded at eps=1.1 perfectly isolates STS topics.
+        log.info("Running DBSCAN", extra={"stage": "CLUSTERING", "eps": 1.1, "min_samples": 3})
         from sklearn.cluster import DBSCAN
         clusterer = DBSCAN(eps=1.1, min_samples=3, metric='precomputed')
         return clusterer.fit_predict(dist_matrix)

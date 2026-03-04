@@ -1,10 +1,13 @@
 import argparse
 from typing import Dict, Any, List
 
+from logger import get_logger
 from data_adapter import DataAdapter
 from topic_discovery import TopicDiscoverer
 from temporal_analysis import TemporalAnalyzer
 from confirmation_model import ConfirmationModel
+
+log = get_logger(__name__)
 
 class CBIEPipeline:
     """
@@ -73,17 +76,17 @@ class CBIEPipeline:
         """
         Runs the full CBIE pipeline for a single user.
         """
-        print(f"--- Starting CBIE Pipeline for User: {user_id} ---")
+        log.info("Starting CBIE Pipeline", extra={"user_id": user_id, "stage": "START"})
         
         # 1. Ingestion
-        print("Fetching user history...")
+        log.info("Fetching user history from Supabase", extra={"user_id": user_id, "stage": "INGESTION"})
         behaviors = self.data_adapter.fetch_user_history(user_id)
         if not behaviors:
-            print("No behaviors found.")
+            log.warning("No behaviors found for user — aborting pipeline", extra={"user_id": user_id, "stage": "INGESTION"})
             return {}
             
         # 2. Topic Discovery & Fact Isolation (Stage 1)
-        print("Running Topic Discovery, Fact Extraction, and Clustering...")
+        log.info("Running Topic Discovery, Fact Extraction, and Clustering", extra={"user_id": user_id, "stage": "TOPIC_DISCOVERY", "total_behaviors": len(behaviors)})
         fact_behaviors, standard_behaviors, _, labels = self.topic_discoverer.process_behaviors(behaviors)
         
         # 3. Temporal Analysis & Confirmation (Stage 2 & 3)
@@ -91,7 +94,7 @@ class CBIEPipeline:
         
         # --- Handle Absolute Facts first ---
         if fact_behaviors:
-            print(f"Adding {len(fact_behaviors)} absolute facts to profile.")
+            log.info("Absolute facts identified", extra={"user_id": user_id, "stage": "FACT_ISOLATION", "fact_count": len(fact_behaviors)})
             for fb in fact_behaviors:
                 # We do not generalize facts because they are literal constraints
                 # (e.g. "cannot eat peanuts", "avoids processed foods").
@@ -119,10 +122,10 @@ class CBIEPipeline:
                 clusters[c_id] = []
             clusters[c_id].append(b)
             
-        print(f"Found {len(clusters)} valid interest clusters.")
+        log.info("DBSCAN clustering complete", extra={"user_id": user_id, "stage": "CLUSTERING", "cluster_count": len(clusters)})
         
         # 3. Temporal Analysis & Confirmation (Stage 2 & 3)
-        print("Analyzing temporal consistency and confirming core interests...")
+        log.info("Analyzing temporal consistency and confirming core interests", extra={"user_id": user_id, "stage": "TEMPORAL_ANALYSIS"})
         
         max_freq = max([len(c) for c in clusters.values()]) if clusters else 0
         
@@ -162,7 +165,7 @@ class CBIEPipeline:
             if status != "Noise":
                  confirmed_interests.append(interest_profile)
                  
-        print(f"Total Confirmed Interests/Facts: {len(confirmed_interests)}")
+        log.info("Confirmation model complete", extra={"user_id": user_id, "stage": "CONFIRMATION", "confirmed_count": len(confirmed_interests)})
         
         # 4. Finalizing Profile
         final_profile = {
@@ -183,8 +186,8 @@ class CBIEPipeline:
         prompt_path = os.path.join(self.data_adapter.output_dir, f"{user_id}_prompt.txt")
         with open(prompt_path, "w", encoding="utf-8") as f:
             f.write(prompt_string)
-        print(f"Generated Identity Anchor prompt saved to: {prompt_path}")
-        print("Pipeline execution complete.")
+        log.info("Identity Anchor prompt saved", extra={"user_id": user_id, "stage": "OUTPUT", "prompt_path": prompt_path})
+        log.info("Pipeline execution complete", extra={"user_id": user_id, "stage": "COMPLETE", "confirmed_interests": len(confirmed_interests)})
         return final_profile
 
 if __name__ == "__main__":

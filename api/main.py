@@ -24,10 +24,13 @@ from fastapi.middleware.cors import CORSMiddleware
 # launched from within the api/ sub-package.
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from logger import get_logger
 from api.dependencies import init_pipeline
 from api.routers import context, profiles
 from api.routers import pipeline_router
 from api.models import HealthResponse, RootResponse
+
+log = get_logger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -40,14 +43,12 @@ from api.models import HealthResponse, RootResponse
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Initialise heavy resources on startup, clean up on shutdown."""
-    print("=" * 60)
-    print("CBIE Microservice — Starting up")
-    print("=" * 60)
+    log.info("CBIE Microservice starting up", extra={"stage": "STARTUP"})
     init_pipeline()   # Loads BART NLP model + Azure OpenAI client
-    print("[CBIE API] All resources ready. Accepting requests.")
+    log.info("All resources ready — accepting requests", extra={"stage": "STARTUP"})
     yield
     # Shutdown cleanup (nothing explicit needed for now)
-    print("[CBIE API] Shutting down.")
+    log.info("CBIE Microservice shutting down", extra={"stage": "SHUTDOWN"})
 
 
 # ---------------------------------------------------------------------------

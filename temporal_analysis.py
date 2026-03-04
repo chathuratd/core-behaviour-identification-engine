@@ -3,6 +3,10 @@ import pymannkendall as mk
 from typing import List
 from datetime import datetime
 
+from logger import get_logger
+
+log = get_logger(__name__)
+
 class TemporalAnalyzer:
     """
     Implements Stage 2 of the CBIE Methodology: Temporal Analysis.
@@ -75,5 +79,5 @@ class TemporalAnalyzer:
                 return 0.0
                 
         except Exception as e:
-            print(f"Error calculating Mann-Kendall trend: {e}")
+            log.error("Error calculating Mann-Kendall trend", extra={"stage": "TEMPORAL_ANALYSIS", "error": str(e)})
             return 0.0

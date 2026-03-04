@@ -1,5 +1,9 @@
 from typing import Dict, Any
 
+from logger import get_logger
+
+log = get_logger(__name__)
+
 class ConfirmationModel:
     """
     Implements Stage 3 of the CBIE Methodology: The Confirmation Model.
@@ -51,7 +55,17 @@ class ConfirmationModel:
             (norm_trend * self.weights['trend']) +
             (norm_credibility * self.weights['credibility'])
         )
-        
+        log.debug(
+            "Core score calculated",
+            extra={
+                "stage": "CONFIRMATION",
+                "norm_consistency": round(norm_consistency, 4),
+                "norm_frequency": round(norm_frequency, 4),
+                "norm_credibility": round(norm_credibility, 4),
+                "norm_trend": round(norm_trend, 4),
+                "core_score": round(final_score, 4),
+            }
+        )
         return final_score
 
     def determine_status(self, score: float, is_fact: bool = False) -> str:
@@ -62,10 +76,13 @@ class ConfirmationModel:
             return "Stable Fact"
             
         if score >= self.threshold_stable:
-            return "Stable"
+            status = "Stable"
         elif score >= self.threshold_emerging:
-            return "Emerging"
+            status = "Emerging"
         elif score >= self.threshold_archive:
-            return "Noise"
+            status = "Noise"
         else:
-            return "ARCHIVED_CORE"
+            status = "ARCHIVED_CORE"
+        
+        log.debug("Status determined", extra={"stage": "CONFIRMATION", "core_score": round(score, 4), "status": status})
+        return status
